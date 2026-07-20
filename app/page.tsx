@@ -1,30 +1,127 @@
-import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
-const d=data as any;
-const site=d.site||{};
-const services=(d.services||d.roles||d.industries||[]).slice(0,4);
-const posts=(d.blogPosts||[]).slice(0,3);
-const stats=(d.stats||[]).slice(0,3);
-const offer=d.staffingOffer||{};
-const pretty=(v:any)=>String(v||'virtual assistant support').replace(/\b\w/g,(m)=>m.toUpperCase());
-const title=(x:any)=>typeof x==='string'?x:(x.title||x.name||x.label||x.question||'Assistant role');
-const text=(x:any)=>typeof x==='string'?x:(x.desc||x.excerpt||x.note||x.body||(x.bestFor?`Best for ${x.bestFor.join(', ')}`:'Clear tasks, safe access, and review rules.'));
-const slug=(x:any)=>(x.slug||title(x).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''));
-const primary=site.primary||site.brand||'virtual assistant support';
-const rolePhrase=String(primary).toLowerCase()
-  .replace(/^best\s+/,'')
-  .replace(/(company|companies|services|service|provider|providers)/g,'')
-  .replace(/(outsource|outsourced|outsourcing|offshore|overseas)/g,'')
-  .replace(/\s+/g,' ')
-  .trim() || 'business support';
-const roleLabel=pretty(rolePhrase.includes('assistant')?rolePhrase:`${rolePhrase} support`).replace(/\bVa\b/g,'VA');
-const domain=site.domain||site.brand||'Staffing Guide';
-const heroImage=site.heroImage||site.serviceImage||'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80';
-const tagline=site.angle||site.audience||'managed hiring support with clear scope, safe access, onboarding, and quality checks';
-export default function Home(){const schema={'@context':'https://schema.org','@type':'WebSite',name:site.brand,url:`https://${domain}`};return <><Header/><main className="belay"><JsonLd data={schema}/>
-<section className="hero"><div className="container hero-grid"><div className="copy"><p className="eyebrow">Premium staffing match</p><h1>Hire managed {roleLabel} without screening alone.</h1><p className="lead">Get clear communicators, business-hour coverage, and a managed launch plan for {tagline}.</p><div className="actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#tasks">Get task ideas</a></div><p className="risk">No public rate card. Share the role first, then get a practical scope.</p></div><div className="match-card"><div className="portrait-wrap"><img src={heroImage} alt={site.alt||`${site.brand||roleLabel} managed staffing visual`}/><span className="badge">Top-fit match</span></div><div className="task-note note-a"><b>Daily handoff</b><span>clear owner brief</span></div><div className="task-note note-b"><b>Quality checks</b><span>work reviewed weekly</span></div><div className="task-note note-c"><b>21-day launch</b><span>scope → shadow → live QA</span></div></div></div><div className="container proof-bar"><span>Right role before right hire</span>{stats.length?stats.map((s:any,i:number)=><b key={i}>{s.value||s.label}</b>):['Scope first','7-21 days','5-10 tasks'].map((x,i)=><b key={i}>{x}</b>)}</div></section>
-<section className="container section" id="tasks"><div className="split-head"><div><p className="eyebrow">Task ideas</p><h2>Start with work that repeats every week.</h2></div><p>Inspired by premium VA and outsourcing competitors: make the hire feel human, specific, and low risk before the contact form.</p></div><div className="task-grid">{services.map((s:any,i:number)=><a key={i} href={`/services/${slug(s)}`}><span>{String(i+1).padStart(2,'0')}</span><h3>{title(s)}</h3><p>{text(s)}</p><b>See handoff →</b></a>)}</div></section>
-<section className="relationship"><div className="container rel-grid"><div><p className="eyebrow">Managed, not marketplace</p><h2>Your staffing plan should come with backup, onboarding, and quality checks.</h2></div><div className="rel-list">{(offer.included||['role planning call','candidate matching','onboarding guidance','managed support']).slice(0,4).map((x:string,i:number)=><article key={i}><span>✓</span><p>{x}</p></article>)}</div></div></section>
-<section className="container section guide-row"><div><p className="eyebrow">Before you hire</p><h2>Short guides for safer staffing decisions.</h2></div>{posts.map((p:any,i:number)=><a href={`/blog/${p.slug}`} key={i}><span>{p.minutes||7} min</span><strong>{title(p)}</strong><p>{text(p)}</p></a>)}</section>
-<section className="container final"><h2>Request the staffing plan before you interview.</h2><a className="btn primary" href="/contact">Request staffing plan</a></section>
-</main><Footer/></>}
+
+const channels = [
+  { icon: '01', title: 'Inbound customer care', text: 'Route product questions, order updates, account support, and priority issues through a defined call flow.' },
+  { icon: '02', title: 'Appointment setting', text: 'Give agents qualification prompts, calendar rules, disposition codes, and a clean handoff to your sales team.' },
+  { icon: '03', title: 'After-hours coverage', text: 'Extend response windows with approved answers, on-call escalation paths, and a next-day summary for your team.' },
+  { icon: '04', title: 'Reporting and QA', text: 'Review call samples, score against agreed criteria, document coaching, and track the issues that need a process fix.' },
+];
+
+const launch = [
+  ['01', 'Map the queue', 'Define call types, expected volume, coverage windows, languages, tools, and the decisions that stay with your team.'],
+  ['02', 'Build the playbook', 'Turn real calls into scripts, knowledge notes, disposition rules, escalation paths, and QA criteria.'],
+  ['03', 'Shadow and calibrate', 'Start with sample calls and daily review so agents and managers agree on what a good interaction sounds like.'],
+  ['04', 'Go live with control', 'Launch a narrow queue, review misses, coach the team, and expand only after the operating rhythm is stable.'],
+];
+
+export default function Home() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Call Center Offshore',
+    url: 'https://callcenteroffshore.com',
+    description: 'Independent planning resource for offshore call center coverage, scripts, quality assurance, and escalation design.',
+  };
+
+  return <>
+    <Header />
+    <main className="cco-command">
+      <JsonLd data={schema} />
+      <section className="cco-hero">
+        <div className="cco-grid-bg" aria-hidden="true" />
+        <div className="container cco-hero-grid">
+          <div className="cco-hero-copy">
+            <p className="cco-kicker"><span /> Offshore coverage, designed to run cleanly</p>
+            <h1>Offshore call center teams built around your call flow.</h1>
+            <p className="cco-lead">Plan inbound support, appointment setting, and after-hours coverage with the scripts, QA scorecards, reporting, and escalation rules your operation needs.</p>
+            <div className="cco-actions">
+              <a className="cco-btn cco-btn-primary" href="/contact">Request a coverage plan <span>↗</span></a>
+              <a className="cco-btn cco-btn-ghost" href="#services">Explore service lanes</a>
+            </div>
+            <p className="cco-fine">Share the queue first. Get a practical scope—not a public rate card.</p>
+          </div>
+
+          <div className="cco-ops-shell" aria-label="Example offshore coverage plan">
+            <div className="cco-photo">
+              <img src="/offshore-call-center-agent.jpg" alt="Offshore call center agent working at a support desk" />
+              <div className="cco-live"><i /> COVERAGE DESK</div>
+            </div>
+            <div className="cco-console">
+              <div className="cco-console-head"><span>QUEUE BLUEPRINT</span><b>PLANNING VIEW</b></div>
+              <div className="cco-signal"><span>Inbound support</span><strong>Business + overflow</strong></div>
+              <div className="cco-signal"><span>Escalation owner</span><strong>Named manager</strong></div>
+              <div className="cco-signal"><span>Quality review</span><strong>Sample + coaching note</strong></div>
+              <div className="cco-wave" aria-hidden="true"><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/></div>
+            </div>
+          </div>
+        </div>
+        <div className="container cco-proofline">
+          <span>OPERATING MODEL</span>
+          <b>Scope before seats</b><b>Scripts before launch</b><b>QA before scale</b><b>Escalation by design</b>
+        </div>
+      </section>
+
+      <section className="cco-section cco-services" id="services">
+        <div className="container">
+          <div className="cco-heading-row">
+            <div><p className="cco-kicker cco-dark"><span /> Service lanes</p><h2>Coverage for the conversations that keep work moving.</h2></div>
+            <p>Choose a focused starting queue. Each lane should have an owner, approved actions, tool access, and a clear definition of a successful handoff.</p>
+          </div>
+          <div className="cco-channel-grid">
+            {channels.map((channel) => <a href="/contact" className="cco-channel" key={channel.icon}>
+              <div><span>{channel.icon}</span><i>↗</i></div>
+              <h3>{channel.title}</h3><p>{channel.text}</p><b>Scope this lane</b>
+            </a>)}
+          </div>
+        </div>
+      </section>
+
+      <section className="cco-control">
+        <div className="container cco-control-grid">
+          <div className="cco-scorecard">
+            <div className="cco-score-head"><span>CALL REVIEW / SAMPLE</span><b>QA FRAME</b></div>
+            {[['Greeting and verification','Pass'],['Accurate resolution','Review'],['CRM notes and disposition','Pass'],['Escalation and next step','Pass']].map(([label,status],i)=><div className="cco-score-row" key={label}><span><i>{String(i+1).padStart(2,'0')}</i>{label}</span><b className={status==='Review'?'warn':''}>{status}</b></div>)}
+            <p>Example criteria only. Your scorecard should match the queue, risk, and customer promise.</p>
+          </div>
+          <div className="cco-control-copy">
+            <p className="cco-kicker"><span /> The control layer</p>
+            <h2>Outsource the queue. Keep visibility.</h2>
+            <p>A dependable offshore program is more than staffed phones. Build the management system around the agents so your team can see quality, risk, and recurring customer friction.</p>
+            <ul>
+              <li><b>Approved response boundaries</b><span>Agents know what they can resolve and what must move to a manager.</span></li>
+              <li><b>Visible coaching loop</b><span>Call samples turn into specific feedback and one documented improvement.</span></li>
+              <li><b>Useful handoff records</b><span>Every interaction ends with notes, a disposition, and an accountable next step.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="cco-section cco-launch">
+        <div className="container">
+          <div className="cco-heading-row">
+            <div><p className="cco-kicker cco-dark"><span /> Launch sequence</p><h2>Move from queue map to live coverage.</h2></div>
+            <p>A controlled launch makes quality easier to diagnose. Start narrow, calibrate with real examples, and add complexity after the basics hold.</p>
+          </div>
+          <div className="cco-launch-grid">{launch.map(([num,title,body])=><article key={num}><span>{num}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
+        </div>
+      </section>
+
+      <section className="cco-fit">
+        <div className="container cco-fit-grid">
+          <div><p className="cco-kicker"><span /> Better-fit brief</p><h2>Bring a queue, not a vague request for “more agents.”</h2></div>
+          <div className="cco-fit-list">
+            {['Call types and sample interactions','Coverage hours and overflow rules','CRM, phone, inbox, and help-desk access','Escalations that stay with your managers','The call-review rhythm for the first weeks'].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b></div>)}
+          </div>
+        </div>
+      </section>
+
+      <section className="cco-final">
+        <div className="container cco-final-inner">
+          <div><p className="cco-kicker"><span /> Build the coverage brief</p><h2>Start with the calls you need handled well.</h2><p>Tell us the queue, hours, tools, and quality expectations. Get a practical staffing scope for the next conversation.</p></div>
+          <a className="cco-btn cco-btn-primary" href="/contact">Request a coverage plan <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </>;
+}

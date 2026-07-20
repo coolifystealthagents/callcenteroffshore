@@ -9,7 +9,7 @@ export const site = {
   dark: '#03101a',
   color: '#06b6d4',
   accent: '#facc15',
-  heroImage: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80',
+  heroImage: '/offshore-call-center-agent.jpg',
   serviceImage: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80',
   alt: 'call center agent wearing headset in support office',
   badge: 'Call flow',
