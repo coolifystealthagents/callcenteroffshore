@@ -1,5 +1,7 @@
-import { Header, Footer, CTA } from '../../components';
+import { Header, Footer, CTA, JsonLd } from '../../components';
 import { services, site } from '../../data';
+
+const baseUrl = 'https://callcenteroffshore.com';
 
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
@@ -8,16 +10,67 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const service = services.find((item) => item.slug === slug);
-  return { title: service?.title || 'Call center service', description: service?.desc };
+  const canonical = `${baseUrl}/services/${slug}`;
+
+  return {
+    title: service?.title || 'Call center service',
+    description: service?.desc,
+    alternates: { canonical },
+    openGraph: {
+      title: service?.title || 'Call center service',
+      description: service?.desc,
+      url: canonical,
+      type: 'website',
+    },
+  };
 }
 
 export default async function Service({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const service = services.find((item) => item.slug === slug) || services[0];
+  const url = `${baseUrl}/services/${service.slug}`;
+  const serviceId = `${url}#service`;
+  const breadcrumbId = `${url}#breadcrumb`;
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${url}#webpage`,
+        url,
+        name: service.title,
+        description: service.desc,
+        mainEntity: { '@id': serviceId },
+        breadcrumb: { '@id': breadcrumbId },
+      },
+      {
+        '@type': 'Service',
+        '@id': serviceId,
+        name: service.title,
+        description: service.desc,
+        serviceType: service.title,
+        url,
+        provider: {
+          '@type': 'Organization',
+          name: site.brand,
+          url: baseUrl,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': breadcrumbId,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+          { '@type': 'ListItem', position: 2, name: service.title, item: url },
+        ],
+      },
+    ],
+  };
 
   return <>
     <Header />
     <main>
+      <JsonLd data={schema} />
       <section className="service-hero">
         <div className="container two">
           <div>
