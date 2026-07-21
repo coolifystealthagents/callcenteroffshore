@@ -18,49 +18,61 @@ export const site = {
 export const services = [
   {
     slug: 'operations-support',
-    title: 'Operations Support',
-    desc: 'Operations Support for teams using offshore call center with clear SOPs, weekly review, and measurable handoffs.',
+    title: 'Call Center Operations Support',
+    desc: 'Keep schedules, queue rules, agent handoffs, and daily issue logs in order across your call center.',
+    tasks: ['Update queue and shift notes', 'Track unresolved calls and handoffs', 'Prepare daily volume and issue summaries'],
+    controls: ['Named owner for each queue', 'Written overflow and escalation rules', 'Manager review of exceptions'],
+    firstWeek: ['Map queues and coverage hours', 'Set disposition and handoff rules', 'Review the first daily report'],
   },
   {
     slug: 'customer-support',
-    title: 'Customer Support',
-    desc: 'Customer Support for teams using offshore call center with clear SOPs, weekly review, and measurable handoffs.',
+    title: 'Offshore Customer Support',
+    desc: 'Handle inbound questions, order updates, account help, and approved follow-ups with a clear escalation path.',
+    tasks: ['Answer approved customer questions', 'Log notes and call outcomes', 'Escalate refunds, account changes, and exceptions'],
+    controls: ['Approved answers and call scripts', 'Limited access to customer systems', 'Call samples reviewed against a scorecard'],
+    firstWeek: ['Study real customer calls', 'Practice scripts and escalation cases', 'Start with a narrow call queue'],
   },
   {
     slug: 'admin-support',
-    title: 'Admin Support',
-    desc: 'Admin Support for teams using offshore call center with clear SOPs, weekly review, and measurable handoffs.',
+    title: 'Call Center Admin Support',
+    desc: 'Take care of appointment updates, callback lists, CRM cleanup, and the follow-up work created by calls.',
+    tasks: ['Update appointments and callback lists', 'Clean up CRM notes and dispositions', 'Send approved follow-up messages'],
+    controls: ['Required fields for every call record', 'No unapproved account or calendar changes', 'Daily check for missing follow-ups'],
+    firstWeek: ['Confirm the fields agents must complete', 'Run sample updates in a test queue', 'Check the first batch with a manager'],
   },
   {
     slug: 'reporting-and-qa',
-    title: 'Reporting and QA',
-    desc: 'Reporting and QA for teams using offshore call center with clear SOPs, weekly review, and measurable handoffs.',
+    title: 'Call Reporting and Quality Review',
+    desc: 'Turn call samples, scorecards, coaching notes, and queue trends into a report your managers can use.',
+    tasks: ['Sample calls by queue and agent', 'Score calls against agreed criteria', 'Summarize misses, coaching, and repeat issues'],
+    controls: ['Fixed sample rules', 'Evidence linked to each score', 'Manager sign-off on process changes'],
+    firstWeek: ['Agree on the scorecard', 'Score the same calls together', 'Set the weekly review format'],
   },
 ] as const;
 
 export const blogPosts = [
   {
     slug: 'offshore-call-center-planning',
-    title: 'Call Center Offshore: What does it plan?',
-    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
+    title: 'How to plan offshore call center coverage',
+    excerpt: 'Map call types, coverage hours, scripts, access, and manager decisions before you compare providers.',
     minutes: 6,
   },
   {
     slug: 'offshore-call-center-tasks-to-outsource',
-    title: 'Call Center Offshore: What tasks should you outsource first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
+    title: 'Which call center tasks should you outsource first?',
+    excerpt: 'Start with a narrow call queue that has real examples, approved answers, and clear escalation rules.',
     minutes: 7,
   },
   {
     slug: 'offshore-call-center-provider-questions',
-    title: 'Call Center Offshore: Questions to ask before hiring',
-    excerpt: 'Use these questions before you sign with a provider or freelancer.',
+    title: 'Questions to ask an offshore call center provider',
+    excerpt: 'Ask how the provider handles scripts, call reviews, system access, backup coverage, and poor agent fit.',
     minutes: 8,
   },
   {
     slug: 'offshore-call-center-onboarding-checklist',
-    title: 'Call Center Offshore: First week onboarding checklist',
-    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
+    title: 'First-week offshore call center checklist',
+    excerpt: 'Prepare phone access, scripts, sample calls, escalation owners, QA reviews, and daily reports.',
     minutes: 9,
   },
 ] as const;
@@ -91,7 +103,7 @@ export const blogDetails = {
       },
       {
         heading: 'Test coaching, backup, and replacement rules',
-        body: 'A call center pilot should include a bad-day plan. Ask who covers absences, who coaches a weak agent, and how fast a replacement can start if fit is poor. Put the answer in the service agreement. The best providers are calm about this because they already have a process.',
+        body: 'A call center pilot needs a bad-day plan. Ask who covers absences, who coaches an agent who is struggling, and what happens if the agent is a poor fit. Put those answers in the service agreement instead of relying on a sales call.',
       },
     ],
     comparison: [
@@ -139,47 +151,41 @@ export const blogDetails = {
   },
 } as const;
 
-export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
-] as const;
-
 export const staffingOffer = {
   partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  promise: 'Get an offshore call center plan based on your call types, hours, tools, and review needs.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
+    'teams that need inbound, overflow, appointment, or after-hours call coverage',
+    'managers who want scripts, call reviews, and escalation rules in place before launch',
+    'companies that need agents plus a clear way to track call quality and unresolved issues',
   ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
-    'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
+    'a queue planning call covering call types, hours, volume, languages, and manager-only decisions',
+    'agent matching based on phone skills, schedule, systems, and the calls they will handle',
+    'launch help for scripts, sample calls, scorecards, reporting, and limited system access',
+    'a clear contact for attendance, coaching, backup coverage, and agent replacement questions',
   ],
   proof: [
-    'clear task scope before hiring',
-    'weekly reporting rhythm',
-    'named accountability and escalation path',
-    'simple handoff plan for tools, SOPs, and quality checks',
+    'a defined call queue before agents start',
+    'a regular call-review schedule',
+    'a named owner for escalations',
+    'written rules for scripts, systems, and handoffs',
   ],
 } as const;
 
 export const leadQuestions = [
-  'What work do you want off your plate first?',
-  'Which tools, inboxes, phones, CRMs, or systems will the staff member use?',
-  'What hours, time zone, and response time do you need?',
-  'Who checks quality during the first two weeks?',
-  'What should the staff member never decide without approval?',
+  'Which calls should the offshore team answer first?',
+  'What hours, overflow rules, languages, and expected volume do you have?',
+  'Which phone, CRM, help-desk, calendar, or inbox systems will agents use?',
+  'Who will review calls during the first two weeks?',
+  'Which refunds, account changes, exceptions, or sensitive calls must go to a manager?',
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
-  { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
-  { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
+  { step: '1', title: 'Map the queue', body: 'List the call types, hours, volume, systems, approved answers, and decisions that stay with your managers.' },
+  { step: '2', title: 'Match the agents', body: 'Match phone skills, schedule, language needs, and system experience to the queue they will handle.' },
+  { step: '3', title: 'Practice before launch', body: 'Use real call examples, script practice, limited access, and shared scoring before agents answer a live queue.' },
+  { step: '4', title: 'Expand after review', body: 'Add calls or coverage hours only after notes, escalations, attendance, and call quality are holding up.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'Call center plans depend on call type, volume, hours, languages, systems, and the amount of manager review needed. Share those details so the staffing team can scope the queue.';

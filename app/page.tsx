@@ -38,7 +38,7 @@ export default function Home() {
               <a className="cco-btn cco-btn-primary" href="/contact">Request a coverage plan <span>↗</span></a>
               <a className="cco-btn cco-btn-ghost" href="#services">Explore service lanes</a>
             </div>
-            <p className="cco-fine">Share the queue first. Get a practical scope—not a public rate card.</p>
+            <p className="cco-fine">Share the queue first. We will scope the work before discussing staffing.</p>
           </div>
 
           <div className="cco-ops-shell" aria-label="Example offshore coverage plan">
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="cco-control-copy">
             <p className="cco-kicker"><span /> The control layer</p>
             <h2>Outsource the queue. Keep visibility.</h2>
-            <p>A dependable offshore program is more than staffed phones. Build the management system around the agents so your team can see quality, risk, and recurring customer friction.</p>
+            <p>Agents need a management system around them. Your team should be able to see call quality, open risks, and the customer issues that keep coming back.</p>
             <ul>
               <li><b>Approved response boundaries</b><span>Agents know what they can resolve and what must move to a manager.</span></li>
               <li><b>Visible coaching loop</b><span>Call samples turn into specific feedback and one documented improvement.</span></li>
@@ -108,7 +108,7 @@ export default function Home() {
 
       <section className="cco-fit">
         <div className="container cco-fit-grid">
-          <div><p className="cco-kicker"><span /> Better-fit brief</p><h2>Bring a queue, not a vague request for “more agents.”</h2></div>
+          <div><p className="cco-kicker"><span /> Better-fit brief</p><h2>Bring a call queue instead of a vague request for more agents.</h2></div>
           <div className="cco-fit-list">
             {['Call types and sample interactions','Coverage hours and overflow rules','CRM, phone, inbox, and help-desk access','Escalations that stay with your managers','The call-review rhythm for the first weeks'].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b></div>)}
           </div>

@@ -144,21 +144,21 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </>
           ) : (
             <div className="card">
-              <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
+              <h2>Start with one call queue</h2>
+              <p>Choose a queue with repeat call types, real examples, and an available manager. Write down what agents can answer, which calls they must escalate, and what every call record must contain.</p>
               <h2>What to prepare</h2>
               <ul>
-                <li>Task examples and sample replies</li>
-                <li>Tool access and permission rules</li>
-                <li>Daily output target</li>
-                <li>Escalation rules for anything sensitive</li>
+                <li>Recent call examples and approved answers</li>
+                <li>Coverage hours, volume, and overflow rules</li>
+                <li>Phone, CRM, inbox, or calendar access</li>
+                <li>A manager for refunds, exceptions, and sensitive calls</li>
               </ul>
-              <h2>Questions to ask</h2>
+              <h2>What to ask the provider</h2>
               <ul>
-                <li>Who screens the worker?</li>
-                <li>Who checks quality?</li>
-                <li>What happens if fit is poor?</li>
-                <li>How are passwords and customer data handled?</li>
+                <li>Who checks an agent's phone skills?</li>
+                <li>How are call samples scored?</li>
+                <li>Who covers an absence?</li>
+                <li>How do you remove access when an agent leaves?</li>
               </ul>
             </div>
           )}
