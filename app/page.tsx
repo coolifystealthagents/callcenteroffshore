@@ -115,6 +115,18 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="cco-research-feature" aria-labelledby="research-feature-title">
+        <div className="container cco-research-card">
+          <div>
+            <p className="cco-kicker"><span /> New evidence guide</p>
+            <h2 id="research-feature-title">What Philippine call center market data can and cannot prove.</h2>
+            <p>Read six direct sources, compare the headline numbers, and turn them into eight checks for your next provider proposal.</p>
+          </div>
+          <div className="cco-research-facts" aria-label="Guide details"><span><b>6</b> direct sources</span><span><b>8</b> buyer checks</span><span><b>12</b> minute read</span></div>
+          <a className="cco-btn cco-btn-primary" href="/research/call-center-outsourcing-philippines-evidence-guide">Read the evidence guide <span>↗</span></a>
+        </div>
+      </section>
+
       <section className="cco-final">
         <div className="container cco-final-inner">
           <div><p className="cco-kicker"><span /> Build the coverage brief</p><h2>Start with the calls you need handled well.</h2><p>Tell us the queue, hours, tools, and quality expectations. Get a practical staffing scope for the next conversation.</p></div>
