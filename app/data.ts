@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'healthcare-call-center-outsourcing-companies-philippines',
+    title: 'Healthcare call center outsourcing companies: a Philippines buyer checklist',
+    excerpt: 'Compare Philippines-based healthcare call center teams through queue fit, patient-data controls, scored calls, and a controlled launch.',
+    minutes: 12,
+  },
+  {
     slug: 'offshore-call-center-planning',
     title: 'How to plan offshore call center coverage',
     excerpt: 'Map call types, coverage hours, scripts, access, and manager decisions before you compare providers.',
