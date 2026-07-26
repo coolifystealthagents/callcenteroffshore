@@ -52,6 +52,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: '24-7-call-center-outsourcing-philippines',
+    title: '24/7 call center outsourcing Philippines: coverage and continuity guide',
+    excerpt: 'Plan Philippines-based 24/7 call center coverage with shift maps, handoff controls, continuity tests, call QA, and a narrow launch.',
+    minutes: 13,
+  },
+  {
     slug: 'healthcare-call-center-outsourcing-companies-philippines',
     title: 'Healthcare call center outsourcing companies: a Philippines buyer checklist',
     excerpt: 'Compare Philippines-based healthcare call center teams through queue fit, patient-data controls, scored calls, and a controlled launch.',
