@@ -4,70 +4,17 @@ import { fleetServices } from '../fleet-data';
 import { site } from '../data';
 
 const base = `https://${site.domain.toLowerCase()}`;
-const servicesUrl = `${base}/services`;
-
 export const metadata: Metadata = {
-  title: 'Call center services',
-  description:
-    'Compare call center services delivered by Filipino specialists, with clear scripts, access limits, records, and manager escalation rules.',
+  title: 'Virtual assistant and outsourced team services',
+  description: 'Compare Philippines-based executive assistants, virtual customer support, sales support, ecommerce, operations, and quality roles.',
   alternates: { canonical: '/services' },
-  openGraph: {
-    title: `Call center services | ${site.brand}`,
-    description:
-      'Compare Philippines-based call center services for inbound support, scheduling, billing, lead qualification, and quality review.',
-    url: servicesUrl,
-    type: 'website',
-  },
-};
-
-const servicesSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  '@id': `${servicesUrl}#collection`,
-  name: 'Call Center Offshore services',
-  description: metadata.description,
-  url: servicesUrl,
-  mainEntity: {
-    '@type': 'ItemList',
-    itemListElement: fleetServices.map((service, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: service.title,
-      url: `${servicesUrl}/${service.slug}`,
-    })),
-  },
 };
 
 export default function Services() {
-  return (
-    <>
-      <Header />
-      <main>
-        <JsonLd data={servicesSchema} />
-        <section className="fleet-hero variant-1">
-          <div className="container">
-            <p className="eyebrow">Philippines-based services</p>
-            <h1>Call Center Offshore services</h1>
-            <p className="lead">
-              Choose a focused call center workflow, then define its tools, schedule, approvals, and handoffs.
-            </p>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container fleet-service-grid">
-            {fleetServices.map((service, index) => (
-              <a className="card fleet-service-card" href={`/services/${service.slug}`} key={service.slug}>
-                <span>{String(index + 1).padStart(2, '0')}</span>
-                <h2>{service.title}</h2>
-                <p>{service.desc}</p>
-                <b>View service →</b>
-              </a>
-            ))}
-          </div>
-        </section>
-        <CTA />
-      </main>
-      <Footer />
-    </>
-  );
+  const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Philippines virtual assistant services', url: `${base}/services`, mainEntity: { '@type': 'ItemList', itemListElement: fleetServices.map((service, index) => ({ '@type': 'ListItem', position: index + 1, name: service.title, url: `${base}/services/${service.slug}` })) } };
+  return <><Header /><main><JsonLd data={schema} />
+    <section className="page-hero"><div className="container page-hero-grid"><div><p className="cco-kicker"><span /> Philippines-based support roles</p><h1>Choose the role. Then build the system around it.</h1><p className="lead">Start with the repeatable work that slows your team down. Match it to a virtual assistant, executive assistant, specialist, or small outsourced team.</p><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a></div><div className="page-hero-art"><img src="/visuals/philippines-outsourced-team.svg" alt="Philippines-based team of virtual assistants and operations specialists" /></div></div></section>
+    <section className="service-index"><div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Ten practical starting points</p><h2>Support for leaders, customers, sales, and operations.</h2></div><p>Each service page shows the work to include, controls to keep, first-week plan, and useful outputs. Use it as a starting brief, not a rigid package.</p></div><div className="service-filter-row"><span>Assistants</span><span>Customer experience</span><span>Operations</span><span>Quality and reporting</span></div><div className="service-grid-new">{fleetServices.map((service) => <a className="service-card-new" href={`/services/${service.slug}`} key={service.slug}><img src={service.image} alt="" loading="lazy" /><div><span className="service-cat">{service.category}</span><h2>{service.title}</h2><p>{service.desc}</p><b>See the workflow ↗</b></div></a>)}</div></div></section>
+    <CTA title="Not sure which role comes first?" text="Show us the work that gets delayed, repeated, or missed. We will help turn it into a practical Philippines-based role brief." />
+  </main><Footer /></>;
 }

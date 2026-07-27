@@ -62,32 +62,7 @@ export const blogPosts = [
     title: 'Healthcare call center outsourcing companies: a Philippines buyer checklist',
     excerpt: 'Compare Philippines-based healthcare call center teams through queue fit, patient-data controls, scored calls, and a controlled launch.',
     minutes: 12,
-  },
-  {
-    slug: 'offshore-call-center-planning',
-    title: 'How to plan offshore call center coverage',
-    excerpt: 'Map call types, coverage hours, scripts, access, and manager decisions before you compare providers.',
-    minutes: 6,
-  },
-  {
-    slug: 'offshore-call-center-tasks-to-outsource',
-    title: 'Which call center tasks should you outsource first?',
-    excerpt: 'Start with a narrow call queue that has real examples, approved answers, and clear escalation rules.',
-    minutes: 7,
-  },
-  {
-    slug: 'offshore-call-center-provider-questions',
-    title: 'Questions to ask an offshore call center provider',
-    excerpt: 'Ask how the provider handles scripts, call reviews, system access, backup coverage, and poor agent fit.',
-    minutes: 8,
-  },
-  {
-    slug: 'offshore-call-center-onboarding-checklist',
-    title: 'First-week offshore call center checklist',
-    excerpt: 'Prepare phone access, scripts, sample calls, escalation owners, QA reviews, and daily reports.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export type BlogPost = (typeof blogPosts)[number];
 

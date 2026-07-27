@@ -1,138 +1,95 @@
-import { Header, Footer, JsonLd } from './components';
+import { Header, Footer, JsonLd, VisualFigure } from './components';
 
-const channels = [
-  { icon: '01', title: 'Inbound customer care', text: 'Route product questions, order updates, account support, and priority issues through a defined call flow.' },
-  { icon: '02', title: 'Appointment setting', text: 'Give agents qualification prompts, calendar rules, disposition codes, and a clean handoff to your sales team.' },
-  { icon: '03', title: 'After-hours coverage', text: 'Extend response windows with approved answers, on-call escalation paths, and a next-day summary for your team.' },
-  { icon: '04', title: 'Reporting and QA', text: 'Review call samples, score against agreed criteria, document coaching, and track the issues that need a process fix.' },
+const roles = [
+  { title: 'Executive assistants', text: 'Protect the calendar, prepare meetings, organize the inbox, and keep commitments visible.', image: '/visuals/role-executive-assistant.svg', href: '/services/appointment-scheduling' },
+  { title: 'Customer support assistants', text: 'Handle routine phone, email, and chat requests with approved answers and clean notes.', image: '/visuals/role-customer-support.svg', href: '/services/inbound-customer-care' },
+  { title: 'Operations coordinators', text: 'Keep recurring tasks, orders, reports, and cross-team follow-ups moving each day.', image: '/visuals/role-operations-coordinator.svg', href: '/services/order-and-billing-support' },
+  { title: 'Sales support assistants', text: 'Research leads, clean CRM records, run first-touch outreach, and coordinate booked calls.', image: '/visuals/role-sales-support.svg', href: '/services/outbound-lead-qualification' },
 ];
 
 const launch = [
-  ['01', 'Map the queue', 'Define call types, expected volume, coverage windows, languages, tools, and the decisions that stay with your team.'],
-  ['02', 'Build the playbook', 'Turn real calls into scripts, knowledge notes, disposition rules, escalation paths, and QA criteria.'],
-  ['03', 'Shadow and calibrate', 'Start with sample calls and daily review so agents and managers agree on what a good interaction sounds like.'],
-  ['04', 'Go live with control', 'Launch a narrow queue, review misses, coach the team, and expand only after the operating rhythm is stable.'],
+  ['01', 'Show us the work', 'Share the tasks, tools, hours, examples, and decisions that should stay with you.'],
+  ['02', 'Meet matched talent', 'Review Philippines-based candidates against the actual role, not a generic job title.'],
+  ['03', 'Build the playbook', 'Turn good examples into access rules, checklists, handoffs, and quality checks.'],
+  ['04', 'Start with one lane', 'Launch a controlled set of work, review it closely, and fix gaps early.'],
+  ['05', 'Grow with proof', 'Add duties or team members only after the workflow is steady and visible.'],
+];
+
+const comparison = [
+  ['Solo freelancer', 'You manage hiring, training, backup, and quality alone', 'Best for a small, flexible task list'],
+  ['Direct hire', 'You own the full recruiting and employment process', 'Best when you already have local operating support'],
+  ['Managed Philippines team', 'Role matching, launch support, backup planning, and review structure', 'Best for repeatable work that must stay dependable'],
 ];
 
 export default function Home() {
   const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'Call Center Offshore',
-    url: 'https://callcenteroffshore.com',
-    description: 'Independent planning resource for offshore call center coverage, scripts, quality assurance, and escalation design.',
+    '@context': 'https://schema.org', '@graph': [
+      { '@type': 'WebSite', name: 'Call Center Offshore', url: 'https://callcenteroffshore.com', description: 'Philippines-based virtual assistants, executive assistants, customer support specialists, and outsourced teams.' },
+      { '@type': 'Organization', '@id': 'https://callcenteroffshore.com/#organization', name: 'Call Center Offshore', url: 'https://callcenteroffshore.com', areaServed: 'Worldwide', knowsAbout: ['Philippines virtual assistants', 'Executive assistants', 'Outsourced support teams'] },
+    ],
   };
 
   return <>
     <Header />
     <main className="cco-command">
       <JsonLd data={schema} />
-      <section className="cco-hero">
+      <section className="cco-hero cco-hero-rework">
         <div className="cco-grid-bg" aria-hidden="true" />
         <div className="container cco-hero-grid">
           <div className="cco-hero-copy">
-            <p className="cco-kicker"><span /> Offshore coverage, designed to run cleanly</p>
-            <h1>Offshore call center teams built around your call flow.</h1>
-            <p className="cco-lead">Plan inbound support, appointment setting, and after-hours coverage with the scripts, QA scorecards, reporting, and escalation rules your operation needs.</p>
-            <div className="cco-actions">
-              <a className="cco-btn cco-btn-primary" href="/contact">Request a coverage plan <span>↗</span></a>
-              <a className="cco-btn cco-btn-ghost" href="#services">Explore service lanes</a>
-            </div>
-            <p className="cco-fine">Share the queue first. We will scope the work before discussing staffing.</p>
+            <p className="cco-kicker"><span /> Philippines-based virtual assistants</p>
+            <h1>Build the support team your goals have been waiting for.</h1>
+            <p className="cco-lead">Hire virtual assistants, executive assistants, and outsourced teams from the Philippines. Give them clear work, safe access, and a system that keeps you in control.</p>
+            <div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="#roles">See the roles</a></div>
+            <div className="cco-hero-points"><span><i>✓</i> Philippines-only talent</span><span><i>✓</i> Role-first matching</span><span><i>✓</i> Clear manager handoffs</span></div>
           </div>
-
-          <div className="cco-ops-shell" aria-label="Example offshore coverage plan">
-            <div className="cco-photo">
-              <img src="/offshore-call-center-agent.jpg" alt="Offshore call center agent working at a support desk" />
-              <div className="cco-live"><i /> COVERAGE DESK</div>
-            </div>
-            <div className="cco-console">
-              <div className="cco-console-head"><span>QUEUE BLUEPRINT</span><b>PLANNING VIEW</b></div>
-              <div className="cco-signal"><span>Inbound support</span><strong>Business + overflow</strong></div>
-              <div className="cco-signal"><span>Escalation owner</span><strong>Named manager</strong></div>
-              <div className="cco-signal"><span>Quality review</span><strong>Sample + coaching note</strong></div>
-              <div className="cco-wave" aria-hidden="true"><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/></div>
-            </div>
+          <div className="cco-hero-art">
+            <img src="/visuals/hero-filipina-executive-assistant.svg" alt="Filipina executive assistant beside an organized client operations dashboard" />
+            <div className="cco-floating-card cco-float-one"><b>INBOX</b><span>Sorted and owned</span></div>
+            <div className="cco-floating-card cco-float-two"><b>NEXT STEP</b><span>Visible to the team</span></div>
           </div>
         </div>
-        <div className="container cco-proofline">
-          <span>OPERATING MODEL</span>
-          <b>Scope before seats</b><b>Scripts before launch</b><b>QA before scale</b><b>Escalation by design</b>
+        <div className="container cco-proofline"><span>ONE SUPPORT SYSTEM</span><b>Calendar</b><b>Inbox</b><b>Customers</b><b>Sales</b><b>Operations</b><b>Reporting</b></div>
+      </section>
+
+      <section className="cco-section cco-story">
+        <div className="container cco-split">
+          <div><p className="cco-kicker cco-dark"><span /> More than extra hands</p><h2>Turn a busy list into owned work.</h2><p className="cco-section-lead">A good assistant does not just wait for tasks. They learn the rhythm, keep the queue clean, and make sure the right person sees each exception.</p><div className="cco-mini-metrics"><div><b>01</b><span>Clear owner</span></div><div><b>02</b><span>Clear next step</span></div><div><b>03</b><span>Clear review</span></div></div></div>
+          <VisualFigure src="/visuals/va-workflow.svg" alt="Four-stage virtual assistant workflow from incoming request to completion" caption="A simple work loop: receive, organize, approve, complete." />
         </div>
       </section>
 
-      <section className="cco-section cco-services" id="services">
-        <div className="container">
-          <div className="cco-heading-row">
-            <div><p className="cco-kicker cco-dark"><span /> Service lanes</p><h2>Coverage for the conversations that keep work moving.</h2></div>
-            <p>Choose a focused starting queue. Each lane should have an owner, approved actions, tool access, and a clear definition of a successful handoff.</p>
-          </div>
-          <div className="cco-channel-grid">
-            {channels.map((channel) => <a href="/contact" className="cco-channel" key={channel.icon}>
-              <div><span>{channel.icon}</span><i>↗</i></div>
-              <h3>{channel.title}</h3><p>{channel.text}</p><b>Scope this lane</b>
-            </a>)}
-          </div>
+      <section className="cco-section cco-role-section" id="roles">
+        <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Choose your support lane</p><h2>Start with the role that removes the biggest bottleneck.</h2></div><p>Your first role should own repeatable work with clear inputs and a visible finish line. Add more only when the first lane runs well.</p></div>
+          <div className="cco-role-grid">{roles.map((role, index) => <a className="cco-role-card" href={role.href} key={role.title}><img src={role.image} alt={`Filipina professional working as a ${role.title.toLowerCase()}`} loading="lazy" /><div><span>0{index + 1}</span><h3>{role.title}</h3><p>{role.text}</p><b>Explore this role ↗</b></div></a>)}</div>
         </div>
       </section>
 
-      <section className="cco-control">
+      <section className="cco-control cco-team-section">
         <div className="container cco-control-grid">
-          <div className="cco-scorecard">
-            <div className="cco-score-head"><span>CALL REVIEW / SAMPLE</span><b>QA FRAME</b></div>
-            {[['Greeting and verification','Pass'],['Accurate resolution','Review'],['CRM notes and disposition','Pass'],['Escalation and next step','Pass']].map(([label,status],i)=><div className="cco-score-row" key={label}><span><i>{String(i+1).padStart(2,'0')}</i>{label}</span><b className={status==='Review'?'warn':''}>{status}</b></div>)}
-            <p>Example criteria only. Your scorecard should match the queue, risk, and customer promise.</p>
-          </div>
-          <div className="cco-control-copy">
-            <p className="cco-kicker"><span /> The control layer</p>
-            <h2>Outsource the queue. Keep visibility.</h2>
-            <p>Agents need a management system around them. Your team should be able to see call quality, open risks, and the customer issues that keep coming back.</p>
-            <ul>
-              <li><b>Approved response boundaries</b><span>Agents know what they can resolve and what must move to a manager.</span></li>
-              <li><b>Visible coaching loop</b><span>Call samples turn into specific feedback and one documented improvement.</span></li>
-              <li><b>Useful handoff records</b><span>Every interaction ends with notes, a disposition, and an accountable next step.</span></li>
-            </ul>
-          </div>
+          <VisualFigure src="/visuals/philippines-outsourced-team.svg" alt="Philippines-based outsourced team of assistants and coordinators" />
+          <div className="cco-control-copy"><p className="cco-kicker"><span /> One assistant or a full team</p><h2>Build around the outcome, not a seat count.</h2><p>Some businesses need one executive assistant. Others need a small team across support, sales, and operations. The same rule applies: define ownership before adding people.</p><ul><li><b>One named lane</b><span>Each person knows what they own and where it ends.</span></li><li><b>One review rhythm</b><span>Managers see open work, quality misses, and blockers.</span></li><li><b>One safe handoff</b><span>High-risk decisions stay with the right client owner.</span></li></ul></div>
+        </div>
+      </section>
+
+      <section className="cco-section cco-comparison-section">
+        <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Compare the setup</p><h2>Pick the support model you can manage well.</h2></div><p>No model is right for every job. The better choice is the one that matches your task volume, management time, need for backup, and quality risk.</p></div>
+          <div className="cco-comparison-layout"><VisualFigure src="/visuals/managed-team-comparison.svg" alt="Visual comparison of freelancer, direct hire, and managed Philippines team models" /><div className="cco-compare-list">{comparison.map(([name, support, fit], index) => <article className={index === 2 ? 'recommended' : ''} key={name}><span>0{index + 1}</span><div><h3>{name}</h3><p>{support}</p><small>{fit}</small></div></article>)}</div></div>
         </div>
       </section>
 
       <section className="cco-section cco-launch">
-        <div className="container">
-          <div className="cco-heading-row">
-            <div><p className="cco-kicker cco-dark"><span /> Launch sequence</p><h2>Move from queue map to live coverage.</h2></div>
-            <p>A controlled launch makes quality easier to diagnose. Start narrow, calibrate with real examples, and add complexity after the basics hold.</p>
-          </div>
-          <div className="cco-launch-grid">{launch.map(([num,title,body])=><article key={num}><span>{num}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
+        <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> A safer launch</p><h2>From role brief to reliable support.</h2></div><p>A controlled first month makes weak instructions, access gaps, and hiring mismatch easier to spot before the role gets bigger.</p></div>
+          <VisualFigure src="/visuals/launch-roadmap.svg" alt="Five-stage roadmap for launching a Philippines virtual assistant" className="cco-wide-visual" />
+          <div className="cco-launch-grid cco-launch-five">{launch.map(([num, title, body]) => <article key={num}><span>{num}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
         </div>
       </section>
 
-      <section className="cco-fit">
-        <div className="container cco-fit-grid">
-          <div><p className="cco-kicker"><span /> Better-fit brief</p><h2>Bring a call queue instead of a vague request for more agents.</h2></div>
-          <div className="cco-fit-list">
-            {['Call types and sample interactions','Coverage hours and overflow rules','CRM, phone, inbox, and help-desk access','Escalations that stay with your managers','The call-review rhythm for the first weeks'].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b></div>)}
-          </div>
-        </div>
-      </section>
+      <section className="cco-dark-feature"><div className="container cco-split reverse"><div><p className="cco-kicker"><span /> Visibility without micromanaging</p><h2>See the work without living in every task.</h2><p className="cco-section-lead">A useful dashboard does not need dozens of vanity numbers. Start with open work, overdue items, quality misses, escalations, and the next owner.</p><div className="cco-stat-bars"><div><span>Work owned</span><i style={{ width: '92%' }} /></div><div><span>Handoffs recorded</span><i style={{ width: '78%' }} /></div><div><span>Exceptions reviewed</span><i style={{ width: '86%' }} /></div><small>Illustrative operating view, not performance claims.</small></div></div><VisualFigure src="/visuals/operations-dashboard.svg" alt="Virtual assistant operations dashboard showing tasks, trends, and reviews" /></div></section>
 
-      <section className="cco-research-feature" aria-labelledby="research-feature-title">
-        <div className="container cco-research-card">
-          <div>
-            <p className="cco-kicker"><span /> New evidence guide</p>
-            <h2 id="research-feature-title">What Philippine call center market data can and cannot prove.</h2>
-            <p>Read six direct sources, compare the headline numbers, and turn them into eight checks for your next provider proposal.</p>
-          </div>
-          <div className="cco-research-facts" aria-label="Guide details"><span><b>6</b> direct sources</span><span><b>8</b> buyer checks</span><span><b>12</b> minute read</span></div>
-          <a className="cco-btn cco-btn-primary" href="/research/call-center-outsourcing-philippines-evidence-guide">Read the evidence guide <span>↗</span></a>
-        </div>
-      </section>
+      <section className="cco-research-feature"><div className="container cco-research-card"><div><p className="cco-kicker"><span /> Evidence before promises</p><h2>What Philippine outsourcing data can—and cannot—tell you.</h2><p>Use direct sources to understand the market, then test the provider, person, workflow, and controls that will touch your customers.</p></div><div className="cco-research-facts"><span><b>6</b> direct sources</span><span><b>8</b> buyer checks</span><span><b>12</b> minute read</span></div><a className="cco-btn cco-btn-primary" href="/research/call-center-outsourcing-philippines-evidence-guide">Read the evidence guide <span>↗</span></a></div></section>
 
-      <section className="cco-final">
-        <div className="container cco-final-inner">
-          <div><p className="cco-kicker"><span /> Build the coverage brief</p><h2>Start with the calls you need handled well.</h2><p>Tell us the queue, hours, tools, and quality expectations. Get a practical staffing scope for the next conversation.</p></div>
-          <a className="cco-btn cco-btn-primary" href="/contact">Request a coverage plan <span>↗</span></a>
-        </div>
-      </section>
+      <section className="cco-final"><div className="container cco-final-inner"><div><p className="cco-kicker"><span /> Your next hire starts here</p><h2>Show us what is slowing the team down.</h2><p>Tell us the recurring work, tools, schedule, and decisions involved. We will shape a practical Philippines-based staffing plan around it.</p></div><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a></div></section>
     </main>
     <Footer />
   </>;
