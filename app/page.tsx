@@ -31,7 +31,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="cco-command">
+    <main className="cco-command" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
       <section className="cco-hero cco-hero-rework">
         <div className="cco-grid-bg" aria-hidden="true" />
@@ -41,10 +41,10 @@ export default function Home() {
             <h1>Build the support team your goals have been waiting for.</h1>
             <p className="cco-lead">Hire virtual assistants, executive assistants, and outsourced teams from the Philippines. Give them clear work, safe access, and a system that keeps you in control.</p>
             <div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="#roles">See the roles</a></div>
-            <div className="cco-hero-points"><span><i>✓</i> Philippines-only talent</span><span><i>✓</i> Role-first matching</span><span><i>✓</i> Clear manager handoffs</span></div>
+            <div className="cco-hero-points"><span><i><img src="/icons/getillustrations/soft-color-icons-svg/global-travel-navigation-map-icon.svg" alt="" width="24" height="24" /></i> Philippines-only talent</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/target-employee-hiring-user-icon.svg" alt="" width="24" height="24" /></i> Role-first matching</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/team-work-employee-transfer-icon.svg" alt="" width="24" height="24" /></i> Clear manager handoffs</span></div>
           </div>
           <div className="cco-hero-art">
-            <img src="/visuals/hero-filipina-executive-assistant.svg" alt="Filipina executive assistant beside an organized client operations dashboard" />
+            <img src="/illustrations/getillustrations/communication-illustrations-pack-svg/philippines-support-team.webp" alt="Illustration of a Philippines-based assistant managing customer conversations" />
             <div className="cco-floating-card cco-float-one"><b>INBOX</b><span>Sorted and owned</span></div>
             <div className="cco-floating-card cco-float-two"><b>NEXT STEP</b><span>Visible to the team</span></div>
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
       <section className="cco-section cco-story">
         <div className="container cco-split">
           <div><p className="cco-kicker cco-dark"><span /> More than extra hands</p><h2>Turn a busy list into owned work.</h2><p className="cco-section-lead">A good assistant does not just wait for tasks. They learn the rhythm, keep the queue clean, and make sure the right person sees each exception.</p><div className="cco-mini-metrics"><div><b>01</b><span>Clear owner</span></div><div><b>02</b><span>Clear next step</span></div><div><b>03</b><span>Clear review</span></div></div></div>
-          <VisualFigure src="/visuals/va-workflow.svg" alt="Four-stage virtual assistant workflow from incoming request to completion" caption="A simple work loop: receive, organize, approve, complete." />
+          <VisualFigure src="/illustrations/getillustrations/inkdex-team-illustrations-svg/managed-team-workflow.svg" alt="" caption="A simple work loop: receive, organize, approve, complete." className="cco-supporting-art" />
         </div>
       </section>
 
