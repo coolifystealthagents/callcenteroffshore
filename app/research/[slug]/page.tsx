@@ -152,7 +152,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
               <p className="research-label">Plan a Philippines-based queue</p>
               <h2 id="research-cta-heading">Bring your call types, hours, and systems</h2>
               <p>We can help you turn them into a staffing brief with clear agent work, manager decisions, access limits, and a first-call review plan. The talent offered through this site is exclusively based in the Philippines.</p>
-              <a className="btn primary" href="/contact">Plan your call center team</a>
+              <a className="btn primary" href="/contact-us">Plan your call center team</a>
             </section>
 
             <section className="research-faq" aria-labelledby="faq-heading">
@@ -172,7 +172,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
             <section className="research-related" aria-labelledby="related-heading">
               <h2 id="related-heading">Related planning guides</h2>
               <div>{post.related.map(item=><a className="card" href={item.href} key={item.href}>{item.title}<span>Read next →</span></a>)}</div>
-              <p>Need help turning this research into a real queue plan? <a href="/contact">Contact the Philippines staffing team</a>.</p>
+              <p>Need help turning this research into a real queue plan? <a href="/contact-us">Contact the Philippines staffing team</a>.</p>
             </section>
           </div>
         </div>

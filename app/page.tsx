@@ -40,7 +40,7 @@ export default function Home() {
             <p className="cco-kicker"><span /> Philippines-based virtual assistants</p>
             <h1>Build the support team your goals have been waiting for.</h1>
             <p className="cco-lead">Hire virtual assistants, executive assistants, and outsourced teams from the Philippines. Give them clear work, safe access, and a system that keeps you in control.</p>
-            <div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="#roles">See the roles</a></div>
+            <div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact-us">Plan my team <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="#roles">See the roles</a></div>
             <div className="cco-hero-points"><span><i><img src="/icons/getillustrations/soft-color-icons-svg/global-travel-navigation-map-icon.svg" alt="" width="24" height="24" /></i> Philippines-only talent</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/target-employee-hiring-user-icon.svg" alt="" width="24" height="24" /></i> Role-first matching</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/team-work-employee-transfer-icon.svg" alt="" width="24" height="24" /></i> Clear manager handoffs</span></div>
           </div>
           <div className="cco-hero-art">
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section className="cco-research-feature"><div className="container cco-research-card"><div><p className="cco-kicker"><span /> Evidence before promises</p><h2>What Philippine outsourcing data can—and cannot—tell you.</h2><p>Use direct sources to understand the market, then test the provider, person, workflow, and controls that will touch your customers.</p></div><div className="cco-research-facts"><span><b>6</b> direct sources</span><span><b>8</b> buyer checks</span><span><b>12</b> minute read</span></div><a className="cco-btn cco-btn-primary" href="/research/call-center-outsourcing-philippines-evidence-guide">Read the evidence guide <span>↗</span></a></div></section>
 
-      <section className="cco-final"><div className="container cco-final-inner"><div><p className="cco-kicker"><span /> Your next hire starts here</p><h2>Show us what is slowing the team down.</h2><p>Tell us the recurring work, tools, schedule, and decisions involved. We will shape a practical Philippines-based staffing plan around it.</p></div><a className="cco-btn cco-btn-primary" href="/contact">Plan my team <span>↗</span></a></div></section>
+      <section className="cco-final"><div className="container cco-final-inner"><div><p className="cco-kicker"><span /> Your next hire starts here</p><h2>Show us what is slowing the team down.</h2><p>Tell us the recurring work, tools, schedule, and decisions involved. We will shape a practical Philippines-based staffing plan around it.</p></div><a className="cco-btn cco-btn-primary" href="/contact-us">Plan my team <span>↗</span></a></div></section>
     </main>
     <Footer />
   </>;
