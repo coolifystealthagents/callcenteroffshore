@@ -37,6 +37,6 @@ export default function HealthcareBanner({position,label}:{position:Position;lab
   const [title,body,action]=variants[position][variant];
   return <aside className="health-article-banner" data-banner-position={position} data-banner-variant={variant}>
     <p>{label}</p><h2>{title}</h2><span>{body}</span>
-    <a href={`/contact?utm_source=blog&utm_medium=article_banner&utm_campaign=healthcare_buyer_guide&utm_content=${position}_v${variant+1}`}>{action} →</a>
+    <a href={`/contact-us?utm_source=blog&utm_medium=article_banner&utm_campaign=healthcare_buyer_guide&utm_content=${position}_v${variant+1}`}>{action} →</a>
   </aside>;
 }
