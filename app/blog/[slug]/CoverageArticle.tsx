@@ -25,7 +25,7 @@ export default function CoverageArticle(){
     {'@type':'ListItem',position:3,name:'24/7 call center outsourcing Philippines',item:canonical},
   ]};
 
-  return <><Header hidePricing/><main className="coverage-article-shell"><article className="health-article" data-article-revision="2026-07-25-24-7-philippines-coverage-v1">
+  return <><Header hideScope/><main className="coverage-article-shell"><article className="health-article" data-article-revision="2026-07-25-24-7-philippines-coverage-v1">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}}/>
     <header className="health-hero"><div className="container health-narrow">
@@ -137,5 +137,5 @@ export default function CoverageArticle(){
 
       <section className="research-sources"><p className="research-label">Numbered references</p><h2>Sources</h2><ol>{sources.map((source,index)=><li id={`coverage-source-${index+1}`} key={source.url}><span className="source-kind">Source {index+1}</span><a href={source.url} rel="noreferrer">{source.name}</a><p>{source.note}</p></li>)}</ol></section>
     </div></div>
-  </article></main><Footer hidePricing/></>;
+  </article></main><Footer hideScope/></>;
 }

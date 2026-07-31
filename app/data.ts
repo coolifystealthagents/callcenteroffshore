@@ -68,7 +68,7 @@ export type BlogPost = (typeof blogPosts)[number];
 
 export const blogDetails = {
   'offshore-call-center-provider-questions': {
-    summary: 'Ask about scripts, coaching, data access, QA, and replacement rules before you compare price. A cheap seat gets expensive fast when no one owns call quality.',
+    summary: 'Ask about scripts, coaching, data access, QA, and replacement rules before you compare terms. A cheap seat gets expensive fast when no one owns call quality.',
     keyTakeaways: [
       'Ask who writes and updates scripts after real calls start.',
       'Require sample QA scorecards before you sign.',
@@ -132,7 +132,7 @@ export const blogDetails = {
       },
       {
         q: 'What should stay with the business owner or manager?',
-        a: 'Keep refunds, account changes, legal questions, medical judgment, pricing exceptions, and angry high-value customer issues with a manager unless you have a written approval rule.',
+        a: 'Keep refunds, account changes, legal questions, medical judgment, commercial exceptions, and angry high-value customer issues with a manager unless you have a written approval rule.',
       },
     ],
   },

@@ -84,7 +84,7 @@ export const fleetServices: readonly FleetService[] = [
     desc: 'Give your sales team a Philippines-based assistant for list research, first-touch outreach, qualification notes, CRM hygiene, and booked-call coordination.',
     outcome: 'Salespeople spend more time on qualified conversations and less time cleaning lists or chasing calendars.', image: '/visuals/role-sales-support.svg',
     tasks: ['Research and clean prospect records', 'Run approved first-touch outreach', 'Capture qualification notes and schedule next steps'],
-    controls: ['Approved audience and message library', 'Consent and do-not-contact rules', 'No invented claims or pricing promises'],
+    controls: ['Approved audience and message library', 'Consent and do-not-contact rules', 'No invented claims or commercial promises'],
     firstWeek: ['Define the ideal prospect and disqualifiers', 'Review sample messages and calls', 'Launch a small list with daily checks'],
     deliverables: ['Clean lead list', 'Outreach log', 'Qualification notes', 'Booked meetings'], tools: ['CRM', 'Email', 'Calendar', 'Prospecting tools']
   },
@@ -93,7 +93,7 @@ export const fleetServices: readonly FleetService[] = [
     desc: 'Add a Philippines-based customer success assistant for onboarding reminders, routine check-ins, account notes, and early risk flags.',
     outcome: 'Customers get steady attention while account owners focus on decisions, renewals, and sensitive conversations.', image: '/visuals/role-customer-support.svg',
     tasks: ['Track onboarding milestones', 'Send approved check-ins and resource links', 'Flag usage, satisfaction, and renewal risks'],
-    controls: ['Account owner keeps pricing and contract decisions', 'Approved health signals and escalation rules', 'Recorded customer notes and next steps'],
+    controls: ['Account owner keeps scope and contract decisions', 'Approved health signals and escalation rules', 'Recorded customer notes and next steps'],
     firstWeek: ['Map the customer journey', 'Review healthy and at-risk examples', 'Own one repeatable check-in stage'],
     deliverables: ['Onboarding tracker', 'Risk flag', 'Follow-up notes', 'Account summary'], tools: ['CRM', 'Customer success platform', 'Email', 'Project tracker']
   },
@@ -209,7 +209,7 @@ export const researchPosts: readonly ResearchPost[] = [
         heading: 'What a buyer should ask for in the proposal',
         paragraphs: [
           { text: 'Request a queue plan, not a generic seat count. It should state the Philippines work location, coverage hours, expected call volume, overflow rule, hiring profile, supervisor span, training time, QA sample size, backup plan, systems used, and manager-only decisions.' },
-          { text: 'Ask the provider to mark which points are included in the quoted price and which trigger another fee. This prevents a low headline rate from hiding charges for telephony, call recording, training, supervisor time, reports, after-hours cover, public holidays, setup, or replacement.' },
+          { text: 'Ask the provider to mark which points are included in the quoted terms and which trigger another fee. This prevents a low headline rate from hiding charges for telephony, call recording, training, supervisor time, reports, after-hours cover, public holidays, setup, or replacement.' },
           { text: 'The site offers Philippines-based talent only. If your queue needs another language or a special license, ask whether qualified Philippines-based candidates are available and keep regulated advice, refunds, account changes, and other high-risk judgments with an authorized client owner.' },
         ],
       },

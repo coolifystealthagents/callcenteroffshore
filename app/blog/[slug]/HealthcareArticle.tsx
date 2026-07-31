@@ -12,7 +12,7 @@ const sources = [
 
 function Cite({n}:{n:number}){return <sup className="research-citation"><a href={`#health-source-${n}`}>[{n}]</a></sup>}
 export default function HealthcareArticle(){
-  return <><Header hidePricing/><main><article className="health-article" data-article-revision="2026-07-24-healthcare-call-center-outsourcing-companies-v1">
+  return <><Header hideScope/><main><article className="health-article" data-article-revision="2026-07-24-healthcare-call-center-outsourcing-companies-v1">
     <header className="health-hero"><div className="container health-narrow">
       <nav className="research-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog">Blog</a><span>/</span><span aria-current="page">Healthcare buyer guide</span></nav>
       <p className="eyebrow">Philippines healthcare call center guide</p>
@@ -109,5 +109,5 @@ export default function HealthcareArticle(){
 
       <section className="research-sources"><p className="research-label">Numbered references</p><h2>Sources</h2><ol>{sources.map((source,index)=><li id={`health-source-${index+1}`} key={source.url}><span className="source-kind">Source {index+1}</span><a href={source.url} rel="noreferrer">{source.name}</a><p>{source.note}</p></li>)}</ol></section>
     </div></div>
-  </article></main><Footer hidePricing/></>;
+  </article></main><Footer hideScope/></>;
 }
