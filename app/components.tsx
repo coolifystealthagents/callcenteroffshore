@@ -16,16 +16,10 @@ export function Header(_props:any={}) {
   return <header className="nav">
     <div className="nav-inner">
       <a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
-      <nav className="links fleet-nav" aria-label="Main navigation">
-        <a href="/services">Services</a>
-
-        <a href="/blog">Guides</a>
-        <a href="/research">Research</a>
-        <a className="nav-cta" href="/contact-us">Build my team <span aria-hidden="true">↗</span></a>
-      </nav>
+      <nav className="links fleet-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/contact-us">Contact Us</a></nav>
       <details className="mobile-nav">
         <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
-        <div><a href="/services">Services</a><a href="/blog">Guides</a><a href="/research">Research</a><a href="/contact-us">Build my team</a></div>
+        <div><a href="/">Home</a><a href="/services">Services</a><a href="/contact-us">Contact Us</a></div>
       </details>
     </div>
   </header>;
