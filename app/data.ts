@@ -62,7 +62,28 @@ export const blogPosts = [
     title: 'Healthcare call center outsourcing companies: a Philippines buyer checklist',
     excerpt: 'Compare Philippines-based healthcare call center teams through queue fit, patient-data controls, scored calls, and a controlled launch.',
     minutes: 12,
-  },] as const;
+  },
+  { slug: 'offshore-call-center-provider-questions', title: 'Questions to ask an offshore call center provider', excerpt: 'A practical shortlist for testing scripts, QA, access controls, coaching, backup coverage, and escalation ownership.', minutes: 10 },
+  { slug: 'offshore-call-center-cost-drivers', title: 'What drives offshore call center costs?', excerpt: 'Understand the operational factors behind call coverage costs without relying on public rate cards or vague savings claims.', minutes: 9 },
+  { slug: 'call-center-outsourcing-pilot-plan', title: 'How to run a call center outsourcing pilot', excerpt: 'Use a narrow queue, shared scorecard, limited access, and daily review to test a support partner before expanding.', minutes: 11 },
+  { slug: 'call-center-qa-scorecard', title: 'Call center QA scorecard: what to measure', excerpt: 'Build a usable scorecard for greeting, verification, accuracy, tone, notes, resolution, and escalation.', minutes: 10 },
+  { slug: 'after-hours-call-answering-workflow', title: 'After-hours call answering workflow', excerpt: 'Design coverage windows, urgent-call rules, handoffs, and manager escalation for calls outside local business hours.', minutes: 9 },
+  { slug: 'call-center-escalation-rules', title: 'Call center escalation rules that protect customers', excerpt: 'Separate routine answers from refunds, account changes, sensitive requests, and decisions that belong with a manager.', minutes: 10 },
+  { slug: 'call-center-script-writing-guide', title: 'Call center script writing guide for better handoffs', excerpt: 'Create short scripts that help agents answer consistently while leaving room for listening and judgment.', minutes: 9 },
+  { slug: 'appointment-setting-call-center-guide', title: 'Appointment setting call center guide', excerpt: 'Plan qualification questions, calendar rules, confirmation messages, and clean ownership of booked meetings.', minutes: 9 },
+  { slug: 'customer-support-call-center-launch', title: 'Launching an offshore customer support queue', excerpt: 'Map request types, approved answers, system access, review samples, and the first controlled queue.', minutes: 10 },
+  { slug: 'call-center-handoff-checklist', title: 'Call center shift handoff checklist', excerpt: 'Keep open calls, urgent issues, promised follow-ups, and unresolved exceptions visible between shifts.', minutes: 8 },
+  { slug: 'call-center-agent-training-plan', title: 'Call center agent training plan for a new queue', excerpt: 'Sequence product learning, role play, tool practice, escalation drills, and supervised calls before launch.', minutes: 11 },
+  { slug: 'call-center-data-access-controls', title: 'Call center data access controls for remote teams', excerpt: 'Use named accounts, least privilege, MFA, verification steps, and an access removal checklist.', minutes: 10 },
+  { slug: 'call-center-coverage-planning', title: 'Call center coverage planning by queue and hour', excerpt: 'Match volume, service windows, breaks, overflow, backup coverage, and manager availability to one written plan.', minutes: 10 },
+  { slug: 'call-center-customer-complaint-handling', title: 'Customer complaint handling for call center teams', excerpt: 'Give agents a calm process for listening, documenting, acknowledging, and escalating complaints without making promises.', minutes: 9 },
+  { slug: 'call-center-callback-management', title: 'Call center callback management system', excerpt: 'Turn missed calls and promised callbacks into an owned queue with due times, notes, and review rules.', minutes: 8 },
+  { slug: 'call-center-reporting-dashboard-guide', title: 'Call center reporting dashboard guide', excerpt: 'Choose a small set of volume, answer, disposition, QA, and unresolved-issue measures managers can act on.', minutes: 9 },
+  { slug: 'call-center-outsourcing-contract-checklist', title: 'Call center outsourcing contract checklist', excerpt: 'Review scope, service levels, access, QA, backup, confidentiality, coaching, and replacement language before signing.', minutes: 11 },
+  { slug: 'call-center-overflow-support-plan', title: 'Call center overflow support plan', excerpt: 'Prepare a repeatable way to route spikes, define capacity triggers, and return work to the primary team.', minutes: 9 },
+  { slug: 'call-center-manager-review-rhythm', title: 'Call center manager review rhythm', excerpt: 'Set daily, weekly, and monthly checkpoints for queue health, call quality, coaching, and process changes.', minutes: 8 },
+  { slug: 'philippines-call-center-team-launch', title: 'Philippines call center team launch checklist', excerpt: 'Coordinate role scope, schedule, tools, training, quality review, and escalation ownership for a measured start.', minutes: 10 },
+] as const;
 
 export type BlogPost = (typeof blogPosts)[number];
 
