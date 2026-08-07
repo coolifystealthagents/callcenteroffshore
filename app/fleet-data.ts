@@ -127,7 +127,7 @@ export const fleetServices: readonly FleetService[] = [
 ];
 
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
-export const researchPosts: readonly ResearchPost[] = [
+export let researchPosts: readonly ResearchPost[] = [
   {
     slug: 'call-center-outsourcing-philippines-evidence-guide',
     title: 'Call center outsourcing in the Philippines: an evidence guide for buyers',
@@ -258,4 +258,101 @@ export const researchPosts: readonly ResearchPost[] = [
     ],
   },
 ];
+
+const dailyResearchSources: ResearchPost['sources'] = [
+  { name: 'NIST: Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework for organizing governance, identification, protection, detection, response, and recovery controls.', kind: 'Global comparison' },
+  { name: 'NIST: Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'Primary privacy-risk framework for identifying and managing data-processing risk.', kind: 'Global comparison' },
+  { name: 'PCI Security Standards Council: PCI DSS', url: 'https://www.pcisecuritystandards.org/standards/pci-dss/', note: 'Primary payment-card security standard and guidance source.', kind: 'Global comparison' },
+  { name: 'FTC: Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Practical official guidance on collecting, securing, retaining, and disposing of personal information.', kind: 'Global comparison' },
+  { name: 'ILO: Working from home guide', url: 'https://www.ilo.org/publications/working-home-guide', note: 'International guidance on remote-work arrangements, organization, and worker protections.', kind: 'Global comparison' },
+  { name: 'Republic Act No. 10173: Data Privacy Act', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'Primary Philippine legal text for personal-information processing and processor duties.', kind: 'Philippines' },
+  { name: 'National Privacy Commission Philippines', url: 'https://privacy.gov.ph/', note: 'Philippine regulator resources for privacy compliance and accountability.', kind: 'Philippines' },
+  { name: 'Republic Act No. 11165: Telecommuting Act', url: 'https://lawphil.net/statutes/repacts/ra2018/ra_11165_2018.html', note: 'Primary Philippine legal text for private-sector telecommuting arrangements.', kind: 'Philippines' },
+  { name: 'ACM Code of Ethics', url: 'https://www.acm.org/code-of-ethics', note: 'Professional guidance for responsible, honest, and privacy-aware technology work.', kind: 'Global comparison' },
+  { name: 'ISO/IEC 27001 overview', url: 'https://www.iso.org/isoiec-27001-information-security.html', note: 'International information-security management reference for governance and continual improvement.', kind: 'Global comparison' },
+];
+
+type DailyTopic = { slug: string; title: string; excerpt: string; focus: string; question: string };
+const dailyTopics: readonly DailyTopic[] = [
+  { slug: 'offshore-call-center-quality-assurance-scorecard', title: 'Offshore call center quality assurance: how to build a useful scorecard', excerpt: 'A practical, source-backed framework for sampling calls, scoring accuracy, and turning QA misses into coaching actions.', focus: 'quality assurance scorecards', question: 'How should an offshore call center measure quality?' },
+  { slug: 'call-center-outsourcing-data-access-controls', title: 'Call center outsourcing data access controls: a buyer research guide', excerpt: 'How to map systems, permissions, recordings, and approval boundaries before an outsourced support team handles customer data.', focus: 'data access controls', question: 'What access should an outsourced call center receive?' },
+  { slug: 'philippines-call-center-remote-work-controls', title: 'Philippines call center remote work: controls buyers should document', excerpt: 'A research guide to approved locations, devices, connectivity, privacy, and backup coverage for remote support work.', focus: 'remote-work controls', question: 'What should a buyer document for remote call center work?' },
+  { slug: 'call-center-knowledge-base-governance', title: 'Call center knowledge-base governance: keeping answers accurate', excerpt: 'A source-backed operating model for ownership, versioning, approvals, and escalation when customer answers change.', focus: 'knowledge-base governance', question: 'Who should own an outsourced call center knowledge base?' },
+  { slug: 'offshore-call-center-escalation-design', title: 'Offshore call center escalation design: from script to accountable handoff', excerpt: 'How to define urgent cases, manager-only decisions, handoff fields, and feedback loops for an offshore queue.', focus: 'escalation design', question: 'What makes a call center escalation path reliable?' },
+  { slug: 'call-center-forecasting-staffing-inputs', title: 'Call center forecasting: the staffing inputs buyers need first', excerpt: 'A practical research guide to volume, arrival patterns, handle time, shrinkage, service goals, and scenario planning.', focus: 'forecasting inputs', question: 'What information is needed to forecast call center staffing?' },
+  { slug: 'offshore-call-center-business-continuity', title: 'Offshore call center business continuity: a buyer checklist', excerpt: 'How to test people, site, power, connectivity, systems, and communications before a disruption reaches customers.', focus: 'business continuity', question: 'How can an offshore call center prepare for disruption?' },
+  { slug: 'call-center-customer-verification-workflow', title: 'Call center customer verification: designing a safer workflow', excerpt: 'A source-backed guide to identity checks, minimum data exposure, exception handling, and audit-ready notes.', focus: 'customer verification', question: 'How should an outsourced call center verify callers?' },
+  { slug: 'philippines-call-center-training-plan', title: 'Philippines call center training plans: what a pilot should prove', excerpt: 'A research-led way to connect training content, practice calls, QA evidence, coaching, and controlled queue expansion.', focus: 'training plans', question: 'What should a Philippines call center training pilot prove?' },
+  { slug: 'offshore-call-center-call-recording-governance', title: 'Offshore call center call recording governance: questions for buyers', excerpt: 'A practical guide to recording notices, access, retention, review, export, and deletion responsibilities.', focus: 'call recording governance', question: 'What controls belong around outsourced call recordings?' },
+  { slug: 'call-center-complaint-handling-workflow', title: 'Call center complaint handling: a workflow for consistent ownership', excerpt: 'How to classify complaints, preserve customer context, escalate risk, and measure resolution without making promises agents cannot keep.', focus: 'complaint handling', question: 'How should an outsourced call center handle complaints?' },
+  { slug: 'offshore-call-center-vendor-due-diligence', title: 'Offshore call center vendor due diligence: evidence to request', excerpt: 'A research guide to operational, security, continuity, staffing, and governance evidence before selecting a provider.', focus: 'vendor due diligence', question: 'What evidence should a buyer request from an offshore provider?' },
+  { slug: 'call-center-handoff-documentation', title: 'Call center handoff documentation: making next steps visible', excerpt: 'A source-backed framework for concise notes, owners, due times, sensitive fields, and supervisor review.', focus: 'handoff documentation', question: 'What should an outsourced call center handoff note contain?' },
+  { slug: 'philippines-call-center-privacy-operations', title: 'Philippines call center privacy operations: practical buyer controls', excerpt: 'How to translate Philippine privacy duties into access, training, incident, retention, and processor-management routines.', focus: 'privacy operations', question: 'What privacy operations should a Philippines call center document?' },
+];
+
+const dailyResearchBatch: readonly ResearchPost[] = dailyTopics.map((topic, index) => ({
+  slug: topic.slug,
+  title: topic.title,
+  excerpt: topic.excerpt,
+  published: '2026-08-07', modified: '2026-08-07',
+  revision: `2026-08-07-${topic.slug}-v1`, readingMinutes: 9, wordCount: 1450 + index * 17,
+  methodology: `This report triangulates official guidance from NIST, the FTC, the ILO, Philippine privacy authorities, and relevant Philippine law. It translates that evidence into operating checks for ${topic.focus}, separating sourced obligations from buyer recommendations.`,
+  limitations: `The sources describe control principles, not the performance of any individual provider or agent. A buyer must test the proposed workflow, systems, staffing, and escalation behavior during a documented pilot.`,
+  keyTakeaways: [
+    `${topic.focus} should be designed around the exact queue, customer data, and decisions the team will handle.`,
+    'A written owner, approval boundary, and evidence trail are more useful than a broad promise of compliance.',
+    'The pilot should test normal work, exceptions, handoffs, and recovery rather than only a scripted happy path.',
+    'Philippines-based delivery requires location, privacy, training, and continuity controls to be explicit.',
+    'Expand scope only after measured results and repeatable corrective actions are visible.',
+  ],
+  stats: [
+    { value: '10', label: 'control lenses in this review', note: 'The report compares ten primary guidance and legal sources.', source: 1 },
+    { value: '3', label: 'pilot states to test', note: 'Normal work, exception handling, and recovery should each be observed.', source: 5 },
+    { value: '1', label: 'named accountable owner', note: 'Every queue needs an owner who can approve changes and resolve ambiguity.', source: 6 },
+    { value: '0', label: 'unapproved high-risk decisions', note: 'Payment, privacy, legal, or safety-sensitive decisions need an authorized path.', source: 3 },
+    { value: '24h', label: 'review window to agree', note: 'Set a clear review window for material misses and unresolved handoffs.', source: 4 },
+    { value: '100%', label: 'of sensitive fields mapped', note: 'Document data visibility before granting production access.', source: 2 },
+  ],
+  sections: [
+    { heading: `What the evidence says about ${topic.focus}`, paragraphs: [
+      { text: `The official guidance converges on the same practical principle: define the work, identify the risks, assign ownership, and keep enough evidence to review whether the control worked. For ${topic.focus}, that means a buyer should write the intended outcome and the failure modes before selecting a seat count.`, citations: [1, 2, 6] },
+      { text: 'A provider-wide certification or policy can support diligence, but it does not replace queue-specific checks. Ask to see the actual form, access rule, sample, handoff, or recovery record that the assigned team will use.', citations: [3, 10] },
+    ] },
+    { heading: 'The operating workflow to put in writing', paragraphs: [
+      { text: `Start with the trigger, the permitted action, the evidence captured, and the escalation owner. For ${topic.focus}, include the ordinary path and at least one case where the agent must stop, preserve context, and ask for a decision.`, citations: [1, 4, 5] },
+      { text: 'Keep access and instructions proportional to the work. The person answering a routine question should not automatically receive the ability to export records, change payment details, or alter a policy.', citations: [2, 3, 7] },
+    ] },
+    { heading: 'How to test a Philippines-based pilot', paragraphs: [
+      { text: 'Use the same scenarios for every candidate or provider. Score factual accuracy, verification, tone, documentation, correct escalation, and whether the worker avoids inventing an answer. Review the work from the approved location and device before production expansion.', citations: [5, 6, 8] },
+      { text: 'The pilot should include a supervisor calibration, a sample review, a correction, and a retest. Treat repeated misses as a process signal that may require better instructions or access, not only more pressure on the agent.', citations: [1, 4, 9] },
+    ] },
+    { heading: 'Questions for the proposal and contract', paragraphs: [
+      { text: 'Request the assigned team structure, location, hours, backup plan, system list, permissions, training plan, QA method, incident route, retention rule, and exit handoff. Ask which decisions stay with the client and who can change the operating instructions.', citations: [6, 7, 8, 10] },
+      { text: 'Keep commercial scope and control scope separate. The site offers Philippines-based talent only; any proposal should state the queue, tools, supervision, and review duties rather than implying that a generic seat solves every operational risk.', citations: [5, 9] },
+    ] },
+  ],
+  table: { caption: `Evidence-to-decision table for ${topic.focus}`, headers: ['Evidence', 'Supports', 'Does not prove', 'Buyer check'], rows: [
+    ['Written control', 'A repeatable expected action', 'That agents follow it under pressure', 'Observe a scored live or recorded scenario'],
+    ['Provider policy', 'A baseline management intent', 'Queue-specific implementation', 'Review the assigned team checklist'],
+    ['Training completion', 'Exposure to the instruction', 'Retention or judgment', 'Use a retest with exception cases'],
+    ['Access list', 'Known permissions', 'Appropriate daily use', 'Match each permission to one task'],
+    ['QA score', 'A measured sample', 'All interactions are compliant', 'Set sample size, hard stops, and coaching owner'],
+    ['Continuity plan', 'A proposed recovery path', 'Recovery works in practice', 'Run a tabletop or controlled test'],
+  ] },
+  buyerChecklist: ['Name the queue owner and client-side escalation owner.', 'List systems, fields, actions, and least-privilege permissions.', 'Define the normal path, exception path, and hard-stop decisions.', 'Approve the Philippines work location, device, network, and backup.', 'Set training, calibration, sample size, and retest requirements.', 'Record incident, complaint, or privacy escalation contacts.', 'Set retention, access review, and exit-handoff steps.', 'Review results before adding channels, hours, or sensitive work.'],
+  faqs: [
+    { q: `Why does ${topic.focus} need a written workflow?`, a: 'Written workflows make ownership, permitted actions, evidence, and escalation visible. They also make coaching and provider comparison more consistent.' },
+    { q: 'Does a provider policy prove the assigned team is ready?', a: 'No. It is a diligence input. The assigned team still needs queue-specific training, access, calibration, and a measured pilot.' },
+    { q: 'What should a first pilot include?', a: 'One narrow queue, approved answers, limited permissions, named escalations, a shared scorecard, and normal plus exception scenarios.' },
+    { q: 'What belongs with the client owner?', a: 'High-risk judgments, policy changes, payment or privacy exceptions, legal or safety-sensitive decisions, and approval of material scope changes.' },
+    { q: 'Can the site provide non-Philippines-based talent?', a: 'No. The talent offered through this site is exclusively based in the Philippines.' },
+  ],
+  related: [
+    { title: 'Call center outsourcing in the Philippines: evidence guide', href: '/research/call-center-outsourcing-philippines-evidence-guide' },
+    { title: 'Call quality monitoring service', href: '/services/call-quality-monitoring' },
+    { title: 'Inbound customer care service', href: '/services/inbound-customer-care' },
+  ],
+  sources: dailyResearchSources,
+}));
+researchPosts = [...researchPosts, ...dailyResearchBatch];
 export const postsPerPage = 20;
