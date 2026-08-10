@@ -8,7 +8,7 @@ const data = read('app/data.ts');
 const detail = read('app/blog/[slug]/page.tsx');
 const sitemap = read('app/sitemap.xml/route.ts');
 const failures = [];
-const expectedCommit = 'b479df3';
+const expectedCommit = 'b479df39e8a5b1101db84996d33032d4309cfeee';
 const parent = execFileSync('git', ['show', `${expectedCommit}^:app/data.ts`], { encoding: 'utf8' });
 const introduced = execFileSync('git', ['show', `${expectedCommit}:app/data.ts`], { encoding: 'utf8' });
 const hasSlug = (source, slug) => new RegExp(`\\['${slug.replaceAll('-', '\\-')}',`).test(source);
@@ -21,7 +21,7 @@ const slugs = manifest.entries.map((entry) => entry.slug);
 if (new Set(slugs).size !== slugs.length) failures.push('manifest slugs are not unique');
 for (const entry of manifest.entries) {
   if (!/^[-a-z0-9]+$/.test(entry.slug) || entry.route !== `/blog/${entry.slug}`) failures.push(`family route mismatch for ${entry.slug}`);
-  if (entry.sourcePath !== 'app/data.ts' || entry.provenance !== 'original-aug10-batch' || entry.introducedByCommit !== 'b479df3') failures.push(`traceability mismatch for ${entry.slug}`);
+  if (entry.sourcePath !== 'app/data.ts' || entry.provenance !== 'original-aug10-batch' || !/^[0-9a-f]{40}$/.test(entry.introducedByCommit) || entry.introducedByCommit !== expectedCommit) failures.push(`traceability mismatch for ${entry.slug}`);
   if (entry.sourceDateField !== 'published' || entry.sourceDate !== '2026-08-10' || entry.renderedDate !== '2026-08-10') failures.push(`date mismatch for ${entry.slug}`);
   if (!entry.renderedDateFields.includes('datePublished') || !entry.renderedDateFields.includes('time[datetime]')) failures.push(`rendered date fields incomplete for ${entry.slug}`);
   if (!hasSlug(data, entry.slug) || !sourceHasDate) failures.push(`source record/date missing for ${entry.slug}`);
