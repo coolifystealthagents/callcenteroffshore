@@ -537,4 +537,6 @@ const continuationResearchBatch: readonly ResearchPost[] = continuationResearchT
   ],
 }));
 researchPosts = [...researchPosts, ...continuationResearchBatch];
+// Keep the family index newest-first after all scheduled batches are assembled.
+researchPosts = researchPosts.slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 export const postsPerPage = 20;
