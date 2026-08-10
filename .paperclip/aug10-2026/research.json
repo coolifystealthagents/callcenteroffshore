@@ -10,6 +10,8 @@
   "priorRunId": "88c1a590-dcf1-4eae-8e28-33ebcaf4eec0",
   "priorIssueId": "cf6dcea8-8a1b-4ac8-bd8c-d8ed8f45facd",
   "validationCommands": [
+    "git fetch origin main",
+    "git rev-parse HEAD origin/main",
     "node scripts/verify-august-10-research.mjs",
     "npm run build",
     "git diff --check"
