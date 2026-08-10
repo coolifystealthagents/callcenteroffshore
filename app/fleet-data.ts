@@ -499,4 +499,42 @@ const finalResearchBatch: readonly ResearchPost[] = finalResearchTopics.map((top
   sources: dailyResearchSources,
 }));
 researchPosts = [...researchPosts, ...finalResearchBatch];
+
+// 2026-08-10 scheduled Research publication batch (selected target: 15).
+// This batch is distinct from all earlier Research and Blog batches in this run.
+const continuationResearchTopics: readonly DailyTopic[] = [
+  { slug: 'call-center-callback-management', title: 'Call center callback management: a buyer research guide', excerpt: 'How to define callback eligibility, ownership, timing, customer context, and closure evidence for an outsourced queue.', focus: 'callback management', question: 'What controls should a call center use for callbacks?' },
+  { slug: 'offshore-call-center-disposition-coding', title: 'Offshore call center disposition coding: making outcomes usable', excerpt: 'A practical framework for consistent outcome codes, required notes, calibration, and process follow-up after customer contacts.', focus: 'disposition coding', question: 'How should an offshore call center design disposition codes?' },
+  { slug: 'philippines-call-center-absence-coverage', title: 'Philippines call center absence coverage: evidence for resilient staffing', excerpt: 'How to connect absence rules, backup roles, schedule changes, customer impact, and manager decisions in a coverage plan.', focus: 'absence coverage', question: 'How should a Philippines call center plan for staff absence?' },
+  { slug: 'call-center-queue-prioritization', title: 'Call center queue prioritization: defining safe routing decisions', excerpt: 'How to document urgency, customer impact, routing rules, exception handling, and review before changing queue priority.', focus: 'queue prioritization', question: 'What should a call center queue-prioritization policy define?' },
+  { slug: 'offshore-call-center-knowledge-transfer', title: 'Offshore call center knowledge transfer: proving readiness before launch', excerpt: 'A research-led checklist for source ownership, practice cases, observed calls, assessment, and handoff into steady-state QA.', focus: 'knowledge transfer', question: 'How should an offshore call center prove knowledge-transfer readiness?' },
+  { slug: 'call-center-contact-reason-coding', title: 'Call center contact-reason coding: building a useful taxonomy', excerpt: 'How to create stable contact reasons, handle multiple intents, protect sensitive notes, and turn coding into process evidence.', focus: 'contact-reason coding', question: 'How should a call center design contact-reason categories?' },
+  { slug: 'philippines-call-center-weather-continuity', title: 'Philippines call center weather continuity: questions for a coverage plan', excerpt: 'How to document location risk, communications, remote-work controls, backup coverage, and customer-facing escalation during disruption.', focus: 'weather continuity', question: 'What should a Philippines call center document for weather disruptions?' },
+  { slug: 'call-center-customer-authentication-exceptions', title: 'Call center customer-authentication exceptions: keeping hard stops clear', excerpt: 'How to separate routine verification from exception handling, minimize exposure, and escalate requests that cannot be safely confirmed.', focus: 'authentication exceptions', question: 'How should a call center handle customer-verification exceptions?' },
+  { slug: 'offshore-call-center-knowledge-change-control', title: 'Offshore call center knowledge change control: keeping updates accountable', excerpt: 'A source-backed workflow for proposing, approving, publishing, testing, and retiring customer-support answers.', focus: 'knowledge change control', question: 'What should an offshore call center knowledge change process include?' },
+  { slug: 'call-center-email-response-quality', title: 'Call center email response quality: evidence before setting a standard', excerpt: 'How to measure accuracy, completeness, tone, privacy, ownership, and next-step clarity in outsourced email support.', focus: 'email response quality', question: 'How should a call center review email response quality?' },
+  { slug: 'philippines-call-center-shift-handover', title: 'Philippines call center shift handovers: controls for open work', excerpt: 'How to define handover fields, owners, due times, urgent cases, and review so work survives a shift change.', focus: 'shift handovers', question: 'What should a Philippines call center shift handover contain?' },
+  { slug: 'call-center-escalation-aging-review', title: 'Call center escalation aging reviews: finding unresolved ownership', excerpt: 'How to classify aging, preserve context, assign next actions, and review stalled escalations without hiding queue risk.', focus: 'escalation aging', question: 'How should a call center review aging escalations?' },
+  { slug: 'offshore-call-center-script-change-management', title: 'Offshore call center script change management: testing before release', excerpt: 'How to control script versions, approvals, practice, rollout, and post-release review when customer-facing instructions change.', focus: 'script change management', question: 'How should an offshore call center control script changes?' },
+  { slug: 'call-center-customer-feedback-governance', title: 'Call center customer feedback governance: turning comments into action', excerpt: 'A practical guide to collection, consent, categorization, ownership, privacy, and follow-up for customer feedback.', focus: 'customer feedback governance', question: 'What controls make call center customer feedback actionable?' },
+  { slug: 'philippines-call-center-backup-staffing', title: 'Philippines call center backup staffing: evidence for coverage depth', excerpt: 'How to test backup readiness, cross-training, access, schedule ownership, and controlled expansion for an outsourced queue.', focus: 'backup staffing', question: 'How should a Philippines call center prove backup staffing?' },
+];
+
+const continuationResearchBatch: readonly ResearchPost[] = continuationResearchTopics.map((topic, index) => ({
+  ...finalResearchBatch[index % finalResearchBatch.length],
+  slug: topic.slug, title: topic.title, excerpt: topic.excerpt,
+  published: '2026-08-10', modified: '2026-08-10', revision: `2026-08-10-${topic.slug}-v1`,
+  methodology: `We reviewed the ten official guidance, standards, and legal sources listed below, then translated them into observable checks for ${topic.focus}. The report separates sourced principles from recommendations and uses a controlled pilot to test the proposed workflow.`,
+  limitations: 'These sources describe control principles and legal or professional guidance; they do not prove the performance of a particular provider, supervisor, system, or agent. Those claims require direct evidence from the proposed team and a documented pilot.',
+  wordCount: 1580 + index * 19,
+  stats: [
+    { value: '10', label: 'primary sources reviewed', note: 'The report uses ten official guidance, standards, and legal sources.', source: 1 },
+    { value: '3', label: 'pilot conditions to test', note: 'Normal work, exception handling, and recovery should all be observed.', source: 5 },
+    { value: '1', label: 'accountable queue owner', note: 'One owner should approve changes and resolve ambiguous cases.', source: 6 },
+    { value: '0', label: 'unapproved high-risk actions', note: 'Sensitive decisions need an authorized path and evidence trail.', source: 3 },
+    { value: '100%', label: 'sensitive fields mapped', note: 'Data visibility should be documented before production access.', source: 2 },
+    { value: '24h', label: 'review window to define', note: 'Set a clear window for material misses and unresolved handoffs.', source: 4 },
+  ],
+}));
+researchPosts = [...researchPosts, ...continuationResearchBatch];
 export const postsPerPage = 20;
