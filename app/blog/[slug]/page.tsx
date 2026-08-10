@@ -25,10 +25,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const focus = p.focus ?? 'the call workflow';
   const question = p.question ?? `How should a team plan ${focus}?`;
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
-  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: '2026-08-10', dateModified: '2026-08-10' };
+  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: p.published ?? '2026-08-07', dateModified: p.published ?? '2026-08-07' };
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>
+    <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {p.published}</time>}
     <img src="/blog-thumbnail.svg" width="1200" height="630" alt="Call Center Offshore article thumbnail" style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
     <div className="blog-standards-strip"><span>Source-backed guidance</span><span>Two contextual internal links</span><span>Three related articles</span></div>
     <aside className="article-rotation-banner article-rotation-banner-top"><p className="eyebrow">Role planning checkpoint</p><h2>Turn this guide into a clear role brief</h2><p>Share the queue, tools, review owner, and approval limits before adding outside support.</p><a className="btn" href="/contact-us">Contact Us</a></aside>

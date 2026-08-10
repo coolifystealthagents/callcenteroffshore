@@ -83,7 +83,7 @@ export const blogPosts = [
   { slug: 'call-center-overflow-support-plan', title: 'Call center overflow support plan', excerpt: 'Prepare a repeatable way to route spikes, define capacity triggers, and return work to the primary team.', minutes: 9 },
   { slug: 'call-center-manager-review-rhythm', title: 'Call center manager review rhythm', excerpt: 'Set daily, weekly, and monthly checkpoints for queue health, call quality, coaching, and process changes.', minutes: 8 },
   { slug: 'philippines-call-center-team-launch', title: 'Philippines call center team launch checklist', excerpt: 'Coordinate role scope, schedule, tools, training, quality review, and escalation ownership for a measured start.', minutes: 10 },
-] as Array<{ slug: string; title: string; excerpt: string; minutes: number; focus?: string; question?: string }>;
+] as Array<{ slug: string; title: string; excerpt: string; minutes: number; focus?: string; question?: string; published?: string }>;
 
 // 2026-08-10 scheduled Blog publication batch. This is intentionally separate from Research.
 const scheduledBlogTopics = [
@@ -112,7 +112,15 @@ const scheduledBlogTopics = [
   ['call-center-daily-operations-report', 'Call center daily operations report: a manager-ready format', 'Keep the daily report focused on volume, unresolved work, quality findings, staffing, and decisions needed from the manager.', 'daily operations reports', 'What should a call center daily operations report include?'],
 ] as const;
 
-blogPosts.push(...scheduledBlogTopics.map(([slug, title, excerpt, focus, question]) => ({ slug, title, excerpt, minutes: 9, focus, question })));
+blogPosts.push(...scheduledBlogTopics.map(([slug, title, excerpt, focus, question]) => ({ slug, title, excerpt, minutes: 9, focus, question, published: '2026-08-10' })));
+
+export const newestFirstBlogPosts = blogPosts
+  .map((post, index) => ({ post, index }))
+  .sort((a, b) => (b.post.published ?? '').localeCompare(a.post.published ?? '') || a.index - b.index)
+  .map(({ post }) => post);
+
+// Keep all existing consumers (index, pagination, and sitemap) on the same order.
+blogPosts.splice(0, blogPosts.length, ...newestFirstBlogPosts);
 
 export type BlogPost = (typeof blogPosts)[number];
 
