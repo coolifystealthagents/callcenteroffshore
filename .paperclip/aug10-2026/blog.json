@@ -14,7 +14,8 @@
     "git rev-parse HEAD origin/main",
     "npm run build",
     "node scripts/verify-august-10-blog.mjs",
-    "git diff --check"
+    "git diff --check",
+    "git status --short --branch"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,

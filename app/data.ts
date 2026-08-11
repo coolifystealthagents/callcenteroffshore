@@ -112,7 +112,12 @@ const scheduledBlogTopics = [
   ['call-center-daily-operations-report', 'Call center daily operations report: a manager-ready format', 'Keep the daily report focused on volume, unresolved work, quality findings, staffing, and decisions needed from the manager.', 'daily operations reports', 'What should a call center daily operations report include?'],
 ] as const;
 
-blogPosts.push(...scheduledBlogTopics.map(([slug, title, excerpt, focus, question]) => ({ slug, title, excerpt, minutes: 9, focus, question, published: '2026-08-10' })));
+const blogPublicationDates: Record<string, string> = {
+  'offshore-call-center-call-opening-checklist': '2026-08-10',
+};
+const fallbackBlogPublicationDate = { published: '2026-08-10' }.published;
+
+blogPosts.push(...scheduledBlogTopics.map(([slug, title, excerpt, focus, question]) => ({ slug, title, excerpt, minutes: 9, focus, question, published: blogPublicationDates[slug] ?? fallbackBlogPublicationDate })));
 
 export const newestFirstBlogPosts = blogPosts
   .map((post, index) => ({ post, index }))
