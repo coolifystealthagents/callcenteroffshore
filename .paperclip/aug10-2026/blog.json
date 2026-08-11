@@ -22,124 +22,17 @@
   "indexNewestFirstPassed": true,
   "entries": [
     {
-      "slug": "offshore-call-center-call-opening-checklist",
-      "route": "/blog/offshore-call-center-call-opening-checklist",
+      "slug": "call-center-after-call-work-checklist",
+      "route": "/blog/call-center-after-call-work-checklist",
       "sourcePath": "app/data.ts",
       "provenance": "original-aug10-batch",
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-first-call-resolution-workflow",
-      "route": "/blog/call-center-first-call-resolution-workflow",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "philippines-call-center-shift-handoff",
-      "route": "/blog/philippines-call-center-shift-handoff",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "offshore-call-center-call-monitoring-plan",
-      "route": "/blog/offshore-call-center-call-monitoring-plan",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-voice-of-customer-notes",
-      "route": "/blog/call-center-voice-of-customer-notes",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-knowledge-article-review",
-      "route": "/blog/call-center-knowledge-article-review",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "offshore-call-center-customer-verification",
-      "route": "/blog/offshore-call-center-customer-verification",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-refund-escalation-workflow",
-      "route": "/blog/call-center-refund-escalation-workflow",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "philippines-call-center-appointment-reminders",
-      "route": "/blog/philippines-call-center-appointment-reminders",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "offshore-call-center-callback-queue",
-      "route": "/blog/offshore-call-center-callback-queue",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-call-disposition-guide",
-      "route": "/blog/call-center-call-disposition-guide",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     },
     {
@@ -150,62 +43,24 @@
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "offshore-call-center-absence-coverage",
-      "route": "/blog/offshore-call-center-absence-coverage",
+      "slug": "call-center-call-disposition-guide",
+      "route": "/blog/call-center-call-disposition-guide",
       "sourcePath": "app/data.ts",
       "provenance": "original-aug10-batch",
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-queue-priority-rules",
-      "route": "/blog/call-center-queue-priority-rules",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "philippines-call-center-agent-access-review",
-      "route": "/blog/philippines-call-center-agent-access-review",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-customer-note-template",
-      "route": "/blog/call-center-customer-note-template",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "offshore-call-center-agent-listening-skills",
-      "route": "/blog/offshore-call-center-agent-listening-skills",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     },
     {
@@ -216,51 +71,24 @@
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     },
     {
-      "slug": "call-center-after-call-work-checklist",
-      "route": "/blog/call-center-after-call-work-checklist",
+      "slug": "call-center-customer-note-template",
+      "route": "/blog/call-center-customer-note-template",
       "sourcePath": "app/data.ts",
       "provenance": "original-aug10-batch",
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "offshore-call-center-training-scorecard",
-      "route": "/blog/offshore-call-center-training-scorecard",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "call-center-service-recovery-script",
-      "route": "/blog/call-center-service-recovery-script",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
-      "renderedDate": "2026-08-10"
-    },
-    {
-      "slug": "philippines-call-center-backup-connectivity",
-      "route": "/blog/philippines-call-center-backup-connectivity",
-      "sourcePath": "app/data.ts",
-      "provenance": "original-aug10-batch",
-      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
-      "sourceDateField": "published",
-      "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     },
     {
@@ -271,7 +99,248 @@
       "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
       "sourceDateField": "published",
       "sourceDate": "2026-08-10",
-      "renderedDateFields": ["datePublished", "time[datetime]"],
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-first-call-resolution-workflow",
+      "route": "/blog/call-center-first-call-resolution-workflow",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-knowledge-article-review",
+      "route": "/blog/call-center-knowledge-article-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-queue-priority-rules",
+      "route": "/blog/call-center-queue-priority-rules",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-refund-escalation-workflow",
+      "route": "/blog/call-center-refund-escalation-workflow",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-service-recovery-script",
+      "route": "/blog/call-center-service-recovery-script",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "call-center-voice-of-customer-notes",
+      "route": "/blog/call-center-voice-of-customer-notes",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-absence-coverage",
+      "route": "/blog/offshore-call-center-absence-coverage",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-agent-listening-skills",
+      "route": "/blog/offshore-call-center-agent-listening-skills",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-call-monitoring-plan",
+      "route": "/blog/offshore-call-center-call-monitoring-plan",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-call-opening-checklist",
+      "route": "/blog/offshore-call-center-call-opening-checklist",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-callback-queue",
+      "route": "/blog/offshore-call-center-callback-queue",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-customer-verification",
+      "route": "/blog/offshore-call-center-customer-verification",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "offshore-call-center-training-scorecard",
+      "route": "/blog/offshore-call-center-training-scorecard",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-call-center-agent-access-review",
+      "route": "/blog/philippines-call-center-agent-access-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-call-center-appointment-reminders",
+      "route": "/blog/philippines-call-center-appointment-reminders",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-call-center-backup-connectivity",
+      "route": "/blog/philippines-call-center-backup-connectivity",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-call-center-shift-handoff",
+      "route": "/blog/philippines-call-center-shift-handoff",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "b479df39e8a5b1101db84996d33032d4309cfeee",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
       "renderedDate": "2026-08-10"
     }
   ]
