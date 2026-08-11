@@ -18,7 +18,8 @@
     "git diff cd626398361f093d63b3cf2b367638d5377be359^ cd626398361f093d63b3cf2b367638d5377be359 -- app/fleet-data.ts",
     "npm run build",
     "git diff --check",
-    "sha256sum .paperclip/aug10-2026/research.json"
+    "sha256sum .paperclip/aug10-2026/research.json",
+    "git status --short --branch"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
