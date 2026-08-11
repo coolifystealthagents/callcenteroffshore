@@ -14,7 +14,8 @@
     "git rev-parse HEAD origin/main",
     "node scripts/verify-august-10-research.mjs",
     "npm run build",
-    "git diff --check"
+    "git diff --check",
+    "sha256sum .paperclip/aug10-2026/research.json"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
