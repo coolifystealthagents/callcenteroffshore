@@ -12,6 +12,7 @@
   "validationCommands": [
     "git fetch origin main",
     "git rev-parse HEAD origin/main",
+    "node --check scripts/verify-august-10-research.mjs",
     "node scripts/verify-august-10-research.mjs",
     "npm run build",
     "git diff --check",

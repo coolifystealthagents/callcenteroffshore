@@ -33,6 +33,10 @@ for (const entry of manifest.entries) {
   const afterTopicLine = after.split('\n').find(line => line.includes(`{ slug: '${entry.slug}'`));
   if (!beforeTopicLine || /published: '2026-08-10'/.test(beforeTopicLine)) throw new Error(`target-date proof existed before introduction: ${entry.slug}`);
   if (!afterTopicLine || !/published: '2026-08-10'/.test(afterTopicLine)) throw new Error(`slug-local target-date proof absent at introduction: ${entry.slug}`);
+  const sourcePatch = execFileSync('git', ['diff', `${parent}`, entry.introducedByCommit, '--', sourcePath], { encoding: 'utf8' });
+  if (!sourcePatch.includes(`slug: '${entry.slug}'`) || !sourcePatch.includes("published: '2026-08-10'")) {
+    throw new Error(`introducing patch lacks exact slug/date addition: ${entry.slug}`);
+  }
 
   // The date proof must be on the same individual topic declaration as the slug,
   // not inferred from a batch comment or a later shared mapper.
@@ -47,6 +51,7 @@ for (const entry of manifest.entries) {
     if (!rendered.includes(field)) throw new Error(`rendered ${field} missing: ${entry.slug}`);
   }
   if (!rendered.includes(targetDate) || !rendered.includes(`https://callcenteroffshore.com${entry.route}`)) throw new Error(`rendered route audit failed: ${entry.slug}`);
+  if (!sitemap.includes('researchPosts.map(r=>`/research/${r.slug}`)')) throw new Error(`sitemap eligibility wiring missing: ${entry.slug}`);
 }
 
 const ordered = manifest.entries.map(entry => entry.slug);
