@@ -29,8 +29,10 @@ for (const entry of manifest.entries) {
   const parent = `${entry.introducedByCommit}^`;
   const before = execFileSync('git', ['show', `${parent}:${sourcePath}`], { encoding: 'utf8' });
   const after = execFileSync('git', ['show', `${entry.introducedByCommit}:${sourcePath}`], { encoding: 'utf8' });
-  if (before.includes(`slug: '${entry.slug}'`)) throw new Error(`slug existed before introduction: ${entry.slug}`);
-  if (!after.includes(`slug: '${entry.slug}'`)) throw new Error(`slug absent at introduction: ${entry.slug}`);
+  const beforeTopicLine = before.split('\n').find(line => line.includes(`{ slug: '${entry.slug}'`));
+  const afterTopicLine = after.split('\n').find(line => line.includes(`{ slug: '${entry.slug}'`));
+  if (!beforeTopicLine || /published: '2026-08-10'/.test(beforeTopicLine)) throw new Error(`target-date proof existed before introduction: ${entry.slug}`);
+  if (!afterTopicLine || !/published: '2026-08-10'/.test(afterTopicLine)) throw new Error(`slug-local target-date proof absent at introduction: ${entry.slug}`);
 
   // The date proof must be on the same individual topic declaration as the slug,
   // not inferred from a batch comment or a later shared mapper.
