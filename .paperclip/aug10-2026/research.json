@@ -19,7 +19,8 @@
     "npm run build",
     "git diff --check",
     "sha256sum .paperclip/aug10-2026/research.json",
-    "git status --short --branch"
+    "git status --short --branch",
+    "git log -1 --format='%H %cI' origin/main"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
