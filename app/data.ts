@@ -114,6 +114,28 @@ const scheduledBlogTopics = [
 
 const blogPublicationDates: Record<string, string> = {
   'offshore-call-center-call-opening-checklist': '2026-08-10',
+  'call-center-first-call-resolution-workflow': '2026-08-10',
+  'philippines-call-center-shift-handoff': '2026-08-10',
+  'offshore-call-center-call-monitoring-plan': '2026-08-10',
+  'call-center-voice-of-customer-notes': '2026-08-10',
+  'call-center-knowledge-article-review': '2026-08-10',
+  'offshore-call-center-customer-verification': '2026-08-10',
+  'call-center-refund-escalation-workflow': '2026-08-10',
+  'philippines-call-center-appointment-reminders': '2026-08-10',
+  'offshore-call-center-callback-queue': '2026-08-10',
+  'call-center-call-disposition-guide': '2026-08-10',
+  'call-center-agent-coaching-notes': '2026-08-10',
+  'offshore-call-center-absence-coverage': '2026-08-10',
+  'call-center-queue-priority-rules': '2026-08-10',
+  'philippines-call-center-agent-access-review': '2026-08-10',
+  'call-center-customer-note-template': '2026-08-10',
+  'offshore-call-center-agent-listening-skills': '2026-08-10',
+  'call-center-complaint-ownership': '2026-08-10',
+  'call-center-after-call-work-checklist': '2026-08-10',
+  'offshore-call-center-training-scorecard': '2026-08-10',
+  'call-center-service-recovery-script': '2026-08-10',
+  'philippines-call-center-backup-connectivity': '2026-08-10',
+  'call-center-daily-operations-report': '2026-08-10',
 };
 const fallbackBlogPublicationDate = { published: '2026-08-10' }.published;
 
