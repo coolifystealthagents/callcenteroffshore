@@ -28,6 +28,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const canonical = `https://callcenteroffshore.com/blog/${p.slug}`;
   const focus = p.focus ?? 'the call workflow';
   const question = p.question ?? `How should a team plan ${focus}?`;
+  const originalBody = (p as typeof p & { body?: readonly string[] }).body;
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
   const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: p.published, dateModified: p.published };
   return <><Header /><main><article className="section"><div className="container article-shell">
@@ -37,6 +38,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <div className="blog-standards-strip"><span>Source-backed guidance</span><span>Two contextual internal links</span><span>Three related articles</span></div>
     <aside className="article-rotation-banner article-rotation-banner-top"><p className="eyebrow">Role planning checkpoint</p><h2>Turn this guide into a clear role brief</h2><p>Share the queue, tools, review owner, and approval limits before adding outside support.</p><a className="btn" href="/contact-us">Contact Us</a></aside>
     <section className="card">
+      {originalBody?.map((paragraph, index) => <p key={`original-${index}`}>{paragraph}</p>)}
       <h2>Start with the customer outcome</h2>
       <p>{question} Begin by writing the outcome the customer and manager should see. Then define the trigger, the permitted action, the evidence captured, and the point where the agent must stop and ask for help.</p>
       <p>Map the work in the <a href="/services/operations-support">call center operations support workflow</a> before discussing staffing. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.</p>
