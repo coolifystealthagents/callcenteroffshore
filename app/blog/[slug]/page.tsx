@@ -7,6 +7,10 @@ import CoverageArticle from './CoverageArticle';
 
 export function generateStaticParams() { return blogPosts.map(p => ({ slug: p.slug })); }
 
+function displayDate(value: string) {
+  return new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${value}T00:00:00Z`));
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = blogPosts.find(x => x.slug === slug);
@@ -28,7 +32,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: p.published, dateModified: p.published };
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {p.published}</time>}
+    <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {displayDate(p.published)}</time>}
     <img src="/blog-thumbnail.svg" width="1200" height="630" alt="Call Center Offshore article thumbnail" style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
     <div className="blog-standards-strip"><span>Source-backed guidance</span><span>Two contextual internal links</span><span>Three related articles</span></div>
     <aside className="article-rotation-banner article-rotation-banner-top"><p className="eyebrow">Role planning checkpoint</p><h2>Turn this guide into a clear role brief</h2><p>Share the queue, tools, review owner, and approval limits before adding outside support.</p><a className="btn" href="/contact-us">Contact Us</a></aside>
