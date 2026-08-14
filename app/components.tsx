@@ -9,7 +9,7 @@ export function JsonLd({ data }: { data: any }) {
 }
 
 export function LogoMark() {
-  return <span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg?v=20260730-niche-logo" alt="" aria-hidden="true" /><span className="logo-name">{site.brand}</span></span>;
+  return <span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg?v=20260730-niche-logo" alt={`${site.brand} logo`} /><span className="logo-name">{site.brand}</span></span>;
 }
 
 export function Header(_props:any={}) {
