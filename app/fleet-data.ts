@@ -1,3 +1,5 @@
+import {august14ResearchBatch} from './research-aug14';
+
 export type FleetService = {
   slug: string;
   title: string;
@@ -655,5 +657,5 @@ const replacementResearchBatch: readonly ResearchPost[] = [
 ];
 researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post.slug)), ...august13ResearchBatch];
 // Keep the family index newest-first after all scheduled batches are assembled.
-researchPosts = researchPosts.slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
+researchPosts = [...researchPosts, ...august14ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 export const postsPerPage = 20;
