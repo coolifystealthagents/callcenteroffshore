@@ -41,7 +41,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       {originalBody?.map((paragraph, index) => <p key={`original-${index}`}>{paragraph}</p>)}
       <h2>Start with the customer outcome</h2>
       <p>{question} Begin by writing the outcome the customer and manager should see. Then define the trigger, the permitted action, the evidence captured, and the point where the agent must stop and ask for help.</p>
-      <p>Map the work in the <a href="/services/operations-support">call center operations support workflow</a> before discussing staffing. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.</p>
+      <p>Map the work in the <a href="/services/inbound-customer-care">Philippines customer care service guide</a> before discussing staffing. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.</p>
       <h2>Put the operating steps in writing</h2>
       <p>For {focus}, write the required fields, approved language, system actions, due time, and escalation owner. Use realistic examples with sensitive details removed. The same examples should support training, scoring, coaching, and retesting.</p>
       <p>Use the <a href="/blog/call-center-qa-scorecard">call center QA scorecard guide</a> to choose a small review sample. A score is useful only when the reviewer can point to the call evidence, explain the expected behavior, and record what happens next.</p>
