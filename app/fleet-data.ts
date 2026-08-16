@@ -246,7 +246,7 @@ export let researchPosts: readonly ResearchPost[] = [
       { q: 'What should be included in a first call center pilot?', a: 'Start with one queue, written answers, named escalations, limited system access, and a shared QA scorecard. Review a fixed call sample each day and expand only after repeat errors and unresolved handoffs are under control.' },
     ],
     related: [
-      { title: 'Questions to ask an offshore call center provider', href: '/blog' },
+      { title: 'Questions to ask an offshore call center provider', href: '/blog/offshore-call-center-provider-questions' },
       { title: 'Inbound customer care service', href: '/services/inbound-customer-care' },
       { title: 'Call quality monitoring service', href: '/services/call-quality-monitoring' },
     ],
