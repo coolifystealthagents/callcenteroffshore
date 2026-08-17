@@ -32,7 +32,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
   const serviceLink = p.slug === 'call-center-refund-escalation-workflow'
     ? { href: '/services/order-and-billing-support', label: 'Philippines order and billing support guide', prefix: 'For refund requests, use the ', suffix: ' to separate status updates from credits, disputes, and payment decisions. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.' }
-    : { href: '/services/inbound-customer-care', label: 'Philippines customer care service guide', prefix: 'Map the work in the ', suffix: ' before discussing staffing. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.' };
+    : p.slug === 'call-center-call-recording-policy'
+      ? { href: '/services/call-quality-monitoring', label: 'Philippines call quality monitoring guide', prefix: 'For recording access and review rules, start with the ', suffix: '. It helps define the sample, scorecard, and manager calibration before a team treats recordings as a general archive.' }
+      : { href: '/services/inbound-customer-care', label: 'Philippines customer care service guide', prefix: 'Map the work in the ', suffix: ' before discussing staffing. Keep the first queue narrow enough that a manager can review ordinary cases and exceptions during the pilot.' };
   const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: p.published, dateModified: p.published };
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
