@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-call-center-queue-acceptance-evidence","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-call-center-multilingual-quality-evidence","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/offshore-call-center-occupancy-variance-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/call-center-refund-escalation-control-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/offshore-call-center-crm-note-completeness-research","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-call-center-disaster-recovery-tabletop-evidence","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/call-center-accessibility-support-evidence-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/offshore-call-center-seasonal-surge-readiness-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-call-center-knowledge-release-evidence","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/offshore-call-center-complaint-severity-evidence","sourcePaths":["app/research-aug18.ts"]}
+  ]
+}
