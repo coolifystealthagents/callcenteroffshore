@@ -30,7 +30,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const question = p.question ?? `How should a team plan ${focus}?`;
   const originalBody = (p as typeof p & { body?: readonly string[] }).body;
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
-  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: { '@type': 'Organization', name: site.brand }, datePublished: p.published, dateModified: p.published };
+  const organization = { '@type': 'Organization', '@id': 'https://callcenteroffshore.com/#organization', name: site.brand, url: 'https://callcenteroffshore.com' };
+  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: organization, publisher: organization, datePublished: p.published, dateModified: p.published };
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {displayDate(p.published)}</time>}

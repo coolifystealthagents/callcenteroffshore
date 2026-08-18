@@ -16,7 +16,7 @@ export default function CoverageArticle(){
   const canonical='https://callcenteroffshore.com/blog/24-7-call-center-outsourcing-philippines';
   const schema={
     '@context':'https://schema.org','@type':'Article','@id':`${canonical}#article`,headline:'24/7 call center outsourcing Philippines: coverage and continuity guide',description:'Plan Philippines-based 24/7 call center coverage with shift maps, handoff controls, continuity tests, call QA, and a narrow launch.',datePublished:'2026-07-25',dateModified:'2026-07-25',mainEntityOfPage:canonical,
-    author:{'@type':'Organization',name:'Call Center Offshore'},publisher:{'@type':'Organization',name:'Call Center Offshore',url:'https://callcenteroffshore.com'},
+    author:{'@type':'Organization','@id':'https://callcenteroffshore.com/#organization',name:'Call Center Offshore',url:'https://callcenteroffshore.com'},publisher:{'@type':'Organization','@id':'https://callcenteroffshore.com/#organization',name:'Call Center Offshore',url:'https://callcenteroffshore.com'},
     citation:sources.map(source=>source.url),
   };
   const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[

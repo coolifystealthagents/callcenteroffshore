@@ -19,7 +19,11 @@ const checklist = [
 ] as const;
 
 export default function HealthcareArticle(){
+  const canonical='https://callcenteroffshore.com/blog/healthcare-call-center-outsourcing-companies-philippines';
+  const organization={'@type':'Organization','@id':'https://callcenteroffshore.com/#organization',name:'Call Center Offshore',url:'https://callcenteroffshore.com'};
+  const schema={'@context':'https://schema.org','@type':'Article','@id':`${canonical}#article`,headline:'Healthcare call center outsourcing companies: a Philippines buyer checklist',description:'Compare Philippines-based healthcare call center teams through queue fit, patient-data controls, scored calls, and a controlled launch.',mainEntityOfPage:canonical,author:organization,publisher:organization,datePublished:'2026-07-25',dateModified:'2026-07-25'};
   return <><Header/><main className="cco-article-page"><article className="container cco-article-frame" data-article-format="filipinooutsource-style-healthcare-v2">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
     <header className="article-header cco-health-header">
       <nav className="research-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog">Blog</a><span>/</span><span aria-current="page">Healthcare buyer checklist</span></nav>
       <p className="eyebrow article-kicker">Call Center Offshore healthcare guide</p>
