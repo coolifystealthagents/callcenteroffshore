@@ -109,38 +109,15 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
               <ul>{post.keyTakeaways.map(item=><li key={item}>{item}</li>)}</ul>
             </section>
 
-            <section aria-labelledby="headline-numbers-heading">
-              <p className="research-label">Philippines and global comparison evidence</p>
-              <h2 id="headline-numbers-heading">Six numbers to read with care</h2>
-              <div className="research-stats">{post.stats.map(stat=><article className="research-stat" key={stat.label}>
-                <strong>{stat.value}</strong><h3>{stat.label}</h3><p>{stat.note} <SourceRefs numbers={[stat.source]} post={post}/></p>
-              </article>)}</div>
-            </section>
-
             {post.sections.slice(0,2).map(section=><section className="research-section" key={section.heading}>
               <h2>{section.heading}</h2>
               {section.paragraphs.map((paragraph,index)=><p key={index}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
             </section>)}
 
-            <section className="research-table-section" aria-labelledby="evidence-table-heading">
-              <h2 id="evidence-table-heading">How to turn the evidence into checks</h2>
-              <div className="research-table-wrap"><table>
-                <caption>{post.table.caption}</caption>
-                <thead><tr>{post.table.headers.map(header=><th scope="col" key={header}>{header}</th>)}</tr></thead>
-                <tbody>{post.table.rows.map((row,index)=><tr key={index}>{row.map((cell,cellIndex)=>cellIndex===0?<th scope="row" key={cell}>{cell}</th>:<td data-label={post.table.headers[cellIndex]} key={cell}>{cell}</td>)}</tr>)}</tbody>
-              </table></div>
-            </section>
-
             {post.sections.slice(2).map(section=><section className="research-section" key={section.heading}>
               <h2>{section.heading}</h2>
               {section.paragraphs.map((paragraph,index)=><p key={index}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
             </section>)}
-
-            <section className="research-panel" aria-labelledby="buyer-checklist-heading">
-              <p className="research-label">Proposal checklist</p>
-              <h2 id="buyer-checklist-heading">Eight items to put in writing</h2>
-              <ol className="research-checklist">{post.buyerChecklist.map(item=><li key={item}>{item}</li>)}</ol>
-            </section>
 
             <section className="research-method" aria-labelledby="method-heading">
               <h2 id="method-heading">Methodology and limitations</h2>
