@@ -1,1 +1,7 @@
-{"targetDate":"2026-08-19","family":"research","domain":"callcenteroffshore.com","entries":[{"route":"/research/call-center-first-contact-resolution-evidence","sourcePaths":["app/research-aug19-followup.ts"]},{"route":"/research/philippines-call-center-language-quality-research","sourcePaths":["app/research-aug19-followup.ts"]},{"route":"/research/offshore-call-center-knowledge-transfer-evidence","sourcePaths":["app/research-aug19-followup.ts"]},{"route":"/research/call-center-voice-recording-access-evidence","sourcePaths":["app/research-aug19-followup.ts"]},{"route":"/research/philippines-call-center-forecast-uncertainty-study","sourcePaths":["app/research-aug19-followup.ts"]}]}
+[
+  {"route":"/research/offshore-call-center-callback-promise-reliability","sourcePaths":["app/research-aug19-final.ts"]},
+  {"route":"/research/call-center-disposition-code-reliability","sourcePaths":["app/research-aug19-final.ts"]},
+  {"route":"/research/philippines-call-center-coaching-feedback-evidence","sourcePaths":["app/research-aug19-final.ts"]},
+  {"route":"/research/call-center-accessibility-accommodation-routing-study","sourcePaths":["app/research-aug19-final.ts"]},
+  {"route":"/research/offshore-call-center-identity-verification-fallback-evidence","sourcePaths":["app/research-aug19-final.ts"]}
+]
