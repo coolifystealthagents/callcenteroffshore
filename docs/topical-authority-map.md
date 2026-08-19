@@ -1,34 +1,46 @@
-# Call Center Offshore topical authority map
+# Call Center Offshore topical-authority map
 
-Updated: 2026-08-16  
-Scope: Philippines-based call answering, customer care, quality review, and after-hours coverage. This is a planning ledger, not a claim about rankings or backlinks.
+Last reviewed: 2026-08-19
 
-## Pillar: choosing a Philippines call center team
+## Purpose and boundaries
 
-- **Buyer question:** What should a buyer verify before outsourcing a Philippines-based call queue?
-- **Pillar route:** `/research/call-center-outsourcing-philippines-evidence-guide`
-- **Conversion routes:** `/services/inbound-customer-care`, `/services/call-quality-monitoring`, and `/contact-us`
-- **Proof boundary:** The report uses named sources and makes clear that market figures do not prove provider fit. It should keep directing buyers to a narrow, reviewed pilot rather than promising results.
+This ledger connects an existing Philippines-focused page to the closest existing service route. It is a publishing aid, not a claim that the linked service is right for every buyer.
 
-## Supporting routes already published
+Keep each page focused on one planning question. Add a service handoff only where the reader has reached a real decision point. Do not turn broad Philippines market evidence into a promise about an individual provider, agent, price, or staffing date.
 
-| Intent | Existing route | Reader's next question | Best next route |
-| --- | --- | --- | --- |
-| Provider diligence | `/blog/offshore-call-center-provider-questions` | Can this provider support our queue safely? | `/services/inbound-customer-care` |
-| Cost scope | `/blog/offshore-call-center-cost-drivers` | Which operating inputs affect a proposal? | `/research/call-center-outsourcing-philippines-evidence-guide` |
-| Pilot design | `/blog/call-center-outsourcing-pilot-plan` | How do we test one queue before expanding? | `/services/call-quality-monitoring` |
-| Quality review | `/blog/call-center-qa-scorecard` | How can a manager judge call quality? | `/services/call-quality-monitoring` |
-| Extended hours | `/blog/after-hours-call-answering-workflow` | How should the next shift receive open work? | `/services/after-hours-answering` |
-| Handoffs | `/blog/call-center-handoff-checklist` | What must the next owner see? | `/services/after-hours-answering` |
-| Access controls | `/blog/call-center-data-access-controls` | Who can view or change customer records? | `/research/call-center-outsourcing-philippines-evidence-guide` |
+## Existing service pillars
 
-## Link rules for the next page-level update
+| Service route | Buyer problem it answers | Keep with the buyer |
+| --- | --- | --- |
+| `/services/inbound-customer-care` | A support queue needs a clear first response and a safe handoff. | Refunds, exceptions, and sensitive decisions. |
+| `/services/after-hours-answering` | Customers need an approved response outside local working hours. | What counts as urgent and who is on call. |
+| `/services/call-quality-monitoring` | A manager needs evidence from call samples and a scorecard. | Scorecard approval and sensitive-case review. |
+| `/services/healthcare-scheduling-support` | A practice needs non-clinical appointment coordination. | Clinical decisions, urgent triage, and privacy rules. |
+| `/services/order-and-billing-support` | Order and billing questions need clean notes and a finance exception path. | Money movement, bank changes, credits, and disputes. |
+| `/services/outbound-lead-qualification` | A sales team needs approved research and appointment support. | Audience, message approval, consent, and commercial promises. |
 
-1. Add a service link only where the surrounding paragraph answers the same buyer question. The anchor should name the service or decision, not use a generic "learn more" label.
-2. Keep money-related language factual. This site has no public rate card, so cost pages may explain proposal inputs but must not invent prices, savings, or fee ranges.
-3. Keep Philippines-only staffing language intact. Regulated, payment, refund, account-change, clinical, and legal decisions remain with an authorized client owner.
-4. A research route should link to at most the relevant service and one next planning resource. It should not become a broad sitewide link list.
+## Supporting pages and planned contextual handoffs
 
-## Next bounded candidate
+| Existing supporting route | Reader question | Closest existing destination | Handoff point to use | Status |
+| --- | --- | --- | --- | --- |
+| `/blog/call-center-outsourcing-pilot-plan` | How should a team test an offshore call center before expanding? | `/services/call-quality-monitoring` | After the reader has set a sample and scorecard. | Live contextual service handoff exists. |
+| `/blog/after-hours-call-answering-workflow` | What needs to happen when calls arrive after normal hours? | `/services/after-hours-answering` | After urgent categories and the next-shift handoff are defined. | Verify source body before adding. |
+| `/blog/call-center-qa-scorecard` | What should a useful QA scorecard measure? | `/services/call-quality-monitoring` | After the reader chooses the review fields and calibration owner. | Verify source body before adding. |
+| `/blog/customer-support-call-center-launch` | How should a team launch a customer support queue? | `/services/inbound-customer-care` | After the reader has narrowed the first queue and escalation path. | Verify source body before adding. |
+| `/blog/appointment-setting-call-center-guide` | How should an appointment-setting queue protect calendar rules? | `/services/healthcare-scheduling-support` | Only when the content covers non-clinical scheduling; otherwise keep the page general. | Verify source body before adding. |
+| `/blog/call-center-outsourcing-contract-checklist` | What should a buyer check before signing? | `/services/order-and-billing-support` | Only where order or billing exception ownership is discussed. | Verify source body before adding. |
+| `/research/call-center-outsourcing-philippines-evidence-guide` | What does broad Philippine market evidence prove, and what still needs testing? | `/services/call-quality-monitoring` | After the narrow-pilot and shared-scorecard guidance. | Check the existing related-links array before editing. |
 
-Audit `/blog/call-center-outsourcing-pilot-plan` after confirming its existing body and links. If it lacks a contextual quality-review handoff, add one sentence in the pilot scorecard paragraph linking to `/services/call-quality-monitoring`, then refresh only that page's date and validate the generated route, sitemap, and public marker.
+## Next safe implementation
+
+Use the existing optional `contextualService` field in `app/data.ts` only after confirming the selected source route has its own body, a unique decision point, and a generated artifact. Keep the label and surrounding sentence specific to the source topic. The route must remain in the sitemap, and the source page date, Article schema date, and sitemap `lastmod` must agree when the source article is refreshed.
+
+For research pages, use the typed `related` array in `app/fleet-data.ts`. Keep any source-to-service link next to a stated limitation or a buyer action. The research page must retain its methodology, limitations, source list, and Philippines-only scope.
+
+## Audit checks before a reader-facing link
+
+1. Confirm the destination slug is present in `fleetServices` and generated by `/services/[slug]`.
+2. Confirm the source route is present in `blogPosts` or `researchPosts` and is generated after `npm run build`.
+3. Confirm the new anchor, destination href, and source-specific decision sentence appear in the built source artifact. Confirm an obsolete href is absent if replacing a link.
+4. Check the source route's XML record by exact `<loc>` and `<lastmod>` instead of a whole-sitemap substring search.
+5. For a public release, keep one deployment handle, then cache-bust and verify the exact source marker on the apex and `www` hosts before calling the change live.
