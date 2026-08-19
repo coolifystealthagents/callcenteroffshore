@@ -31,14 +31,13 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const originalBody = (p as typeof p & { body?: readonly string[] }).body;
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
   const organization = { '@type': 'Organization', '@id': 'https://callcenteroffshore.com/#organization', name: site.brand, url: 'https://callcenteroffshore.com' };
-  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: organization, publisher: organization, datePublished: p.published, dateModified: p.published };
+  const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: organization, publisher: organization, datePublished: p.published, dateModified: p.modified ?? p.published };
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {displayDate(p.published)}</time>}
     <img src="/blog-thumbnail.svg" width="1200" height="630" alt="Call Center Offshore article thumbnail" style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
-    <section className="card">
-      {originalBody?.map((paragraph, index) => <p key={`original-${index}`}>{paragraph}</p>)}
-    </section>
+    {originalBody?.length ? <section className="card">{originalBody.map((paragraph, index) => <p key={`original-${index}`}>{paragraph}</p>)}</section> : null}
+    {p.contextualService ? <section className="card"><p>{p.contextualService.text} See the <a href={p.contextualService.href}>{p.contextualService.label}</a>.</p></section> : null}
     <section className="card"><h2>Related Articles</h2><div className="blog-grid-new">{related.map(r => <a className="blog-card-new" href={`/blog/${r.slug}`} key={r.slug}><h3>{r.title}</h3><p>{r.excerpt}</p></a>)}</div></section>
   </div></article><CTA /></main><Footer /></>;
 }

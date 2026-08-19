@@ -67,7 +67,26 @@ export const blogPosts = [
   },
   { slug: 'offshore-call-center-provider-questions', title: 'Questions to ask an offshore call center provider', excerpt: 'A practical shortlist for testing scripts, QA, access controls, coaching, backup coverage, and escalation ownership.', minutes: 10 },
   { slug: 'offshore-call-center-cost-drivers', title: 'What drives offshore call center costs?', excerpt: 'Understand the operational factors behind call coverage costs without relying on public rate cards or vague savings claims.', minutes: 9 },
-  { slug: 'call-center-outsourcing-pilot-plan', title: 'How to run a call center outsourcing pilot', excerpt: 'Use a narrow queue, shared scorecard, limited access, and daily review to test a support partner before expanding.', minutes: 11 },
+  {
+    slug: 'call-center-outsourcing-pilot-plan',
+    title: 'How to run a call center outsourcing pilot',
+    excerpt: 'Use a narrow queue, shared scorecard, limited access, and daily review to test a support partner before expanding.',
+    minutes: 11,
+    published: '2026-08-19',
+    modified: '2026-08-19',
+    focus: 'call center outsourcing pilots',
+    question: 'How should a team test an offshore call center before expanding?',
+    body: [
+      'Start with one call type that has clear rules. Give the provider real examples, approved answers, and the name of the person who decides unusual cases. Keep refunds, account changes, and other high-risk decisions with your own authorized manager.',
+      'Set the scorecard before anyone takes a live call. Review a small daily sample for accurate answers, correct checks, notes, and handoffs. Make sure the same reviewer can explain why a call passed or needs coaching.',
+      'Keep system access narrow during the test. If a customer need cannot be handled safely, the agent should preserve the facts and send the case to the right owner. Expand only after the team can show repeatable results on the agreed work.',
+    ],
+    contextualService: {
+      href: '/services/call-quality-monitoring',
+      label: 'call quality monitoring service',
+      text: 'When you are ready to review the pilot, a call quality monitoring service can help define the sample, scorecard, coaching notes, and manager review that the new queue needs.',
+    },
+  },
   { slug: 'call-center-qa-scorecard', title: 'Call center QA scorecard: what to measure', excerpt: 'Build a usable scorecard for greeting, verification, accuracy, tone, notes, resolution, and escalation.', minutes: 10 },
   { slug: 'after-hours-call-answering-workflow', title: 'After-hours call answering workflow', excerpt: 'Design coverage windows, urgent-call rules, handoffs, and manager escalation for calls outside local business hours.', minutes: 9 },
   { slug: 'call-center-escalation-rules', title: 'Call center escalation rules that protect customers', excerpt: 'Separate routine answers from refunds, account changes, sensitive requests, and decisions that belong with a manager.', minutes: 10 },
@@ -85,7 +104,7 @@ export const blogPosts = [
   { slug: 'call-center-overflow-support-plan', title: 'Call center overflow support plan', excerpt: 'Prepare a repeatable way to route spikes, define capacity triggers, and return work to the primary team.', minutes: 9 },
   { slug: 'call-center-manager-review-rhythm', title: 'Call center manager review rhythm', excerpt: 'Set daily, weekly, and monthly checkpoints for queue health, call quality, coaching, and process changes.', minutes: 8 },
   { slug: 'philippines-call-center-team-launch', title: 'Philippines call center team launch checklist', excerpt: 'Coordinate role scope, schedule, tools, training, quality review, and escalation ownership for a measured start.', minutes: 10 },
-] as Array<{ slug: string; title: string; excerpt: string; minutes: number; focus?: string; question?: string; published?: string }>;
+] as Array<{ slug: string; title: string; excerpt: string; minutes: number; focus?: string; question?: string; published?: string; modified?: string; body?: readonly string[]; contextualService?: { href: string; label: string; text: string } }>;
 
 // 2026-08-10 scheduled Blog publication batch. This is intentionally separate from Research.
 const scheduledBlogTopics = [
