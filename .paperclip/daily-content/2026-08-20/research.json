@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "domain": "callcenteroffshore.com",
+  "entries": [
+    {"route":"/research/offshore-call-center-knowledge-change-impact","sourcePaths":["app/research-aug20.ts"],"imagePath":"public/aug20-heroes/offshore-call-center-knowledge-change-impact.png","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-knowledge-change-impact.txt"},
+    {"route":"/research/call-center-after-hours-escalation-evidence","sourcePaths":["app/research-aug20.ts"],"imagePath":"public/aug20-heroes/call-center-after-hours-escalation-evidence.png","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-after-hours-escalation-evidence.txt"},
+    {"route":"/research/offshore-call-center-transfer-friction-study","sourcePaths":["app/research-aug20.ts"],"imagePath":"public/aug20-heroes/offshore-call-center-transfer-friction-study.png","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-transfer-friction-study.txt"},
+    {"route":"/research/call-center-customer-update-reliability","sourcePaths":["app/research-aug20.ts"],"imagePath":"public/aug20-heroes/call-center-customer-update-reliability.png","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-customer-update-reliability.txt"},
+    {"route":"/research/philippines-call-center-remote-continuity-evidence","sourcePaths":["app/research-aug20.ts"],"imagePath":"public/aug20-heroes/philippines-call-center-remote-continuity-evidence.png","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/philippines-call-center-remote-continuity-evidence.txt"}
+  ]
+}
