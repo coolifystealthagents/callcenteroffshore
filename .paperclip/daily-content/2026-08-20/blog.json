@@ -1,0 +1,32 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "blog",
+  "heroPaths": {
+    "offshore-call-center-language-routing": "public/aug20-heroes/offshore-call-center-language-routing.png",
+    "call-center-authentication-failure-flow": "public/aug20-heroes/call-center-authentication-failure-flow.png",
+    "philippines-call-center-voice-quality": "public/aug20-heroes/philippines-call-center-voice-quality.png",
+    "offshore-call-center-outbound-permission": "public/aug20-heroes/offshore-call-center-outbound-permission.png",
+    "call-center-queue-forecasting-inputs": "public/aug20-heroes/call-center-queue-forecasting-inputs.png",
+    "offshore-call-center-callback-retry-policy": "public/aug20-heroes/offshore-call-center-callback-retry-policy.png",
+    "call-center-interpreter-escalation": "public/aug20-heroes/call-center-interpreter-escalation.png",
+    "philippines-call-center-identity-protection": "public/aug20-heroes/philippines-call-center-identity-protection.png",
+    "offshore-call-center-queue-reopen-rules": "public/aug20-heroes/offshore-call-center-queue-reopen-rules.png",
+    "call-center-customer-sentiment-boundaries": "public/aug20-heroes/call-center-customer-sentiment-boundaries.png",
+    "offshore-call-center-peak-handoff": "public/aug20-heroes/offshore-call-center-peak-handoff.png",
+    "call-center-knowledge-article-expiry": "public/aug20-heroes/call-center-knowledge-article-expiry.png"
+  },
+  "entries": [
+    {"route":"/blog/offshore-call-center-language-routing","sourcePaths":["content/blog/offshore-call-center-language-routing.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-language-routing.txt"},
+    {"route":"/blog/call-center-authentication-failure-flow","sourcePaths":["content/blog/call-center-authentication-failure-flow.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-authentication-failure-flow.txt"},
+    {"route":"/blog/philippines-call-center-voice-quality","sourcePaths":["content/blog/philippines-call-center-voice-quality.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/philippines-call-center-voice-quality.txt"},
+    {"route":"/blog/offshore-call-center-outbound-permission","sourcePaths":["content/blog/offshore-call-center-outbound-permission.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-outbound-permission.txt"},
+    {"route":"/blog/call-center-queue-forecasting-inputs","sourcePaths":["content/blog/call-center-queue-forecasting-inputs.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-queue-forecasting-inputs.txt"},
+    {"route":"/blog/offshore-call-center-callback-retry-policy","sourcePaths":["content/blog/offshore-call-center-callback-retry-policy.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-callback-retry-policy.txt"},
+    {"route":"/blog/call-center-interpreter-escalation","sourcePaths":["content/blog/call-center-interpreter-escalation.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-interpreter-escalation.txt"},
+    {"route":"/blog/philippines-call-center-identity-protection","sourcePaths":["content/blog/philippines-call-center-identity-protection.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/philippines-call-center-identity-protection.txt"},
+    {"route":"/blog/offshore-call-center-queue-reopen-rules","sourcePaths":["content/blog/offshore-call-center-queue-reopen-rules.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-queue-reopen-rules.txt"},
+    {"route":"/blog/call-center-customer-sentiment-boundaries","sourcePaths":["content/blog/call-center-customer-sentiment-boundaries.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-customer-sentiment-boundaries.txt"},
+    {"route":"/blog/offshore-call-center-peak-handoff","sourcePaths":["content/blog/offshore-call-center-peak-handoff.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/offshore-call-center-peak-handoff.txt"},
+    {"route":"/blog/call-center-knowledge-article-expiry","sourcePaths":["content/blog/call-center-knowledge-article-expiry.md"],"promptReceipt":".paperclip/daily-content/2026-08-20/prompts/call-center-knowledge-article-expiry.txt"}
+  ]
+}
