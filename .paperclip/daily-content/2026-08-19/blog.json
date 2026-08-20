@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/offshore-call-center-intake-source-register",
+      "source": "content/blog/offshore-call-center-intake-source-register.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-approval-evidence-matrix",
+      "source": "content/blog/offshore-call-center-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-exception-queue-triage",
+      "source": "content/blog/offshore-call-center-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-quality-review-cadence",
+      "source": "content/blog/offshore-call-center-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-handoff-acceptance-log",
+      "source": "content/blog/offshore-call-center-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-access-recertification-review",
+      "source": "content/blog/offshore-call-center-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-weekly-decision-brief",
+      "source": "content/blog/offshore-call-center-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-source-of-truth-map",
+      "source": "content/blog/offshore-call-center-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-change-control-record",
+      "source": "content/blog/offshore-call-center-change-control-record.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-work-queue-ownership",
+      "source": "content/blog/offshore-call-center-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-escalation-path-design",
+      "source": "content/blog/offshore-call-center-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/offshore-call-center-launch-readiness-review",
+      "source": "content/blog/offshore-call-center-launch-readiness-review.md"
+    }
+  ]
+}

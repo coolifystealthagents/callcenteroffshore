@@ -1,7 +1,25 @@
-[
-  {"route":"/research/offshore-call-center-callback-promise-reliability","sourcePaths":["app/research-aug19-final.ts"]},
-  {"route":"/research/call-center-disposition-code-reliability","sourcePaths":["app/research-aug19-final.ts"]},
-  {"route":"/research/philippines-call-center-coaching-feedback-evidence","sourcePaths":["app/research-aug19-final.ts"]},
-  {"route":"/research/call-center-accessibility-accommodation-routing-study","sourcePaths":["app/research-aug19-final.ts"]},
-  {"route":"/research/offshore-call-center-identity-verification-fallback-evidence","sourcePaths":["app/research-aug19-final.ts"]}
-]
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/offshore-call-center-source-quality-evidence-research",
+      "source": "content/research/offshore-call-center-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/offshore-call-center-exception-aging-patterns-research",
+      "source": "content/research/offshore-call-center-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/offshore-call-center-review-consistency-research",
+      "source": "content/research/offshore-call-center-review-consistency-research.md"
+    },
+    {
+      "route": "/research/offshore-call-center-access-governance-research",
+      "source": "content/research/offshore-call-center-access-governance-research.md"
+    },
+    {
+      "route": "/research/offshore-call-center-handoff-reliability-research",
+      "source": "content/research/offshore-call-center-handoff-reliability-research.md"
+    }
+  ]
+}
