@@ -1,0 +1,5 @@
+Provider: Google Gemini
+Model: gemini-2.5-flash-image
+Purpose: distinct hero image for /blog/philippines-call-center-call-clarity-review
+Prompt: Polished editorial website hero illustration for an offshore call-center blog article about queue handoff control. Show a calm operations room where one supervisor hands an organized queue board to another, with visual cues for ownership, due times, escalation, and context without readable text. Wide 3:2 composition, deep navy and teal with coral accents, realistic digital illustration, no readable text, logos, watermark, or stock-photo look.
+Asset: public/aug20-heroes/philippines-call-center-call-clarity-review.png

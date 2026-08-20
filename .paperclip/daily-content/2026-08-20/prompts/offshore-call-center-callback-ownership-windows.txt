@@ -1,0 +1,5 @@
+Provider: Google Gemini
+Model: gemini-2.5-flash-image
+Purpose: distinct hero image for /blog/offshore-call-center-callback-ownership-windows
+Prompt: Polished editorial website hero illustration for an offshore call-center blog article about callback ownership and time windows. Show a customer-support workflow with a headset station, a calendar-like sequence of callback attempts, and a clear stop-and-escalate decision path, without readable text. Wide 3:2 composition, indigo, aqua, and amber accents, realistic digital illustration, no logos, watermark, or stock-photo look.
+Asset: public/aug20-heroes/offshore-call-center-callback-ownership-windows.png
