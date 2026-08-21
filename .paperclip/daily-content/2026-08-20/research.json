@@ -3,10 +3,10 @@
   "family": "research",
   "domain": "callcenteroffshore.com",
   "entries": [
-    {"route":"/research/offshore-call-center-answer-version-traceability","sourcePaths":["app/research-aug20-knowledge.ts"],"imagePath":"public/aug20-heroes/answer-version-traceability.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/answer-version-traceability.txt"},
-    {"route":"/research/offshore-call-center-overnight-owner-receipt","sourcePaths":["app/research-aug20-escalation.ts"],"imagePath":"public/aug20-heroes/overnight-owner-receipt.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/overnight-owner-receipt.txt"},
-    {"route":"/research/offshore-call-center-transfer-acceptance-evidence","sourcePaths":["app/research-aug20-transfer.ts"],"imagePath":"public/aug20-heroes/transfer-acceptance-evidence.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/transfer-acceptance-evidence.txt"},
-    {"route":"/research/offshore-call-center-status-update-evidence","sourcePaths":["app/research-aug20-updates.ts"],"imagePath":"public/aug20-heroes/status-update-evidence.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/status-update-evidence.txt"},
-    {"route":"/research/philippines-call-center-coverage-recovery-test","sourcePaths":["app/research-aug20-continuity.ts"],"imagePath":"public/aug20-heroes/coverage-recovery-test.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/coverage-recovery-test.txt"}
+    {"route":"/research/offshore-call-center-answer-change-observation","sourcePaths":["app/research-aug20-r1.ts"],"imagePath":"public/aug20-heroes/answer-version-traceability.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/answer-version-traceability.txt"},
+    {"route":"/research/offshore-call-center-overnight-escalation-receipt","sourcePaths":["app/research-aug20-r2.ts"],"imagePath":"public/aug20-heroes/overnight-owner-receipt.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/overnight-owner-receipt.txt"},
+    {"route":"/research/offshore-call-center-context-receipt-study","sourcePaths":["app/research-aug20-r3.ts"],"imagePath":"public/aug20-heroes/transfer-acceptance-evidence.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/transfer-acceptance-evidence.txt"},
+    {"route":"/research/offshore-call-center-decision-ready-update-study","sourcePaths":["app/research-aug20-r4.ts"],"imagePath":"public/aug20-heroes/status-update-evidence.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/status-update-evidence.txt"},
+    {"route":"/research/philippines-call-center-coverage-recovery-evidence","sourcePaths":["app/research-aug20-r5.ts"],"imagePath":"public/aug20-heroes/coverage-recovery-test.svg","promptReceipt":".paperclip/daily-content/2026-08-20/prompts/coverage-recovery-test.txt"}
   ]
 }
