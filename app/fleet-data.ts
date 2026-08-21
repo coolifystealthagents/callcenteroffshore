@@ -3,6 +3,11 @@ import {august17ResearchBatch} from './research-aug17';
 import {august18ResearchBatch} from './research-aug18';
 import {august19FinalResearchBatch} from './research-aug19-final';
 import {august20ResearchBatch} from './research-aug20';
+import {august20ResearchKnowledge} from './research-aug20-knowledge';
+import {august20ResearchEscalation} from './research-aug20-escalation';
+import {august20ResearchTransfer} from './research-aug20-transfer';
+import {august20ResearchUpdates} from './research-aug20-updates';
+import {august20ResearchContinuity} from './research-aug20-continuity';
 
 export type FleetService = {
   slug: string;
@@ -661,5 +666,5 @@ const replacementResearchBatch: readonly ResearchPost[] = [
 ];
 researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post.slug)), ...august13ResearchBatch];
 // Keep the family index newest-first after all scheduled batches are assembled.
-researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
+researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchUpdates, ...august20ResearchContinuity].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
 export const postsPerPage = 20;
