@@ -1,9 +1,9 @@
 {
-  "offshore-call-center-queue-reopen-rules": {
+  "offshore-call-center-knowledge-handoff-checklist": {
     "family": "blog",
-    "title": "Offshore call center queue reopen rules: when a closed case needs a second look",
-    "description": "Define evidence, ownership, and customer-safe triggers for reopening a call-center case instead of hiding repeat work in a new ticket.",
-    "hero": "/aug21-heroes/offshore-call-center-queue-reopen-rules.png"
+    "title": "Offshore call center knowledge handoff checklist: keeping answers usable across shifts",
+    "description": "Use a bounded handoff checklist to carry verified facts, next actions, ownership, and escalation context across offshore call center shifts.",
+    "hero": "/aug21-heroes/offshore-call-center-knowledge-handoff-checklist.png"
   },
   "call-center-voicemail-triage-standard": {
     "family": "blog",
@@ -11,11 +11,11 @@
     "description": "Design a voicemail process that captures urgency, identity limits, callback promises, and the next owner across an offshore support queue.",
     "hero": "/aug21-heroes/call-center-voicemail-triage-standard.png"
   },
-  "philippines-call-center-holiday-coverage": {
+  "philippines-call-center-shift-overlap-design": {
     "family": "blog",
-    "title": "Philippines call center holiday coverage: planning the handoff before gaps appear",
-    "description": "Plan holiday coverage with declared hours, backup ownership, customer messaging, queue limits, and a review of exceptions.",
-    "hero": "/aug21-heroes/philippines-call-center-holiday-coverage.png"
+    "title": "Philippines call center shift overlap design: making the handoff observable",
+    "description": "Design shift overlap around queue volatility, acceptance, local coverage windows, customer promises, and measurable handoff outcomes.",
+    "hero": "/aug21-heroes/philippines-call-center-shift-overlap-design.png"
   },
   "offshore-call-center-call-recording-review": {
     "family": "blog",
@@ -23,11 +23,11 @@
     "description": "Create a bounded recording-review practice that connects QA evidence to coaching, access controls, retention, and manager decisions.",
     "hero": "/aug21-heroes/offshore-call-center-call-recording-review.png"
   },
-  "call-center-service-recovery-authority": {
+  "call-center-callback-ownership-matrix": {
     "family": "blog",
-    "title": "Call center service recovery authority: separating empathy from approval",
-    "description": "Give representatives a useful recovery path while keeping refunds, credits, replacements, and exceptions with the right decision owner.",
-    "hero": "/aug21-heroes/call-center-service-recovery-authority.png"
+    "title": "Call center callback ownership matrix: turning promises into controlled work",
+    "description": "Separate contact ownership from decision authority so callback promises have a due point, backup route, acknowledgement, and safe closure.",
+    "hero": "/aug21-heroes/call-center-callback-ownership-matrix.png"
   },
   "call-center-transfer-reason-codes": {
     "family": "blog",
@@ -41,11 +41,11 @@
     "description": "Use age, risk, promise time, customer impact, and owner status to manage backlog without treating every old item as identical.",
     "hero": "/aug21-heroes/offshore-call-center-backlog-aging.png"
   },
-  "philippines-call-center-coaching-calibration": {
+  "offshore-call-center-escalation-note-standard": {
     "family": "blog",
-    "title": "Philippines call center coaching calibration: making scores comparable",
-    "description": "Run calibration sessions that align reviewers on evidence, customer impact, role boundaries, and the difference between coaching and discipline.",
-    "hero": "/aug21-heroes/philippines-call-center-coaching-calibration.png"
+    "title": "Offshore call center escalation note standard: giving decisions usable context",
+    "description": "Create risk-shaped escalation notes that separate observed facts from recommendations and give the receiving decision owner usable context.",
+    "hero": "/aug21-heroes/offshore-call-center-escalation-note-standard.png"
   },
   "call-center-system-outage-call-flow": {
     "family": "blog",
@@ -59,16 +59,16 @@
     "description": "Capture consent-related facts accurately, distinguish permission from authorization, and keep the next step visible without making unsupported legal claims.",
     "hero": "/aug21-heroes/offshore-call-center-customer-consent-record.png"
   },
-  "call-center-repeat-contact-analysis": {
+  "call-center-identity-verification-handoff": {
     "family": "blog",
-    "title": "Call center repeat contact analysis: finding the broken promise",
-    "description": "Analyze repeat contacts by cause, handoff, missing answer, callback failure, and process gap so managers can fix work rather than blame callers.",
-    "hero": "/aug21-heroes/call-center-repeat-contact-analysis.png"
+    "title": "Call center identity verification handoff: preserving the boundary",
+    "description": "Carry verification status and permitted next actions across queues without copying unnecessary sensitive information into a handoff.",
+    "hero": "/aug21-heroes/call-center-identity-verification-handoff.png"
   },
-  "philippines-call-center-supervisor-span": {
+  "philippines-call-center-queue-forecast-review": {
     "family": "blog",
-    "title": "Philippines call center supervisor span: matching oversight to queue risk",
-    "description": "Decide how supervisory attention should follow call complexity, exception load, coaching needs, and coverage windows in an offshore operation.",
-    "hero": "/aug21-heroes/philippines-call-center-supervisor-span.png"
+    "title": "Philippines call center queue forecast review: turning demand into coverage decisions",
+    "description": "Review queue forecasts through arrival patterns, risk, handling time, supervisor capacity, local coverage, and customer promises.",
+    "hero": "/aug21-heroes/philippines-call-center-queue-forecast-review.png"
   }
 }

@@ -1,6 +1,6 @@
 [
   {
-    "route": "/blog/offshore-call-center-queue-reopen-rules",
+    "route": "/blog/offshore-call-center-knowledge-handoff-checklist",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cOffshore call center queue reopen rules: when a closed case needs a second look\u201d. Show an offshore call center operations scene related to Define evidence, ownership, and customer-safe triggers for reopening a call-center case instead of hiding repeat work in a new ticket.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
@@ -10,7 +10,7 @@
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cCall center voicemail triage standard: turning messages into owned work\u201d. Show an offshore call center operations scene related to Design a voicemail process that captures urgency, identity limits, callback promises, and the next owner across an offshore support queue.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
   {
-    "route": "/blog/philippines-call-center-holiday-coverage",
+    "route": "/blog/philippines-call-center-shift-overlap-design",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cPhilippines call center holiday coverage: planning the handoff before gaps appear\u201d. Show an offshore call center operations scene related to Plan holiday coverage with declared hours, backup ownership, customer messaging, queue limits, and a review of exceptions.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
@@ -20,7 +20,7 @@
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cOffshore call center call recording review: choosing evidence without over-collecting\u201d. Show an offshore call center operations scene related to Create a bounded recording-review practice that connects QA evidence to coaching, access controls, retention, and manager decisions.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
   {
-    "route": "/blog/call-center-service-recovery-authority",
+    "route": "/blog/call-center-callback-ownership-matrix",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cCall center service recovery authority: separating empathy from approval\u201d. Show an offshore call center operations scene related to Give representatives a useful recovery path while keeping refunds, credits, replacements, and exceptions with the right decision owner.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
@@ -35,7 +35,7 @@
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cOffshore call center backlog aging: deciding what needs attention first\u201d. Show an offshore call center operations scene related to Use age, risk, promise time, customer impact, and owner status to manage backlog without treating every old item as identical.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
   {
-    "route": "/blog/philippines-call-center-coaching-calibration",
+    "route": "/blog/offshore-call-center-escalation-note-standard",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cPhilippines call center coaching calibration: making scores comparable\u201d. Show an offshore call center operations scene related to Run calibration sessions that align reviewers on evidence, customer impact, role boundaries, and the difference between coaching and discipline.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
@@ -50,12 +50,12 @@
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cOffshore call center customer consent record: preserving what was agreed\u201d. Show an offshore call center operations scene related to Capture consent-related facts accurately, distinguish permission from authorization, and keep the next step visible without making unsupported legal claims.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
   {
-    "route": "/blog/call-center-repeat-contact-analysis",
+    "route": "/blog/call-center-identity-verification-handoff",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cCall center repeat contact analysis: finding the broken promise\u201d. Show an offshore call center operations scene related to Analyze repeat contacts by cause, handoff, missing answer, callback failure, and process gap so managers can fix work rather than blame callers.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   },
   {
-    "route": "/blog/philippines-call-center-supervisor-span",
+    "route": "/blog/philippines-call-center-queue-forecast-review",
     "model": "gemini-2.5-flash-image",
     "prompt": "Create a distinct editorial hero illustration for a professional public article titled \u201cPhilippines call center supervisor span: matching oversight to queue risk\u201d. Show an offshore call center operations scene related to Decide how supervisory attention should follow call complexity, exception load, coaching needs, and coverage windows in an offshore operation.. Use a polished realistic-but-not-photographic magazine illustration, deep navy and teal with a small lime accent, no readable text, no logos, no stock-photo look, no watermark, 16:9 landscape composition."
   }

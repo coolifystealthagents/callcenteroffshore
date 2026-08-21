@@ -1,10 +1,10 @@
 [
   {
-    "route": "/blog/offshore-call-center-queue-reopen-rules",
+    "route": "/blog/offshore-call-center-knowledge-handoff-checklist",
     "sourcePaths": [
-      "content/blog/offshore-call-center-queue-reopen-rules.md"
+      "content/blog/offshore-call-center-knowledge-handoff-checklist.md"
     ],
-    "imagePath": "public/aug21-heroes/offshore-call-center-queue-reopen-rules.png",
+    "imagePath": "public/aug21-heroes/offshore-call-center-knowledge-handoff-checklist.png",
     "datePublished": "2026-08-21",
     "wordCount": 2028
   },
@@ -18,11 +18,11 @@
     "wordCount": 1929
   },
   {
-    "route": "/blog/philippines-call-center-holiday-coverage",
+    "route": "/blog/philippines-call-center-shift-overlap-design",
     "sourcePaths": [
-      "content/blog/philippines-call-center-holiday-coverage.md"
+      "content/blog/philippines-call-center-shift-overlap-design.md"
     ],
-    "imagePath": "public/aug21-heroes/philippines-call-center-holiday-coverage.png",
+    "imagePath": "public/aug21-heroes/philippines-call-center-shift-overlap-design.png",
     "datePublished": "2026-08-21",
     "wordCount": 1435
   },
@@ -36,11 +36,11 @@
     "wordCount": 1606
   },
   {
-    "route": "/blog/call-center-service-recovery-authority",
+    "route": "/blog/call-center-callback-ownership-matrix",
     "sourcePaths": [
-      "content/blog/call-center-service-recovery-authority.md"
+      "content/blog/call-center-callback-ownership-matrix.md"
     ],
-    "imagePath": "public/aug21-heroes/call-center-service-recovery-authority.png",
+    "imagePath": "public/aug21-heroes/call-center-callback-ownership-matrix.png",
     "datePublished": "2026-08-21",
     "wordCount": 1753
   },
@@ -63,11 +63,11 @@
     "wordCount": 1731
   },
   {
-    "route": "/blog/philippines-call-center-coaching-calibration",
+    "route": "/blog/offshore-call-center-escalation-note-standard",
     "sourcePaths": [
-      "content/blog/philippines-call-center-coaching-calibration.md"
+      "content/blog/offshore-call-center-escalation-note-standard.md"
     ],
-    "imagePath": "public/aug21-heroes/philippines-call-center-coaching-calibration.png",
+    "imagePath": "public/aug21-heroes/offshore-call-center-escalation-note-standard.png",
     "datePublished": "2026-08-21",
     "wordCount": 1391
   },
@@ -90,20 +90,20 @@
     "wordCount": 1604
   },
   {
-    "route": "/blog/call-center-repeat-contact-analysis",
+    "route": "/blog/call-center-identity-verification-handoff",
     "sourcePaths": [
-      "content/blog/call-center-repeat-contact-analysis.md"
+      "content/blog/call-center-identity-verification-handoff.md"
     ],
-    "imagePath": "public/aug21-heroes/call-center-repeat-contact-analysis.png",
+    "imagePath": "public/aug21-heroes/call-center-identity-verification-handoff.png",
     "datePublished": "2026-08-21",
     "wordCount": 2041
   },
   {
-    "route": "/blog/philippines-call-center-supervisor-span",
+    "route": "/blog/philippines-call-center-queue-forecast-review",
     "sourcePaths": [
-      "content/blog/philippines-call-center-supervisor-span.md"
+      "content/blog/philippines-call-center-queue-forecast-review.md"
     ],
-    "imagePath": "public/aug21-heroes/philippines-call-center-supervisor-span.png",
+    "imagePath": "public/aug21-heroes/philippines-call-center-queue-forecast-review.png",
     "datePublished": "2026-08-21",
     "wordCount": 1804
   }
