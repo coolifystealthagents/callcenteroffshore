@@ -1,0 +1,74 @@
+{
+  "offshore-call-center-queue-reopen-rules": {
+    "family": "blog",
+    "title": "Offshore call center queue reopen rules: when a closed case needs a second look",
+    "description": "Define evidence, ownership, and customer-safe triggers for reopening a call-center case instead of hiding repeat work in a new ticket.",
+    "hero": "/aug21-heroes/offshore-call-center-queue-reopen-rules.png"
+  },
+  "call-center-voicemail-triage-standard": {
+    "family": "blog",
+    "title": "Call center voicemail triage standard: turning messages into owned work",
+    "description": "Design a voicemail process that captures urgency, identity limits, callback promises, and the next owner across an offshore support queue.",
+    "hero": "/aug21-heroes/call-center-voicemail-triage-standard.png"
+  },
+  "philippines-call-center-holiday-coverage": {
+    "family": "blog",
+    "title": "Philippines call center holiday coverage: planning the handoff before gaps appear",
+    "description": "Plan holiday coverage with declared hours, backup ownership, customer messaging, queue limits, and a review of exceptions.",
+    "hero": "/aug21-heroes/philippines-call-center-holiday-coverage.png"
+  },
+  "offshore-call-center-call-recording-review": {
+    "family": "blog",
+    "title": "Offshore call center call recording review: choosing evidence without over-collecting",
+    "description": "Create a bounded recording-review practice that connects QA evidence to coaching, access controls, retention, and manager decisions.",
+    "hero": "/aug21-heroes/offshore-call-center-call-recording-review.png"
+  },
+  "call-center-service-recovery-authority": {
+    "family": "blog",
+    "title": "Call center service recovery authority: separating empathy from approval",
+    "description": "Give representatives a useful recovery path while keeping refunds, credits, replacements, and exceptions with the right decision owner.",
+    "hero": "/aug21-heroes/call-center-service-recovery-authority.png"
+  },
+  "call-center-transfer-reason-codes": {
+    "family": "blog",
+    "title": "Call center transfer reason codes: making movement explainable",
+    "description": "Build transfer codes that show why a call moved, what was already verified, and which receiving queue owns the next action.",
+    "hero": "/aug21-heroes/call-center-transfer-reason-codes.png"
+  },
+  "offshore-call-center-backlog-aging": {
+    "family": "blog",
+    "title": "Offshore call center backlog aging: deciding what needs attention first",
+    "description": "Use age, risk, promise time, customer impact, and owner status to manage backlog without treating every old item as identical.",
+    "hero": "/aug21-heroes/offshore-call-center-backlog-aging.png"
+  },
+  "philippines-call-center-coaching-calibration": {
+    "family": "blog",
+    "title": "Philippines call center coaching calibration: making scores comparable",
+    "description": "Run calibration sessions that align reviewers on evidence, customer impact, role boundaries, and the difference between coaching and discipline.",
+    "hero": "/aug21-heroes/philippines-call-center-coaching-calibration.png"
+  },
+  "call-center-system-outage-call-flow": {
+    "family": "blog",
+    "title": "Call center system outage call flow: safe work when tools stop",
+    "description": "Prepare a narrow outage path for verification, notes, callbacks, customer wording, escalation, and reconciliation after systems return.",
+    "hero": "/aug21-heroes/call-center-system-outage-call-flow.png"
+  },
+  "offshore-call-center-customer-consent-record": {
+    "family": "blog",
+    "title": "Offshore call center customer consent record: preserving what was agreed",
+    "description": "Capture consent-related facts accurately, distinguish permission from authorization, and keep the next step visible without making unsupported legal claims.",
+    "hero": "/aug21-heroes/offshore-call-center-customer-consent-record.png"
+  },
+  "call-center-repeat-contact-analysis": {
+    "family": "blog",
+    "title": "Call center repeat contact analysis: finding the broken promise",
+    "description": "Analyze repeat contacts by cause, handoff, missing answer, callback failure, and process gap so managers can fix work rather than blame callers.",
+    "hero": "/aug21-heroes/call-center-repeat-contact-analysis.png"
+  },
+  "philippines-call-center-supervisor-span": {
+    "family": "blog",
+    "title": "Philippines call center supervisor span: matching oversight to queue risk",
+    "description": "Decide how supervisory attention should follow call complexity, exception load, coaching needs, and coverage windows in an offshore operation.",
+    "hero": "/aug21-heroes/philippines-call-center-supervisor-span.png"
+  }
+}
