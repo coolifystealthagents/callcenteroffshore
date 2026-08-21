@@ -7,7 +7,11 @@ import {august20ResearchKnowledge} from './research-aug20-r2';
 import {august20ResearchEscalation} from './research-aug20-r3';
 import {august20ResearchTransfer} from './research-aug20-r4';
 import {august20ResearchContinuity} from './research-aug20-r5';
-import {august21ResearchBatch} from './research-aug21';
+import {august21CallbackOwnership} from './research-aug21-callback-ownership';
+import {august21LanguageComprehension} from './research-aug21-language-comprehension';
+import {august21ChannelContinuity} from './research-aug21-channel-continuity';
+import {august21KnowledgeVersion} from './research-aug21-knowledge-version';
+import {august21ReviewerAgreement} from './research-aug21-reviewer-agreement';
 
 export type FleetService = {
   slug: string;
@@ -667,5 +671,5 @@ const replacementResearchBatch: readonly ResearchPost[] = [
 ];
 researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post.slug)), ...august13ResearchBatch];
 // Keep the family index newest-first after all scheduled batches are assembled.
-researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
+researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21CallbackOwnership, ...august21LanguageComprehension, ...august21ChannelContinuity, ...august21KnowledgeVersion, ...august21ReviewerAgreement].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
 export const postsPerPage = 20;
