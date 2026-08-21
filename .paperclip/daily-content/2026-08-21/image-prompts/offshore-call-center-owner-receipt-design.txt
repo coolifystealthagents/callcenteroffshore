@@ -1,0 +1,10 @@
+Use case: productivity-visual
+Asset type: editorial blog hero image
+Primary request: wide editorial illustration of an offshore call center operations lead reviewing a quiet queue handoff board with separated ownership lanes and a clock showing shift boundaries.
+Scene/backdrop: modern non-branded support operations room.
+Subject: queue handoff ownership and escalation boundaries.
+Style/medium: polished semi-realistic digital illustration with subtle paper texture.
+Composition/framing: wide landscape composition with negative space and no readable interface text.
+Lighting/mood: calm, precise, thoughtful.
+Color palette: deep navy, teal, warm coral accents.
+Constraints: no logos, brand names, identifiable people, pricing, watermark, or readable words.

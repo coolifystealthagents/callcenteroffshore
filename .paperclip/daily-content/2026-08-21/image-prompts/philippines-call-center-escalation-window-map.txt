@@ -1,0 +1,10 @@
+Use case: productivity-visual
+Asset type: editorial blog hero image
+Primary request: wide editorial illustration of a call center supervisor mapping after-hours escalation coverage across time zones, with a relay path between support teams and a marked decision point.
+Scene/backdrop: abstract non-branded operations planning studio.
+Subject: after-hours escalation coverage and decision reachability.
+Style/medium: polished semi-realistic digital illustration with subtle paper texture.
+Composition/framing: wide landscape composition with an asymmetric visual path and no readable interface text.
+Lighting/mood: deliberate, reassuring, operational.
+Color palette: midnight blue, indigo, sea green, amber highlights.
+Constraints: no logos, brand names, identifiable people, pricing, watermark, or readable words.

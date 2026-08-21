@@ -11,11 +11,11 @@
     "description": "Design a voicemail process that captures urgency, identity limits, callback promises, and the next owner across an offshore support queue.",
     "hero": "/aug21-heroes/call-center-voicemail-triage-standard.png"
   },
-  "philippines-call-center-shift-overlap-design": {
+  "offshore-call-center-owner-receipt-design": {
     "family": "blog",
-    "title": "Philippines call center shift overlap design: making the handoff observable",
-    "description": "Design shift overlap around queue volatility, acceptance, local coverage windows, customer promises, and measurable handoff outcomes.",
-    "hero": "/aug21-heroes/philippines-call-center-shift-overlap-design.png"
+    "title": "Offshore call center owner receipt design: proving work was accepted",
+    "description": "Design a receipt step that shows when offshore call center work reached an accountable owner, what remains open, and when to escalate.",
+    "hero": "/aug21-heroes/offshore-call-center-owner-receipt-design.png"
   },
   "offshore-call-center-call-recording-review": {
     "family": "blog",
@@ -65,10 +65,10 @@
     "description": "Carry verification status and permitted next actions across queues without copying unnecessary sensitive information into a handoff.",
     "hero": "/aug21-heroes/call-center-identity-verification-handoff.png"
   },
-  "philippines-call-center-queue-forecast-review": {
+  "philippines-call-center-escalation-window-map": {
     "family": "blog",
-    "title": "Philippines call center queue forecast review: turning demand into coverage decisions",
-    "description": "Review queue forecasts through arrival patterns, risk, handling time, supervisor capacity, local coverage, and customer promises.",
-    "hero": "/aug21-heroes/philippines-call-center-queue-forecast-review.png"
+    "title": "Philippines call center escalation window map: making decision coverage visible",
+    "description": "Map decision windows, backup owners, customer promises, and safe return paths before a Philippines call center exception reaches a shift edge.",
+    "hero": "/aug21-heroes/philippines-call-center-escalation-window-map.png"
   }
 }
