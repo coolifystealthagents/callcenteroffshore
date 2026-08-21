@@ -97,6 +97,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
             <p className="eyebrow">{site.brand} research</p>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
+            {post.hero&&<img src={post.hero} alt="" className="research-report-hero"/>}
             <div className="research-meta"><time dateTime={post.published}>Published {displayDate(post.published)}</time><span>{post.readingMinutes} min read</span><span>{post.sources.length} direct sources</span></div>
           </div>
         </header>

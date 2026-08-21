@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-call-center-callback-promise-evidence","sourcePaths":["app/research-aug21.ts"],"heroPath":"public/aug21-research-heroes/offshore-call-center-callback-promise-evidence.png","promptReceipt":"editorial workflow illustration: callback promise evidence, owner, due-time timeline, no text or logos"},
+    {"route":"/research/philippines-call-center-language-routing-evidence","sourcePaths":["app/research-aug21.ts"],"heroPath":"public/aug21-research-heroes/philippines-call-center-language-routing-evidence.png","promptReceipt":"editorial workflow illustration: Philippines support language routing and comprehension evidence, no text or logos"},
+    {"route":"/research/offshore-call-center-channel-switching-research","sourcePaths":["app/research-aug21.ts"],"heroPath":"public/aug21-research-heroes/offshore-call-center-channel-switching-research.png","promptReceipt":"editorial workflow illustration: phone chat email customer journey continuity map, no text or logos"},
+    {"route":"/research/philippines-call-center-knowledge-change-adoption","sourcePaths":["app/research-aug21.ts"],"heroPath":"public/aug21-research-heroes/philippines-call-center-knowledge-change-adoption.png","promptReceipt":"editorial workflow illustration: Philippines support knowledge version tested across shifts, no text or logos"},
+    {"route":"/research/offshore-call-center-quality-calibration-evidence","sourcePaths":["app/research-aug21.ts"],"heroPath":"public/aug21-research-heroes/offshore-call-center-quality-calibration-evidence.png","promptReceipt":"editorial workflow illustration: call quality reviewers calibrating on observable evidence, no text or logos"}
+  ]
+}
