@@ -665,5 +665,5 @@ const replacementResearchBatch: readonly ResearchPost[] = [
 ];
 researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post.slug)), ...august13ResearchBatch];
 // Keep the family index newest-first after all scheduled batches are assembled.
-researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august20ResearchContinuity].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
+researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august20ResearchContinuity].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
 export const postsPerPage = 20;
