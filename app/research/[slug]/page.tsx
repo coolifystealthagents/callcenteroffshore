@@ -120,6 +120,11 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
               {section.paragraphs.map((paragraph,index)=><p key={index}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
             </section>)}
 
+            {post.contextualService ? <section className="research-section research-next-step" aria-labelledby="next-step-heading">
+              <h2 id="next-step-heading">Turn transfer evidence into a queue plan</h2>
+              <p>{post.contextualService.text} <a href={post.contextualService.href}>{post.contextualService.label}</a>.</p>
+            </section> : null}
+
             <section className="research-method" aria-labelledby="method-heading">
               <h2 id="method-heading">Methodology and limitations</h2>
               <h3>How we built this guide</h3><p>{post.methodology}</p>

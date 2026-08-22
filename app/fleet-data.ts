@@ -44,6 +44,7 @@ export type ResearchPost = {
   sections: readonly { heading: string; paragraphs: readonly { text: string; citations?: readonly number[] }[] }[];
   table: { caption: string; headers: readonly string[]; rows: readonly (readonly string[])[] };
   buyerChecklist: readonly string[];
+  contextualService?: { href: string; label: string; text: string };
   faqs: readonly { q: string; a: string }[];
   related: readonly { title: string; href: string }[];
   sources: readonly { name: string; url: string; note: string; kind: 'Philippines' | 'Global comparison' }[];
