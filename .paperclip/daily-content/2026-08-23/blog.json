@@ -1,0 +1,110 @@
+[
+  {
+    "route": "/blog/offshore-call-center-incident-severity-ladder",
+    "sourcePaths": [
+      "content/blog/offshore-call-center-incident-severity-ladder.md"
+    ],
+    "imagePath": "public/aug23-heroes/offshore-call-center-incident-severity-ladder.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 1008
+  },
+  {
+    "route": "/blog/call-center-appointment-change-ownership",
+    "sourcePaths": [
+      "content/blog/call-center-appointment-change-ownership.md"
+    ],
+    "imagePath": "public/aug23-heroes/call-center-appointment-change-ownership.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 980
+  },
+  {
+    "route": "/blog/philippines-call-center-language-access-review",
+    "sourcePaths": [
+      "content/blog/philippines-call-center-language-access-review.md"
+    ],
+    "imagePath": "public/aug23-heroes/philippines-call-center-language-access-review.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 1004
+  },
+  {
+    "route": "/blog/offshore-call-center-knowledge-retirement",
+    "sourcePaths": [
+      "content/blog/offshore-call-center-knowledge-retirement.md"
+    ],
+    "imagePath": "public/aug23-heroes/offshore-call-center-knowledge-retirement.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 996
+  },
+  {
+    "route": "/blog/call-center-queue-reopen-policy",
+    "sourcePaths": [
+      "content/blog/call-center-queue-reopen-policy.md"
+    ],
+    "imagePath": "public/aug23-heroes/call-center-queue-reopen-policy.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 996
+  },
+  {
+    "route": "/blog/offshore-call-center-supervisor-coverage-map",
+    "sourcePaths": [
+      "content/blog/offshore-call-center-supervisor-coverage-map.md"
+    ],
+    "imagePath": "public/aug23-heroes/offshore-call-center-supervisor-coverage-map.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 1000
+  },
+  {
+    "route": "/blog/call-center-customer-update-approval",
+    "sourcePaths": [
+      "content/blog/call-center-customer-update-approval.md"
+    ],
+    "imagePath": "public/aug23-heroes/call-center-customer-update-approval.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 996
+  },
+  {
+    "route": "/blog/philippines-call-center-quality-disagreement",
+    "sourcePaths": [
+      "content/blog/philippines-call-center-quality-disagreement.md"
+    ],
+    "imagePath": "public/aug23-heroes/philippines-call-center-quality-disagreement.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 1006
+  },
+  {
+    "route": "/blog/offshore-call-center-work-instruction-acceptance",
+    "sourcePaths": [
+      "content/blog/offshore-call-center-work-instruction-acceptance.md"
+    ],
+    "imagePath": "public/aug23-heroes/offshore-call-center-work-instruction-acceptance.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 990
+  },
+  {
+    "route": "/blog/call-center-specialist-return-handoff",
+    "sourcePaths": [
+      "content/blog/call-center-specialist-return-handoff.md"
+    ],
+    "imagePath": "public/aug23-heroes/call-center-specialist-return-handoff.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 996
+  },
+  {
+    "route": "/blog/offshore-call-center-contact-preference",
+    "sourcePaths": [
+      "content/blog/offshore-call-center-contact-preference.md"
+    ],
+    "imagePath": "public/aug23-heroes/offshore-call-center-contact-preference.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 996
+  },
+  {
+    "route": "/blog/call-center-daily-exception-review",
+    "sourcePaths": [
+      "content/blog/call-center-daily-exception-review.md"
+    ],
+    "imagePath": "public/aug23-heroes/call-center-daily-exception-review.png",
+    "datePublished": "2026-08-23",
+    "wordCount": 994
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "offshore-call-center-incident-severity-ladder": {
+    "title": "Offshore call center incident severity ladders: matching response to customer risk",
+    "description": "Build an incident ladder that tells an offshore call center when to stabilize a queue, involve a manager, pause work, or communicate a service interruption.",
+    "hero": "/aug23-heroes/offshore-call-center-incident-severity-ladder.png"
+  },
+  "call-center-appointment-change-ownership": {
+    "title": "Call center appointment changes: keeping schedule ownership clear",
+    "description": "Design an appointment-change workflow that separates customer requests, calendar authority, confirmation, and exception handling.",
+    "hero": "/aug23-heroes/call-center-appointment-change-ownership.png"
+  },
+  "philippines-call-center-language-access-review": {
+    "title": "Philippines call center language access reviews: testing the actual interaction",
+    "description": "Review language access by looking at comprehension signals, route fit, customer choice, and safe escalation rather than assuming a language list proves service quality.",
+    "hero": "/aug23-heroes/philippines-call-center-language-access-review.png"
+  },
+  "offshore-call-center-knowledge-retirement": {
+    "title": "Offshore call center knowledge retirement: removing unsafe answers",
+    "description": "Retire obsolete call guidance with an owner, effective stop date, replacement path, and evidence that old wording no longer controls the queue.",
+    "hero": "/aug23-heroes/offshore-call-center-knowledge-retirement.png"
+  },
+  "call-center-queue-reopen-policy": {
+    "title": "Call center queue reopen policies: deciding when closed work returns",
+    "description": "Create a reopen policy for corrections, repeat contacts, missed promises, and new evidence without turning every follow-up into duplicate work.",
+    "hero": "/aug23-heroes/call-center-queue-reopen-policy.png"
+  },
+  "offshore-call-center-supervisor-coverage-map": {
+    "title": "Offshore call center supervisor coverage maps: protecting decision windows",
+    "description": "Map who can coach, approve, escalate, and receive urgent work across shifts so an offshore queue does not depend on an unavailable supervisor.",
+    "hero": "/aug23-heroes/offshore-call-center-supervisor-coverage-map.png"
+  },
+  "call-center-customer-update-approval": {
+    "title": "Call center customer update approvals: making outbound wording accountable",
+    "description": "Set a review boundary for customer updates so representatives can communicate known facts while managers retain authority over commitments and remedies.",
+    "hero": "/aug23-heroes/call-center-customer-update-approval.png"
+  },
+  "philippines-call-center-quality-disagreement": {
+    "title": "Philippines call center quality disagreement reviews: fixing the rubric before the score",
+    "description": "Use disagreement between reviewers to test the scorecard, evidence standard, and escalation boundary rather than turning a disputed score into a people judgment.",
+    "hero": "/aug23-heroes/philippines-call-center-quality-disagreement.png"
+  },
+  "offshore-call-center-work-instruction-acceptance": {
+    "title": "Offshore call center work-instruction acceptance: proving a change reached the queue",
+    "description": "Track whether a new instruction was received, found, understood in context, and used safely across shifts.",
+    "hero": "/aug23-heroes/offshore-call-center-work-instruction-acceptance.png"
+  },
+  "call-center-specialist-return-handoff": {
+    "title": "Call center specialist return handoffs: bringing expert work back cleanly",
+    "description": "Design the return from a specialist queue to the frontline team with completed actions, remaining limits, customer wording, and ownership.",
+    "hero": "/aug23-heroes/call-center-specialist-return-handoff.png"
+  },
+  "offshore-call-center-contact-preference": {
+    "title": "Offshore call center contact preferences: recording choice without overpromising",
+    "description": "Capture contact channel, timing, permission, and exception limits so a preference guides work without being mistaken for authorization or a guarantee.",
+    "hero": "/aug23-heroes/offshore-call-center-contact-preference.png"
+  },
+  "call-center-daily-exception-review": {
+    "title": "Call center daily exception reviews: turning unusual work into decisions",
+    "description": "Run a daily exception review that distinguishes one-off edge cases from process defects and assigns a testable next action.",
+    "hero": "/aug23-heroes/call-center-daily-exception-review.png"
+  }
+}
