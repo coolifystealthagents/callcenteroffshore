@@ -1,14 +1,14 @@
 ---
 title: "Offshore call center contact preferences: recording choice without overpromising"
 description: "Capture contact channel, timing, permission, and exception limits so a preference guides work without being mistaken for authorization or a guarantee."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Offshore call center contact preferences: recording choice without overpromising
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

@@ -1,14 +1,14 @@
 ---
 title: "Offshore call center work-instruction acceptance: proving a change reached the queue"
 description: "Track whether a new instruction was received, found, understood in context, and used safely across shifts."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Offshore call center work-instruction acceptance: proving a change reached the queue
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

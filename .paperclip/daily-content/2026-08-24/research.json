@@ -1,5 +1,5 @@
 {
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "family": "research",
   "entries": [
     {"route":"/research/offshore-call-center-callback-dependency-evidence","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/offshore-call-center-callback-dependency-evidence.png"},

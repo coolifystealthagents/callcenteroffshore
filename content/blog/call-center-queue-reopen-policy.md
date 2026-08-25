@@ -1,14 +1,14 @@
 ---
 title: "Call center queue reopen policies: deciding when closed work returns"
 description: "Create a reopen policy for corrections, repeat contacts, missed promises, and new evidence without turning every follow-up into duplicate work."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Call center queue reopen policies: deciding when closed work returns
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

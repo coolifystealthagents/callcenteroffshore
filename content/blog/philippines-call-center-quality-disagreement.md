@@ -1,14 +1,14 @@
 ---
 title: "Philippines call center quality disagreement reviews: fixing the rubric before the score"
 description: "Use disagreement between reviewers to test the scorecard, evidence standard, and escalation boundary rather than turning a disputed score into a people judgment."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Philippines call center quality disagreement reviews: fixing the rubric before the score
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

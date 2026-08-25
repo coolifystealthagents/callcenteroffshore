@@ -1,14 +1,14 @@
 ---
 title: "Offshore call center supervisor coverage maps: protecting decision windows"
 description: "Map who can coach, approve, escalate, and receive urgent work across shifts so an offshore queue does not depend on an unavailable supervisor."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Offshore call center supervisor coverage maps: protecting decision windows
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

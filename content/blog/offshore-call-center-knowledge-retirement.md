@@ -1,14 +1,14 @@
 ---
 title: "Offshore call center knowledge retirement: removing unsafe answers"
 description: "Retire obsolete call guidance with an owner, effective stop date, replacement path, and evidence that old wording no longer controls the queue."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Offshore call center knowledge retirement: removing unsafe answers
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

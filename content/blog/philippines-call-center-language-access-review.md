@@ -1,14 +1,14 @@
 ---
 title: "Philippines call center language access reviews: testing the actual interaction"
 description: "Review language access by looking at comprehension signals, route fit, customer choice, and safe escalation rather than assuming a language list proves service quality."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Philippines call center language access reviews: testing the actual interaction
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 

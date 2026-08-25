@@ -1,14 +1,14 @@
 ---
 title: "Call center specialist return handoffs: bringing expert work back cleanly"
 description: "Design the return from a specialist queue to the frontline team with completed actions, remaining limits, customer wording, and ownership."
-datePublished: "2026-08-23"
-dateModified: "2026-08-23"
+datePublished: "2026-08-24"
+dateModified: "2026-08-24"
 family: "blog"
 ---
 
 # Call center specialist return handoffs: bringing expert work back cleanly
 
-*August 23, 2026*
+*August 24, 2026*
 
 ## Define the operating question
 
