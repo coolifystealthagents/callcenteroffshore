@@ -10,14 +10,20 @@ Keep each page focused on one planning question. Add a service handoff only wher
 
 ## Existing service pillars
 
+This table is the source-of-truth inventory from `app/fleet-data.ts` as reviewed on 2026-08-26. A planned handoff must use one of these routes. It must not substitute a similar-sounding service route just because the source page mentions a related task.
+
 | Service route | Buyer problem it answers | Keep with the buyer |
 | --- | --- | --- |
 | `/services/inbound-customer-care` | A support queue needs a clear first response and a safe handoff. | Refunds, exceptions, and sensitive decisions. |
-| `/services/after-hours-answering` | Customers need an approved response outside local working hours. | What counts as urgent and who is on call. |
-| `/services/call-quality-monitoring` | A manager needs evidence from call samples and a scorecard. | Scorecard approval and sensitive-case review. |
-| `/services/healthcare-scheduling-support` | A practice needs non-clinical appointment coordination. | Clinical decisions, urgent triage, and privacy rules. |
+| `/services/technical-help-desk` | A team needs tier-one troubleshooting and complete escalation notes. | Complex fixes, unapproved system changes, and privileged access. |
 | `/services/order-and-billing-support` | Order and billing questions need clean notes and a finance exception path. | Money movement, bank changes, credits, and disputes. |
+| `/services/appointment-scheduling` | A leader needs calendar and meeting coordination with written rules. | External promises, travel spend, and rescheduling exceptions. |
+| `/services/after-hours-answering` | Customers need an approved response outside local working hours. | What counts as urgent and who is on call. |
 | `/services/outbound-lead-qualification` | A sales team needs approved research and appointment support. | Audience, message approval, consent, and commercial promises. |
+| `/services/customer-retention-support` | An account team needs repeatable onboarding and follow-up support. | Contract, renewal, scope, and sensitive customer decisions. |
+| `/services/ecommerce-contact-center` | A store needs routine order, product, return, and customer-operation support. | Refunds, payment changes, supplier decisions, and inventory exceptions. |
+| `/services/healthcare-scheduling-support` | A practice needs non-clinical appointment coordination. | Clinical decisions, urgent triage, and privacy rules. |
+| `/services/call-quality-monitoring` | A manager needs evidence from call samples and a scorecard. | Scorecard approval and sensitive-case review. |
 
 ## Supporting pages and planned contextual handoffs
 
