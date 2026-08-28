@@ -121,7 +121,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
             </section>)}
 
             {post.contextualService ? <section className="research-section research-next-step" aria-labelledby="next-step-heading">
-              <h2 id="next-step-heading">Turn transfer evidence into a queue plan</h2>
+              <h2 id="next-step-heading">{post.contextualService.heading ?? 'Turn transfer evidence into a queue plan'}</h2>
               <p>{post.contextualService.text} <a href={post.contextualService.href}>{post.contextualService.label}</a>.</p>
             </section> : null}
 
