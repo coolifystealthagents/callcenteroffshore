@@ -13,6 +13,7 @@ import {august21ChannelContinuity} from './research-aug21-channel-continuity';
 import {august21KnowledgeVersion} from './research-aug21-knowledge-version';
 import {august21ReviewerAgreement} from './research-aug21-reviewer-agreement';
 import {august23ResearchBatch} from './research-aug23-r1';
+import {august31ResearchBatch} from './research-aug31';
 
 export type FleetService = {
   slug: string;
@@ -389,7 +390,7 @@ const dailyResearchBatch: readonly ResearchPost[] = dailyTopics.map((topic, inde
   sources: dailyResearchSources,
 }));
 researchPosts = [...researchPosts, ...dailyResearchBatch];
-researchPosts = [...researchPosts, ...august23ResearchBatch];
+researchPosts = [...researchPosts, ...august23ResearchBatch, ...august31ResearchBatch];
 // 2026-08-09 scheduled Research publication batch (selected target: 12).
 // Kept in a separate family-only block so Blog inventory cannot satisfy this count.
 const scheduledResearchTopics: readonly DailyTopic[] = [
