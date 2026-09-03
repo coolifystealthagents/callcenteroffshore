@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-call-center-customer-silence-closure-research","sourcePaths":["app/research-sep3.ts"],"hero":"public/sep3-research-heroes/offshore-call-center-customer-silence-closure-research.png","promptReceipt":".paperclip/daily-content/2026-09-03/prompts/offshore-call-center-customer-silence-closure-research.txt"},
+    {"route":"/research/philippines-call-center-escalation-acknowledgement-latency","sourcePaths":["app/research-sep3.ts"],"hero":"public/sep3-research-heroes/philippines-call-center-escalation-acknowledgement-latency.png","promptReceipt":".paperclip/daily-content/2026-09-03/prompts/philippines-call-center-escalation-acknowledgement-latency.txt"},
+    {"route":"/research/call-center-partial-verification-safe-stop-research","sourcePaths":["app/research-sep3.ts"],"hero":"public/sep3-research-heroes/call-center-partial-verification-safe-stop-research.png","promptReceipt":".paperclip/daily-content/2026-09-03/prompts/call-center-partial-verification-safe-stop-research.txt"},
+    {"route":"/research/offshore-call-center-hold-to-callback-conversion-study","sourcePaths":["app/research-sep3.ts"],"hero":"public/sep3-research-heroes/offshore-call-center-hold-to-callback-conversion-study.png","promptReceipt":".paperclip/daily-content/2026-09-03/prompts/offshore-call-center-hold-to-callback-conversion-study.txt"},
+    {"route":"/research/call-center-post-closure-correction-propagation","sourcePaths":["app/research-sep3.ts"],"hero":"public/sep3-research-heroes/call-center-post-closure-correction-propagation.png","promptReceipt":".paperclip/daily-content/2026-09-03/prompts/call-center-post-closure-correction-propagation.txt"}
+  ]
+}
