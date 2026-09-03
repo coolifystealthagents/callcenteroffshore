@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-call-center-callback-dependency-evidence","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/offshore-call-center-callback-dependency-evidence.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/offshore-call-center-callback-dependency-evidence.txt"},
+    {"route":"/research/philippines-call-center-shift-transition-observability","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/philippines-call-center-shift-transition-observability.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/philippines-call-center-shift-transition-observability.txt"},
+    {"route":"/research/offshore-call-center-answer-conflict-resolution-study","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/offshore-call-center-answer-conflict-resolution-study.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/offshore-call-center-answer-conflict-resolution-study.txt"},
+    {"route":"/research/call-center-transfer-outcome-measurement","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/call-center-transfer-outcome-measurement.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/call-center-transfer-outcome-measurement.txt"},
+    {"route":"/research/offshore-call-center-customer-followup-authority","sourcePaths":["app/research-aug23-r1.ts"],"hero":"public/aug23-research-heroes/offshore-call-center-customer-followup-authority.png","promptReceipt":".paperclip/daily-content/2026-08-23/prompts/offshore-call-center-customer-followup-authority.txt"}
+  ]
+}
