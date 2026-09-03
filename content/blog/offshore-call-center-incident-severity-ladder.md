@@ -1,14 +1,14 @@
 ---
 title: "Offshore call center incident severity ladders: matching response to customer risk"
 description: "Build an incident ladder that tells an offshore call center when to stabilize a queue, involve a manager, pause work, or communicate a service interruption."
-datePublished: "2026-08-24"
-dateModified: "2026-08-24"
+datePublished: "2026-08-23"
+dateModified: "2026-08-23"
 family: "blog"
 ---
 
 # Offshore call center incident severity ladders: matching response to customer risk
 
-*August 24, 2026*
+*August 23, 2026*
 
 ## Define the operating question
 

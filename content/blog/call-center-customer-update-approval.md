@@ -1,14 +1,14 @@
 ---
 title: "Call center customer update approvals: making outbound wording accountable"
 description: "Set a review boundary for customer updates so representatives can communicate known facts while managers retain authority over commitments and remedies."
-datePublished: "2026-08-24"
-dateModified: "2026-08-24"
+datePublished: "2026-08-23"
+dateModified: "2026-08-23"
 family: "blog"
 ---
 
 # Call center customer update approvals: making outbound wording accountable
 
-*August 24, 2026*
+*August 23, 2026*
 
 ## Define the operating question
 

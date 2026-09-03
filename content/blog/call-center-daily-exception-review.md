@@ -1,14 +1,14 @@
 ---
 title: "Call center daily exception reviews: turning unusual work into decisions"
 description: "Run a daily exception review that distinguishes one-off edge cases from process defects and assigns a testable next action."
-datePublished: "2026-08-24"
-dateModified: "2026-08-24"
+datePublished: "2026-08-23"
+dateModified: "2026-08-23"
 family: "blog"
 ---
 
 # Call center daily exception reviews: turning unusual work into decisions
 
-*August 24, 2026*
+*August 23, 2026*
 
 ## Define the operating question
 

@@ -1,14 +1,14 @@
 ---
 title: "Call center appointment changes: keeping schedule ownership clear"
 description: "Design an appointment-change workflow that separates customer requests, calendar authority, confirmation, and exception handling."
-datePublished: "2026-08-24"
-dateModified: "2026-08-24"
+datePublished: "2026-08-23"
+dateModified: "2026-08-23"
 family: "blog"
 ---
 
 # Call center appointment changes: keeping schedule ownership clear
 
-*August 24, 2026*
+*August 23, 2026*
 
 ## Define the operating question
 
