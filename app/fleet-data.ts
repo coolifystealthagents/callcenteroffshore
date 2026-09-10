@@ -21,6 +21,7 @@ import {september4ResearchBatch} from './research-sep4';
 import {september7ResearchBatch} from './research-sep7';
 import {september8ResearchBatch} from './research-sep8';
 import {september9ResearchBatch} from './research-sep9';
+import {september10ResearchBatch} from './research-sep10';
 
 export type FleetService = {
   slug: string;
@@ -688,5 +689,5 @@ const replacementResearchBatch: readonly ResearchPost[] = [
 ];
 researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post.slug)), ...august13ResearchBatch];
 // Keep the family index newest-first after all scheduled batches are assembled.
-researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21CallbackOwnership, ...august21LanguageComprehension, ...august21ChannelContinuity, ...august21KnowledgeVersion, ...august21ReviewerAgreement, ...september2ResearchBatch, ...september3ResearchBatch, ...september4ResearchBatch, ...september7ResearchBatch, ...september8ResearchBatch, ...september9ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
+researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21CallbackOwnership, ...august21LanguageComprehension, ...august21ChannelContinuity, ...august21KnowledgeVersion, ...august21ReviewerAgreement, ...september2ResearchBatch, ...september3ResearchBatch, ...september4ResearchBatch, ...september7ResearchBatch, ...september8ResearchBatch, ...september9ResearchBatch, ...september10ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
 export const postsPerPage = 20;
