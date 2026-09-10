@@ -27,21 +27,23 @@ This table is the source-of-truth inventory from `app/fleet-data.ts` as reviewed
 
 ## Supporting pages and planned contextual handoffs
 
+Artifact review: 2026-09-10. The table below records only routes and service destinations that are present in the current source and production build. A generic legacy blog record is not a safe handoff target until it has its own body and a specific decision point.
+
 | Existing supporting route | Reader question | Closest existing destination | Handoff point to use | Status |
 | --- | --- | --- | --- | --- |
-| `/blog/call-center-outsourcing-pilot-plan` | How should a team test an offshore call center before expanding? | `/services/call-quality-monitoring` | After the reader has set a sample and scorecard. | Live contextual service handoff exists. |
-| `/blog/after-hours-call-answering-workflow` | What needs to happen when calls arrive after normal hours? | `/services/after-hours-answering` | After urgent categories and the next-shift handoff are defined. | Verify source body before adding. |
-| `/blog/call-center-qa-scorecard` | What should a useful QA scorecard measure? | `/services/call-quality-monitoring` | After the reader chooses the review fields and calibration owner. | Verify source body before adding. |
-| `/blog/customer-support-call-center-launch` | How should a team launch a customer support queue? | `/services/inbound-customer-care` | After the reader has narrowed the first queue and escalation path. | Verify source body before adding. |
-| `/blog/appointment-setting-call-center-guide` | How should an appointment-setting queue protect calendar rules? | `/services/healthcare-scheduling-support` | Only when the content covers non-clinical scheduling; otherwise keep the page general. | Verify source body before adding. |
-| `/blog/call-center-outsourcing-contract-checklist` | What should a buyer check before signing? | `/services/order-and-billing-support` | Only where order or billing exception ownership is discussed. | Verify source body before adding. |
-| `/research/call-center-outsourcing-philippines-evidence-guide` | What does broad Philippine market evidence prove, and what still needs testing? | `/services/call-quality-monitoring` | After the narrow-pilot and shared-scorecard guidance. | Check the existing related-links array before editing. |
+| `/blog/call-center-outsourcing-pilot-plan` | How should a team test an offshore call center before expanding? | `/services/call-quality-monitoring` | After the reader has set a sample and scorecard. | Delivered through the typed `contextualService` field. |
+| `/research/call-center-outsourcing-philippines-evidence-guide` | What does broad Philippine market evidence prove, and what still needs testing? | `/services/call-quality-monitoring` | After the narrow-pilot and shared-scorecard guidance. | Delivered through the typed research `contextualService` panel; its two route-local service links are intentional. |
+| `/blog/after-hours-call-answering-workflow` | What needs to happen when calls arrive after normal hours? | `/services/after-hours-answering` | After urgent categories and the next-shift handoff are defined. | Deferred: current legacy record has no source-owned body or decision paragraph. |
+| `/blog/call-center-qa-scorecard` | What should a useful QA scorecard measure? | `/services/call-quality-monitoring` | After the reader chooses the review fields and calibration owner. | Deferred: current legacy record has no source-owned body or decision paragraph. |
+| `/blog/customer-support-call-center-launch` | How should a team launch a customer support queue? | `/services/inbound-customer-care` | After the reader has narrowed the first queue and escalation path. | Deferred: current legacy record has no source-owned body or decision paragraph. |
+| `/blog/appointment-setting-call-center-guide` | How should an appointment-setting queue protect calendar rules? | Confirm an existing scheduling service before choosing one. | Only after the source has a non-clinical scheduling decision and confirmed destination. | Deferred: the prior healthcare-service destination is not in the current service inventory. |
+| `/blog/call-center-outsourcing-contract-checklist` | What should a buyer check before signing? | `/services/order-and-billing-support` | Only where order or billing exception ownership is discussed. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 
 ## Next safe implementation
 
-Use the existing optional `contextualService` field in `app/data.ts` only after confirming the selected source route has its own body, a unique decision point, and a generated artifact. Keep the label and surrounding sentence specific to the source topic. The route must remain in the sitemap, and the source page date, Article schema date, and sitemap `lastmod` must agree when the source article is refreshed.
+Before adding a legacy-blog handoff, first make the selected source own a short, route-specific body that names one buyer decision, the permitted preparatory work, and the owner for exceptions. Then use the optional `contextualService` field in `app/data.ts`, keep the label and sentence specific to that source, and refresh the source page date, Article schema date, and sitemap `lastmod` together.
 
-For research pages, use the typed `related` array in `app/fleet-data.ts`. Keep any source-to-service link next to a stated limitation or a buyer action. The research page must retain its methodology, limitations, source list, and Philippines-only scope.
+For research pages, use the typed `contextualService` panel in `app/fleet-data.ts` when the reader reaches a concrete buyer action. Keep the service link beside a stated limitation or next step, and retain the methodology, limitations, source list, and Philippines-only scope.
 
 ## Audit checks before a reader-facing link
 
