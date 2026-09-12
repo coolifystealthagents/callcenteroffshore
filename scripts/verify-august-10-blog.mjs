@@ -38,6 +38,6 @@ for (const entry of manifest.entries) {
   if (!sitemap.includes('...blogs.map')) failures.push('blog sitemap mapping missing');
 }
 if (!data.includes('blogPosts.splice(0, blogPosts.length, ...newestFirstBlogPosts)')) failures.push('Blog index ordering is not applied to shared blog data');
-if (!detail.includes('datePublished: p.published') || !detail.includes('<time dateTime={p.published}>Published {p.published}</time>')) failures.push('rendered date metadata/visible date is missing');
+if (!detail.includes("datePublished: p.published") || !detail.includes("dateModified: p.modified ?? p.published") || !detail.includes('<time dateTime={p.published}>Published {displayDate(p.published)}</time>') || !detail.includes("function displayDate(value: string)")) failures.push('rendered date metadata/visible date contract is missing');
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }
 console.log(`PASS: ${manifest.entries.length} unique August 10 Blog entries passed source, provenance, rendered-date, canonical, sitemap, and index checks.`);
