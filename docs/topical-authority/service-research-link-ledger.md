@@ -13,7 +13,7 @@ Status: source-only planning record, 2026-08-24. This file does not add reader-f
 | Supporting route | Reader's next question | Existing service destination | Current contextual service link | Next bounded action |
 | --- | --- | --- | --- | --- |
 | `/research/offshore-call-center-context-receipt-study` | How can a team keep customer context when a call moves between queues? | `/services/inbound-customer-care` | Present | Preserve the existing handoff to customer-care coverage; do not duplicate it. |
-| `/research/offshore-call-center-callback-ownership-study` | Who owns a promised callback after a shift or queue change? | `/services/after-hours-answering` | Absent | Add one body link only after checking the rendered study copy and service-page scope together. The link must frame approved queues, escalation, and handoff rules, not a performance promise. |
+| `/research/offshore-call-center-callback-ownership-study` | Who owns a promised callback after a shift or queue change? | `/services/after-hours-answering` | Delivered locally — one typed route-local next-step link; rendered source `ee8710157cbb1d4a2a541c164baefd2888d7d55e` | Do not add another CTA. Retain the existing handoff, which frames approved queues, escalation ownership, and next-shift rules rather than a performance promise. |
 | `/research/offshore-call-center-reviewer-agreement-study` | How can a manager test whether quality reviewers use the same rule? | `/services/call-quality-monitoring` | Absent | Add one body link only after checking the rendered study copy and service-page scope together. The link must point to a client-approved scorecard and calibration controls. |
 
 ## Guardrails before implementation
