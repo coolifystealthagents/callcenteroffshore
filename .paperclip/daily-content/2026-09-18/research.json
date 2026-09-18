@@ -3,7 +3,7 @@
   "timezone": "UTC",
   "family": "research",
   "requiredCount": 5,
-  "status": "prepared",
+  "status": "live-verified",
   "sourceCheckedAt": "2026-09-18",
   "productionBranch": "main",
   "baseCommit": "c4de8de80be58ce3ddd06e33ab40d3ae08571b10",
@@ -60,9 +60,16 @@
   ],
   "verification": {
     "build": "passed with pre-existing CSS compatibility warnings",
-    "commitSha": null,
-    "remoteSha": null,
-    "deploymentEvidence": null,
-    "verifiedAt": null
+    "commitSha": "c0759ca9d5e272c5b11f43274c892e6e4064fb45",
+    "remoteSha": "c0759ca9d5e272c5b11f43274c892e6e4064fb45",
+    "deploymentEvidence": {
+      "applicationUuid": "m13z1803mceu91zk02hgzn95",
+      "deploymentUuid": "uke5wdw5lc4qyffzdl4rtdfe",
+      "status": "finished",
+      "finishedAt": "2026-09-18T08:24:21Z",
+      "checks": ["HTTP 200", "unique title and content", "canonical URL", "datePublished 2026-09-18", "hero asset reference", "sitemap URL and lastmod 2026-09-18"]
+    },
+    "verifiedAt": "2026-09-18T14:28:26Z",
+    "verifiedCount": 5
   }
 }
