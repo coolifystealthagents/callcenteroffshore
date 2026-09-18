@@ -1,0 +1,68 @@
+{
+  "publicationDate": "2026-09-18",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "prepared",
+  "sourceCheckedAt": "2026-09-18",
+  "productionBranch": "main",
+  "baseCommit": "c4de8de80be58ce3ddd06e33ab40d3ae08571b10",
+  "entries": [
+    {
+      "topic": "Minimum CRM permissions for an offshore support role",
+      "slug": "offshore-call-center-crm-access-minimization-study",
+      "sourcePath": "app/research-sep18.ts",
+      "contentHash": "fdcf5c910f5db07789deff0b01ccc0603230bf5615fea16a88fcdb0a9d33765c",
+      "publicationDate": "2026-09-18",
+      "liveUrl": "https://callcenteroffshore.com/research/offshore-call-center-crm-access-minimization-study"
+    },
+    {
+      "topic": "Time-zone coverage and shift-boundary design",
+      "slug": "call-center-time-zone-coverage-design-research",
+      "sourcePath": "app/research-sep18.ts",
+      "contentHash": "8a408d1b1e4934195af30b5c0335ccc7d7cc2c8c20cb394acc0c856c6971e08c",
+      "publicationDate": "2026-09-18",
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-time-zone-coverage-design-research"
+    },
+    {
+      "topic": "Order and billing action authority",
+      "slug": "offshore-call-center-order-billing-authority-study",
+      "sourcePath": "app/research-sep18.ts",
+      "contentHash": "fb4ed1f7ded0e8bac2c06e16502d576d96e29684cc70a18dd941acb2c7147c25",
+      "publicationDate": "2026-09-18",
+      "liveUrl": "https://callcenteroffshore.com/research/offshore-call-center-order-billing-authority-study"
+    },
+    {
+      "topic": "Outbound suppression and pre-dial eligibility",
+      "slug": "call-center-outbound-suppression-evidence-research",
+      "sourcePath": "app/research-sep18.ts",
+      "contentHash": "7568f620bdce9ac38081596cf81a242d695954d1c34adf07eeb1aacaea831f82",
+      "publicationDate": "2026-09-18",
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-outbound-suppression-evidence-research"
+    },
+    {
+      "topic": "Virtual assistant vendor exit readiness",
+      "slug": "virtual-assistant-vendor-exit-readiness-study",
+      "sourcePath": "app/research-sep18.ts",
+      "contentHash": "19da1c0591b050290efb41832c5f7dd9db1e045df325080e36d2295105981521",
+      "publicationDate": "2026-09-18",
+      "liveUrl": "https://callcenteroffshore.com/research/virtual-assistant-vendor-exit-readiness-study"
+    }
+  ],
+  "sources": [
+    "https://www.nist.gov/cyberframework",
+    "https://www.nist.gov/privacy-framework",
+    "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://www.iso.org/standard/64739.html",
+    "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule",
+    "https://www.fcc.gov/general/telemarketing-and-robocalls"
+  ],
+  "verification": {
+    "build": "passed with pre-existing CSS compatibility warnings",
+    "commitSha": null,
+    "remoteSha": null,
+    "deploymentEvidence": null,
+    "verifiedAt": null
+  }
+}
