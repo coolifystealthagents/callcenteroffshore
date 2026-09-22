@@ -8,6 +8,7 @@
     "lint": "tsc --noEmit",
     "validate:september-18-blog": "node scripts/verify-september-18-blog.mjs",
     "validate:september-22-research": "node scripts/verify-september-22-research.mjs",
+    "validate:september-22-blog": "node scripts/verify-september-22-blog.mjs",
     "validate:reviewer-agreement-handoff": "node scripts/verify-reviewer-agreement-handoff.mjs"
   },
   "dependencies": {
