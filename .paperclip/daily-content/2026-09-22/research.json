@@ -1,0 +1,71 @@
+{
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "prepared",
+  "sourceCheckedAt": "2026-09-22",
+  "productionBranch": "main",
+  "baseCommit": "32a4dfd2b32dfcc317b1466448d4a6de687f37d2",
+  "entries": [
+    {
+      "topic": "Account recovery verification boundaries",
+      "slug": "call-center-account-recovery-verification-study",
+      "sourcePath": "app/research-sep22.ts",
+      "contentHash": "c3ce53288502077fb611e2e307350db659d9e120b6badf10db814d20cf36d0e4",
+      "publicationDate": "2026-09-22",
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-account-recovery-verification-study"
+    },
+    {
+      "topic": "Technical support incident escalation evidence",
+      "slug": "technical-support-incident-escalation-evidence-study",
+      "sourcePath": "app/research-sep22.ts",
+      "contentHash": "fdaef9afd2a7c953d7e907e0128f898dfbb390ec5731c1763ec9a9cbc5195d43",
+      "publicationDate": "2026-09-22",
+      "liveUrl": "https://callcenteroffshore.com/research/technical-support-incident-escalation-evidence-study"
+    },
+    {
+      "topic": "Ecommerce delivery-promise exceptions",
+      "slug": "ecommerce-delivery-promise-exception-study",
+      "sourcePath": "app/research-sep22.ts",
+      "contentHash": "c949e543fe87aa671ad3a42f65cc123d3d49c245e79b36cbf6042b186146c8bf",
+      "publicationDate": "2026-09-22",
+      "liveUrl": "https://callcenteroffshore.com/research/ecommerce-delivery-promise-exception-study"
+    },
+    {
+      "topic": "Healthcare scheduling minimum necessary data",
+      "slug": "healthcare-scheduling-minimum-data-study",
+      "sourcePath": "app/research-sep22.ts",
+      "contentHash": "ec8ac0272af1929340896fc191eff655421c443fb78ffd8bfc2a4a357a73a3ea",
+      "publicationDate": "2026-09-22",
+      "liveUrl": "https://callcenteroffshore.com/research/healthcare-scheduling-minimum-data-study"
+    },
+    {
+      "topic": "Customer complaint response ownership",
+      "slug": "customer-complaint-response-ownership-study",
+      "sourcePath": "app/research-sep22.ts",
+      "contentHash": "6dd515da0a46aebf5d40c6a37b701c0af44d46214c2b13e38a787f4201aac0b6",
+      "publicationDate": "2026-09-22",
+      "liveUrl": "https://callcenteroffshore.com/research/customer-complaint-response-ownership-study"
+    }
+  ],
+  "sources": [
+    "https://pages.nist.gov/800-63-4/sp800-63.html",
+    "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+    "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+    "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+    "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+    "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://www.iso.org/standard/64739.html"
+  ],
+  "verification": {
+    "typecheck": "passed",
+    "build": "passed with pre-existing CSS compatibility warnings",
+    "commitSha": null,
+    "remoteSha": null,
+    "deploymentEvidence": null,
+    "verifiedAt": null,
+    "verifiedCount": 0
+  }
+}
