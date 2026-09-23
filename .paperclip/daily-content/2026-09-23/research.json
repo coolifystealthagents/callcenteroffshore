@@ -3,7 +3,7 @@
   "timezone": "UTC",
   "family": "research",
   "requiredCount": 5,
-  "status": "prepared",
+  "status": "published-and-live-verified",
   "sourceCheckedAt": "2026-09-23",
   "productionBranch": "main",
   "baseCommit": "91aacc122c8be728d8ed4f9b4bbc6c301b2d0630",
@@ -15,5 +15,5 @@
     {"topic":"Customer complaint evidence preservation","slug":"call-center-complaint-evidence-preservation-study","sourcePath":"app/research-sep23.ts","contentHash":"315951a732886fe7631795b15f73f7f83b5a72c619278d33cb726724ed735d15","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/call-center-complaint-evidence-preservation-study"}
   ],
   "sources": ["https://pages.nist.gov/800-63-4/sp800-63.html","https://csrc.nist.gov/pubs/sp/800/61/r3/final","https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/standard/64739.html"],
-  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","commitSha":null,"remoteSha":null,"deploymentEvidence":null,"verifiedAt":null,"verifiedCount":0}
+  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","commitSha":"ba9dab4d74f9333d7a0110d403cf81eba441c20d","remoteSha":"14735ffdf08a8b5d1bc69f844b94fc60fccae03f","deploymentEvidence":{"platform":"Coolify3","applicationUuid":"m13z1803mceu91zk02hgzn95","deploymentUuid":"gmgnz0ybbagzsnptbrh6my7h","status":"finished","deployedCommit":"ba9dab4d74f9333d7a0110d403cf81eba441c20d","finishedAt":"2026-09-23T16:12:14Z","checks":"HTTP 200 on apex and www; title and unique content marker, canonical, datePublished, shared image, and exact sitemap lastmod verified"},"verifiedAt":"2026-09-23T16:13:21Z","verifiedCount":5}
 }
