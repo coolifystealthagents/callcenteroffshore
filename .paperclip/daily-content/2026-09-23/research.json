@@ -1,0 +1,19 @@
+{
+  "publicationDate": "2026-09-23",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "prepared",
+  "sourceCheckedAt": "2026-09-23",
+  "productionBranch": "main",
+  "baseCommit": "91aacc122c8be728d8ed4f9b4bbc6c301b2d0630",
+  "entries": [
+    {"topic":"Customer data export disposal","slug":"call-center-customer-data-export-disposal-study","sourcePath":"app/research-sep23.ts","contentHash":"f12a32ebf26e66478c15b14933d1602bdc9484f0e88d5a47bf5c317d44db880c","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/call-center-customer-data-export-disposal-study"},
+    {"topic":"Privileged technical-support action approval","slug":"technical-support-privileged-action-approval-study","sourcePath":"app/research-sep23.ts","contentHash":"8a737c3aa3075050b7a2c5a71044f2befe4b05643ed4022c811cc1231d161f67","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/technical-support-privileged-action-approval-study"},
+    {"topic":"Ecommerce return eligibility handoff","slug":"ecommerce-return-eligibility-handoff-study","sourcePath":"app/research-sep23.ts","contentHash":"a62c07ea70ef80b28e090cab8131c031002a097b8a748eebbffb3feeee45b965","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/ecommerce-return-eligibility-handoff-study"},
+    {"topic":"Healthcare scheduling message disclosure","slug":"healthcare-scheduling-message-disclosure-study","sourcePath":"app/research-sep23.ts","contentHash":"3984f4770b8cedac239e4b6373a4fc3326f42111199d183b5666cc2a03469cdc","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/healthcare-scheduling-message-disclosure-study"},
+    {"topic":"Customer complaint evidence preservation","slug":"call-center-complaint-evidence-preservation-study","sourcePath":"app/research-sep23.ts","contentHash":"315951a732886fe7631795b15f73f7f83b5a72c619278d33cb726724ed735d15","publicationDate":"2026-09-23","liveUrl":"https://callcenteroffshore.com/research/call-center-complaint-evidence-preservation-study"}
+  ],
+  "sources": ["https://pages.nist.gov/800-63-4/sp800-63.html","https://csrc.nist.gov/pubs/sp/800/61/r3/final","https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/standard/64739.html"],
+  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","commitSha":null,"remoteSha":null,"deploymentEvidence":null,"verifiedAt":null,"verifiedCount":0}
+}
