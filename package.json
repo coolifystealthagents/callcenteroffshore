@@ -10,7 +10,8 @@
     "validate:september-22-research": "node scripts/verify-september-22-research.mjs",
     "validate:september-22-blog": "node scripts/verify-september-22-blog.mjs",
     "validate:reviewer-agreement-handoff": "node scripts/verify-reviewer-agreement-handoff.mjs",
-    "validate:september-23-research": "node scripts/verify-september-23-research.mjs"
+    "validate:september-23-research": "node scripts/verify-september-23-research.mjs",
+    "validate:september-24-blog": "node scripts/verify-september-24-blog.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
