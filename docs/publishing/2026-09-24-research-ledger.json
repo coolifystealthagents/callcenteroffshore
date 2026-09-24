@@ -1,0 +1,13 @@
+{
+  "run": "CAL-86",
+  "family": "research",
+  "required": 5,
+  "verified": 0,
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "branch": "main",
+  "contentCommitSha": "b5bdaa4163f8def69570d6550ea73ba820bd254b",
+  "publicationDate": null,
+  "state": "awaiting-production-deployment",
+  "blocker": "Coolify3 API authentication returned HTTP 401 and all five public URLs remained HTTP 404 during bounded transition checks.",
+  "recoveryAction": "Restore the configured Coolify3 API credential or trigger application m13z1803mceu91zk02hgzn95 from main, then verify all five routes and replace null publication dates with each route's actual first successful UTC verification date."
+}

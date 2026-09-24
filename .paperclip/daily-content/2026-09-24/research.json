@@ -1,0 +1,19 @@
+{
+  "publicationDate": "2026-09-24",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "pushed-awaiting-deployment",
+  "sourceCheckedAt": "2026-09-24",
+  "productionBranch": "main",
+  "baseCommit": "98e497d886f457d851769fe9beda1c52d38da151",
+  "entries": [
+    {"topic":"Billing dispute intake boundary","slug":"call-center-billing-dispute-intake-study","sourcePath":"app/research-sep24.ts","contentHash":"9c02dfd7acd435f1ae7f91e5ad582ef9b5823cd09df7b7f4f07f6ee861348012","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-billing-dispute-intake-study"},
+    {"topic":"Technical-support diagnostic log minimization","slug":"technical-support-diagnostic-log-minimization-study","sourcePath":"app/research-sep24.ts","contentHash":"a9fbb11695209b83009eb616452972838c5f32b9407ad6a1b7edb932320d9168","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/technical-support-diagnostic-log-minimization-study"},
+    {"topic":"Ecommerce shipping-address change authorization","slug":"ecommerce-shipping-address-change-study","sourcePath":"app/research-sep24.ts","contentHash":"a0708598fc538288461f1a3b5bf8b25845a0b84ad9be85fe186911a15470cf00","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/ecommerce-shipping-address-change-study"},
+    {"topic":"Healthcare scheduling cancellation authority","slug":"healthcare-scheduling-cancellation-authority-study","sourcePath":"app/research-sep24.ts","contentHash":"5dd21ebfe4ddbfc4e8a7e55ffce9e8ad59892c72921aa3df9f313cea340029ff","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/healthcare-scheduling-cancellation-authority-study"},
+    {"topic":"Customer-retention remedy acceptance evidence","slug":"customer-retention-remedy-acceptance-study","sourcePath":"app/research-sep24.ts","contentHash":"cb7862aa0621b73da3c390da32c95d426db77a2f40603fc0a5e5da21fceeb1a6","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/customer-retention-remedy-acceptance-study"}
+  ],
+  "sources": ["https://pages.nist.gov/800-63-4/sp800-63.html","https://csrc.nist.gov/pubs/sp/800/61/r3/final","https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/standard/64739.html"],
+  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","contentCommitSha":"b5bdaa4163f8def69570d6550ea73ba820bd254b","deploymentEvidence":{"platform":"Coolify3","applicationUuid":"m13z1803mceu91zk02hgzn95","status":"unavailable: configured API credential returned HTTP 401; public routes remained HTTP 404 after bounded transition checks"},"verifiedAt":null,"verifiedCount":0}
+}
