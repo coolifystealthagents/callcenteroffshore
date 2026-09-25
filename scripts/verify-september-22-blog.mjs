@@ -33,7 +33,7 @@ for(const slug of slugs){
   if(!text.includes(`"datePublished":"${date}"`)) failures.push(`${path}: datePublished`);
   if(!text.includes(`"dateModified":"${date}"`)) failures.push(`${path}: dateModified`);
   if(!text.includes(`rel="canonical" href="${canonical}"`)) failures.push(`${path}: canonical`);
-  if(!indexes.some(({text})=>text.includes(`href="${path}"`))) failures.push(`${path}: Blog index pagination`);
+  if(indexes.filter(({text})=>text.includes(`href="${path}"`)).length!==1) failures.push(`${path}: Blog index pagination`);
   if(!sitemap.text.includes(`<loc>${canonical}</loc><lastmod>${date}</lastmod>`)) failures.push(`${path}: sitemap`);
   const article=text.match(/<article[\s\S]*?<\/article>/)?.[0]??'';
   const plain=article.replace(/<script[\s\S]*?<\/script>/g,' ').replace(/<[^>]+>/g,' ').replace(/&[^;]+;/g,' ').replace(/\s+/g,' ').trim();
