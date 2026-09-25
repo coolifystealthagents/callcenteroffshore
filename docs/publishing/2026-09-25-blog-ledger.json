@@ -1,0 +1,176 @@
+{
+  "family": "blog",
+  "requiredCount": 12,
+  "publicationDate": "2026-09-25",
+  "timezone": "UTC",
+  "contentCommit": null,
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "productionBranch": "main",
+  "deployment": {
+    "status": "pending",
+    "evidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "m13z1803mceu91zk02hgzn95"
+    },
+    "verifiedAt": null
+  },
+  "articles": [
+    {
+      "topic": "offshore call center vulnerable customer support",
+      "slug": "offshore-call-center-vulnerable-customer-support",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "cc926fdcc45a76ec9b87c4c5492c1cd5766979cab1dd927ee859a8a97df0ea7d",
+      "wordCount": 914,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-vulnerable-customer-support",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center warm transfer acceptance",
+      "slug": "call-center-warm-transfer-acceptance",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "aa7797a74f0288ce319b3febf08b0dea85218e7afd3085ba6e6b8a0a46d5a259",
+      "wordCount": 919,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-warm-transfer-acceptance",
+      "verificationTime": null
+    },
+    {
+      "topic": "offshore call center multi factor authentication support",
+      "slug": "offshore-call-center-multi-factor-authentication-support",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "b5824a0f60c5cb51e5eb2dec0554d35f134727ae5ea14aa5565205289cb42619",
+      "wordCount": 911,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-multi-factor-authentication-support",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center after call work standard",
+      "slug": "call-center-after-call-work-standard",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "e95e6c7abf4048c927fb00cd19b240d509f1d3a7e1f4a1c883770576197d3c1e",
+      "wordCount": 918,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-after-call-work-standard",
+      "verificationTime": null
+    },
+    {
+      "topic": "offshore call center customer name pronunciation",
+      "slug": "offshore-call-center-customer-name-pronunciation",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "f0a3e3e5595ab7e9dd8cc88d3ce268c5bcb92de8cba55048ca8e9bc42f1f6570",
+      "wordCount": 918,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-customer-name-pronunciation",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center crm duplicate merge handoff",
+      "slug": "call-center-crm-duplicate-merge-handoff",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "2f531788c9171c9eb1f236eebc9b7e52312dd9ddff1aea27e4249ece46a6e63b",
+      "wordCount": 920,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-crm-duplicate-merge-handoff",
+      "verificationTime": null
+    },
+    {
+      "topic": "offshore call center translation vendor handoff",
+      "slug": "offshore-call-center-translation-vendor-handoff",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "a2e63e577bde0bab3a45b82a6db56401a9c387ddc8e4a569f5861d5f1d8d0802",
+      "wordCount": 908,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-translation-vendor-handoff",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center silent call response",
+      "slug": "call-center-silent-call-response",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "fdfcf565c603320d253e8dc04e8976f9e13bdfe3dcc1b663e463b9b131bb84ab",
+      "wordCount": 912,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-silent-call-response",
+      "verificationTime": null
+    },
+    {
+      "topic": "offshore call center screen recording access",
+      "slug": "offshore-call-center-screen-recording-access",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "b5c975970698142614cf0fdb9bf2a5c8308ad69d069b5f45d2454be90fd179ab",
+      "wordCount": 914,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-screen-recording-access",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center backlog age bands",
+      "slug": "call-center-backlog-age-bands",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "ea60a17efc11d71bd2237fc67c5f99f37b41faf7f41e5024dba5f2741b71bc2e",
+      "wordCount": 921,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-backlog-age-bands",
+      "verificationTime": null
+    },
+    {
+      "topic": "offshore call center coaching acknowledgement",
+      "slug": "offshore-call-center-coaching-acknowledgement",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "9425555d2dd6002d16c79ccf50d5b9d87b56290dafe20d794408a8b8b1db1195",
+      "wordCount": 910,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-coaching-acknowledgement",
+      "verificationTime": null
+    },
+    {
+      "topic": "call center customer document intake",
+      "slug": "call-center-customer-document-intake",
+      "sources": [
+        "Authoritative sources named in article"
+      ],
+      "contentHash": "d330cc1c90c3b6ac5c5bbf805e78e5f93f9c51d6ad79a6c2c05078760cc08cf5",
+      "wordCount": 925,
+      "publicationDate": "2026-09-25",
+      "commitSha": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-customer-document-intake",
+      "verificationTime": null
+    }
+  ]
+}
+
