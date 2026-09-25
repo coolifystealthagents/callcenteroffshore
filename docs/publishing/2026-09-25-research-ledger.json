@@ -7,9 +7,10 @@
   "branch": "main",
   "contentCommitSha": "fbeeca71edf3c8c432ca1a583113f34a1d932928",
   "publicationDate": null,
-  "state": "pushed-awaiting-deployment",
-  "blocker": null,
-  "recoveryAction": null,
+  "remoteSha": "9299fa5e2bc8526990e8d1a67ad2b1e5970c42fe",
+  "state": "blocked-awaiting-production-deployment",
+  "blocker": "Coolify3 API authentication returned HTTP 401 and all five public URLs remained HTTP 404 through three bounded transition checks.",
+  "recoveryAction": "Infrastructure owner: restore the configured Coolify3 API credential or trigger application m13z1803mceu91zk02hgzn95 from main, then live-verify all five routes and update publication dates to the actual first successful UTC verification date.",
   "entries": [
     {"slug":"call-center-third-party-requester-authority-study","contentHash":"9f472f3f878bab39f2b3b6669d10cbf5c61ea0339b726ce3ffb11e574de7cc50","liveUrl":"https://callcenteroffshore.com/research/call-center-third-party-requester-authority-study","verifiedAt":null},
     {"slug":"appointment-scheduling-calendar-conflict-resolution-study","contentHash":"e294cdfa5f1b004bda64f0c60cd385bf375638c89f409daf021cc9fc10b303d3","liveUrl":"https://callcenteroffshore.com/research/appointment-scheduling-calendar-conflict-resolution-study","verifiedAt":null},
