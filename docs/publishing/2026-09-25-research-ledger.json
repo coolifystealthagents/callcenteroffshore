@@ -5,9 +5,9 @@
   "verified": 0,
   "repository": "coolifystealthagents/callcenteroffshore",
   "branch": "main",
-  "contentCommitSha": null,
+  "contentCommitSha": "fbeeca71edf3c8c432ca1a583113f34a1d932928",
   "publicationDate": null,
-  "state": "validated-awaiting-push",
+  "state": "pushed-awaiting-deployment",
   "blocker": null,
   "recoveryAction": null,
   "entries": [

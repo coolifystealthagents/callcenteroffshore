@@ -3,7 +3,7 @@
   "timezone": "UTC",
   "family": "research",
   "requiredCount": 5,
-  "status": "validated-awaiting-push",
+  "status": "pushed-awaiting-deployment",
   "sourceCheckedAt": "2026-09-25",
   "productionBranch": "main",
   "baseCommit": "f45ef5038ee4ce8fdc4095ddd450d7b5be6dcbf8",
@@ -15,5 +15,5 @@
     {"topic":"Quality coaching action verification","slug":"call-quality-coaching-action-verification-study","sourcePath":"app/research-sep25.ts","contentHash":"71dbb4cc094e6b83829bedc231cded9f2ae97d151a3bfbb41580afc52eafe0bb","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-quality-coaching-action-verification-study"}
   ],
   "sources": ["https://pages.nist.gov/800-63-4/sp800-63.html","https://csrc.nist.gov/pubs/sp/800/61/r3/final","https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/standard/64739.html"],
-  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","commitSha":null,"remoteSha":null,"deploymentEvidence":{"platform":"Coolify3","applicationUuid":"m13z1803mceu91zk02hgzn95","status":"not-started"},"verifiedAt":null,"verifiedCount":0}
+  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","contentCommitSha":"fbeeca71edf3c8c432ca1a583113f34a1d932928","remoteSha":null,"deploymentEvidence":{"platform":"Coolify3","applicationUuid":"m13z1803mceu91zk02hgzn95","status":"awaiting-git-push"},"verifiedAt":null,"verifiedCount":0}
 }
