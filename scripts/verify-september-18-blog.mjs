@@ -18,6 +18,8 @@ const slugs=[
 ];
 const get=async path=>{const response=await fetch(`${base}${path}`,{redirect:'manual'});return {response,text:await response.text()}};
 const index=await get('/blog');
+const indexPaths=[...new Set(['/blog',...[...index.text.matchAll(/href="(\/blog\/page\/[1-9]\d*)"/g)].map(match=>match[1])])];
+const indexes=await Promise.all(indexPaths.map(get));
 const sitemap=await get('/sitemap.xml');
 const failures=[];
 const titleHashes=new Set(), bodyHashes=new Set();
@@ -32,7 +34,7 @@ for(const slug of slugs){
   if(!text.includes(`"datePublished":"${date}"`)) failures.push(`${path}: datePublished`);
   if(!text.includes(`"dateModified":"${date}"`)) failures.push(`${path}: dateModified`);
   if(!text.includes(`rel="canonical" href="${canonical}"`)) failures.push(`${path}: canonical`);
-  if(!index.text.includes(`href="${path}"`)) failures.push(`${path}: Blog index`);
+  if(!indexes.some(({text})=>text.includes(`href="${path}"`))) failures.push(`${path}: Blog index pagination`);
   if(!sitemap.text.includes(`<loc>${canonical}</loc><lastmod>${date}</lastmod>`)) failures.push(`${path}: sitemap`);
   const article=text.match(/<article[\s\S]*?<\/article>/)?.[0]??'';
   const plain=article.replace(/<script[\s\S]*?<\/script>/g,' ').replace(/<[^>]+>/g,' ').replace(/&[^;]+;/g,' ').replace(/\s+/g,' ').trim();
