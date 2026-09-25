@@ -1,0 +1,20 @@
+{
+  "run": "CAL-88",
+  "family": "research",
+  "required": 5,
+  "verified": 0,
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "branch": "main",
+  "contentCommitSha": null,
+  "publicationDate": null,
+  "state": "validated-awaiting-push",
+  "blocker": null,
+  "recoveryAction": null,
+  "entries": [
+    {"slug":"call-center-third-party-requester-authority-study","contentHash":"9f472f3f878bab39f2b3b6669d10cbf5c61ea0339b726ce3ffb11e574de7cc50","liveUrl":"https://callcenteroffshore.com/research/call-center-third-party-requester-authority-study","verifiedAt":null},
+    {"slug":"appointment-scheduling-calendar-conflict-resolution-study","contentHash":"e294cdfa5f1b004bda64f0c60cd385bf375638c89f409daf021cc9fc10b303d3","liveUrl":"https://callcenteroffshore.com/research/appointment-scheduling-calendar-conflict-resolution-study","verifiedAt":null},
+    {"slug":"outbound-lead-qualification-representation-boundary-study","contentHash":"e73fc5204462c1a6d68c9ee2ddba3a2c14e328c91d694d22af585a63f50e6973","liveUrl":"https://callcenteroffshore.com/research/outbound-lead-qualification-representation-boundary-study","verifiedAt":null},
+    {"slug":"after-hours-dispatch-authority-study","contentHash":"64e5a7a913829b0e6fbf1f5d79305ea69694a936ccad385df24e537dbf044826","liveUrl":"https://callcenteroffshore.com/research/after-hours-dispatch-authority-study","verifiedAt":null},
+    {"slug":"call-quality-coaching-action-verification-study","contentHash":"71dbb4cc094e6b83829bedc231cded9f2ae97d151a3bfbb41580afc52eafe0bb","liveUrl":"https://callcenteroffshore.com/research/call-quality-coaching-action-verification-study","verifiedAt":null}
+  ]
+}

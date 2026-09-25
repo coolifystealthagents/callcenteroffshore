@@ -1,0 +1,19 @@
+{
+  "publicationDate": "2026-09-25",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "validated-awaiting-push",
+  "sourceCheckedAt": "2026-09-25",
+  "productionBranch": "main",
+  "baseCommit": "f45ef5038ee4ce8fdc4095ddd450d7b5be6dcbf8",
+  "entries": [
+    {"topic":"Third-party requester authority","slug":"call-center-third-party-requester-authority-study","sourcePath":"app/research-sep25.ts","contentHash":"9f472f3f878bab39f2b3b6669d10cbf5c61ea0339b726ce3ffb11e574de7cc50","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-third-party-requester-authority-study"},
+    {"topic":"Appointment calendar conflict resolution","slug":"appointment-scheduling-calendar-conflict-resolution-study","sourcePath":"app/research-sep25.ts","contentHash":"e294cdfa5f1b004bda64f0c60cd385bf375638c89f409daf021cc9fc10b303d3","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/appointment-scheduling-calendar-conflict-resolution-study"},
+    {"topic":"Outbound qualification representation boundary","slug":"outbound-lead-qualification-representation-boundary-study","sourcePath":"app/research-sep25.ts","contentHash":"e73fc5204462c1a6d68c9ee2ddba3a2c14e328c91d694d22af585a63f50e6973","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/outbound-lead-qualification-representation-boundary-study"},
+    {"topic":"After-hours dispatch authority","slug":"after-hours-dispatch-authority-study","sourcePath":"app/research-sep25.ts","contentHash":"64e5a7a913829b0e6fbf1f5d79305ea69694a936ccad385df24e537dbf044826","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/after-hours-dispatch-authority-study"},
+    {"topic":"Quality coaching action verification","slug":"call-quality-coaching-action-verification-study","sourcePath":"app/research-sep25.ts","contentHash":"71dbb4cc094e6b83829bedc231cded9f2ae97d151a3bfbb41580afc52eafe0bb","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-quality-coaching-action-verification-study"}
+  ],
+  "sources": ["https://pages.nist.gov/800-63-4/sp800-63.html","https://csrc.nist.gov/pubs/sp/800/61/r3/final","https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html","https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/standard/64739.html"],
+  "verification": {"typecheck":"passed","build":"passed with pre-existing CSS compatibility warnings","commitSha":null,"remoteSha":null,"deploymentEvidence":{"platform":"Coolify3","applicationUuid":"m13z1803mceu91zk02hgzn95","status":"not-started"},"verifiedAt":null,"verifiedCount":0}
+}
