@@ -1,0 +1,18 @@
+{
+  "cycleLabel":"2026-09-28","family":"blog","timezone":"UTC","publicationDate":"2026-09-28","contentCommitSha":"2607bdd62e88caadb6dbcbcfdd7b1df1af4f0851","releaseCommitSha":null,"deploymentOwner":"Browser Operator","deploymentEvidence":"not submitted by routine","liveVerified":false,
+  "manifest":".paperclip/daily-content/2026-09-28/blog.json",
+  "entries":[
+    {"slug":"call-center-customer-callback-consent","contentHash":"a6b1a53f604375cbc4f74ff2e2ea5f4891eed23d211cbca1be24dc294821d9cd","liveUrl":"https://callcenteroffshore.com/blog/call-center-customer-callback-consent","verificationTime":null},
+    {"slug":"offshore-call-center-knowledge-search-failure","contentHash":"58866943232cc8837de479478f9d3a4710280933d16484d54a2dfba0943c91cf","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-knowledge-search-failure","verificationTime":null},
+    {"slug":"call-center-refund-status-inquiry","contentHash":"461a1013334d13d2c829e895bf605b80d6654319c0833eded6146f6f1cc8db76","liveUrl":"https://callcenteroffshore.com/blog/call-center-refund-status-inquiry","verificationTime":null},
+    {"slug":"offshore-call-center-shift-start-readiness","contentHash":"06c75fab41de905ae3923ffb263033206a93ca10a484704f6f85a02ff2ac58df","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-shift-start-readiness","verificationTime":null},
+    {"slug":"philippines-call-center-weather-disruption-continuity","contentHash":"ebe88acf55119512c93fada761e2a0b6018be59a85a31dfee82f55fc47889ca5","liveUrl":"https://callcenteroffshore.com/blog/philippines-call-center-weather-disruption-continuity","verificationTime":null},
+    {"slug":"offshore-call-center-payment-card-data-boundary","contentHash":"49b386873d10465919bf178415ee9cbb1b44fb440c3d31c520cbe3340ef60aa5","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-payment-card-data-boundary","verificationTime":null},
+    {"slug":"call-center-social-media-escalation","contentHash":"513564b973285e5ba8dd049929d233e5e3b14f6aff6b3c5580edb7f320908903","liveUrl":"https://callcenteroffshore.com/blog/call-center-social-media-escalation","verificationTime":null},
+    {"slug":"offshore-call-center-ticket-priority-override","contentHash":"706a515564c23869f8e8fec5e1f4b94dee0f9fad1cbe8cd71c437af896eedca3","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-ticket-priority-override","verificationTime":null},
+    {"slug":"call-center-service-level-exclusion-rules","contentHash":"40befd9723e628a747adfb62786bf7aae6d78387daa205e2d00cbf3edd0f8c82","liveUrl":"https://callcenteroffshore.com/blog/call-center-service-level-exclusion-rules","verificationTime":null},
+    {"slug":"offshore-call-center-new-agent-nesting","contentHash":"499654c8c3406f3e56fe08a114c208fc303ab9f856979419b1aaa7596858d746","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-new-agent-nesting","verificationTime":null},
+    {"slug":"call-center-customer-representative-authority","contentHash":"1a48565642d61228c023330b064d266cd9f291bf5af8247d3a0e418bdf322df4","liveUrl":"https://callcenteroffshore.com/blog/call-center-customer-representative-authority","verificationTime":null},
+    {"slug":"offshore-call-center-call-summary-correction","contentHash":"236f8e4209c9d27a210223c42f5eeb5d1d99789c3e7af42340934b2c04ee0666","liveUrl":"https://callcenteroffshore.com/blog/offshore-call-center-call-summary-correction","verificationTime":null}
+  ]
+}
