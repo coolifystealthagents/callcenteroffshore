@@ -1,0 +1,19 @@
+{
+  "cycleLabel": "2026-09-28",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "status": "local-handoff",
+  "productionBranch": "main",
+  "baseCommit": "8487b2b858434ca306524af46b798093bdd06cf7",
+  "publicationDate": null,
+  "entries": [
+    {"topic":"CRM outage work continuity","slug":"call-center-crm-outage-work-continuity-study","sourcePath":"app/research-sep28.ts","contentHash":"de2353b29669921810ddf5d3cf6415b3561b615a5f97bab6d545e6d78dbd4a4a","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-crm-outage-work-continuity-study"},
+    {"topic":"Payment-link authority boundary","slug":"call-center-payment-link-boundary-study","sourcePath":"app/research-sep28.ts","contentHash":"207c1b649949b50db5c49226869c15d2253b0938299b55e3d705c5de364d98f1","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-payment-link-boundary-study"},
+    {"topic":"Interpreter-request handoff continuity","slug":"call-center-interpreter-request-handoff-study","sourcePath":"app/research-sep28.ts","contentHash":"f3e660e646a04aa2fe27bd88bc03634a383fb630463d403b71503f8cb2c0e0f7","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-interpreter-request-handoff-study"},
+    {"topic":"AI-generated call-summary review","slug":"call-center-ai-summary-review-study","sourcePath":"app/research-sep28.ts","contentHash":"9f2650d674ff38f69d761cde7510d3919b832f88db8de08dddc4b34f30fbe3d9","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/call-center-ai-summary-review-study"},
+    {"topic":"Schedule-exception evidence and coverage","slug":"offshore-call-center-schedule-exception-evidence-study","sourcePath":"app/research-sep28.ts","contentHash":"db84d953e308f18db5f007e4304b56e5d65e46e4e0e2e305c90b783e30eecd63","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/offshore-call-center-schedule-exception-evidence-study"}
+  ],
+  "deployment": {"owner":"Browser Operator","applicationUuid":"m13z1803mceu91zk02hgzn95","submitted":false},
+  "verification": {"liveVerified":false,"verifiedCount":0}
+}

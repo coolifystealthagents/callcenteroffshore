@@ -13,6 +13,7 @@
     "validate:september-23-research": "node scripts/verify-september-23-research.mjs",
     "validate:september-24-blog": "node scripts/verify-september-24-blog.mjs",
     "validate:september-25-blog": "node scripts/verify-september-25-blog.mjs"
+    ,"validate:september-28-research": "node scripts/verify-september-28-research.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
