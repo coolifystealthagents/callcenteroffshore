@@ -15,5 +15,5 @@
     {"topic":"Schedule-exception evidence and coverage","slug":"offshore-call-center-schedule-exception-evidence-study","sourcePath":"app/research-sep28.ts","contentHash":"db84d953e308f18db5f007e4304b56e5d65e46e4e0e2e305c90b783e30eecd63","publicationDate":null,"liveUrl":"https://callcenteroffshore.com/research/offshore-call-center-schedule-exception-evidence-study"}
   ],
   "deployment": {"owner":"Browser Operator","applicationUuid":"m13z1803mceu91zk02hgzn95","submitted":false},
-  "verification": {"liveVerified":false,"verifiedCount":0}
+  "verification": {"typecheck":"passed","cleanBuild":"passed with pre-existing CSS compatibility warnings","renderedWordCounts":{"call-center-crm-outage-work-continuity-study":1974,"call-center-payment-link-boundary-study":1955,"call-center-interpreter-request-handoff-study":1943,"call-center-ai-summary-review-study":1943,"offshore-call-center-schedule-exception-evidence-study":1929},"maximumPairwiseFiveWordShingleJaccard":0.3958,"contentCommitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","liveVerified":false,"verifiedCount":0}
 }

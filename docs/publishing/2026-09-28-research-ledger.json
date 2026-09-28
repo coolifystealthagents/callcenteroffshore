@@ -5,13 +5,13 @@
   "baseCommit":"8487b2b858434ca306524af46b798093bdd06cf7",
   "publicationDate":null,
   "firstPublicationPending":true,
-  "handoffCommit":null,
+  "handoffCommit":"6a44c157fd4769d5f07e18430b558c2454d93e61",
   "entries":[
-    {"topic":"CRM outage work continuity","slug":"call-center-crm-outage-work-continuity-study","contentHash":"de2353b29669921810ddf5d3cf6415b3561b615a5f97bab6d545e6d78dbd4a4a","publicationDate":null,"commitSha":null,"verificationTime":null},
-    {"topic":"Payment-link authority boundary","slug":"call-center-payment-link-boundary-study","contentHash":"207c1b649949b50db5c49226869c15d2253b0938299b55e3d705c5de364d98f1","publicationDate":null,"commitSha":null,"verificationTime":null},
-    {"topic":"Interpreter-request handoff continuity","slug":"call-center-interpreter-request-handoff-study","contentHash":"f3e660e646a04aa2fe27bd88bc03634a383fb630463d403b71503f8cb2c0e0f7","publicationDate":null,"commitSha":null,"verificationTime":null},
-    {"topic":"AI-generated call-summary review","slug":"call-center-ai-summary-review-study","contentHash":"9f2650d674ff38f69d761cde7510d3919b832f88db8de08dddc4b34f30fbe3d9","publicationDate":null,"commitSha":null,"verificationTime":null},
-    {"topic":"Schedule-exception evidence and coverage","slug":"offshore-call-center-schedule-exception-evidence-study","contentHash":"db84d953e308f18db5f007e4304b56e5d65e46e4e0e2e305c90b783e30eecd63","publicationDate":null,"commitSha":null,"verificationTime":null}
+    {"topic":"CRM outage work continuity","slug":"call-center-crm-outage-work-continuity-study","contentHash":"de2353b29669921810ddf5d3cf6415b3561b615a5f97bab6d545e6d78dbd4a4a","publicationDate":null,"commitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","verificationTime":null},
+    {"topic":"Payment-link authority boundary","slug":"call-center-payment-link-boundary-study","contentHash":"207c1b649949b50db5c49226869c15d2253b0938299b55e3d705c5de364d98f1","publicationDate":null,"commitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","verificationTime":null},
+    {"topic":"Interpreter-request handoff continuity","slug":"call-center-interpreter-request-handoff-study","contentHash":"f3e660e646a04aa2fe27bd88bc03634a383fb630463d403b71503f8cb2c0e0f7","publicationDate":null,"commitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","verificationTime":null},
+    {"topic":"AI-generated call-summary review","slug":"call-center-ai-summary-review-study","contentHash":"9f2650d674ff38f69d761cde7510d3919b832f88db8de08dddc4b34f30fbe3d9","publicationDate":null,"commitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","verificationTime":null},
+    {"topic":"Schedule-exception evidence and coverage","slug":"offshore-call-center-schedule-exception-evidence-study","contentHash":"db84d953e308f18db5f007e4304b56e5d65e46e4e0e2e305c90b783e30eecd63","publicationDate":null,"commitSha":"6a44c157fd4769d5f07e18430b558c2454d93e61","verificationTime":null}
   ],
   "note":"Local Research handoff only. The Blog integrator owns the combined production push; Browser Operator owns deployment; the user owns route/date verification. Reconcile publication metadata to actual first-live UTC date before release."
 }
