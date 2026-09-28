@@ -24,3 +24,7 @@ The publication date remains unset. It must be reconciled immediately before the
 ## Combined draft audit, attempt 1
 
 The exact-five Research handoff commits `6a44c157fd4769d5f07e18430b558c2454d93e61` and `38fdbf748fa4eff216ca84b1e84ad0e8a2e82fbf` were integrated locally. All twelve Blog routes render and exceed 900 words; counts range from 1,515 to 1,556. TypeScript and the clean combined production build pass. The Blog maximum pairwise five-word-shingle Jaccard overlap is 69.43%, between `offshore-call-center-ticket-priority-override` and `offshore-call-center-call-summary-correction`. This fails the under-50% release gate. The batch must not be pushed until shared analytical scaffolding is replaced with topic-specific sections and the audit passes. Padding or cosmetic substitutions are not an acceptable correction.
+
+## Combined draft audit, corrected attempt 2
+
+The shared Blog scaffold was replaced with analysis anchored repeatedly to each topic's own trigger, evidence record, authority boundary, ordinary case, failure case, measures, owner, and source basis. All twelve rendered bodies pass depth at 1,613 to 1,742 words. Maximum pairwise five-word-shingle Jaccard is now 44.88%, between `call-center-customer-callback-consent` and `call-center-refund-status-inquiry`, which passes the required threshold. The targeted humanizer scan found no em or en dashes or flagged stock phrases. TypeScript and a new clean combined production build pass with only the repository's existing CSS compatibility warnings.
