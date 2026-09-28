@@ -1,6 +1,6 @@
 # Call Center Offshore topical-authority map
 
-Last reviewed: 2026-08-19
+Last reviewed: 2026-09-28
 
 ## Purpose and boundaries
 
@@ -48,6 +48,7 @@ Artifact review: 2026-09-22. The table below records only routes and service des
 | `/research/ecommerce-return-eligibility-handoff-study` | Who owns return eligibility, exceptions, receipt evidence, and refund decisions? | `/services/ecommerce-contact-center` | After intake, eligibility, receipt, and refund are separate traceable states. | Delivered through the typed research `contextualService` panel in the September 23 batch. |
 | `/research/healthcare-scheduling-message-disclosure-study` | What appointment information may be disclosed by channel and recipient? | `/services/healthcare-scheduling-support` | After a minimum-disclosure matrix and identity stop rule are approved. | Delivered through the typed research `contextualService` panel in the September 23 batch. |
 | `/research/call-center-complaint-evidence-preservation-study` | Can later investigation preserve the customer’s original complaint record? | `/services/customer-retention-support` | After intake, amendments, findings, approvals, and response versions are separated. | Delivered through the typed research `contextualService` panel in the September 23 batch. |
+| `/research/call-center-payment-link-boundary-study` | Can support staff send an approved payment route without taking card data or deciding money matters? | `/services/ecommerce-contact-center` | After the approved link source, amount source, delivery evidence, and owner-only exception path are defined. | Delivered through the September 28 research record's existing service path; two route-local links are intentional. |
 | `/blog/after-hours-call-answering-workflow` | What needs to happen when calls arrive after normal hours? | `/services/after-hours-answering` | After urgent categories and the next-shift handoff are defined. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 | `/blog/call-center-qa-scorecard` | What should a useful QA scorecard measure? | `/services/call-quality-monitoring` | After the reader chooses the review fields and calibration owner. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 | `/blog/customer-support-call-center-launch` | How should a team launch a customer support queue? | `/services/inbound-customer-care` | After the reader has narrowed the first queue and escalation path. | Deferred: current legacy record has no source-owned body or decision paragraph. |
