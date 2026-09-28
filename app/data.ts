@@ -13,6 +13,7 @@ import { september22BlogPosts } from './blog-sep22';
 import { september23BlogPosts } from './blog-sep23';
 import { september24BlogPosts } from './blog-sep24';
 import { september25BlogPosts } from './blog-sep25';
+import { september28BlogPosts } from './blog-sep28';
 
 export const site = {
   domain: 'CallCenterOffshore.com',
@@ -67,6 +68,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...september28BlogPosts,
   {
     slug: '24-7-call-center-outsourcing-philippines',
     title: '24/7 call center outsourcing Philippines: coverage and continuity guide',

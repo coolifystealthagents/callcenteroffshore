@@ -20,3 +20,7 @@ The publication date remains unset. It must be reconciled immediately before the
 ## Draft checkpoint
 
 `offshore-call-center-payment-card-data-boundary` now has a 1,287-word substantive draft at `docs/publishing/drafts/2026-09-28/offshore-call-center-payment-card-data-boundary.md`. It cites current PCI SSC primary sources, contains no em or en dashes, and passed a targeted humanizer-pattern scan. It remains deliberately unwired and is not accepted as published content until the exact-twelve set, pairwise overlap audit, renderer integration, combined validation, and release gates pass.
+
+## Combined draft audit, attempt 1
+
+The exact-five Research handoff commits `6a44c157fd4769d5f07e18430b558c2454d93e61` and `38fdbf748fa4eff216ca84b1e84ad0e8a2e82fbf` were integrated locally. All twelve Blog routes render and exceed 900 words; counts range from 1,515 to 1,556. TypeScript and the clean combined production build pass. The Blog maximum pairwise five-word-shingle Jaccard overlap is 69.43%, between `offshore-call-center-ticket-priority-override` and `offshore-call-center-call-summary-correction`. This fails the under-50% release gate. The batch must not be pushed until shared analytical scaffolding is replaced with topic-specific sections and the audit passes. Padding or cosmetic substitutions are not an acceptable correction.
