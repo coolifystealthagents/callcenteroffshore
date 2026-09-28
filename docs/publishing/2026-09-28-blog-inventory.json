@@ -1,0 +1,23 @@
+{
+  "cycleLabel": "September28",
+  "family": "blog",
+  "requiredCount": 12,
+  "baselineSha": "8487b2b858434ca306524af46b798093bdd06cf7",
+  "publicationDate": null,
+  "publicationDateRule": "Set immediately before the sole combined push to the site's actual local date; never infer it from the cycle label.",
+  "status": "topics-selected-content-not-yet-accepted",
+  "entries": [
+    {"slug":"call-center-customer-callback-consent","pillar":"customer support","decision":"When may an agent place a callback, which number may be used, and when must consent be renewed?","service":"/services/customer-support"},
+    {"slug":"offshore-call-center-knowledge-search-failure","pillar":"knowledge operations","decision":"What should an agent do when approved knowledge search returns no reliable answer?","service":"/services/technical-help-desk"},
+    {"slug":"call-center-refund-status-inquiry","pillar":"billing support","decision":"How can an agent explain refund status without inventing timing or exercising refund authority?","service":"/services/order-and-billing-support"},
+    {"slug":"offshore-call-center-shift-start-readiness","pillar":"operations","decision":"Which checks prove a queue, tools, instructions, and escalation owners are ready at shift start?","service":"/services/operations-support"},
+    {"slug":"philippines-call-center-weather-disruption-continuity","pillar":"continuity","decision":"How should a Philippines-based operation protect people and customer promises during severe weather disruption?","service":"/services/after-hours-answering"},
+    {"slug":"offshore-call-center-payment-card-data-boundary","pillar":"data protection","decision":"Which payment details must stay outside agent notes, recordings, and support tools?","service":"/services/order-and-billing-support"},
+    {"slug":"call-center-social-media-escalation","pillar":"omnichannel support","decision":"When should a public social message move to a verified private support route?","service":"/services/customer-support"},
+    {"slug":"offshore-call-center-ticket-priority-override","pillar":"queue governance","decision":"Who may override ticket priority, based on which evidence, and for how long?","service":"/services/operations-support"},
+    {"slug":"call-center-service-level-exclusion-rules","pillar":"reporting and QA","decision":"Which events may be excluded from service-level reporting without hiding customer delay?","service":"/services/reporting-and-qa"},
+    {"slug":"offshore-call-center-new-agent-nesting","pillar":"training and launch","decision":"How should supervised live work expand while a new agent is still in nesting?","service":"/services/call-center-staffing"},
+    {"slug":"call-center-customer-representative-authority","pillar":"identity and authorization","decision":"How should an agent verify and limit a third party acting for a customer?","service":"/services/inbound-customer-care"},
+    {"slug":"offshore-call-center-call-summary-correction","pillar":"record accuracy","decision":"How can an inaccurate call summary be corrected without erasing the original audit trail?","service":"/services/admin-support"}
+  ]
+}
