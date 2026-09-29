@@ -27,7 +27,7 @@ This table is the source-of-truth inventory from `app/fleet-data.ts` as reviewed
 
 ## Supporting pages and planned contextual handoffs
 
-Artifact review: 2026-09-22. The table below records only routes and service destinations that are present in the current source and production build. A generic legacy blog record is not a safe handoff target until it has its own body and a specific decision point.
+Artifact review: 2026-09-29. The table below records only routes and service destinations that are present in the current source and production build. A generic legacy blog record is not a safe handoff target until it has its own body and a specific decision point.
 
 | Existing supporting route | Reader question | Closest existing destination | Handoff point to use | Status |
 | --- | --- | --- | --- | --- |
@@ -56,6 +56,8 @@ Artifact review: 2026-09-22. The table below records only routes and service des
 | `/blog/call-center-outsourcing-contract-checklist` | What should a buyer check before signing? | `/services/order-and-billing-support` | Only where order or billing exception ownership is discussed. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 
 ## Next safe implementation
+
+The 2026-09-29 build confirms the four deferred legacy routes still render only 156–158 words and no matching service link. Keep them out of the implementation queue until the owning content record supplies a route-specific buyer decision paragraph; do not add a standalone CTA to a generic shell.
 
 Before adding a legacy-blog handoff, first make the selected source own a short, route-specific body that names one buyer decision, the permitted preparatory work, and the owner for exceptions. Then use the optional `contextualService` field in `app/data.ts`, keep the label and sentence specific to that source, and refresh the source page date, Article schema date, and sitemap `lastmod` together.
 
