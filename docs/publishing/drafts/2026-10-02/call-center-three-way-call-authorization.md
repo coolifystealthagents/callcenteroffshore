@@ -3,8 +3,8 @@ title: "Call center three-way calls: verify every participant before discussing 
 description: "Control three-way support calls by separating identity, customer consent, account authority, interpreter roles, and the actions each participant may request."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/customer-support"
 ---
 

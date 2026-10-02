@@ -3,8 +3,8 @@ title: "Call center abandoned-call recovery: when to call back and when to stop"
 description: "Build an abandoned-call recovery rule that uses customer permission, queue evidence, limited attempts, and clear ownership instead of treating every disconnect as consent to call."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---
 

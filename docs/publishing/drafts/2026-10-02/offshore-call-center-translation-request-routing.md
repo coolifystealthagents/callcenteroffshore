@@ -3,8 +3,8 @@ title: "Offshore call center translation requests: route meaning, not just langu
 description: "Distinguish bilingual service, live interpretation, document translation, and restricted decisions before routing a customer language request."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/customer-support"
 ---
 

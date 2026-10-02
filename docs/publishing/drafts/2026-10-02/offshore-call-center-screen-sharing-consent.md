@@ -3,8 +3,8 @@ title: "Offshore call center screen-sharing consent: control the support session
 description: "Define consent, visible scope, prohibited fields, recording rules, stop conditions, and session closure before agents view a customer's screen."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/technical-help-desk"
 ---
 

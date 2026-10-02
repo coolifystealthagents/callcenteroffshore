@@ -3,8 +3,8 @@ title: "Offshore call center knowledge-gap backlogs: prioritize missing answers 
 description: "Rank missing-answer work by customer impact, frequency, workaround safety, and decision ownership instead of raw question counts."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/reporting-and-qa"
 ---
 

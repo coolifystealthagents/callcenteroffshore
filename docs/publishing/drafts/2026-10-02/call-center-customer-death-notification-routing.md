@@ -3,8 +3,8 @@ title: "Call center customer-death notifications: a careful routing boundary"
 description: "Receive a death notification respectfully, collect only the minimum operational detail, and route account or legal decisions to authorized owners."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---
 

@@ -3,8 +3,8 @@ title: "Call center duplicate-ticket merging: preserve history before reducing t
 description: "Decide when two support tickets describe the same work, preserve their evidence and obligations, and merge them without hiding separate customer needs."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/admin-support"
 ---
 
@@ -54,7 +54,7 @@ Use scenario pairs rather than obvious copies. Test one customer reporting the s
 
 For each pair, ask the reviewer to state the issue object, similarities, differences, merge decision, surviving record, evidence moved, obligations preserved, and next owner. Two reviewers should reach the same conclusion from the written rule. Disagreement usually exposes an ambiguous definition or a field the interface hides.
 
-After deployment, sample merged and rejected pairs. Look for lost attachments, removed deadlines, cross-customer disclosure, duplicated outbound messages, reopened cases, and work that vanished from a specialist queue. Fix the rule or system mapping before increasing automated suggestions.
+After rollout, sample merged and rejected pairs. Look for lost attachments, removed deadlines, cross-customer disclosure, duplicated outbound messages, reopened cases, and work that vanished from a specialist queue. Fix the rule or system mapping before increasing automated suggestions.
 
 ## Measure work preserved, not tickets removed
 

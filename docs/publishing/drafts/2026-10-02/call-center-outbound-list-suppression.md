@@ -3,8 +3,8 @@ title: "Call center outbound list suppression: stop revoked contacts across tool
 description: "Trace a stop request through CRM tasks, dialer lists, vendor files, scheduled retries, and downstream acknowledgements."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/outbound-calling"
 ---
 

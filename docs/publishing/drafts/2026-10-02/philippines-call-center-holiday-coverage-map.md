@@ -3,8 +3,8 @@ title: "Philippines call center holiday coverage: map demand, authority, and han
 description: "Reconcile Philippine, client-market, and customer-facing calendars before an offshore call center promises holiday coverage."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/workforce-management"
 ---
 

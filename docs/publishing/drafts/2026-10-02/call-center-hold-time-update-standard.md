@@ -3,8 +3,8 @@ title: "Call center hold-time updates: what to say while ownership is unresolved
 description: "Replace unsupported hold estimates with truthful progress, customer choices, specialist acknowledgement, and a safe callback path."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---
 

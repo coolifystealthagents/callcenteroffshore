@@ -3,8 +3,8 @@ title: "Offshore call center queue-drain plans: closing a shift without orphanin
 description: "Decide which calls and cases should finish, transfer, pause, or roll forward when an offshore call center shift approaches its end."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/operations-support"
 ---
 

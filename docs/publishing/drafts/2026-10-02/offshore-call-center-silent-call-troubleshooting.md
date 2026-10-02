@@ -3,8 +3,8 @@ title: "Offshore call center silent-call troubleshooting: a safe first-response 
 description: "Trace silent calls through the customer connection, carrier path, routing platform, agent device, and risk controls without blaming the caller or exposing account details."
 family: "blog"
 cycleLabel: "2026-10-02"
-publicationDate: null
-status: "draft"
+publicationDate: "2026-10-02"
+status: "release-candidate"
 service: "/services/technical-help-desk"
 ---
 
