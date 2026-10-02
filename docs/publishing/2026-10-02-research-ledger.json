@@ -1,0 +1,11 @@
+{
+  "cycleLabel":"2026-10-02","family":"research","timezone":"UTC","baseCommit":"e28cdc98f1cda27c2d90a6d84792134df818521f","publicationDate":"2026-10-02","firstPublicationPending":true,"handoffCommit":"2fb7ea96f752e00f745c7191312448074d3d08e0",
+  "entries":[
+    {"slug":"call-center-customer-vulnerability-support-boundary-study","contentHash":"60845ccdf3a0ccb62e4ac0000dae3e63fa78f47a28791e78f351b74be7c8bc2b","commitSha":"2fb7ea96f752e00f745c7191312448074d3d08e0","verificationTime":null},
+    {"slug":"ecommerce-subscription-cancellation-proof-study","contentHash":"054e54b9e2ab0d6cc0214bd307745e1404b86e32ed833b8d5cf644c574570c0d","commitSha":"2fb7ea96f752e00f745c7191312448074d3d08e0","verificationTime":null},
+    {"slug":"technical-support-remote-access-consent-study","contentHash":"f66adad2301139418ae1e7bca6295af35ff7819655f22fd994b580fed8bad668","commitSha":"2fb7ea96f752e00f745c7191312448074d3d08e0","verificationTime":null},
+    {"slug":"call-center-knowledge-article-retirement-study","contentHash":"f1de435cb45169c11aa42afdaeeb00c1bde295c5b029cd5d2e34f223a1f85f84","commitSha":"2fb7ea96f752e00f745c7191312448074d3d08e0","verificationTime":null},
+    {"slug":"offshore-call-center-demand-spike-triage-study","contentHash":"e05c07c8c17bcc8689fd3b1752a966ec5c1b47fe8ea607d91fb9361f2eb631a4","commitSha":"2fb7ea96f752e00f745c7191312448074d3d08e0","verificationTime":null}
+  ],
+  "note":"Research local handoff only. CAL-93 is sole integrator and must reconcile the provisional UTC publication date to actual first-publication before its one combined push. Browser Operator alone deploys. Live verification remains pending."
+}
