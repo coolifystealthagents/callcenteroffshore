@@ -1,0 +1,205 @@
+{
+  "cycleLabel": "2026-10-02",
+  "family": "blog",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-02",
+  "status": "awaiting-browser-operator-deployment",
+  "contentCommitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+  "requiredCount": 12,
+  "verifiedCount": 0,
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Call center abandoned-call recovery: when to call back and when to stop",
+      "slug": "call-center-abandoned-call-recovery",
+      "sources": [
+        "https://consumercomplaints.fcc.gov/hc/en-us/articles/115002234203-Unwanted-Calls-Texts-Phone",
+        "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"
+      ],
+      "contentHash": "2620573f2ae88393a8eb833ef6ea6891d3277ab50a3bca8a0dd3f3ec6074b03b",
+      "wordCount": 1830,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-abandoned-call-recovery",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center customer-death notifications: a careful routing boundary",
+      "slug": "call-center-customer-death-notification-routing",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      ],
+      "contentHash": "98f156fdd3eb8125c0d0afa8a79de6871aed44a24a31fa400ce7206778e1d480",
+      "wordCount": 1270,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-customer-death-notification-routing",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center duplicate-ticket merging: preserve history before reducing the queue",
+      "slug": "call-center-duplicate-ticket-merging",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "contentHash": "f2bf5e8037c59d14452b5791855e02b3e558b8e74aa35c0e81604eebd53c271e",
+      "wordCount": 1176,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-duplicate-ticket-merging",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center hold-time updates: what to say while ownership is unresolved",
+      "slug": "call-center-hold-time-update-standard",
+      "sources": [
+        "https://consumercomplaints.fcc.gov/hc/en-us/articles/360001201223-Phone-Form-Descriptions-of-Complaint-Issues",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "36a34b61a3bb9f2d1be95aba104f31ed55556172f69ae2276496f7f6e97a309b",
+      "wordCount": 1295,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-hold-time-update-standard",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center outbound list suppression: stop revoked contacts across tools",
+      "slug": "call-center-outbound-list-suppression",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule",
+        "https://consumercomplaints.fcc.gov/hc/en-us/articles/115002234203-Unwanted-Calls-Texts-Phone"
+      ],
+      "contentHash": "24e1881807083791d116d0e1d21ed0e0daf61512c3f603ffa75270a3d2569b39",
+      "wordCount": 968,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-outbound-list-suppression",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center three-way calls: verify every participant before discussing the account",
+      "slug": "call-center-three-way-call-authorization",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63a.html",
+        "https://www.justice.gov/crt/language-access"
+      ],
+      "contentHash": "b4d87f0b5265a22a54a14d3388293cf33fa4770a79e2bf031a779a80833776a2",
+      "wordCount": 1720,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-three-way-call-authorization",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center knowledge-gap backlogs: prioritize missing answers by risk",
+      "slug": "offshore-call-center-knowledge-gap-backlog",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "c31584d98b26f88a1e30e1baa0947658fce0c4ffb65277dfacbb827fb7a01b6a",
+      "wordCount": 1003,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-knowledge-gap-backlog",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center queue-drain plans: closing a shift without orphaning work",
+      "slug": "offshore-call-center-queue-drain-plan",
+      "sources": [
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked"
+      ],
+      "contentHash": "53cc8596c64ef63ce2adc013df218022f90c88dbaa54ec287fa6d9cd41b54081",
+      "wordCount": 1725,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-queue-drain-plan",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center screen-sharing consent: control the support session",
+      "slug": "offshore-call-center-screen-sharing-consent",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+      ],
+      "contentHash": "6a8b15be3819bce512f56169109754158ff938cb4eed92a7171eb94eb684db69",
+      "wordCount": 1280,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-screen-sharing-consent",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center silent-call troubleshooting: a safe first-response playbook",
+      "slug": "offshore-call-center-silent-call-troubleshooting",
+      "sources": [
+        "https://consumercomplaints.fcc.gov/hc/en-us/articles/360001201223-Phone-Form-Descriptions-of-Complaint-Issues",
+        "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response"
+      ],
+      "contentHash": "9b9a71c6f80480fecd009e4ea3df5b6cccdc037ac3f22d34c9156a336e06d669",
+      "wordCount": 1557,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-silent-call-troubleshooting",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center translation requests: route meaning, not just language",
+      "slug": "offshore-call-center-translation-request-routing",
+      "sources": [
+        "https://www.justice.gov/crt/language-access",
+        "https://www.w3.org/WAI/standards-guidelines/wcag/"
+      ],
+      "contentHash": "a16d722aa777c4c56dd69f0b73e5ea5262ba4925fc70ef68c8c8845416c3611b",
+      "wordCount": 1262,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-translation-request-routing",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Philippines call center holiday coverage: map demand, authority, and handoffs",
+      "slug": "philippines-call-center-holiday-coverage-map",
+      "sources": [
+        "https://www.dole.gov.ph/",
+        "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      ],
+      "contentHash": "9ed98b0df587680f1462f691af0419875ab03dfffe6392a27bd8a8e0e5e28e2a",
+      "wordCount": 1265,
+      "publicationDate": "2026-10-02",
+      "commitSha": "08d8aa44f80bc7e5ef70cbace5b75cfef9d9f00a",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/philippines-call-center-holiday-coverage-map",
+      "verificationTime": null
+    }
+  ],
+  "recoveryAction": "Browser Operator: deploy exact combined SHA on Coolify3 app m13z1803mceu91zk02hgzn95, then return successful exact-SHA evidence for all-17 live verification."
+}
