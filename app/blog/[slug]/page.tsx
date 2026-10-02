@@ -6,6 +6,10 @@ import HealthcareArticle from './HealthcareArticle';
 import CoverageArticle from './CoverageArticle';
 import aug21Meta from '../../aug21-meta.json';
 import aug23Meta from '../../aug23-meta.json';
+import fs from 'node:fs';
+import path from 'node:path';
+
+function inlineLinks(text:string){return text.split(/(\[[^\]]+\]\(https?:\/\/[^)]+\)|\[[^\]]+\]\(\/[^)]+\))/g).filter(Boolean).map((part,index)=>{const match=part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);return match?<a href={match[2]} key={index}>{match[1]}</a>:part;});}
 
 export function generateStaticParams() { return [...blogPosts.map(p => ({ slug: p.slug })), ...Object.keys(aug21Meta).map(slug => ({ slug })), ...Object.keys(aug23Meta).map(slug => ({ slug }))]; }
 
@@ -38,6 +42,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const related = blogPosts.filter(x => x.slug !== p.slug).slice(0, 3);
   const organization = { '@type': 'Organization', '@id': 'https://callcenteroffshore.com/#organization', name: site.brand, url: 'https://callcenteroffshore.com' };
   const schema = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${canonical}#article`, headline: p.title, description: p.excerpt, mainEntityOfPage: canonical, image: 'https://callcenteroffshore.com/blog-thumbnail.svg', author: organization, publisher: organization, datePublished: p.published, dateModified: p.modified ?? p.published };
+  const draftPath=(p as typeof p & {draftPath?:string}).draftPath;
+  if(draftPath){const raw=fs.readFileSync(path.join(process.cwd(),draftPath),'utf8');const body=raw.replace(/^---[\s\S]*?---\s*/,'').replace(/^#[^\n]+\n+/, '');const blocks=body.split(/\n\n+/).filter(Boolean).map((part,index)=>part.startsWith('## ')?<h2 key={index}>{part.slice(3)}</h2>:part.startsWith('- ')?<ul key={index}>{part.split('\n').map((line,item)=><li key={item}>{inlineLinks(line.replace(/^- /,''))}</li>)}</ul>:<p key={index}>{inlineLinks(part)}</p>);return <><Header/><main><article className="section"><div className="container article-shell"><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p><time dateTime={p.published}>Published {displayDate(p.published)}</time><img src="/blog-thumbnail.svg" width="1200" height="630" alt="Call Center Offshore article thumbnail" style={{width:'100%',height:'auto',borderRadius:12}}/><section className="card">{blocks}</section></div></article><CTA/></main><Footer/></>}
   return <><Header /><main><article className="section"><div className="container article-shell">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <p className="eyebrow">{site.brand} blog</p><h1>{p.title}</h1><p className="lead">{p.excerpt}</p>{p.published && <time dateTime={p.published}>Published {displayDate(p.published)}</time>}
