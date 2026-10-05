@@ -8,139 +8,143 @@
     "modified": "2026-10-05",
     "revision": "2026-10-05-call-center-quality-score-appeal-evidence-study-v1",
     "readingMinutes": 12,
-    "wordCount": 1168,
-    "methodology": "A bounded source-record study of one disputed quality evaluation from agent notice through evidence preservation, independent review, decision, score correction, coaching update, and trend reporting. Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review. Official public sources were checked on October 5, 2026.",
-    "limitations": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+    "wordCount": 1222,
+    "methodology": "This operational study uses one disputed evaluation as the unit of analysis. It compares factual, judgment, and process-defect appeals; preserved and missing evidence; upheld, changed, mixed, and stopped decisions; and successful or incomplete propagation. Before review, the buyer defines eligibility, exclusions, required fields, reviewer independence, decision times, correction consumers, and stop conditions. The evidence set includes authorized interaction records, rubric versions, scoring guidance, case history, correction events, calibration notes, and management receipts. Public sources inform governance and measurement design but provide no performance estimate for a buyer queue. Checked October 5, 2026.",
+    "limitations": "A small appeal sample cannot establish provider-wide quality, fairness, customer satisfaction, or future performance. Appeal populations are self-selected and may omit errors that agents never see or feel unable to challenge. Recordings and transcripts can be incomplete, and open-text rubric items retain judgment even after calibration. Employment, labor, privacy, recording, and incentive requirements vary by location and client. Buyers need qualified advice and their own controlled pilot before using appeal results in consequential decisions.",
     "keyTakeaways": [
-      "Preserve the contact and rubric version that produced the score.",
-      "Separate factual correction from manager-owned employment decisions.",
-      "Propagate an upheld correction to every downstream use of the score."
+      "Freeze the scored interaction and rubric version before review begins.",
+      "Give an independent reviewer a narrow question and the same source evidence.",
+      "Trace every changed score into coaching, reporting, and any authorized downstream use."
     ],
     "stats": [],
     "sections": [
       {
-        "heading": "Decision and scope",
+        "heading": "Research question and decision",
         "paragraphs": [
           {
-            "text": "This report asks: Can a Philippines-based support operation review a disputed quality score consistently while preserving the original evidence and keeping employment decisions with authorized managers? The buying decision is which evidence collection, classification, and correction steps a quality analyst may perform and which policy, disciplinary, incentive, and customer-remedy decisions remain with accountable management. That is narrower than asking whether an offshore team can “handle” the category. A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision. Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
-            "citations": [
-              5,
-              6
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Unit and evidence fields",
-        "paragraphs": [
-          {
-            "text": "The unit of analysis is one disputed quality evaluation from agent notice through evidence preservation, independent review, decision, score correction, coaching update, and trend reporting. Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise. The minimum evidence fields are contact identifier, rubric version, sampled event, original reviewer, disputed item, reason, source evidence, independent reviewer, decision, score effect, coaching effect, notice time, and closure. Record an unavailable value as missing. A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
-            "citations": [
-              5,
-              6
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Keep the original evaluation reproducible",
-        "paragraphs": [
-          {
-            "text": "An appeal record should point to the exact interaction, transcript or recording segment, rubric revision, scoring guidance, and system timestamps used by the first reviewer. A later edited note is not equivalent evidence. If privacy or retention rules make the source unavailable, the appeal outcome should say that the claim could not be reproduced rather than guessing. Buyers should test whether access is limited to authorized reviewers and whether the evidence survives long enough for the stated appeal window.",
+            "text": "This study asks whether a Philippines-based quality team can review a disputed call score without turning an appeal into bargaining over every coaching point. The decision is narrower than whether an agent likes the result. Reviewers need to determine whether the cited interaction supports the scored rubric item under the version in force at that time. Client managers retain authority over employment, incentives, customer remedies, policy exceptions, and changes to the scorecard. The operating outcome is a reproducible correction process: preserve the original evidence, assign a reviewer who did not issue the score, record a reasoned decision, and repair every downstream record that used an inaccurate result.",
             "citations": [
               1,
-              6,
-              7
+              2
             ]
           }
         ]
       },
       {
-        "heading": "Check correction propagation, not just the appeal status",
+        "heading": "Why the original evidence must be frozen",
         "paragraphs": [
           {
-            "text": "A changed answer should update the scorecard, coaching queue, reviewer-accuracy analysis, client report, and any incentive or performance input that used the original result. The analyst should not independently decide pay, discipline, or employment consequences. Sample corrections downstream and record any system that cannot be amended. The useful management outcome is a trustworthy measurement process: staff can challenge a specific classification, while leaders retain clear authority and recurring ambiguity leads to rubric repair.",
+            "text": "An appeal cannot be reproduced from a supervisor summary. Preserve the interaction identifier, authorized recording or transcript segment, timestamps, channel events, rubric version, scoring guidance, and original annotations before another reviewer edits the case. A later knowledge article or revised rubric may explain why the rule changed, but it should not silently replace the standard that produced the disputed score. Where retention or privacy rules make the source unavailable, the review should state that the finding could not be reproduced. Guessing in favor of either party creates a decision with no auditable basis.",
             "citations": [
-              1,
-              6,
-              7
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Decision boundary for call center quality score appeals: an evidence and independence study",
-        "paragraphs": [
-          {
-            "text": "The operating decision is which evidence collection, classification, and correction steps a quality analyst may perform and which policy, disciplinary, incentive, and customer-remedy decisions remain with accountable management. Write that boundary beside the relevant system permission and customer-facing script. The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority. A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message. The critical adverse case is that the same reviewer simply confirms an undocumented judgment, or a corrected result fails to reach coaching, incentives, staffing records, and client reports. That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary."
-          }
-        ]
-      },
-      {
-        "heading": "Record design for this workflow",
-        "paragraphs": [
-          {
-            "text": "Use one disputed quality evaluation from agent notice through evidence preservation, independent review, decision, score correction, coaching update, and trend reporting as the record boundary. Within it, preserve contact identifier, rubric version, sampled event, original reviewer, disputed item, reason, source evidence, independent reviewer, decision, score effect, coaching effect, notice time, and closure. These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners. Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation. The record should stay in the approved operational system and expose only the fields needed by the next authorized participant. Review access and retention with the client before using live customer information."
-          }
-        ]
-      },
-      {
-        "heading": "Comparison groups that can reveal hidden failure",
-        "paragraphs": [
-          {
-            "text": "The evaluation should deliberately distinguish factual and judgment disputes, upheld and changed scores, single and repeated reviewer patterns, current and superseded rubrics, and appeals completed inside and outside the target window. Select cases before reading their outcomes, record exclusions, and retain contrary examples. Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group. If a group is too small for a stable percentage, show counts and describe uncertainty. Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance."
-          }
-        ]
-      },
-      {
-        "heading": "Pilot controls and stop conditions",
-        "paragraphs": [
-          {
-            "text": "A practical pilot uses versioned rubrics, immutable source evidence, reason codes, a reviewer independent of the first score, bounded decision times, correction propagation, and aggregate bias review. Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner. Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret. A stop is a successful control outcome when work would otherwise exceed authority. Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process."
-          }
-        ]
-      },
-      {
-        "heading": "Buyer review questions",
-        "paragraphs": [
-          {
-            "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner. For each, trace the source, operator action, approval boundary, customer statement, and final system state. Confirm that the relevant service is quality assurance support and that the proposed role does not quietly absorb adjacent professional or management judgments. Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification."
-          }
-        ]
-      },
-      {
-        "heading": "Niche-specific conclusion",
-        "paragraphs": [
-          {
-            "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action. The recommended starting control is versioned rubrics, immutable source evidence, reason codes, a reviewer independent of the first score, bounded decision times, correction propagation, and aggregate bias review. Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible. The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready."
-          }
-        ]
-      },
-      {
-        "heading": "Limitations",
-        "paragraphs": [
-          {
-            "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion.",
-            "citations": [
-              5,
-              6
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Source evaluation",
-        "paragraphs": [
-          {
-            "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
-            "citations": [
-              1,
               2,
-              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Classify the disagreement before assigning it",
+        "paragraphs": [
+          {
+            "text": "A factual dispute differs from a judgment dispute. Factual cases include a verification step that is audible but marked absent, a system event attached to the wrong contact, or a calculation that does not match the rubric. Judgment cases concern tone, clarity, empathy, or whether an explanation met an open-text standard. A third class covers process defects such as an obsolete rubric, inaudible recording, missing consent, or a reviewer who scored outside the approved sample. Classification determines the reviewer, evidence, and possible remedy. It also prevents a manager from treating every disagreement as resistance to coaching.",
+            "citations": [
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Design reviewer independence that works in a small team",
+        "paragraphs": [
+          {
+            "text": "Independence does not require a separate department, but the second reviewer should not report a result merely to validate their own earlier decision. Record the original scorer, appeal reviewer, conflicts, and any consultation. Give the reviewer the disputed items and source evidence without a narrative that labels the agent difficult or the first reviewer careless. For a small offshore quality team, rotate appeals across calibrated reviewers or reserve them for a client-approved lead. Managers decide what happens when no independent reviewer is available; the queue should not quietly return the case to its original scorer.",
+            "citations": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Work through a mixed factual and judgment appeal",
+        "paragraphs": [
+          {
+            "text": "Consider a call scored down for missing identity verification and for an abrupt closing. The agent appeals both items. The independent reviewer finds the required verification at minute 1:42, supported by the recording and CRM event, so that item changes. The closing remains below the written standard because the agent ends without stating the promised callback window. The decision separates those results instead of choosing a total win or loss. The corrected score moves to reporting, while coaching keeps the closing example. The agent receives the reason and evidence boundary, not a debate about intent. This outcome preserves accurate measurement and useful coaching at the same time.",
+            "citations": [
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Propagate corrections beyond the appeal screen",
+        "paragraphs": [
+          {
+            "text": "Closing an appeal as changed is insufficient if the old score remains in a dashboard, coaching queue, reviewer-accuracy report, client summary, or authorized incentive input. Map every consumer before launch. A correction event should identify the original value, final value, reason code, decision time, and systems updated. When a downstream tool cannot be amended, record the limitation and provide the accountable manager with a reconciliation report. The quality analyst may verify propagation but should not independently reverse pay, discipline, staffing, or contractual decisions. Those actions remain with authorized management.",
+            "citations": [
+              2,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Use disagreement to repair the rubric",
+        "paragraphs": [
+          {
+            "text": "Repeated appeals can reveal a scorecard problem. Group cases by item, rubric version, original reviewer, appeal reviewer, queue, and dispute class. A high change rate on one open-text item may show unclear anchors rather than weak reviewers. A cluster tied to one recording channel may be an evidence problem. Report counts alongside percentages and retain contrary examples, especially when volumes are small. Do not generalize a bounded operational sample into claims about Filipino agents or provider quality. The reader decision is whether to clarify an anchor, retrain reviewers, repair evidence capture, or leave a well-supported standard unchanged.",
+            "citations": [
               4,
-              5,
-              6,
-              7,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Pilot design and stop conditions",
+        "paragraphs": [
+          {
+            "text": "Begin with one queue and a fixed historical sample that includes upheld scores, changed scores, mixed decisions, missing evidence, and two reviewers disagreeing after calibration. Define the appeal window, eligibility, reviewer assignment, response time, source access, correction path, and escalation owner before looking at outcomes. Stop a case when the source cannot be retrieved, the rubric version is unknown, required privacy authority is absent, or the reviewer has a material conflict. A stop is a valid finding because it exposes a process that cannot support the decision it previously made.",
+            "citations": [
+              1,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measures that expose review quality",
+        "paragraphs": [
+          {
+            "text": "Track appeals received, eligible cases, time to evidence freeze, time to independent decision, results by dispute class, corrections by rubric item, downstream updates completed, unreproducible scores, and repeat disagreements after calibration. Pair those measures with a case sample. A low appeal rate may reflect confidence in the process, or it may mean agents do not know how to challenge a factual error. A high overturn rate may identify a defective rubric or a badly selected original reviewer. Management should ask what operational change follows each pattern rather than setting a target for fewer appeals.",
+            "citations": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Buyer acceptance test",
+        "paragraphs": [
+          {
+            "text": "Ask a provider to demonstrate four complete files: an upheld factual appeal, a changed factual appeal, a mixed judgment decision, and a case stopped for missing evidence. Trace the interaction, rubric version, reviewer identity, decision reason, score update, coaching effect, client report, and any unresolved downstream record. Add a shift change and an unavailable reviewer. The buyer should reject a process that offers only a free-text comment and final status. Acceptance requires reproducible evidence, independent review, bounded authority, correction receipts, and a feedback route that can improve the scorecard without rewriting history.",
+            "citations": [
+              2,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Decision for a Philippines-based quality operation",
+        "paragraphs": [
+          {
+            "text": "This work can be delegated when reviewers have authorized source access, versioned rubrics, independence rules, protected records, and a named client owner for consequences outside quality classification. It should remain narrow: the quality team decides whether evidence supports a score, while management controls policy, employment, incentives, customer remedies, and contractual interpretation. Expansion should follow a reconciled pilot showing that factual errors are corrected, judgment calls cite usable anchors, mixed decisions remain nuanced, and changed results reach every approved consumer. The value is not a friendlier appeal experience. It is measurement that managers and agents can reproduce.",
+            "citations": [
+              1,
               8
             ]
           }
@@ -269,9 +273,9 @@
     "modified": "2026-10-05",
     "revision": "2026-10-05-technical-support-outage-message-approval-study-v1",
     "readingMinutes": 12,
-    "wordCount": 1158,
-    "methodology": "A bounded source-record study of one service disruption from first customer report through incident acknowledgement, message approval, successive updates, restoration, correction, and closure. Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review. Official public sources were checked on October 5, 2026.",
-    "limitations": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+    "wordCount": 1202,
+    "methodology": "This study treats an approved message version delivered through one customer channel as the observation unit. It reconstructs incident states, approval events, distribution events, expirations, customer contacts, contrary reports, and recovery actions. A pilot includes simulated transitions and bounded live cases, with predeclared authority, evidence fields, lag thresholds, and stop rules. Results are segmented by channel and incident transition, then checked against sampled customer journeys. Public sources support governance and incident communication design; they do not establish performance for a particular provider. Checked October 5, 2026.",
+    "limitations": "This design cannot predict incident frequency or prove that a message caused customer behavior. Logs may not show exactly what an agent saw, and customers can encounter several channels. Security, regulatory, contractual, and compensation decisions differ by client and event. Buyers should use controlled tests, retain incident-owner authority, and obtain qualified advice for sector-specific notice duties.",
     "keyTakeaways": [
       "Publish confirmed scope and unknowns from one incident record.",
       "Treat restoration estimates and security conclusions as owner-approved fields.",
@@ -280,25 +284,25 @@
     "stats": [],
     "sections": [
       {
-        "heading": "Decision and scope",
+        "heading": "Decide whether the queue may publish or only relay",
         "paragraphs": [
           {
-            "text": "This report asks: Can a technical help desk give timely outage information while engineering retains authority over cause, scope, security significance, and recovery estimates? The buying decision is which acknowledged facts, workaround steps, and update times frontline support may communicate and which technical conclusions require approval from the incident owner. That is narrower than asking whether an offshore team can “handle” the category. A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision. Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
+            "text": "The buyer must decide whether technical support representatives can publish an outage update or only deliver wording approved by incident command. That choice depends on evidence availability, not staffing location. A queue that sees symptoms but lacks the incident record should collect observations and use a holding response. A queue connected to versioned approvals may distribute the current message and flag conflicts. The study tests that boundary during changing conditions. It does not ask whether agents sound confident or whether a provider can keep every seat busy during an incident.",
             "citations": [
-              5,
-              6
+              1,
+              2
             ]
           }
         ]
       },
       {
-        "heading": "Unit and evidence fields",
+        "heading": "Use a message version as the observation unit",
         "paragraphs": [
           {
-            "text": "The unit of analysis is one service disruption from first customer report through incident acknowledgement, message approval, successive updates, restoration, correction, and closure. Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise. The minimum evidence fields are report time, affected feature, observed symptom, incident identifier, approved statement version, approver, channel, next-update time, workaround, correction, restoration source, and unresolved customer action. Record an unavailable value as missing. A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
+            "text": "Each observation is one approved message version on one channel during a defined interval. Record the incident identifier, factual assertions, explicit unknowns, approving owner, approval time, next-update deadline, audience, channel, publication time, replacement time, and any customer action requested. Link contacts to the version actually displayed to the representative. This unit reveals stale scripts and unsupported edits that an incident-level summary conceals. It also lets a buyer distinguish slow approval from slow distribution, an important difference because each failure has a different owner and remedy.",
             "citations": [
-              5,
-              6
+              2,
+              3
             ]
           }
         ]
@@ -330,79 +334,97 @@
         ]
       },
       {
-        "heading": "Decision boundary for technical support outage messages: an approval and update-lag study",
+        "heading": "Follow one incident through four message states",
         "paragraphs": [
           {
-            "text": "The operating decision is which acknowledged facts, workaround steps, and update times frontline support may communicate and which technical conclusions require approval from the incident owner. Write that boundary beside the relevant system permission and customer-facing script. The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority. A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message. The critical adverse case is that pressure for a quick answer turns a symptom into a claimed root cause or a hopeful engineering target into a customer promise. That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary."
-          }
-        ]
-      },
-      {
-        "heading": "Record design for this workflow",
-        "paragraphs": [
-          {
-            "text": "Use one service disruption from first customer report through incident acknowledgement, message approval, successive updates, restoration, correction, and closure as the record boundary. Within it, preserve report time, affected feature, observed symptom, incident identifier, approved statement version, approver, channel, next-update time, workaround, correction, restoration source, and unresolved customer action. These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners. Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation. The record should stay in the approved operational system and expose only the fields needed by the next authorized participant. Review access and retention with the client before using live customer information."
-          }
-        ]
-      },
-      {
-        "heading": "Comparison groups that can reveal hidden failure",
-        "paragraphs": [
-          {
-            "text": "The evaluation should deliberately distinguish confirmed and unconfirmed incidents, partial and broad impact, current and stale messages, working and failed workarounds, and updates issued before and after their promised time. Select cases before reading their outcomes, record exclusions, and retain contrary examples. Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group. If a group is too small for a stable percentage, show counts and describe uncertainty. Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance."
-          }
-        ]
-      },
-      {
-        "heading": "Pilot controls and stop conditions",
-        "paragraphs": [
-          {
-            "text": "A practical pilot uses one incident source of truth, field-level message approval, explicit unknowns, version timestamps, expiry rules, a correction path, and reconciliation of open customer cases. Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner. Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret. A stop is a successful control outcome when work would otherwise exceed authority. Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process."
-          }
-        ]
-      },
-      {
-        "heading": "Buyer review questions",
-        "paragraphs": [
-          {
-            "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner. For each, trace the source, operator action, approval boundary, customer statement, and final system state. Confirm that the relevant service is technical help desk support and that the proposed role does not quietly absorb adjacent professional or management judgments. Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification."
-          }
-        ]
-      },
-      {
-        "heading": "Niche-specific conclusion",
-        "paragraphs": [
-          {
-            "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action. The recommended starting control is one incident source of truth, field-level message approval, explicit unknowns, version timestamps, expiry rules, a correction path, and reconciliation of open customer cases. Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible. The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready."
-          }
-        ]
-      },
-      {
-        "heading": "Limitations",
-        "paragraphs": [
-          {
-            "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion.",
+            "text": "A useful outage study follows a single incident from detection to investigation, mitigation, and resolution. At each state, capture who approved the customer wording, which technical fact supported it, the channels that received it, and the next promised update. This exposes a failure that aggregate response time hides: an accurate web banner can coexist with an obsolete phone script. The study should compare the message customers actually heard with the approved state at that minute. It should not grade agents on root-cause knowledge that incident command had not yet confirmed.",
             "citations": [
-              5,
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Worked case: the restored service that was not restored",
+        "paragraphs": [
+          {
+            "text": "Suppose monitoring shows recovery in one region, while two others still fail intermittently. Incident command approves “service is recovering” with another update in 30 minutes. A support lead shortens that to “the outage is resolved” in a queue notice. Agents then close cases and customers call again. The study records the approval change, distribution lag, repeat contacts, and reopened cases. It does not infer that shorter wording is better because handle time fell. The operational repair is to bind each channel message to an approved version and expiration, not to coach agents for trusting a stale notice.",
+            "citations": [
+              2,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Separate message approval from incident command",
+        "paragraphs": [
+          {
+            "text": "Technical support can deliver an approved update, collect symptoms, and route exceptions. It should not declare severity, cause, security impact, restoration, compensation, or a new service commitment. Those decisions belong to named incident, security, legal, product, or client owners. A message record therefore needs both an author and an approver. When an agent discovers contrary evidence, the safe action is to flag the mismatch and use a holding statement, not rewrite the incident narrative. This division keeps an offshore queue useful without turning fast communication into unauthorized diagnosis.",
+            "citations": [
+              3,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measure lag at the customer touchpoint",
+        "paragraphs": [
+          {
+            "text": "Timestamping publication alone misses the customer experience. Measure approval-to-availability for the agent desktop, IVR, email, chat macro, status page, and any callback workflow. Sample contacts around every version transition and identify which wording was rendered. Report the longest and median lag by channel, but retain the cases that crossed a promise boundary. Also record messages that expired without replacement. A channel with low average lag may still create the most harm if its one stale update tells customers to repeat a failed action or falsely states that service is restored.",
+            "citations": [
+              1,
               6
             ]
           }
         ]
       },
       {
-        "heading": "Source evaluation",
+        "heading": "Design the pilot around controlled transitions",
         "paragraphs": [
           {
-            "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
+            "text": "Run the pilot on simulated incidents and a bounded set of real, low-risk events. Include a severity increase, partial recovery, missed update deadline, region-specific condition, and a false recovery signal. Predefine authorized approvers, required evidence, maximum distribution lag, holding language, exception routing, and shutdown conditions. Stop outbound updates when the source record is unavailable, approval is ambiguous, or channel synchronization cannot be verified. The test passes only when every customer-facing surface can be reconciled to an approved state and staff can locate the current version during a shift change.",
+            "citations": [
+              2,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Review questions for a support buyer",
+        "paragraphs": [
+          {
+            "text": "Ask the provider to replay an incident timeline using source records rather than a slide summary. Which message did a phone agent see at 10:14? Who approved it? What happened when the next update was late? Can the provider identify customers who received the obsolete version and show the recovery action? Test a regional exception and an agent report that contradicts the dashboard. Reject a design that measures only publishing speed. Approval provenance, expiry handling, cross-channel reconciliation, and a bounded route for contrary evidence are the controls that make delegated outage communication dependable.",
+            "citations": [
+              4,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpret repeat contact without blaming the queue",
+        "paragraphs": [
+          {
+            "text": "Repeat contacts may indicate unclear wording, premature closure, a changing incident, or a customer whose service remained affected after broad recovery. Link repeats to the exact message version and incident state before drawing a conclusion. Compare cohorts that received different approved updates only when their exposure and service condition are comparable. Qualitative review should ask what decision the customer made after the message. This keeps the study focused on whether communication helped customers choose a sensible next step, rather than treating fewer contacts as proof that the message was accurate.",
             "citations": [
               1,
-              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Decision rule for expanding offshore coverage",
+        "paragraphs": [
+          {
+            "text": "Expand responsibility when the queue consistently renders the approved state, flags contradictions, meets channel-specific lag limits, and produces a complete audit trail through adverse transitions. Do not expand merely because routine updates are fast. The harder evidence is a partial recovery, missed deadline, or disputed technical signal handled without unauthorized claims. Client leadership retains control of incident facts and consequential promises. The provider owns disciplined delivery, timestamped observations, and escalation. That boundary gives buyers a practical way to add coverage while keeping the authority to define the incident with the people accountable for it.",
+            "citations": [
               3,
-              4,
-              5,
-              6,
-              7,
-              8
+              7
             ]
           }
         ]
@@ -530,9 +552,9 @@
     "modified": "2026-10-05",
     "revision": "2026-10-05-offshore-call-center-contact-record-merge-study-v1",
     "readingMinutes": 12,
-    "wordCount": 1170,
-    "methodology": "A bounded source-record study of one suspected duplicate pair from detection through comparison, verification, approval, merge or non-merge decision, downstream synchronization, and reversal review. Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review. Official public sources were checked on October 5, 2026.",
-    "limitations": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+    "wordCount": 1207,
+    "methodology": "The observation unit is one proposed relationship between two customer records. The study samples confirmed duplicates, distinct lookalikes, household relationships, and unresolved cases, then records field-level evidence, reviewer action, downstream propagation, and reversibility. Negative controls and post-synchronization rollback tests are required. Metrics retain denominators and consequence classes, with qualitative review of disagreements and failures. Public sources inform identity, privacy, and data-quality controls but do not validate a provider’s matching accuracy. Checked October 5, 2026. Reviewers also record a confidence explanation, but the study never converts that explanation into automatic permission. A second steward examines every ambiguous relationship and every proposed merge with a high-consequence downstream dependency.",
+    "limitations": "No bounded sample represents every naming convention, household structure, identifier lifecycle, or client system. Ground truth can be uncertain, and downstream platforms may prevent complete rollback. Privacy, retention, consumer correction, and sector rules vary. Buyers should define authority with qualified advisers, minimize exposed data, and test the actual systems before granting production merge rights.",
     "keyTakeaways": [
       "Treat a suspected duplicate as a hypothesis, not an identity fact.",
       "Prefer reversible links until an authorized owner approves a merge.",
@@ -541,25 +563,25 @@
     "stats": [],
     "sections": [
       {
-        "heading": "Decision and scope",
+        "heading": "Decide which record changes may be delegated",
         "paragraphs": [
           {
-            "text": "This report asks: Can an offshore support queue resolve duplicate contact records while protecting identity boundaries, consent history, case ownership, and auditability? The buying decision is which low-risk linking and evidence preparation may be delegated and which destructive merge, identity, legal-hold, marketing-consent, and master-data decisions stay with system owners. That is narrower than asking whether an offshore team can “handle” the category. A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision. Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
+            "text": "The buyer is deciding whether an offshore data-support queue may identify possible duplicates, link related people, correct fields, or execute a permanent merge. Those actions carry different consequences and should not share one permission. Candidate detection can be broad while merge authority remains narrow. The study tests whether reviewers preserve uncertainty when identifiers conflict and whether client owners retain high-consequence decisions. It rejects the assumption that fewer records automatically means better data. A clean count is worthless when distinct customers, consent choices, or case histories have been combined.",
             "citations": [
-              5,
-              6
+              1,
+              3
             ]
           }
         ]
       },
       {
-        "heading": "Unit and evidence fields",
+        "heading": "Observe one proposed relationship between two records",
         "paragraphs": [
           {
-            "text": "The unit of analysis is one suspected duplicate pair from detection through comparison, verification, approval, merge or non-merge decision, downstream synchronization, and reversal review. Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise. The minimum evidence fields are record identifiers, match trigger, conflicting fields, verified channel, account relationships, consent state, open cases, retention hold, proposed survivor, approver, action log, sync result, and reversal reference. Record an unavailable value as missing. A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
+            "text": "The unit is a proposed relationship between record A and record B at a specific time. Capture the matching fields, conflicting fields, provenance, identifier age, open cases, consent states, household or business relationships, fraud markers, proposed action, reviewer, authority, and downstream systems. Preserve the pre-change snapshots and decision reason. This design permits separate findings for identity, contact ownership, and relationship. It also exposes what a percentage match hides: two records may score highly because a family shares an address while the disagreement on date of birth proves they should not become one identity.",
             "citations": [
-              5,
-              6
+              2,
+              4
             ]
           }
         ]
@@ -591,79 +613,97 @@
         ]
       },
       {
-        "heading": "Decision boundary for duplicate customer records: a merge-authority and reversibility study",
+        "heading": "Treat a merge as a claim, not a cleanup click",
         "paragraphs": [
           {
-            "text": "The operating decision is which low-risk linking and evidence preparation may be delegated and which destructive merge, identity, legal-hold, marketing-consent, and master-data decisions stay with system owners. Write that boundary beside the relevant system permission and customer-facing script. The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority. A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message. The critical adverse case is that matching names, email fragments, or phone numbers are treated as proof of identity and two people’s cases, preferences, or account access are combined. That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary."
-          }
-        ]
-      },
-      {
-        "heading": "Record design for this workflow",
-        "paragraphs": [
-          {
-            "text": "Use one suspected duplicate pair from detection through comparison, verification, approval, merge or non-merge decision, downstream synchronization, and reversal review as the record boundary. Within it, preserve record identifiers, match trigger, conflicting fields, verified channel, account relationships, consent state, open cases, retention hold, proposed survivor, approver, action log, sync result, and reversal reference. These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners. Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation. The record should stay in the approved operational system and expose only the fields needed by the next authorized participant. Review access and retention with the client before using live customer information."
-          }
-        ]
-      },
-      {
-        "heading": "Comparison groups that can reveal hidden failure",
-        "paragraphs": [
-          {
-            "text": "The evaluation should deliberately distinguish exact and probabilistic matches, individuals and shared households, active and dormant records, matching and conflicting consent, reversible links and destructive merges, and successful and failed downstream syncs. Select cases before reading their outcomes, record exclusions, and retain contrary examples. Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group. If a group is too small for a stable percentage, show counts and describe uncertainty. Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance."
-          }
-        ]
-      },
-      {
-        "heading": "Pilot controls and stop conditions",
-        "paragraphs": [
-          {
-            "text": "A practical pilot uses a non-destructive comparison view, minimum match evidence, prohibited-field stops, named data-owner approval, reversible linking, merge receipts, and downstream exception monitoring. Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner. Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret. A stop is a successful control outcome when work would otherwise exceed authority. Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process."
-          }
-        ]
-      },
-      {
-        "heading": "Buyer review questions",
-        "paragraphs": [
-          {
-            "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner. For each, trace the source, operator action, approval boundary, customer statement, and final system state. Confirm that the relevant service is CRM support and that the proposed role does not quietly absorb adjacent professional or management judgments. Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification."
-          }
-        ]
-      },
-      {
-        "heading": "Niche-specific conclusion",
-        "paragraphs": [
-          {
-            "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action. The recommended starting control is a non-destructive comparison view, minimum match evidence, prohibited-field stops, named data-owner approval, reversible linking, merge receipts, and downstream exception monitoring. Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible. The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready."
-          }
-        ]
-      },
-      {
-        "heading": "Limitations",
-        "paragraphs": [
-          {
-            "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion.",
+            "text": "Two similar records are not automatically one person. A merge asserts that selected attributes, relationships, preferences, and histories belong together. The study therefore records the evidence for each attribute rather than assigning one confidence score to the entire pair. A shared address may support a household relationship while contradicting an identity match. A recycled phone number may connect unrelated customers. Reviewers need a reason code, source provenance, conflicting values, and the business consequence of a false merge before deciding whether to combine, link, or leave records separate.",
             "citations": [
-              5,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Worked case: family address, reused number, separate accounts",
+        "paragraphs": [
+          {
+            "text": "Consider two records with the same postal address and surname. One contains a mobile number that recently moved to the other record, but the birth dates and purchase histories differ. A broad matching rule proposes a merge. The reviewer instead records a household link, preserves both identities, and routes the phone conflict for verification. If the system had merged them, one customer could receive the other customer’s order details and preference changes. The example shows why relationship evidence, identity evidence, and contact-channel ownership must remain separate decisions even when a single interface presents them together.",
+            "citations": [
+              2,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Assign authority by consequence",
+        "paragraphs": [
+          {
+            "text": "An agent may flag candidates and correct a typographical field supported by the current interaction. A trained data steward may approve low-risk links or merges under documented rules. Client owners should retain decisions involving regulated data, payment relationships, account ownership, legal holds, fraud indicators, or irrecoverable history changes. The interface should enforce these boundaries instead of relying on memory. A queue target must never reward irreversible merges. When evidence is incomplete, preserving two records with a review marker is often safer than manufacturing certainty for a cleaner dashboard.",
+            "citations": [
+              3,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Test reversal before granting merge access",
+        "paragraphs": [
+          {
+            "text": "A rollback demonstration should restore both records, their identifiers, histories, consent states, relationships, and downstream references. It must not merely recreate two empty shells. Run the test after exports, analytics updates, marketing synchronization, and an overnight job, because propagation can make a nominally reversible merge permanent elsewhere. Record the reversal time and the fields that could not be restored. If a linked order, case, or consent event loses provenance, the control failed. Buyers should require a documented path for notifying downstream owners when full reversal is impossible.",
+            "citations": [
+              1,
               6
             ]
           }
         ]
       },
       {
-        "heading": "Source evaluation",
+        "heading": "Sample the ambiguous cases, not only easy duplicates",
         "paragraphs": [
           {
-            "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
+            "text": "Build a pilot set with exact duplicates, household members, transliterated names, shared business lines, recycled telephone numbers, changed email addresses, deceased customers, and records carrying different consent choices. Include negative controls that look similar but are known to be distinct. Reviewers should explain the evidence and select merge, link, correct, escalate, or no action. Accuracy on obvious duplicates is not enough. The test should weight false merges by consequence and inspect disagreement among reviewers to identify rules that appear precise but collapse under common offshore contact-center scenarios.",
             "citations": [
-              1,
-              2,
-              3,
               4,
-              5,
-              6,
-              7,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measure integrity after the decision",
+        "paragraphs": [
+          {
+            "text": "Track false-merge findings, missed duplicates, reversals, unresolved conflicts, downstream reconciliation, reviewer disagreement, and time to contain an error. Pair rates with case narratives and denominators. A falling duplicate count can be a harmful signal if aggressive merging created privacy exposure. Measure whether a future agent can see why records were linked and which source established each retained value. The reader’s decision is not whether the database looks tidy. It is whether delegated stewardship preserves identity, consent, service history, and correction options while reducing genuinely duplicated work.",
+            "citations": [
+              2,
               8
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Buyer acceptance exercise",
+        "paragraphs": [
+          {
+            "text": "Ask the provider to process a household pair, a recycled number, a transliterated name, and a confirmed exact duplicate. Then reverse the confirmed merge after downstream synchronization. Inspect evidence, reviewer identity, conflicts, retained values, relationship handling, preference provenance, and recovery receipts. Introduce a supervisor request to merge despite contradictory identity evidence. The reviewer should refuse or escalate under a named rule. A provider that can show only match scores or before-and-after screenshots has not demonstrated the control needed to protect customer records.",
+            "citations": [
+              3,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Decision rule for delegated record stewardship",
+        "paragraphs": [
+          {
+            "text": "Delegate bounded candidate review when the provider can distinguish identity from relationship, preserve field-level provenance, apply consequence-based authority, and reverse tested changes across approved systems. Keep consequential or legally sensitive decisions with client owners. Expansion should follow demonstrated performance on ambiguous cases and recoveries, not a target reduction in duplicate counts. This approach gives an offshore team a useful role in data quality without asking it to settle uncertain ownership. The desired outcome is a record another worker can trust and a change the organization can explain and, where promised, undo.",
+            "citations": [
+              5,
+              7
             ]
           }
         ]
@@ -791,9 +831,9 @@
     "modified": "2026-10-05",
     "revision": "2026-10-05-ecommerce-partial-fulfillment-customer-choice-study-v1",
     "readingMinutes": 12,
-    "wordCount": 1163,
-    "methodology": "A bounded source-record study of one order with incomplete fulfillment from inventory exception through customer notice, choice, warehouse action, shipment, cancellation or refund, and final reconciliation. Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review. Official public sources were checked on October 5, 2026.",
-    "limitations": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+    "wordCount": 1210,
+    "methodology": "The study follows one customer choice concerning a partially fulfilled order. It captures line-level state before and after the contact, options displayed, disclosures, explicit selection, authority, concurrent changes, fulfillment actions, payment events, notices, and reconciliation. The pilot deliberately samples cutoff transitions and adverse cases, with stop rules for stale or inconsistent state. Quantitative measures are paired with complete case traces. Public sources guide consumer-choice and operational-control design but do not predict provider performance. Checked October 5, 2026.",
+    "limitations": "Order platforms expose different states and may not retain the exact screen shown to an agent. Promotions, tax, payments, carrier control, and consumer rights vary by jurisdiction and merchant policy. A limited pilot cannot estimate rare financial failures. Buyers should obtain appropriate legal and financial guidance and test real integrations before authorizing consequential changes.",
     "keyTakeaways": [
       "Explain and reconcile each order line, not only the order header.",
       "Capture the customer choice before warehouse or billing action.",
@@ -802,25 +842,25 @@
     "stats": [],
     "sections": [
       {
-        "heading": "Decision and scope",
+        "heading": "Decide which customer choices the queue can complete",
         "paragraphs": [
           {
-            "text": "This report asks: Can ecommerce support explain a partial order and preserve customer choices while inventory, payment, cancellation, and substitution authority remain with the merchant? The buying decision is which status explanations and choice capture may be delegated and which inventory allocation, substitution, refund, tax, and contract decisions require merchant approval. That is narrower than asking whether an offshore team can “handle” the category. A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision. Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
+            "text": "The buyer must identify which partial-fulfillment choices an offshore service team may explain, record, and execute. Canceling an unallocated line differs from intercepting a packed shipment, preserving a promotion, substituting stock, or promising a refund date. The study maps each option to current system evidence and an authorized owner. It evaluates whether the customer receives a real choice without an agent inventing inventory or commercial terms. The decision is about bounded operational authority, not whether a provider can produce a pleasant script for a delayed order.",
             "citations": [
-              3,
-              6
+              1,
+              3
             ]
           }
         ]
       },
       {
-        "heading": "Unit and evidence fields",
+        "heading": "Use one line-level choice as the evidence unit",
         "paragraphs": [
           {
-            "text": "The unit of analysis is one order with incomplete fulfillment from inventory exception through customer notice, choice, warehouse action, shipment, cancellation or refund, and final reconciliation. Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise. The minimum evidence fields are order line, promised basis, allocation state, unavailable event, approved options, customer choice, cutoff, warehouse receipt, shipment event, charge state, refund owner, confirmation, and final line status. Record an unavailable value as missing. A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
+            "text": "Observe one choice concerning one or more order lines at the moment it is offered. Record allocation, pick and pack state, shipment events, payment capture, refund eligibility, tax and promotion dependencies, displayed options, disclosure, explicit selection, submission result, and later reconciliation. Save the state version because warehouse events can change during the contact. This unit separates a valid selection from successful execution. It also identifies where a customer accepted one outcome but the commerce platform applied another, a failure that order-level status and contact closure metrics often miss.",
             "citations": [
-              3,
-              6
+              2,
+              4
             ]
           }
         ]
@@ -852,58 +892,82 @@
         ]
       },
       {
-        "heading": "Decision boundary for partial ecommerce fulfillment: a customer-choice and reconciliation study",
+        "heading": "Model the promise at line level",
         "paragraphs": [
           {
-            "text": "The operating decision is which status explanations and choice capture may be delegated and which inventory allocation, substitution, refund, tax, and contract decisions require merchant approval. Write that boundary beside the relevant system permission and customer-facing script. The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority. A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message. The critical adverse case is that an order-level “partially shipped” label hides which item, charge, customer instruction, or refund remains unresolved. That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary."
+            "text": "A partial shipment is a set of obligations, not a single order status. For each line, retain quantity, allocation, promised window, shipment state, cancellation eligibility, substitution rules, refund state, and dependencies on promotions or bundles. The service record should also show what the customer was told and when. Without that structure, an agent may solve the visible backorder while accidentally changing freight, discounts, or an already packed item. The study evaluates whether the available choices match operational reality at the moment the customer decides.",
+            "citations": [
+              1,
+              3
+            ]
           }
         ]
       },
       {
-        "heading": "Record design for this workflow",
+        "heading": "Worked case: one shipment, one delay, one conditional discount",
         "paragraphs": [
           {
-            "text": "Use one order with incomplete fulfillment from inventory exception through customer notice, choice, warehouse action, shipment, cancellation or refund, and final reconciliation as the record boundary. Within it, preserve order line, promised basis, allocation state, unavailable event, approved options, customer choice, cutoff, warehouse receipt, shipment event, charge state, refund owner, confirmation, and final line status. These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners. Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation. The record should stay in the approved operational system and expose only the fields needed by the next authorized participant. Review access and retention with the client before using live customer information."
+            "text": "A three-line order has one item shipped, one packed, and one delayed. Free shipping depended on the original basket total. The customer wants the delayed line canceled but wants the packed line kept. The agent presents the confirmed cancellation boundary, discloses that the shipped item cannot be recalled through this workflow, and requests an authorized decision on whether the promotion is preserved. The case succeeds only when warehouse, payment, order, and customer messages reconcile. A fast cancellation that later creates a second charge or removes the discount is not a successful customer choice.",
+            "citations": [
+              2,
+              4
+            ]
           }
         ]
       },
       {
-        "heading": "Comparison groups that can reveal hidden failure",
+        "heading": "Separate selectable options from requested outcomes",
         "paragraphs": [
           {
-            "text": "The evaluation should deliberately distinguish single and multi-line orders, pre- and post-capture payments, customer-selected and merchant-proposed substitutions, acknowledged and missed notices, and fully reconciled and residual balances. Select cases before reading their outcomes, record exclusions, and retain contrary examples. Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group. If a group is too small for a stable percentage, show counts and describe uncertainty. Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance."
+            "text": "Agents can explain options the order system currently supports and record the customer’s selection. They should not promise inventory, intercept a carrier, preserve a discount, waive a fee, or set a refund date unless an authorized system or policy confirms it. A requested outcome may therefore remain pending while a permitted choice is completed. The interface should distinguish selected, accepted, executed, and reconciled states. This protects customers from hearing certainty when fulfillment and payment systems have not yet agreed.",
+            "citations": [
+              3,
+              5
+            ]
           }
         ]
       },
       {
-        "heading": "Pilot controls and stop conditions",
+        "heading": "Test the cutoff transitions",
         "paragraphs": [
           {
-            "text": "A practical pilot uses line-level status evidence, approved option language, preserved customer choice, cutoff visibility, owner receipts, charge-to-fulfillment reconciliation, and an unresolved-line queue. Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner. Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret. A stop is a successful control outcome when work would otherwise exceed authority. Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process."
+            "text": "Sample decisions just before and after allocation, pick, pack, label creation, carrier handoff, capture, and refund cutoffs. Include simultaneous warehouse activity while the agent is speaking with the customer. Record which state the agent saw, how long it remained valid, and what happened if the state changed before submission. A robust workflow either reserves the option briefly or returns a clear conflict for renewed consent. It must not silently apply a different option because the original one expired during the call.",
+            "citations": [
+              1,
+              6
+            ]
           }
         ]
       },
       {
-        "heading": "Buyer review questions",
+        "heading": "Reconcile money, goods, and messages",
         "paragraphs": [
           {
-            "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner. For each, trace the source, operator action, approval boundary, customer statement, and final system state. Confirm that the relevant service is ecommerce contact center support and that the proposed role does not quietly absorb adjacent professional or management judgments. Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification."
+            "text": "For each case, compare order lines, warehouse tasks, shipment events, payment captures, refunds, promotion adjustments, tax treatment, and outbound notices. Record the first mismatch and time to resolution. Customer communication should identify what is complete and what remains pending without exposing internal mechanics. A case cannot be marked resolved merely because the contact closed. The buyer needs evidence that the final commercial position matches the choice the customer actually made, including any authorized exception.",
+            "citations": [
+              2,
+              7
+            ]
           }
         ]
       },
       {
-        "heading": "Niche-specific conclusion",
+        "heading": "Pilot with adverse examples",
         "paragraphs": [
           {
-            "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action. The recommended starting control is line-level status evidence, approved option language, preserved customer choice, cutoff visibility, owner receipts, charge-to-fulfillment reconciliation, and an unresolved-line queue. Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible. The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready."
+            "text": "Use canceled-before-pack, canceled-after-pack, split tender, partial stock, bundle dependency, international shipment, and failed refund examples. Add a customer who changes their mind after one line advances. Predefine authority, option expiry, read-back language, escalation, and stop conditions. Stop automated completion when inventory state is stale, totals cannot be recomputed, payment status is uncertain, or the requested option would alter an undisclosed term. The aim is not maximum self-service. It is a reliable decision at a moving operational boundary.",
+            "citations": [
+              4,
+              8
+            ]
           }
         ]
       },
       {
-        "heading": "Limitations",
+        "heading": "Buyer review and acceptance",
         "paragraphs": [
           {
-            "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion.",
+            "text": "Trace four cases from contact recording through warehouse and payment completion. Ask what the customer selected, what evidence made it available, who authorized exceptions, and how conflicts were resolved. Compare the final notices with ledger and fulfillment events. Test a cutoff change during the interaction and a refund that initially fails. Reject a workflow that reports only handle time or case closure. Acceptance requires line-level promises, explicit choice, bounded authority, concurrency handling, and end-to-end reconciliation.",
             "citations": [
               3,
               6
@@ -912,18 +976,24 @@
         ]
       },
       {
-        "heading": "Source evaluation",
+        "heading": "Decision rule for offshore order support",
         "paragraphs": [
           {
-            "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
+            "text": "Delegate option explanation and recording when the provider sees current line states, can disclose consequences, captures explicit choice, and receives execution receipts from connected systems. Keep inventory commitments, commercial exceptions, payment judgments, and policy changes with authorized client owners. Expand only after adverse transition cases reconcile without hidden term changes. This boundary lets offshore support help customers make timely choices while preserving the client’s control over money, stock, and promises. The result should be an order history that explains both the customer’s decision and what the business actually executed.",
             "citations": [
-              1,
-              2,
-              3,
-              4,
               5,
-              6,
-              7,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reader decision: approve, narrow, or reject the workflow",
+        "paragraphs": [
+          {
+            "text": "A buyer should approve the workflow only when every displayed option is backed by live operational state and every accepted choice produces a traceable result. Narrow it when agents can explain choices but cannot safely execute them across warehouse and payment systems. Reject it when the interface hides cutoff changes, recalculates terms without disclosure, or closes contacts before reconciliation. This decision framework makes the study actionable: it ties the evidence to the exact authority an offshore team may receive instead of issuing a broad judgment about outsourcing order support.",
+            "citations": [
+              2,
               8
             ]
           }
@@ -1052,9 +1122,9 @@
     "modified": "2026-10-05",
     "revision": "2026-10-05-appointment-reminder-channel-consent-study-v1",
     "readingMinutes": 12,
-    "wordCount": 1174,
-    "methodology": "A bounded source-record study of one scheduled appointment from reminder eligibility through channel selection, message generation, delivery event, response, preference update, failed-delivery handling, and attendance record. Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review. Official public sources were checked on October 5, 2026.",
-    "limitations": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+    "wordCount": 1214,
+    "methodology": "The observation unit is one attempted reminder through one channel. The study records the applicable consent evidence, approved content variant, scheduling state, delivery events, responses, fallback decision, suppression events, and final disposition. The pilot oversamples shared identifiers, failures, withdrawals, appointment changes, and ambiguous evidence. It tests rendered content on common surfaces and traces synchronization across approved systems. Public sources inform privacy and communication controls but do not determine a client’s legal obligations or expected attendance effect. Checked October 5, 2026. The review separately samples messages queued before a consent change so delayed suppression remains visible.",
+    "limitations": "Consent and disclosure duties depend on jurisdiction, sector, client role, and message content. Delivery logs cannot establish who viewed a message, and appointment outcomes have many causes. A bounded sample may miss rare routing failures. Buyers should obtain qualified privacy and legal advice, minimize data, validate actual device rendering, and test production integrations before expanding reminder authority.",
     "keyTakeaways": [
       "Use the least revealing approved message for the chosen channel.",
       "Keep delivery, receipt, confirmation, and attendance as separate events.",
@@ -1063,25 +1133,25 @@
     "stats": [],
     "sections": [
       {
-        "heading": "Decision and scope",
+        "heading": "Decide the permitted channel for each reminder purpose",
         "paragraphs": [
           {
-            "text": "This report asks: Can a scheduling team send useful appointment reminders without exposing sensitive context, ignoring channel preferences, or treating delivery as confirmation? The buying decision is which reminder scheduling, neutral messaging, preference capture, and retry steps may be delegated and which clinical, legal, emergency, identity, and exception decisions remain with authorized owners. That is narrower than asking whether an offshore team can “handle” the category. A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision. Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
+            "text": "The buyer is not deciding whether reminders are useful in general. The operational question is which team may send which approved content through which channel under what recorded authority. A scheduling confirmation, preparation instruction, recall notice, and promotional message can require different treatment. The study tests whether an offshore queue selects only combinations supported by current evidence and routes uncertainty to the client. It keeps legal interpretation, clinical content, and policy exceptions with accountable owners while giving representatives a precise rule for routine delivery and failure handling.",
             "citations": [
-              5,
-              6
+              1,
+              3
             ]
           }
         ]
       },
       {
-        "heading": "Unit and evidence fields",
+        "heading": "Observe one attempted message and its authority",
         "paragraphs": [
           {
-            "text": "The unit of analysis is one scheduled appointment from reminder eligibility through channel selection, message generation, delivery event, response, preference update, failed-delivery handling, and attendance record. Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise. The minimum evidence fields are appointment identifier, reminder rule, approved channel, destination verification, message version, send time, delivery state, response, opt-out, alternate route, escalation owner, and final scheduling outcome. Record an unavailable value as missing. A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
+            "text": "The evidence unit is one reminder attempt to one destination through one channel. Record the appointment state, purpose, channel-specific consent source and time, approved content variant, minimum disclosure rule, queue time, send time, technical response, explicit recipient response, fallback, withdrawal, and suppression result. Keep destination changes and wrong-number reports linked to the attempt. This structure prevents “delivered” from becoming shorthand for identity, receipt, confirmation, or attendance. It also lets a buyer determine whether an error began with stale scheduling data, unsupported channel selection, excessive content, or delayed suppression.",
             "citations": [
-              5,
-              6
+              2,
+              4
             ]
           }
         ]
@@ -1113,78 +1183,108 @@
         ]
       },
       {
-        "heading": "Decision boundary for appointment reminders: a channel-consent and disclosure study",
+        "heading": "Define consent as channel-specific evidence",
         "paragraphs": [
           {
-            "text": "The operating decision is which reminder scheduling, neutral messaging, preference capture, and retry steps may be delegated and which clinical, legal, emergency, identity, and exception decisions remain with authorized owners. Write that boundary beside the relevant system permission and customer-facing script. The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority. A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message. The critical adverse case is that a successful carrier event is treated as proof the intended person received or accepted an appointment message, while content or retries disclose more than necessary. That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary."
-          }
-        ]
-      },
-      {
-        "heading": "Record design for this workflow",
-        "paragraphs": [
-          {
-            "text": "Use one scheduled appointment from reminder eligibility through channel selection, message generation, delivery event, response, preference update, failed-delivery handling, and attendance record as the record boundary. Within it, preserve appointment identifier, reminder rule, approved channel, destination verification, message version, send time, delivery state, response, opt-out, alternate route, escalation owner, and final scheduling outcome. These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners. Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation. The record should stay in the approved operational system and expose only the fields needed by the next authorized participant. Review access and retention with the client before using live customer information."
-          }
-        ]
-      },
-      {
-        "heading": "Comparison groups that can reveal hidden failure",
-        "paragraphs": [
-          {
-            "text": "The evaluation should deliberately distinguish SMS, voice, and email reminders, delivered and failed messages, confirmed and unanswered contacts, new and changed preferences, shared and individual destinations, and routine and sensitive appointment types. Select cases before reading their outcomes, record exclusions, and retain contrary examples. Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group. If a group is too small for a stable percentage, show counts and describe uncertainty. Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance."
-          }
-        ]
-      },
-      {
-        "heading": "Pilot controls and stop conditions",
-        "paragraphs": [
-          {
-            "text": "A practical pilot uses purpose-limited templates, verified destinations, preference precedence, minimum disclosure, opt-out propagation, failed-delivery routing, and separation of delivery from customer confirmation. Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner. Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret. A stop is a successful control outcome when work would otherwise exceed authority. Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process."
-          }
-        ]
-      },
-      {
-        "heading": "Buyer review questions",
-        "paragraphs": [
-          {
-            "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner. For each, trace the source, operator action, approval boundary, customer statement, and final system state. Confirm that the relevant service is appointment scheduling support and that the proposed role does not quietly absorb adjacent professional or management judgments. Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification."
-          }
-        ]
-      },
-      {
-        "heading": "Niche-specific conclusion",
-        "paragraphs": [
-          {
-            "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action. The recommended starting control is purpose-limited templates, verified destinations, preference precedence, minimum disclosure, opt-out propagation, failed-delivery routing, and separation of delivery from customer confirmation. Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible. The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready."
-          }
-        ]
-      },
-      {
-        "heading": "Limitations",
-        "paragraphs": [
-          {
-            "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion.",
+            "text": "Permission to contact a person is not a universal flag. The study records the channel, purpose, source, wording, time, identifier, scope, withdrawal path, and any jurisdiction or client rule attached to the evidence. A mobile number entered for scheduling may not support every message type. A prior email reminder does not prove permission for voicemail disclosure. The reminder workflow should select only a channel and message supported by current evidence, while preserving a route for the client to resolve ambiguous or conflicting consent.",
             "citations": [
-              5,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Worked case: shared phone and sensitive appointment",
+        "paragraphs": [
+          {
+            "text": "A patient provides a mobile number that is also used by a family member and permits text reminders with no appointment detail. Later, the mobile delivery fails and the system proposes a voice call. The agent does not treat the text permission as voice permission. The case is routed according to the client’s fallback rule, and any voicemail uses the approved minimal wording. The study checks the consent record, failure code, fallback decision, message rendered, and scheduling outcome. Attendance alone would not prove that the disclosure or channel choice was appropriate.",
+            "citations": [
+              2,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Minimize content before optimizing delivery",
+        "paragraphs": [
+          {
+            "text": "Begin with the least information needed for the authorized purpose. Separate identity confirmation, appointment detail, preparation instruction, and rescheduling links so policy owners can approve each element. Test lock-screen previews, voicemail, shared inboxes, forwarded email, and incorrect numbers. An offshore reminder team should not invent safer-sounding text or decide that convenience outweighs disclosure risk. Its role is to use an approved variant, recognize when the available evidence does not support it, and escalate exceptions.",
+            "citations": [
+              3,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpret delivery states cautiously",
+        "paragraphs": [
+          {
+            "text": "Sent, delivered, opened, answered, and acknowledged mean different things and do not establish identity. Carrier acceptance is not proof that the intended person saw the message. Silence is not consent, refusal, or confirmation. The workflow should preserve raw delivery events and map them to bounded operational states. A failed text may permit a fallback only when the consent and client rule support that channel. Reports should distinguish technical delivery from an explicit patient response instead of collapsing both into a reminder success rate.",
+            "citations": [
+              1,
               6
             ]
           }
         ]
       },
       {
-        "heading": "Source evaluation",
+        "heading": "Exercise withdrawal and changed ownership",
         "paragraphs": [
           {
-            "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
+            "text": "The pilot should include opt-out, wrong number, recycled number, guardian change, shared device, language preference, appointment cancellation, and a response received after the appointment changes. Withdrawal must stop the covered future messages and propagate to approved systems without erasing the historical evidence. A wrong-number report needs rapid containment and a client-owned correction path. Test what happens during synchronization delay. If another reminder can leave after an opt-out, measure and disclose that interval rather than claiming immediate suppression.",
             "citations": [
-              1,
               2,
-              3,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measure the decision, not just attendance",
+        "paragraphs": [
+          {
+            "text": "Track eligible reminders, channel selected, evidence age, delivery state, explicit responses, fallbacks, opt-outs, wrong-party contacts, disclosure incidents, suppression lag, reschedules, and unresolved exceptions. Segment by channel and consent basis. Attendance can be observed, but it is influenced by access, urgency, transport, and clinical factors outside the reminder. Case review should ask whether the workflow honored the person’s recorded choice and disclosed only approved information. A higher response rate cannot excuse an unsupported channel.",
+            "citations": [
               4,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Buyer acceptance exercise",
+        "paragraphs": [
+          {
+            "text": "Ask the provider to replay a valid text, a failed delivery with permitted fallback, a failed delivery without fallback authority, a shared-number case, and an opt-out during queue synchronization. Inspect source evidence, rendered content, timestamps, delivery response, suppression, and escalation. Change an appointment after the reminder is queued and verify that obsolete content does not send. Reject a system that offers only a global consent toggle or aggregate delivery report. Acceptance requires channel-specific provenance, minimal approved messages, conservative state interpretation, and provable withdrawal handling.",
+            "citations": [
+              3,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Decision rule for delegated reminder operations",
+        "paragraphs": [
+          {
+            "text": "Delegate scheduling reminders when the provider receives a current channel-purpose authorization, selects only approved content, handles delivery states conservatively, and can prove suppression and escalation. Client leaders retain policy definitions, disclosure rules, clinical content, legal interpretation, and exceptions involving uncertain authority. Expand after adverse cases show that wrong-party risk and withdrawal are contained, not simply after attendance improves. This gives an offshore team a precise operating role while the organization responsible for the appointment keeps control of consent and sensitive information.",
+            "citations": [
               5,
-              6,
-              7,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reader decision: choose the permitted channel set",
+        "paragraphs": [
+          {
+            "text": "The practical output is a channel matrix, not a general verdict that reminders work. For each purpose, the buyer should mark which evidence permits text, voice, voicemail, or email; what content each may expose; what delivery event triggers a fallback; and who resolves uncertainty. Approve only the cells demonstrated in the adverse-case pilot. Leave unsupported combinations disabled. This makes expansion reversible and prevents a successful test of one low-disclosure text message from becoming assumed authority for every future channel and appointment type.",
+            "citations": [
+              2,
               8
             ]
           }

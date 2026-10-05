@@ -1,215 +1,268 @@
 {
-  "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
+  "candidateSha": "LOCAL_REVIEW_HEAD",
   "deploymentHeld": true,
+  "localHttpBase": "http://127.0.0.1:3215",
   "blog": [
     {
       "slug": "call-center-channel-handoff-email-to-phone",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 24,
+      "renderedParagraphCoverage": 24,
       "missingParagraphs": [],
-      "sourceBodyHash": "6db2ea8174bcf93d7ebd3347303abfd22913452f13627348833587a1b7b0c885",
-      "renderedArticleHash": "70d49389adcf44c53f0f62bde19d284c20b685137f6bb539711571b31c5e4fa1",
+      "sourceBodyHash": "0fbccd5cc43279ca7282fd4b8ce4e8e93284861996135e6e35e29e5a4c3974ad",
+      "renderedArticleHash": "b1e2842f86a95d1f0872e276000a7ab618cc03742885fb3c5892eca8ff12ee57",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-crm-outage-capture-recovery",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 22,
+      "renderedParagraphCoverage": 22,
       "missingParagraphs": [],
-      "sourceBodyHash": "a97ea9ce69a7877d0367be0719cc223e3b7ef4a0a264796ec95097beb3e2a81f",
-      "renderedArticleHash": "803a9c2d6ed9e7c4599667c59893347e4b444950d534dec103fc5d636b530bb3",
+      "sourceBodyHash": "965c03cbd1b750168e55b1b4304ec49e5244ff36ea560a9eb2707755cadada7b",
+      "renderedArticleHash": "8de29a13c135c987551c663d0a977da60c031a0c68635b809913db58420e8681",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-order-cancellation-cutoff",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 24,
+      "renderedParagraphCoverage": 24,
       "missingParagraphs": [],
-      "sourceBodyHash": "4987f81e41e20fee37bdabdef33bc05c563f412380cfd471ab5c39395e4c88d2",
-      "renderedArticleHash": "33addcf76e9aa38c0abfb1e45af65fc809a45b8eaabbc127a9dd81fcc345f239",
+      "sourceBodyHash": "5d88ad8b8dea4a6cda5bb5eaa878fad9750df23ee9bd6e31c18e53691539be41",
+      "renderedArticleHash": "565dd4759084342ecdb1be919d6a95c9b0ecd434cc277a547877b51429c1e367",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-payment-link-verbal-boundary",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 23,
+      "renderedParagraphCoverage": 23,
       "missingParagraphs": [],
-      "sourceBodyHash": "8584dbcb91cb80f9daafb85e34890276595f3c1538940b3b87101a62fef814aa",
-      "renderedArticleHash": "c78436b4100a01f9f2247aee45049fee68292905dcff8108291991526068ca12",
+      "sourceBodyHash": "317b5f332a848723f3796085b085f42b300d5ab8a72d265ed1cb2843dba5a0eb",
+      "renderedArticleHash": "9fce328f23f06c703371b3f8dc08bd07ff98ea7fe0cd408b7840629cbdebabfa",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-supervisor-whisper-barge-policy",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 24,
+      "renderedParagraphCoverage": 24,
       "missingParagraphs": [],
-      "sourceBodyHash": "3dca325de7b299d5bc370206464562802e442170973c65ed5ef6a8ca087f65ec",
-      "renderedArticleHash": "038ae801079122b150f22214cc1146cabcfe1abf143fe1bd9f2768b012233c1c",
+      "sourceBodyHash": "a1b7211a34dc00f18869adfae8ccd2343f71336890365f5628d4e3937384209e",
+      "renderedArticleHash": "8133c6d41952aa47291840bfdfa779c797bfc42da430d1b3415de09c04912aff",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-suspected-account-takeover-call",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 24,
+      "renderedParagraphCoverage": 24,
       "missingParagraphs": [],
-      "sourceBodyHash": "2fca2a9cd7cf5406c3c3a048ecfe027c74b5a96213c566398a5497ef97e304a6",
-      "renderedArticleHash": "23625e5d98f38864a030b7a4185d92e1b516bb74814f5ca6b60a812f29bdfa4a",
+      "sourceBodyHash": "130685eb686ac9eba3e78a7e9cb463ac05ccbb9a30ac261b6f71b9147742977c",
+      "renderedArticleHash": "284789ca93ffb29ea39d92ddc498007d643863f2826d9ef4973ac129a0d4e63a",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "call-center-voicemail-transcription-review",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 23,
+      "renderedParagraphCoverage": 23,
       "missingParagraphs": [],
-      "sourceBodyHash": "1937c4da7f777b3c2c58b45f49be8e26ab909b3042fb1df50f18a6978a9ed3df",
-      "renderedArticleHash": "40d5d79316bf0f2740ff073541c356d2555cf75699f05e6f06f519775f0d3afc",
+      "sourceBodyHash": "6019979545c20b4b08460f095f93e92f8ce4cf84a3d664181f5f425ea0369c0e",
+      "renderedArticleHash": "9cb67918514fc7a9cdaa0b1740d498588a434ae8ac9c396fa50184caec8832d7",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "offshore-call-center-interpreter-disconnect-recovery",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 24,
+      "renderedParagraphCoverage": 24,
       "missingParagraphs": [],
-      "sourceBodyHash": "cbd7fcec5755e7e67f342ea4efe4e1bcc72ebe110a0474f0827caa6057905e8e",
-      "renderedArticleHash": "b82bdb2df2482d7305295ee880ade4780e46bf24a2471c1475f63f6e4efbad9f",
+      "sourceBodyHash": "b662128f89aa016dc6c77e16ce87496a2b7c88b92420a8e981ef33da2c5e25d4",
+      "renderedArticleHash": "8844ee1f84b57cc5aa908c8f1e1a81206fbcddb91af253e3d456e773151e1a80",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "offshore-call-center-overflow-provider-failover-drill",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 23,
+      "renderedParagraphCoverage": 23,
       "missingParagraphs": [],
-      "sourceBodyHash": "e983aa697ffc2cd2dc38d149b29d27a1f6f939267994c7caf23badf7462b6bf8",
-      "renderedArticleHash": "004dcb8e630792d54ed53bf4bdf57f5cd0886cf57cfcbc2e2c3d3ab01766e2d2",
+      "sourceBodyHash": "2a84a215b3503ac2963bddb2f1a0a29044f413f507f461e58d2bbbbcc91f46ba",
+      "renderedArticleHash": "b6dbf113d0a5f417f6cde23984df19a8b7e7f8532a7916063ce855017b67fd42",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "offshore-call-center-return-call-number-validation",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 23,
+      "renderedParagraphCoverage": 23,
       "missingParagraphs": [],
-      "sourceBodyHash": "47d352680d6bdfa3fcc3f2c20db2969101a7991b1d841e80855da8bbcd362db1",
-      "renderedArticleHash": "b6fe25a18e14bc5f7fbf7378fe9dd6899ca9839bbd9c8494d0a79f11d8c6d446",
+      "sourceBodyHash": "3ea7909d06a04d981a2cc7e0f018681c89d949d789339bd6edcaf20e92109710",
+      "renderedArticleHash": "8ba5a973082bdeaf99fad15215b20636795d5834837fad47159b2395896650d1",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "offshore-call-center-threatening-caller-response",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 23,
+      "renderedParagraphCoverage": 23,
       "missingParagraphs": [],
-      "sourceBodyHash": "a7b06393f160fc49210f3d96442b00cbfe1741e6adad9a2d7a233c6fcaa88c2a",
-      "renderedArticleHash": "fc076e89d204fdf72e3b3307dcc59121451a87a78a140ca47d51be969cd2eeac",
+      "sourceBodyHash": "3b07777ca7a45cb8ecb32c88091dfbe03d43141f94614af04dde59004e28bfa7",
+      "renderedArticleHash": "46e9e35d3e9d42176914f31fa105a9c82bc5b149e7348534fa3a7fad7cd389a7",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     },
     {
       "slug": "philippines-call-center-typhoon-continuity-check",
-      "sourceParagraphCount": 10,
-      "renderedParagraphCoverage": 10,
+      "sourceParagraphCount": 26,
+      "renderedParagraphCoverage": 26,
       "missingParagraphs": [],
-      "sourceBodyHash": "59b723d8c60b038d09d29d86987ebd75d2372b95ce2e7f8a4d92d384dc1fd2a4",
-      "renderedArticleHash": "ab82d69e5c40e64dd9b0bdc01336bc11822687feccce60a9a3b8801ef80ef83d",
+      "sourceBodyHash": "7a8813db2e50445d4e7ecb774f2e270ef6002dd31e55ce5a926254de99ff3427",
+      "renderedArticleHash": "3b8ac4fe28a98da73e1e83c06e94ee814506e8b4a571f211e672f63c3fdd1422",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
         "mime": "image/svg+xml",
         "signatureHex": "3c73766720786d6c6e733d22",
-        "decodeEvidence": "SVG root and namespace validated by render audit",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "decodeEvidence": "SVG root, namespace, and dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/svg+xml"
       }
     }
   ],
   "research": [
     {
       "slug": "call-center-quality-score-appeal-evidence-study",
-      "sourceParagraphCount": 14,
-      "renderedParagraphCoverage": 14,
+      "sourceParagraphCount": 13,
+      "renderedParagraphCoverage": 13,
       "missingParagraphs": [],
-      "sourceBodyHash": "057787c6f7a0c0fb6fb0fcbf4f13ddda5a02ebd74df54f477cfa58f2d8952465",
-      "renderedSubstantiveHash": "03e2a5417870ea5f093c8b9ddf34b23cc7ad9a6fa6db15fcf9e8c47346782af0",
+      "sourceBodyHash": "a1eb96816664d8437ad9c2fb709be4eb177a74780d5fb16bd8d06609443993fd",
+      "renderedSubstantiveHash": "ede78f07d3b9dee39d4c4c6487484f0eef99d51611182a9ce9ce9d33e77b596e",
       "image": {
         "path": "public/offshore-call-center-agent.jpg",
         "bytes": 155036,
         "mime": "image/jpeg",
         "signatureHex": "ffd8ffe000104a4649460001",
-        "decodeEvidence": "recognized binary signature",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1600,
+          "height": 1067
+        },
+        "decodeEvidence": "JPEG SOF dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/jpeg"
       }
     },
     {
@@ -217,15 +270,19 @@
       "sourceParagraphCount": 14,
       "renderedParagraphCoverage": 14,
       "missingParagraphs": [],
-      "sourceBodyHash": "e27cc4bc8a0b22fcd3526c8fdd4c6bac7be1daa7a12c04bd557110dcc85d3495",
-      "renderedSubstantiveHash": "67b3a889534e36ab3b4780102fd7d96677a6725b471e94ebead282e1cfa25b92",
+      "sourceBodyHash": "f94655286d6196878a8444c0e875281ada521cc614fd36d25bc89ba60a3c0c1d",
+      "renderedSubstantiveHash": "d0b63ad1eb3062bdc676dfc1293a78e7558ccfe810c5fbe9d15ea86fca2dc6fd",
       "image": {
         "path": "public/offshore-call-center-agent.jpg",
         "bytes": 155036,
         "mime": "image/jpeg",
         "signatureHex": "ffd8ffe000104a4649460001",
-        "decodeEvidence": "recognized binary signature",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1600,
+          "height": 1067
+        },
+        "decodeEvidence": "JPEG SOF dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/jpeg"
       }
     },
     {
@@ -233,55 +290,67 @@
       "sourceParagraphCount": 14,
       "renderedParagraphCoverage": 14,
       "missingParagraphs": [],
-      "sourceBodyHash": "062a4ec0ffec21e80b5a08fcd55efc2b649257ad0d356699fa9dc870ab1dc8fd",
-      "renderedSubstantiveHash": "d56ef4b1637ebe9d2d50571323ec0a19628fe42038433148e98e678c3f36dc54",
+      "sourceBodyHash": "be689223085769bc13bdc13b8b5bbedceaf76365137c76fed4bdf13baeb5dd05",
+      "renderedSubstantiveHash": "8f8c24598d5f62f7087c2495a5ccfd47db15bb702a81e70e3bbe1ca45273825e",
       "image": {
         "path": "public/offshore-call-center-agent.jpg",
         "bytes": 155036,
         "mime": "image/jpeg",
         "signatureHex": "ffd8ffe000104a4649460001",
-        "decodeEvidence": "recognized binary signature",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1600,
+          "height": 1067
+        },
+        "decodeEvidence": "JPEG SOF dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/jpeg"
       }
     },
     {
       "slug": "ecommerce-partial-fulfillment-customer-choice-study",
-      "sourceParagraphCount": 14,
-      "renderedParagraphCoverage": 14,
+      "sourceParagraphCount": 15,
+      "renderedParagraphCoverage": 15,
       "missingParagraphs": [],
-      "sourceBodyHash": "002ef15eb869130302c4a7f7958861ea3e779be33d2edbc2b3ec18454674083d",
-      "renderedSubstantiveHash": "9e453143e30b2bac25f4e4da87977e16f5737e23b2544c234bcd654ed446c465",
+      "sourceBodyHash": "647cc0dcce12276a92b590fe9a95ef843846f0e99f50d4c18d3d8ca958860205",
+      "renderedSubstantiveHash": "ca01f27b67ec92b6e90974124ce03bc626842540f18679c93e03755edefe1575",
       "image": {
         "path": "public/offshore-call-center-agent.jpg",
         "bytes": 155036,
         "mime": "image/jpeg",
         "signatureHex": "ffd8ffe000104a4649460001",
-        "decodeEvidence": "recognized binary signature",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1600,
+          "height": 1067
+        },
+        "decodeEvidence": "JPEG SOF dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/jpeg"
       }
     },
     {
       "slug": "appointment-reminder-channel-consent-study",
-      "sourceParagraphCount": 14,
-      "renderedParagraphCoverage": 14,
+      "sourceParagraphCount": 15,
+      "renderedParagraphCoverage": 15,
       "missingParagraphs": [],
-      "sourceBodyHash": "dec748f5a7209f9b36ba79f3791de9ebb17060b2eff076a2307a8b9fab9f56e9",
-      "renderedSubstantiveHash": "fb02da57dc1093ce3784b84ff953603e1af5ada5dbe7ad79f3bc64cf8a37aec8",
+      "sourceBodyHash": "91ace84824a16e328b3f8023d97e14ef7e16fae7bbbe14dd319866339bce68ad",
+      "renderedSubstantiveHash": "87f2c50bd542a90ae7ab5505b96016ae6c8fc2889524f99d321984ae2673d092",
       "image": {
         "path": "public/offshore-call-center-agent.jpg",
         "bytes": 155036,
         "mime": "image/jpeg",
         "signatureHex": "ffd8ffe000104a4649460001",
-        "decodeEvidence": "recognized binary signature",
-        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+        "dimensions": {
+          "width": 1600,
+          "height": 1067
+        },
+        "decodeEvidence": "JPEG SOF dimensions decoded",
+        "httpEvidence": "HTTP 200 from local production server with Content-Type image/jpeg"
       }
     }
   ],
   "summary": {
-    "blogParagraphs": 120,
-    "blogCovered": 120,
-    "researchParagraphs": 70,
-    "researchCovered": 70,
-    "actualImageHttpMimeSignatureDecode": "UNAVAILABLE until a corrected candidate is authorized and deployed"
+    "blogParagraphs": 283,
+    "blogCovered": 283,
+    "researchParagraphs": 71,
+    "researchCovered": 71,
+    "actualImageHttpMimeSignatureDecode": "PASSED: HTTP 200, MIME, signature, and decoded dimensions for SVG 1200x630 and JPEG 1600x1067"
   }
 }
