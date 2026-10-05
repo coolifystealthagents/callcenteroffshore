@@ -1,0 +1,39 @@
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const root=process.cwd(),draftDir=path.join(root,'docs/publishing/drafts/2026-10-05');
+const files=fs.readdirSync(draftDir).filter(x=>x.endsWith('.md')).sort();
+assert.equal(files.length,12,'exactly 12 Blog drafts required');
+const strip=s=>s.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&[a-z#0-9]+;/gi,' ').replace(/\s+/g,' ').trim();
+const field=(raw,key)=>raw.match(new RegExp(`^${key}: "([^"]+)"$`,'m'))?.[1];
+const sitemap=fs.readFileSync(path.join(root,'.next/server/app/sitemap.xml.body'),'utf8');
+const index=fs.readFileSync(path.join(root,'.next/server/app/blog.html'),'utf8');
+const image=fs.readFileSync(path.join(root,'public/blog-thumbnail.svg'));
+assert.match(image.subarray(0,256).toString(),/<svg\b[^>]*xmlns="http:\/\/www\.w3\.org\/2000\/svg"/,'shared Blog image is not a valid SVG document');
+const entries=[];
+for(const file of files){
+ const slug=file.slice(0,-3),raw=fs.readFileSync(path.join(draftDir,file),'utf8');
+ const title=field(raw,'title'),description=field(raw,'description'),service=field(raw,'service');
+ assert.ok(title&&description&&service,`${slug}: source metadata incomplete`);
+ const htmlPath=path.join(root,`.next/server/app/blog/${slug}.html`);assert.ok(fs.existsSync(htmlPath),`${slug}: rendered route missing`);
+ const html=fs.readFileSync(htmlPath,'utf8'),canonical=`https://callcenteroffshore.com/blog/${slug}`;
+ assert.ok(html.includes(title),`${slug}: full title missing`);
+ assert.ok(html.includes(`rel="canonical" href="${canonical}"`),`${slug}: canonical missing`);
+ assert.ok(html.includes('"datePublished":"2026-10-05"'),`${slug}: structured publication date missing`);
+ assert.ok(html.includes('dateTime="2026-10-05"')||html.includes('datetime="2026-10-05"'),`${slug}: visible publication date missing`);
+ assert.ok(html.includes('src="/blog-thumbnail.svg"'),`${slug}: rendered image missing`);
+ assert.ok(html.includes(`href="${service}"`),`${slug}: contextual service link missing`);
+ const serviceSlug=service.split('/').filter(Boolean).at(-1),serviceHtml=path.join(root,`.next/server/app/services/${serviceSlug}.html`);
+ assert.ok(fs.existsSync(serviceHtml),`${slug}: contextual destination does not render (${service})`);
+ const article=html.match(/<article[\s\S]*?<\/article>/)?.[0];assert.ok(article,`${slug}: complete article element missing`);
+ const text=strip(article),words=text.match(/\b[\w'-]+\b/g)||[];assert.ok(words.length>=900,`${slug}: rendered body short (${words.length})`);
+ for(const heading of [...raw.matchAll(/^## (.+)$/gm)].map(x=>x[1]))assert.ok(text.includes(heading),`${slug}: source section omitted: ${heading}`);
+ assert.ok(index.includes(`/blog/${slug}`),`${slug}: Blog index missing route`);
+ assert.ok(sitemap.includes(`<loc>${canonical}</loc><lastmod>2026-10-05</lastmod>`),`${slug}: sitemap/date missing`);
+ entries.push({family:'blog',topic:title,slug,sources:[...raw.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(x=>x[1]),contentHash:crypto.createHash('sha256').update(article).digest('hex'),wordCount:words.length,publicationDate:'2026-10-05',commitSha:'cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64',deploymentEvidence:null,liveUrl:canonical,verificationTime:null});
+}
+const report={required:12,rendered:entries.length,siteTimezone:'UTC',image:{path:'public/blog-thumbnail.svg',mime:'image/svg+xml',signature:'<svg',bytes:image.length},entries};
+fs.writeFileSync(path.join(root,'docs/publishing/2026-10-05-blog-ledger.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));

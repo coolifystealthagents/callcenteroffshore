@@ -1,0 +1,117 @@
+{
+  "required": 5,
+  "rendered": 5,
+  "siteTimezone": "UTC",
+  "entries": [
+    {
+      "family": "research",
+      "topic": "Call center quality score appeals: an evidence and independence study",
+      "slug": "call-center-quality-score-appeal-evidence-study",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63.html",
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/standard/64739.html"
+      ],
+      "contentHash": "03e2a5417870ea5f093c8b9ddf34b23cc7ad9a6fa6db15fcf9e8c47346782af0",
+      "wordCount": 1987,
+      "publicationDate": "2026-10-05",
+      "commitSha": "be584e24dc2fe194341d479752b006c5ea382a92",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-quality-score-appeal-evidence-study",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Technical support outage messages: an approval and update-lag study",
+      "slug": "technical-support-outage-message-approval-study",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63.html",
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/standard/64739.html"
+      ],
+      "contentHash": "67b3a889534e36ab3b4780102fd7d96677a6725b471e94ebead282e1cfa25b92",
+      "wordCount": 1974,
+      "publicationDate": "2026-10-05",
+      "commitSha": "be584e24dc2fe194341d479752b006c5ea382a92",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/research/technical-support-outage-message-approval-study",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Duplicate customer records: a merge-authority and reversibility study",
+      "slug": "offshore-call-center-contact-record-merge-study",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63.html",
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/standard/64739.html"
+      ],
+      "contentHash": "d56ef4b1637ebe9d2d50571323ec0a19628fe42038433148e98e678c3f36dc54",
+      "wordCount": 1984,
+      "publicationDate": "2026-10-05",
+      "commitSha": "be584e24dc2fe194341d479752b006c5ea382a92",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/research/offshore-call-center-contact-record-merge-study",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Partial ecommerce fulfillment: a customer-choice and reconciliation study",
+      "slug": "ecommerce-partial-fulfillment-customer-choice-study",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63.html",
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/standard/64739.html"
+      ],
+      "contentHash": "9e453143e30b2bac25f4e4da87977e16f5737e23b2544c234bcd654ed446c465",
+      "wordCount": 1979,
+      "publicationDate": "2026-10-05",
+      "commitSha": "be584e24dc2fe194341d479752b006c5ea382a92",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/research/ecommerce-partial-fulfillment-customer-choice-study",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Appointment reminders: a channel-consent and disclosure study",
+      "slug": "appointment-reminder-channel-consent-study",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63.html",
+        "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/standard/64739.html"
+      ],
+      "contentHash": "fb02da57dc1093ce3784b84ff953603e1af5ada5dbe7ad79f3bc64cf8a37aec8",
+      "wordCount": 1986,
+      "publicationDate": "2026-10-05",
+      "commitSha": "be584e24dc2fe194341d479752b006c5ea382a92",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/research/appointment-reminder-channel-consent-study",
+      "verificationTime": null
+    }
+  ]
+}

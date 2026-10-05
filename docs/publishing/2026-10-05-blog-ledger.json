@@ -1,0 +1,205 @@
+{
+  "required": 12,
+  "rendered": 12,
+  "siteTimezone": "UTC",
+  "image": {
+    "path": "public/blog-thumbnail.svg",
+    "mime": "image/svg+xml",
+    "signature": "<svg",
+    "bytes": 701
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Email-to-phone call center handoffs: carry the question without exposing the thread",
+      "slug": "call-center-channel-handoff-email-to-phone",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+      ],
+      "contentHash": "70d49389adcf44c53f0f62bde19d284c20b685137f6bb539711571b31c5e4fa1",
+      "wordCount": 1204,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-channel-handoff-email-to-phone",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center CRM outage recovery: capture work without creating a shadow system",
+      "slug": "call-center-crm-outage-capture-recovery",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response"
+      ],
+      "contentHash": "803a9c2d6ed9e7c4599667c59893347e4b444950d534dec103fc5d636b530bb3",
+      "wordCount": 1201,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-crm-outage-capture-recovery",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center order cancellation cutoffs: promise a review, not an outcome",
+      "slug": "call-center-order-cancellation-cutoff",
+      "sources": [
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "33addcf76e9aa38c0abfb1e45af65fc809a45b8eaabbc127a9dd81fcc345f239",
+      "wordCount": 1181,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-order-cancellation-cutoff",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center payment-link boundaries: guide the customer without handling credentials",
+      "slug": "call-center-payment-link-verbal-boundary",
+      "sources": [
+        "https://www.pcisecuritystandards.org/resources/",
+        "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      ],
+      "contentHash": "c78436b4100a01f9f2247aee45049fee68292905dcff8108291991526068ca12",
+      "wordCount": 1230,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-payment-link-verbal-boundary",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center whisper and barge controls: define when a supervisor may enter",
+      "slug": "call-center-supervisor-whisper-barge-policy",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance"
+      ],
+      "contentHash": "038ae801079122b150f22214cc1146cabcfe1abf143fe1bd9f2768b012233c1c",
+      "wordCount": 1188,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-supervisor-whisper-barge-policy",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center suspected account takeover calls: separate help from account control",
+      "slug": "call-center-suspected-account-takeover-call",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+      ],
+      "contentHash": "23625e5d98f38864a030b7a4185d92e1b516bb74814f5ca6b60a812f29bdfa4a",
+      "wordCount": 1188,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-suspected-account-takeover-call",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Call center voicemail transcription review: use the text as a clue, not the record",
+      "slug": "call-center-voicemail-transcription-review",
+      "sources": [
+        "https://www.nist.gov/itl/ai-risk-management-framework",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "40d5d79316bf0f2740ff073541c356d2555cf75699f05e6f06f519775f0d3afc",
+      "wordCount": 1206,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-voicemail-transcription-review",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center interpreter disconnects: restore language access without losing consent",
+      "slug": "offshore-call-center-interpreter-disconnect-recovery",
+      "sources": [
+        "https://www.justice.gov/crt/language-access",
+        "https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html"
+      ],
+      "contentHash": "b82bdb2df2482d7305295ee880ade4780e46bf24a2471c1475f63f6e4efbad9f",
+      "wordCount": 1193,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-interpreter-disconnect-recovery",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center overflow failover drills: prove the backup can take real work",
+      "slug": "offshore-call-center-overflow-provider-failover-drill",
+      "sources": [
+        "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final",
+        "https://www.cisa.gov/topics/risk-management"
+      ],
+      "contentHash": "004dcb8e630792d54ed53bf4bdf57f5cd0886cf57cfcbc2e2c3d3ab01766e2d2",
+      "wordCount": 1204,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-overflow-provider-failover-drill",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center return-number validation: prevent a typo from becoming disclosure",
+      "slug": "offshore-call-center-return-call-number-validation",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "b6fe25a18e14bc5f7fbf7378fe9dd6899ca9839bbd9c8494d0a79f11d8c6d446",
+      "wordCount": 1191,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-return-call-number-validation",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Offshore call center threatening callers: protect staff and preserve actionable facts",
+      "slug": "offshore-call-center-threatening-caller-response",
+      "sources": [
+        "https://www.osha.gov/workplace-violence",
+        "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/emergency-services-sector"
+      ],
+      "contentHash": "fc076e89d204fdf72e3b3307dcc59121451a87a78a140ca47d51be969cd2eeac",
+      "wordCount": 1206,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-threatening-caller-response",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Philippines call center typhoon continuity checks: plan around people, not attendance",
+      "slug": "philippines-call-center-typhoon-continuity-check",
+      "sources": [
+        "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+        "https://ndrrmc.gov.ph/"
+      ],
+      "contentHash": "ab82d69e5c40e64dd9b0bdc01336bc11822687feccce60a9a3b8801ef80ef83d",
+      "wordCount": 1191,
+      "publicationDate": "2026-10-05",
+      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "deploymentEvidence": null,
+      "liveUrl": "https://callcenteroffshore.com/blog/philippines-call-center-typhoon-continuity-check",
+      "verificationTime": null
+    }
+  ]
+}
