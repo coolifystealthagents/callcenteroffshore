@@ -1,0 +1,10 @@
+{
+  "cycleLabel": "2026-10-05",
+  "family": "research",
+  "required": 5,
+  "staged": 5,
+  "publicationStatus": "pending combined Blog integration, production push, and browser-operator deployment",
+  "siteTimezone": "UTC (renderer and existing publication metadata convention)",
+  "branch": "cal94-research-2026-10-05",
+  "slugs": ["call-center-quality-score-appeal-evidence-study", "technical-support-outage-message-approval-study", "offshore-call-center-contact-record-merge-study", "ecommerce-partial-fulfillment-customer-choice-study", "appointment-reminder-channel-consent-study"]
+}

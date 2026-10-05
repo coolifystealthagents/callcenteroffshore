@@ -20,7 +20,8 @@
     "audit:october-5-blog-drafts": "node scripts/audit-october-5-blog-drafts.mjs",
     "validate:september-28-research": "node scripts/verify-september-28-research.mjs"
     ,"validate:september-28-research": "node scripts/verify-september-28-research.mjs",
-    "validate:october-2-research": "node scripts/verify-october-2-research.mjs"
+    "validate:october-2-research": "node scripts/verify-october-2-research.mjs",
+    "validate:october-5-research": "node scripts/verify-october-5-research.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
