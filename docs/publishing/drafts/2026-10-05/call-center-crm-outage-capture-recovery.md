@@ -71,6 +71,6 @@ The demonstration should include access removal and record deletion, not stop at
 ## Sources and operating evidence
 
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework), checked October 5, 2026. Use it to frame recovery, governance, and improvement responsibilities.
-- [CISA incident response resources](https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response), checked October 5, 2026. Use it as incident-planning context rather than a substitute for the client's own response plan.
+- [CISA Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf), checked October 5, 2026. Use it as incident-planning context rather than a substitute for the client's own response plan.
 - Client-approved continuity, privacy, access, verification, retention, and incident procedures.
 - CRM events, telephony IDs, outage-register history, handoff acknowledgements, reconciliation results, deletion evidence, and controlled drill observations.

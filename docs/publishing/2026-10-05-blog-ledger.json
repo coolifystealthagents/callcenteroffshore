@@ -31,10 +31,10 @@
       "slug": "call-center-crm-outage-capture-recovery",
       "sources": [
         "https://www.nist.gov/cyberframework",
-        "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response"
+        "https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf"
       ],
-      "contentHash": "8de29a13c135c987551c663d0a977da60c031a0c68635b809913db58420e8681",
-      "wordCount": 1538,
+      "contentHash": "0931f2c4e4467f1042d1269d9b07ca3b96729b865e17ff5d3c0704aa2c19216d",
+      "wordCount": 1541,
       "publicationDate": "2026-10-05",
       "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
       "deploymentEvidence": null,
@@ -126,10 +126,10 @@
       "topic": "Offshore call center interpreter disconnects: restore language access without losing consent",
       "slug": "offshore-call-center-interpreter-disconnect-recovery",
       "sources": [
-        "https://www.justice.gov/crt/language-access",
+        "https://www.justice.gov/index.php/archives/atj/language-access-program",
         "https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html"
       ],
-      "contentHash": "8844ee1f84b57cc5aa908c8f1e1a81206fbcddb91af253e3d456e773151e1a80",
+      "contentHash": "5e4c1b1419e9a33b1804247fa62752d35c272eecaf04f43c470a72c727fb76d2",
       "wordCount": 1139,
       "publicationDate": "2026-10-05",
       "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
@@ -190,11 +190,10 @@
       "topic": "Philippines call center typhoon continuity checks: plan around people, not attendance",
       "slug": "philippines-call-center-typhoon-continuity-check",
       "sources": [
-        "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
-        "https://ndrrmc.gov.ph/"
+        "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin"
       ],
-      "contentHash": "3b8ac4fe28a98da73e1e83c06e94ee814506e8b4a571f211e672f63c3fdd1422",
-      "wordCount": 1090,
+      "contentHash": "80a2ba30612179287356ffa38cce5b0cfd8bd69a5257de3cb29c505efd246335",
+      "wordCount": 1076,
       "publicationDate": "2026-10-05",
       "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
       "deploymentEvidence": null,

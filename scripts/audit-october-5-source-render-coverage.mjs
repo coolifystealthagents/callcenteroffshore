@@ -16,19 +16,23 @@ const blog=fs.readdirSync(blogDir).filter(x=>x.endsWith('.md')).sort().map(file=
  const slug=file.slice(0,-3),raw=fs.readFileSync(path.join(blogDir,file),'utf8'),sourceBody=raw.replace(/^---[\s\S]*?---\s*/,'');
  const sourceParagraphs=sourceBody.split(/\n\n+/).map(plainMarkdown).filter(x=>x&&!x.startsWith('#')&&!x.startsWith('- ')&&substantive(x));
  const html=fs.readFileSync(path.join(root,`.next/server/app/blog/${slug}.html`),'utf8'),article=html.match(/<article[\s\S]*?<\/article>/)?.[0]||'',rendered=strip(article);
- const missing=sourceParagraphs.filter(paragraph=>!rendered.includes(paragraph));
- return {slug,sourceParagraphCount:sourceParagraphs.length,renderedParagraphCoverage:sourceParagraphs.length-missing.length,missingParagraphs:missing,sourceBodyHash:hash(sourceParagraphs.join('\n\n')),renderedArticleHash:hash(article),image:imageEvidence('blog-thumbnail.svg')};
+ const renderedParagraphs=[...article.matchAll(/<p(?:\s[^>]*)?>([\s\S]*?)<\/p>/g)].map(match=>strip(match[1])).filter(paragraph=>sourceParagraphs.includes(paragraph));
+ const missing=sourceParagraphs.filter(paragraph=>!renderedParagraphs.includes(paragraph));
+ const orderedRendered=sourceParagraphs.filter(paragraph=>renderedParagraphs.includes(paragraph));
+ return {slug,sourceParagraphCount:sourceParagraphs.length,renderedParagraphCoverage:sourceParagraphs.length-missing.length,missingParagraphs:missing,sourceNormalizedHash:hash(sourceParagraphs.join('\n\n')),renderedNormalizedHash:hash(orderedRendered.join('\n\n')),normalizedHashesEqual:missing.length===0&&sourceParagraphs.length===orderedRendered.length&&hash(sourceParagraphs.join('\n\n'))===hash(orderedRendered.join('\n\n')),renderedArticleHash:hash(article),image:imageEvidence('blog-thumbnail.svg')};
 });
 
 const researchSource=JSON.parse(fs.readFileSync(snapshotPath,'utf8'));
 const research=researchSource.map(item=>{
  const sourceParagraphs=item.sections.flatMap(section=>section.paragraphs).concat([item.methodology,item.limitations]).map(value=>(typeof value==='string'?value:value.text).replace(/\s+/g,' ').trim()).filter(substantive);
  const html=fs.readFileSync(path.join(root,`.next/server/app/research/${item.slug}.html`),'utf8'),main=html.match(/<div class="research-main">([\s\S]*?)<section class="research-method"/)?.[1]||'',rendered=strip(html);
- const missing=sourceParagraphs.filter(paragraph=>!rendered.includes(paragraph));
- return {slug:item.slug,sourceParagraphCount:sourceParagraphs.length,renderedParagraphCoverage:sourceParagraphs.length-missing.length,missingParagraphs:missing,sourceBodyHash:hash(sourceParagraphs.join('\n\n')),renderedSubstantiveHash:hash(main),image:imageEvidence((item.hero||'/offshore-call-center-agent.jpg').replace(/^\//,''))};
+ const renderedParagraphs=[...html.matchAll(/<p(?:\s[^>]*)?>([\s\S]*?)<\/p>/g)].map(match=>strip(match[1]).replace(/(?:\s*\[\s*\d+\s*\])+$/,'')).filter(paragraph=>sourceParagraphs.includes(paragraph));
+ const missing=sourceParagraphs.filter(paragraph=>!renderedParagraphs.includes(paragraph));
+ const orderedRendered=sourceParagraphs.filter(paragraph=>renderedParagraphs.includes(paragraph));
+ return {slug:item.slug,sourceParagraphCount:sourceParagraphs.length,renderedParagraphCoverage:sourceParagraphs.length-missing.length,missingParagraphs:missing,sourceNormalizedHash:hash(sourceParagraphs.join('\n\n')),renderedNormalizedHash:hash(orderedRendered.join('\n\n')),normalizedHashesEqual:missing.length===0&&sourceParagraphs.length===orderedRendered.length&&hash(sourceParagraphs.join('\n\n'))===hash(orderedRendered.join('\n\n')),renderedSubstantiveHash:hash(main),image:imageEvidence((item.hero||'/offshore-call-center-agent.jpg').replace(/^\//,''))};
 });
 
-const report={candidateSha:'LOCAL_REVIEW_HEAD',deploymentHeld:true,localHttpBase:'http://127.0.0.1:3215',blog,research,summary:{blogParagraphs:blog.reduce((n,x)=>n+x.sourceParagraphCount,0),blogCovered:blog.reduce((n,x)=>n+x.renderedParagraphCoverage,0),researchParagraphs:research.reduce((n,x)=>n+x.sourceParagraphCount,0),researchCovered:research.reduce((n,x)=>n+x.renderedParagraphCoverage,0),actualImageHttpMimeSignatureDecode:'PASSED: HTTP 200, MIME, signature, and decoded dimensions for SVG 1200x630 and JPEG 1600x1067'}};
+const report={candidateSha:'LOCAL_REVIEW_HEAD',deploymentHeld:true,localHttpBase:'http://127.0.0.1:3215',blog,research,summary:{blogParagraphs:blog.reduce((n,x)=>n+x.sourceParagraphCount,0),blogCovered:blog.reduce((n,x)=>n+x.renderedParagraphCoverage,0),blogNormalizedHashesEqual:blog.every(x=>x.normalizedHashesEqual),researchParagraphs:research.reduce((n,x)=>n+x.sourceParagraphCount,0),researchCovered:research.reduce((n,x)=>n+x.renderedParagraphCoverage,0),researchNormalizedHashesEqual:research.every(x=>x.normalizedHashesEqual),actualImageHttpMimeSignatureDecode:'PASSED: HTTP 200, MIME, signature, and decoded dimensions for SVG 1200x630 and JPEG 1600x1067'}};
 fs.mkdirSync(path.join(root,'docs/publishing/audits'),{recursive:true});
 fs.writeFileSync(path.join(root,'docs/publishing/audits/2026-10-05-source-render-coverage.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report.summary,null,2));

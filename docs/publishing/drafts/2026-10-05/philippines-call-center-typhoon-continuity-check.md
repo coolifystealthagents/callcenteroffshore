@@ -81,6 +81,5 @@ Call Center Offshore's [after-hours answering service](/services/after-hours-ans
 ## Sources and operating evidence
 
 - [PAGASA tropical cyclone information](https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin), checked October 5, 2026. Use current official advisories during an event.
-- [Philippines NDRRMC](https://ndrrmc.gov.ph/), checked October 5, 2026. Use relevant national disaster-risk information alongside local directions.
 - Client and employer safety, continuity, routing, access, escalation, customer-notice, and restoration procedures.
 - Advisory timestamps, staffing declarations, site and carrier tests, router events, handoff receipts, callback lists, customer notices, and restoration checks.

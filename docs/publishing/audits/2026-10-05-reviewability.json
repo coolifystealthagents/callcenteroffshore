@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-10-05T21:28:14.817Z",
+  "candidateSha": "LOCAL_REVIEW_HEAD",
+  "frozenProductionSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
+  "cumulativeDiffAgainstFrozenProduction": "app/research-oct5.json                             | 1407 ++++++++++++++++++++\n app/research-oct5.ts                               |   51 +-\n docs/publishing/2026-10-05-blog-ledger.json        |   55 +-\n docs/publishing/2026-10-05-research-ledger.json    |   20 +-\n .../audits/2026-10-05-reviewability.json           |  706 ++++++++++\n .../audits/2026-10-05-source-render-coverage.json  |  392 ++++++\n .../audits/2026-10-05-structural-originality.json  |  295 ++++\n .../call-center-channel-handoff-email-to-phone.md  |   69 +-\n .../call-center-crm-outage-capture-recovery.md     |   65 +-\n .../call-center-order-cancellation-cutoff.md       |   69 +-\n .../call-center-payment-link-verbal-boundary.md    |   67 +-\n .../call-center-supervisor-whisper-barge-policy.md |   69 +-\n .../call-center-suspected-account-takeover-call.md |   69 +-\n .../call-center-voicemail-transcription-review.md  |   67 +-\n ...-call-center-interpreter-disconnect-recovery.md |   69 +-\n ...call-center-overflow-provider-failover-drill.md |   65 +-\n ...re-call-center-return-call-number-validation.md |   65 +-\n ...hore-call-center-threatening-caller-response.md |   65 +-\n ...ippines-call-center-typhoon-continuity-check.md |   74 +-\n package.json                                       |    1 -\n scripts/audit-october-5-reviewability.mjs          |   63 +\n scripts/audit-october-5-source-render-coverage.mjs |   38 +\n scripts/audit-october-5-structural-originality.mjs |   91 ++\n scripts/generate-october-5-blog.mjs                |   75 --\n scripts/replace-research-record.mjs                |   12 +\n scripts/verify-october-5-blog.mjs                  |    3 +-\n 26 files changed, 3611 insertions(+), 411 deletions(-)",
+  "testEvidence": {
+    "testCommand": null,
+    "result": "NOT_APPLICABLE",
+    "reason": "package.json defines no test script",
+    "commandsRun": [
+      "npm ci --include=dev",
+      "npm audit --audit-level=high",
+      "npm run lint",
+      "npm run build",
+      "npm run validate:october-5-blog",
+      "npm run validate:october-5-research",
+      "node scripts/audit-october-5-structural-originality.mjs",
+      "node scripts/audit-october-5-source-render-coverage.mjs app/research-oct5.json",
+      "node scripts/audit-october-5-reviewability.mjs"
+    ]
+  },
+  "originality": [
+    {
+      "family": "blog",
+      "slug": "call-center-channel-handoff-email-to-phone",
+      "nearestPrior": {
+        "slug": "call-center-customer-death-notification-routing",
+        "score": 0.005251312828207052,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Keep secured email as the record and move only the live question",
+      "workedExample": "A caller asks about an attachment while the agent preserves it in the email thread",
+      "readerDecision": "Choose phone only when synchronous clarification changes the work"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-crm-outage-capture-recovery",
+      "nearestPrior": {
+        "slug": "call-center-handoff-checklist",
+        "score": 0.019476567255021303,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0.00036153289949385393
+      },
+      "coreArgument": "Reconcile each temporary outage record once, then destroy it",
+      "workedExample": "A callback and address correction are captured during a CRM outage and later matched",
+      "readerDecision": "Approve continuity only when reconciliation and deletion receipts exist"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-order-cancellation-cutoff",
+      "nearestPrior": {
+        "slug": "call-center-abandoned-call-recovery",
+        "score": 0.002246469833119384,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "ecommerce-partial-fulfillment-customer-choice-study",
+        "score": 0.0003933910306845004
+      },
+      "coreArgument": "Promise request submission, not cancellation, until fulfillment confirms",
+      "workedExample": "An order crosses the warehouse cutoff during the call",
+      "readerDecision": "Choose wording and escalation based on the observed fulfillment state"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-payment-link-verbal-boundary",
+      "nearestPrior": {
+        "slug": "call-center-customer-death-notification-routing",
+        "score": 0.00384172109104879,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Guide navigation without receiving credentials or claiming settlement",
+      "workedExample": "A customer reads a payment-screen error while the agent avoids card data",
+      "readerDecision": "Approve only bounded navigation and verified payment status"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-supervisor-whisper-barge-policy",
+      "nearestPrior": {
+        "slug": "call-center-handoff-checklist",
+        "score": 0.02235929067077872,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Intervene live only for a defined safety or authority failure",
+      "workedExample": "A supervisor chooses between whisper, barge, takeover, and post-call coaching",
+      "readerDecision": "Set the least intrusive control that resolves the specific risk"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-suspected-account-takeover-call",
+      "nearestPrior": {
+        "slug": "offshore-call-center-screen-sharing-consent",
+        "score": 0.0036319612590799033,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Freeze risky changes while preserving a safe recovery route",
+      "workedExample": "A caller with partial account facts requests a destination change",
+      "readerDecision": "Choose containment and recovery without revealing reusable checks"
+    },
+    {
+      "family": "blog",
+      "slug": "call-center-voicemail-transcription-review",
+      "nearestPrior": {
+        "slug": "call-center-customer-death-notification-routing",
+        "score": 0.004987531172069825,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Treat transcript text as a routing clue until audio confirms it",
+      "workedExample": "A transcript misreads an urgent term and the reviewer checks controlled audio",
+      "readerDecision": "Decide what may enter the case record and what remains unverified"
+    },
+    {
+      "family": "blog",
+      "slug": "offshore-call-center-interpreter-disconnect-recovery",
+      "nearestPrior": {
+        "slug": "offshore-call-center-translation-request-routing",
+        "score": 0.004964832436905255,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0.001266357112705783
+      },
+      "coreArgument": "Restart from the last mutually understood point after a dropped interpreter",
+      "workedExample": "A three-party call loses the interpreter after partial verification",
+      "readerDecision": "Choose the narrow restart while preserving roles and consent"
+    },
+    {
+      "family": "blog",
+      "slug": "offshore-call-center-overflow-provider-failover-drill",
+      "nearestPrior": {
+        "slug": "offshore-call-center-manager-scorecard",
+        "score": 0.028350515463917526,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Prove routing, capacity, refusal, escalation, and return of control",
+      "workedExample": "A bounded drill sends live test contacts to overflow and restores ownership",
+      "readerDecision": "Decide whether the backup is operationally usable, not merely contracted"
+    },
+    {
+      "family": "blog",
+      "slug": "offshore-call-center-return-call-number-validation",
+      "nearestPrior": {
+        "slug": "call-center-customer-death-notification-routing",
+        "score": 0.00423908435777872,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Treat callback reachability separately from identity and disclosure authority",
+      "workedExample": "A temporary number answers but cannot authorize account disclosure",
+      "readerDecision": "Choose purpose, expiry, and verification controls for the callback"
+    },
+    {
+      "family": "blog",
+      "slug": "offshore-call-center-threatening-caller-response",
+      "nearestPrior": {
+        "slug": "call-center-hold-time-update-standard",
+        "score": 0.0031520882584712374,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Let agents stop abuse while recording only actionable safety facts",
+      "workedExample": "A caller makes a specific threat and the agent ends contact under policy",
+      "readerDecision": "Choose immediate stop, evidence preservation, and named safety escalation"
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-call-center-typhoon-continuity-check",
+      "nearestPrior": {
+        "slug": "philippines-call-center-storm-shift-check-in",
+        "score": 0.002883922134102379,
+        "family": "blog"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "research",
+        "slug": "call-center-quality-score-appeal-evidence-study",
+        "score": 0
+      },
+      "coreArgument": "Reduce demand to safely available capacity during a typhoon",
+      "workedExample": "Transport and power conditions remove part of a Philippine shift",
+      "readerDecision": "Choose service reductions and handoffs rather than attendance pressure"
+    },
+    {
+      "family": "research",
+      "slug": "call-center-quality-score-appeal-evidence-study",
+      "nearestPrior": {
+        "slug": "call-center-knowledge-article-retirement-study",
+        "score": 0.005792304509722797,
+        "family": "research"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "blog",
+        "slug": "offshore-call-center-interpreter-disconnect-recovery",
+        "score": 0.001266357112705783
+      },
+      "coreArgument": "Reproduce the original score independently and propagate corrections",
+      "workedExample": "A verification score changes while a closing-quality finding remains",
+      "readerDecision": "Approve appeal authority only with frozen evidence and correction receipts"
+    },
+    {
+      "family": "research",
+      "slug": "technical-support-outage-message-approval-study",
+      "nearestPrior": {
+        "slug": "technical-support-remote-access-consent-study",
+        "score": 0.009856262833675565,
+        "family": "research"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "blog",
+        "slug": "call-center-channel-handoff-email-to-phone",
+        "score": 0
+      },
+      "coreArgument": "Render approved incident facts without turning symptoms into conclusions",
+      "workedExample": "Partial regional recovery is wrongly shortened to outage resolved",
+      "readerDecision": "Choose publish or relay authority based on versioned approvals and lag"
+    },
+    {
+      "family": "research",
+      "slug": "offshore-call-center-contact-record-merge-study",
+      "nearestPrior": {
+        "slug": "call-center-knowledge-article-retirement-study",
+        "score": 0.005780346820809248,
+        "family": "research"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "blog",
+        "slug": "call-center-channel-handoff-email-to-phone",
+        "score": 0
+      },
+      "coreArgument": "Separate identity, relationship, and channel ownership and test rollback",
+      "workedExample": "Family members share an address while a recycled number conflicts",
+      "readerDecision": "Choose merge, link, correct, escalate, or no action by consequence"
+    },
+    {
+      "family": "research",
+      "slug": "ecommerce-partial-fulfillment-customer-choice-study",
+      "nearestPrior": {
+        "slug": "ecommerce-subscription-cancellation-proof-study",
+        "score": 0.010117361392148928,
+        "family": "research"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "blog",
+        "slug": "call-center-order-cancellation-cutoff",
+        "score": 0.0003933910306845004
+      },
+      "coreArgument": "Reconcile each line-level choice across stock, payment, and notices",
+      "workedExample": "A shipped, packed, and delayed three-line order has a conditional discount",
+      "readerDecision": "Approve only options backed by live state and traceable execution"
+    },
+    {
+      "family": "research",
+      "slug": "appointment-reminder-channel-consent-study",
+      "nearestPrior": {
+        "slug": "appointment-scheduling-calendar-conflict-resolution-study",
+        "score": 0.006083650190114068,
+        "family": "research"
+      },
+      "nearestCurrentCrossFamily": {
+        "family": "blog",
+        "slug": "call-center-channel-handoff-email-to-phone",
+        "score": 0
+      },
+      "coreArgument": "Use channel-purpose consent and distinguish delivery from confirmation",
+      "workedExample": "A shared phone permits minimal text but the failed text proposes voice fallback",
+      "readerDecision": "Choose only channel-content combinations demonstrated by consent evidence"
+    }
+  ],
+  "httpDestinations": [
+    {
+      "url": "/services/inbound-customer-care",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/inbound-customer-care",
+      "declaredTitle": "inbound customer care service",
+      "observedOfficialTitle": "Virtual Customer Care Assistants | Call Center Offshore",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.nist.gov/privacy-framework",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nist.gov/privacy-framework",
+      "declaredTitle": "NIST Privacy Framework",
+      "observedOfficialTitle": "Privacy Framework | NIST",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "declaredTitle": "CISA guidance on recognizing and reporting phishing",
+      "observedOfficialTitle": "Recognize and Report Phishing | CISA",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "/services/technical-help-desk",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/technical-help-desk",
+      "declaredTitle": "technical help desk service",
+      "observedOfficialTitle": "Technical Support Assistants | Call Center Offshore",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.nist.gov/cyberframework",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nist.gov/cyberframework",
+      "declaredTitle": "NIST Cybersecurity Framework 2.0",
+      "observedOfficialTitle": "Cybersecurity Framework | NIST",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf",
+      "declaredTitle": "CISA Cybersecurity Incident and Vulnerability Response Playbooks",
+      "observedOfficialTitle": null,
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "/services/ecommerce-contact-center",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/ecommerce-contact-center",
+      "declaredTitle": "ecommerce contact center service",
+      "observedOfficialTitle": "Ecommerce Virtual Assistants | Call Center Offshore",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "declaredTitle": "FTC: Mail, Internet, or Telephone Order Merchandise Rule",
+      "observedOfficialTitle": "Mail, Internet, or Telephone Order Merchandise Rule | Federal Trade Commission",
+      "claimEvidence": "Official Federal Trade Commission rule and compliance resources; checked October 5, 2026. Used to frame promised shipment, delay, cancellation, and refund evidence for covered U.S. orders. This report is not legal advice."
+    },
+    {
+      "url": "https://www.pcisecuritystandards.org/resources/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.pcisecuritystandards.org/resources-overview/",
+      "declaredTitle": "PCI Security Standards Council resources",
+      "observedOfficialTitle": "PCI Security Standards Council – Protect Payment Data with Industry-driven Security Standards, Training, and Programs",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+      "declaredTitle": "FTC data security guidance",
+      "observedOfficialTitle": "Data Security | Federal Trade Commission",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "/services/call-quality-monitoring",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/call-quality-monitoring",
+      "declaredTitle": "call quality monitoring service",
+      "observedOfficialTitle": "Quality and Reporting Assistants | Call Center Offshore",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.ftc.gov/business-guidance",
+      "declaredTitle": "FTC business guidance",
+      "observedOfficialTitle": "Business Guidance | Federal Trade Commission",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://pages.nist.gov/800-63-4/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://pages.nist.gov/800-63-4/",
+      "declaredTitle": "NIST Digital Identity Guidelines",
+      "observedOfficialTitle": "NIST SP 800-63 Digital Identity Guidelines",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.cisa.gov/secure-our-world/use-strong-passwords",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cisa.gov/secure-our-world/use-strong-passwords",
+      "declaredTitle": "CISA account-security guidance",
+      "observedOfficialTitle": "Use Strong Passwords | CISA",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "declaredTitle": "NIST AI Risk Management Framework",
+      "observedOfficialTitle": "AI Risk Management Framework | NIST",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.justice.gov/index.php/archives/atj/language-access-program",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/index.php/archives/atj/language-access-program",
+      "declaredTitle": "U.S. Department of Justice Language Access Program",
+      "observedOfficialTitle": "Office for Access to Justice | Language Access Program | United States Department of Justice",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html",
+      "declaredTitle": "HHS guidance on language access",
+      "observedOfficialTitle": "Limited English Proficiency (LEP) | HHS.gov",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "/services/after-hours-answering",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/after-hours-answering",
+      "declaredTitle": "after-hours answering service",
+      "observedOfficialTitle": "After-Hours Virtual Assistants | Call Center Offshore",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final",
+      "declaredTitle": "NIST contingency planning guide",
+      "observedOfficialTitle": "SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems | CSRC",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.cisa.gov/topics/risk-management",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cisa.gov/topics/risk-management",
+      "declaredTitle": "CISA risk-management resources",
+      "observedOfficialTitle": "Risk Management | Cybersecurity and Infrastructure Security Agency CISA",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.osha.gov/workplace-violence",
+      "status": 403,
+      "ok": true,
+      "finalUrl": "https://www.osha.gov/workplace-violence",
+      "declaredTitle": "OSHA workplace violence resources",
+      "observedOfficialTitle": "ERROR: The request could not be satisfied",
+      "claimEvidence": {
+        "url": "https://www.osha.gov/workplace-violence",
+        "title": "Workplace Violence - Overview | Occupational Safety and Health Administration",
+        "claim": "Independent official-domain index evidence captured October 5, 2026: OSHA defines workplace violence and describes worksite assessment and prevention programs.",
+        "indexedOfficialEvidence": true,
+        "status": "OFFICIAL_INDEX_VERIFIED",
+        "ok": true
+      }
+    },
+    {
+      "url": "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/emergency-services-sector",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/emergency-services-sector",
+      "declaredTitle": "CISA Emergency Services Sector resources",
+      "observedOfficialTitle": "Emergency Services Sector | Cybersecurity and Infrastructure Security Agency CISA",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+      "declaredTitle": "PAGASA tropical cyclone information",
+      "observedOfficialTitle": "PAGASA",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
+      "url": "https://pages.nist.gov/800-63-4/sp800-63.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://pages.nist.gov/800-63-4/sp800-63.html",
+      "declaredTitle": "NIST SP 800-63-4: Digital Identity Guidelines",
+      "observedOfficialTitle": "NIST Special Publication 800-63-4",
+      "claimEvidence": "Official NIST digital-identity guidance, published July 2025; checked October 5, 2026. Used for risk-based identity, authentication, and recovery design. It is guidance for U.S. federal systems, not proof that a private workflow complies with any law."
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "declaredTitle": "NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations",
+      "observedOfficialTitle": "SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile | CSRC",
+      "claimEvidence": "Official NIST incident-response publication; checked October 5, 2026. Used for preparation, detection, response, recovery, and improvement concepts."
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+      "declaredTitle": "HHS: Minimum Necessary Requirement",
+      "observedOfficialTitle": "Minimum Necessary Requirement | HHS.gov",
+      "claimEvidence": "Official U.S. Department of Health and Human Services HIPAA guidance; checked October 5, 2026. Used to frame role-based limits for covered workflows, without assuming every scheduling operation is subject to HIPAA."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/",
+      "declaredTitle": "CFPB: Your company’s role in the complaint process",
+      "observedOfficialTitle": "Your company’s role in the complaint process | Consumer Financial Protection Bureau",
+      "claimEvidence": "Official Consumer Financial Protection Bureau description of company review and response steps; checked October 5, 2026. Used as a bounded comparison for complaint ownership, not as a universal complaint-handling standard."
+    },
+    {
+      "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+      "declaredTitle": "Republic Act No. 10173: Data Privacy Act of 2012",
+      "observedOfficialTitle": "Republic Act No. 10173",
+      "claimEvidence": "Official Philippine statutory text; checked October 5, 2026. Used as Philippines privacy and accountability context, not legal advice."
+    },
+    {
+      "url": "https://privacy.gov.ph/data-privacy-act/",
+      "status": 403,
+      "ok": true,
+      "finalUrl": "https://privacy.gov.ph/data-privacy-act/",
+      "declaredTitle": "National Privacy Commission: Data Privacy Act resources",
+      "observedOfficialTitle": "Just a moment...",
+      "claimEvidence": {
+        "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "title": "Republic Act No. 10173: Data Privacy Act of 2012",
+        "claim": "Official Philippine statutory text independently establishes the Act cited by the regulator resource.",
+        "status": 200,
+        "ok": true,
+        "bytes": 56745
+      }
+    },
+    {
+      "url": "https://www.iso.org/standard/64739.html",
+      "status": 403,
+      "ok": true,
+      "finalUrl": "https://www.iso.org/standard/64739.html",
+      "declaredTitle": "ISO 18295-1:2017 — Customer contact centres",
+      "observedOfficialTitle": "Just a moment...",
+      "claimEvidence": {
+        "url": "https://committee.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/06/47/64739.html",
+        "title": "ISO 18295-1:2017 Customer contact centres",
+        "claim": "Official ISO committee record identifies the standard and its customer contact centre requirements.",
+        "status": 200,
+        "ok": true,
+        "bytes": 94707
+      }
+    },
+    {
+      "url": "/blog-thumbnail.svg",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/blog-thumbnail.svg",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": null,
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/services",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Virtual assistant and outsourced team services | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/services/order-and-billing-support",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/order-and-billing-support",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Order and Billing Assistants | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/services/appointment-scheduling",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/appointment-scheduling",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Executive and Calendar Assistants | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/services/outbound-lead-qualification",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/services/outbound-lead-qualification",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Sales Support Assistants | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/blog",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/blog",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Virtual assistant and outsourcing guides | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    },
+    {
+      "url": "/research",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://127.0.0.1:3215/research",
+      "declaredTitle": "Internal destination",
+      "observedOfficialTitle": "Research | Call Center Offshore | Call Center Offshore",
+      "claimEvidence": "Rendered contextual or related link"
+    }
+  ],
+  "images": [
+    {
+      "route": "/blog-thumbnail.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "encodedBytes": 701,
+      "signatureHex": "3c73766720786d6c6e733d22",
+      "decoder": "sharp/libvips to raw RGBA pixels",
+      "width": 2400,
+      "height": 1260,
+      "channels": 4,
+      "rawPixelBytes": 12096000,
+      "rawPixelSha256": "b66fc6c05337ddcc8aff17b8f249d16a8cc94db1ebede6c0824ad2f536e16249"
+    },
+    {
+      "route": "/offshore-call-center-agent.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "encodedBytes": 155036,
+      "signatureHex": "ffd8ffe000104a4649460001",
+      "decoder": "sharp/libvips to raw RGBA pixels",
+      "width": 1600,
+      "height": 1067,
+      "channels": 4,
+      "rawPixelBytes": 6828800,
+      "rawPixelSha256": "d870472dbaf81db5c692c3e2d4823f098cd447a2f8dc87d665870ea6a557fe06"
+    }
+  ],
+  "summary": {
+    "articles": 17,
+    "priorComparisons": 17,
+    "crossFamilyComparisons": 17,
+    "httpDestinations": 37,
+    "httpFailures": 0,
+    "http403": 3,
+    "imagesDecoded": 2
+  }
+}

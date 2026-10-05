@@ -74,7 +74,7 @@ Call Center Offshore's [inbound customer care service](/services/inbound-custome
 
 ## Sources and operating evidence
 
-- [U.S. Department of Justice language access resources](https://www.justice.gov/crt/language-access), checked October 5, 2026. Confirm which obligations and guidance apply to the client.
+- [U.S. Department of Justice Language Access Program](https://www.justice.gov/index.php/archives/atj/language-access-program), checked October 5, 2026. Confirm which obligations and guidance apply to the client.
 - [HHS guidance on language access](https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html), checked October 5, 2026. Use it where relevant to covered health programs and obtain qualified advice.
 - Client-approved language-access, verification, consent, callback, recording, privacy, and interpreter procedures.
 - Interpreter session IDs, bridge events, call recordings where authorized, restart notes, callback tasks, customer choices, and reviewed cases.

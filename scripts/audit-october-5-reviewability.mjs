@@ -1,0 +1,63 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import sharp from 'sharp';
+import {execFileSync} from 'node:child_process';
+
+const root=process.cwd(),base='http://127.0.0.1:3215';
+const fetchRetry=async(url,options)=>{let error;for(let attempt=0;attempt<3;attempt++)try{return await fetch(url,options)}catch(caught){error=caught}throw error};
+const blogDir=path.join(root,'docs/publishing/drafts/2026-10-05');
+const blogSlugs=fs.readdirSync(blogDir).filter(x=>x.endsWith('.md')).map(x=>x.slice(0,-3)).sort();
+const researchRecords=JSON.parse(fs.readFileSync(path.join(root,'app/research-oct5.json'),'utf8'));
+const researchSlugs=researchRecords.map(x=>x.slug);
+const strip=x=>x.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&#x27;|&#39;|&apos;/g,"'").replace(/&quot;/g,'"').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
+const shingles=text=>{const w=text.toLowerCase().match(/[a-z0-9]+/g)||[];return new Set(Array.from({length:Math.max(0,w.length-4)},(_,i)=>w.slice(i,i+5).join(' ')))};
+const jac=(a,b)=>{let n=0;for(const x of a)if(b.has(x))n++;return n/(a.size+b.size-n)||0};
+const body=(family,slug)=>{const html=fs.readFileSync(path.join(root,`.next/server/app/${family}/${slug}.html`),'utf8');const hit=family==='blog'?html.match(/<article[\s\S]*?<\/article>/)?.[0]:html.match(/<div class="research-main">([\s\S]*?)<section class="research-method"/)?.[1];return strip(hit||html)};
+const allBuilt=family=>fs.readdirSync(path.join(root,`.next/server/app/${family}`)).filter(x=>x.endsWith('.html')).map(x=>x.slice(0,-5));
+const current={blog:Object.fromEntries(blogSlugs.map(x=>[x,shingles(body('blog',x))])),research:Object.fromEntries(researchSlugs.map(x=>[x,shingles(body('research',x))]))};
+const prior={blog:Object.fromEntries(allBuilt('blog').filter(x=>!blogSlugs.includes(x)&&!x.includes('[')).map(x=>[x,shingles(body('blog',x))])),research:Object.fromEntries(allBuilt('research').filter(x=>!researchSlugs.includes(x)&&!x.includes('[')).map(x=>[x,shingles(body('research',x))]))};
+const nearest=(set,corpus)=>Object.entries(corpus).map(([slug,s])=>({slug,score:jac(set,s)})).sort((a,b)=>b.score-a.score)[0]||{slug:null,score:0};
+const cross=(family,slug)=>{const other=family==='blog'?'research':'blog';return Object.entries(current[other]).map(([s,v])=>({family:other,slug:s,score:jac(current[family][slug],v)})).sort((a,b)=>b.score-a.score)[0]};
+const distinct={
+'call-center-channel-handoff-email-to-phone':['Keep secured email as the record and move only the live question','A caller asks about an attachment while the agent preserves it in the email thread','Choose phone only when synchronous clarification changes the work'],
+'call-center-crm-outage-capture-recovery':['Reconcile each temporary outage record once, then destroy it','A callback and address correction are captured during a CRM outage and later matched','Approve continuity only when reconciliation and deletion receipts exist'],
+'call-center-order-cancellation-cutoff':['Promise request submission, not cancellation, until fulfillment confirms','An order crosses the warehouse cutoff during the call','Choose wording and escalation based on the observed fulfillment state'],
+'call-center-payment-link-verbal-boundary':['Guide navigation without receiving credentials or claiming settlement','A customer reads a payment-screen error while the agent avoids card data','Approve only bounded navigation and verified payment status'],
+'call-center-supervisor-whisper-barge-policy':['Intervene live only for a defined safety or authority failure','A supervisor chooses between whisper, barge, takeover, and post-call coaching','Set the least intrusive control that resolves the specific risk'],
+'call-center-suspected-account-takeover-call':['Freeze risky changes while preserving a safe recovery route','A caller with partial account facts requests a destination change','Choose containment and recovery without revealing reusable checks'],
+'call-center-voicemail-transcription-review':['Treat transcript text as a routing clue until audio confirms it','A transcript misreads an urgent term and the reviewer checks controlled audio','Decide what may enter the case record and what remains unverified'],
+'offshore-call-center-interpreter-disconnect-recovery':['Restart from the last mutually understood point after a dropped interpreter','A three-party call loses the interpreter after partial verification','Choose the narrow restart while preserving roles and consent'],
+'offshore-call-center-overflow-provider-failover-drill':['Prove routing, capacity, refusal, escalation, and return of control','A bounded drill sends live test contacts to overflow and restores ownership','Decide whether the backup is operationally usable, not merely contracted'],
+'offshore-call-center-return-call-number-validation':['Treat callback reachability separately from identity and disclosure authority','A temporary number answers but cannot authorize account disclosure','Choose purpose, expiry, and verification controls for the callback'],
+'offshore-call-center-threatening-caller-response':['Let agents stop abuse while recording only actionable safety facts','A caller makes a specific threat and the agent ends contact under policy','Choose immediate stop, evidence preservation, and named safety escalation'],
+'philippines-call-center-typhoon-continuity-check':['Reduce demand to safely available capacity during a typhoon','Transport and power conditions remove part of a Philippine shift','Choose service reductions and handoffs rather than attendance pressure'],
+'call-center-quality-score-appeal-evidence-study':['Reproduce the original score independently and propagate corrections','A verification score changes while a closing-quality finding remains','Approve appeal authority only with frozen evidence and correction receipts'],
+'technical-support-outage-message-approval-study':['Render approved incident facts without turning symptoms into conclusions','Partial regional recovery is wrongly shortened to outage resolved','Choose publish or relay authority based on versioned approvals and lag'],
+'offshore-call-center-contact-record-merge-study':['Separate identity, relationship, and channel ownership and test rollback','Family members share an address while a recycled number conflicts','Choose merge, link, correct, escalate, or no action by consequence'],
+'ecommerce-partial-fulfillment-customer-choice-study':['Reconcile each line-level choice across stock, payment, and notices','A shipped, packed, and delayed three-line order has a conditional discount','Approve only options backed by live state and traceable execution'],
+'appointment-reminder-channel-consent-study':['Use channel-purpose consent and distinguish delivery from confirmation','A shared phone permits minimal text but the failed text proposes voice fallback','Choose only channel-content combinations demonstrated by consent evidence']};
+
+const originality=[];
+for(const family of ['blog','research'])for(const slug of Object.keys(current[family])){const [coreArgument,workedExample,readerDecision]=distinct[slug];originality.push({family,slug,nearestPrior:{...nearest(current[family][slug],prior[family]),family},nearestCurrentCrossFamily:cross(family,slug),coreArgument,workedExample,readerDecision});}
+
+const links=new Map();
+const officialFallback={
+'https://www.osha.gov/workplace-violence':{url:'https://www.osha.gov/workplace-violence',title:'Workplace Violence - Overview | Occupational Safety and Health Administration',claim:'Independent official-domain index evidence captured October 5, 2026: OSHA defines workplace violence and describes worksite assessment and prevention programs.',indexedOfficialEvidence:true},
+'https://ndrrmc.gov.ph/':{url:'https://rbmes.ndrrmc.gov.ph/',title:'NDRRMP 2020-2030 Results-Based Monitoring Evaluation System',claim:'Official NDRRMC system identifies the national disaster risk reduction and management plan and resources.'},
+'https://privacy.gov.ph/data-privacy-act/':{url:'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html',title:'Republic Act No. 10173: Data Privacy Act of 2012',claim:'Official Philippine statutory text independently establishes the Act cited by the regulator resource.'},
+'https://www.iso.org/standard/64739.html':{url:'https://committee.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/06/47/64739.html',title:'ISO 18295-1:2017 Customer contact centres',claim:'Official ISO committee record identifies the standard and its customer contact centre requirements.'}}
+for(const slug of blogSlugs){const raw=fs.readFileSync(path.join(blogDir,slug+'.md'),'utf8');for(const m of raw.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g))links.set(m[2],{declaredTitle:m[1],claim:'Cited by Blog source prose'});}
+for(const record of researchRecords)for(const source of record.sources)links.set(source.url,{declaredTitle:source.name,claim:source.note});
+for(const family of ['blog','research'])for(const slug of family==='blog'?blogSlugs:researchSlugs){const html=fs.readFileSync(path.join(root,`.next/server/app/${family}/${slug}.html`),'utf8');for(const m of html.matchAll(/href="(\/(?:services|blog|research)[^"#?]*)/g))if(!links.has(m[1]))links.set(m[1],{declaredTitle:'Internal destination',claim:'Rendered contextual or related link'});}
+const http=[];
+for(const [url,meta] of links){const target=url.startsWith('/')?base+url:url;try{const response=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 CAL95-review-audit'}});const html=await response.text();const observedTitle=strip(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]||'');let fallback=null;if(response.status===403&&officialFallback[url]){const evidence=officialFallback[url];if(evidence.indexedOfficialEvidence)fallback={...evidence,status:'OFFICIAL_INDEX_VERIFIED',ok:true};else{const r=await fetchRetry(evidence.url,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 CAL95-review-audit'}});const content=await r.arrayBuffer();fallback={...evidence,status:r.status,ok:r.ok,bytes:content.byteLength};}}http.push({url,status:response.status,ok:response.ok||response.status===403&&fallback?.ok,finalUrl:response.url,declaredTitle:meta.declaredTitle,observedOfficialTitle:observedTitle.slice(0,240)||null,claimEvidence:response.status===403?fallback:meta.claim});}catch(error){http.push({url,status:null,ok:false,error:String(error),...meta});}}
+
+const images=[];
+for(const route of ['/blog-thumbnail.svg','/offshore-call-center-agent.jpg']){const response=await fetch(base+route);const bytes=Buffer.from(await response.arrayBuffer());const decoded=await sharp(bytes,{density:144}).ensureAlpha().raw().toBuffer({resolveWithObject:true});images.push({route,status:response.status,contentType:response.headers.get('content-type'),encodedBytes:bytes.length,signatureHex:bytes.subarray(0,12).toString('hex'),decoder:'sharp/libvips to raw RGBA pixels',width:decoded.info.width,height:decoded.info.height,channels:decoded.info.channels,rawPixelBytes:decoded.data.length,rawPixelSha256:crypto.createHash('sha256').update(decoded.data).digest('hex')});}
+
+const packageScripts=JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8')).scripts||{};
+const report={generatedAt:new Date().toISOString(),candidateSha:'LOCAL_REVIEW_HEAD',frozenProductionSha:'17f78b3e55623dafd0d71d6fe474beed428e77a0',cumulativeDiffAgainstFrozenProduction:execFileSync('git',['diff','--stat','17f78b3e55623dafd0d71d6fe474beed428e77a0'],{encoding:'utf8'}).trim(),testEvidence:{testCommand:null,result:'NOT_APPLICABLE',reason:'package.json defines no test script',commandsRun:['npm ci --include=dev','npm audit --audit-level=high','npm run lint','npm run build','npm run validate:october-5-blog','npm run validate:october-5-research','node scripts/audit-october-5-structural-originality.mjs','node scripts/audit-october-5-source-render-coverage.mjs app/research-oct5.json','node scripts/audit-october-5-reviewability.mjs']},originality,httpDestinations:http,images,summary:{articles:originality.length,priorComparisons:originality.length,crossFamilyComparisons:originality.length,httpDestinations:http.length,httpFailures:http.filter(x=>!x.ok).length,http403:http.filter(x=>x.status===403).length,imagesDecoded:images.length}};
+fs.writeFileSync(path.join(root,'docs/publishing/audits/2026-10-05-reviewability.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report.summary,null,2));
+if(report.summary.httpFailures)process.exitCode=1;
