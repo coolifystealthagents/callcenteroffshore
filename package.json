@@ -16,7 +16,6 @@
     "validate:september-28-blog": "node scripts/verify-september-28-blog.mjs",
     "generate:october-2-blog": "node scripts/generate-october-2-blog.mjs",
     "validate:october-2-blog": "node scripts/verify-october-2-blog.mjs",
-    "generate:october-5-blog": "node scripts/generate-october-5-blog.mjs",
     "audit:october-5-blog-drafts": "node scripts/audit-october-5-blog-drafts.mjs",
     "validate:october-5-blog": "node scripts/verify-october-5-blog.mjs",
     "validate:september-28-research": "node scripts/verify-september-28-research.mjs",
