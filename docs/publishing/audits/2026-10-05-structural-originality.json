@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:40:23.608Z",
+  "generatedAt": "2026-10-05T14:45:38.287Z",
   "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
   "disposition": "INVALID_FOR_DEPLOYMENT",
   "reason": "Both families retain shared reasoning generators and repeated argument sequences. Added worked examples reduced the shingle score but did not replace the common scaffolding.",
@@ -11,7 +11,6 @@
         "text": "The client retains authority for policy and high-risk exceptions; the operating partner is responsible for following the rule, surfacing defects, and returning evidence that supports a measured improvement.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -23,13 +22,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "It is written for a client manager defining a bounded offshore call center workflow and for the supervisor who must make that workflow usable across tools, time zones, and handoffs.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -41,13 +39,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Write the trigger in terms an agent or supervisor can observe, name the person allowed to decide, and state what the customer can truthfully be told while that decision is pending.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -59,13 +56,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Call Center Offshore’s related service can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -77,13 +73,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Then introduce a correction: the customer changes direction, a source turns out to be wrong, or the request has already been completed elsewhere.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -95,13 +90,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "It is to make the next safe action clear, preserve the customer’s request, and keep authority with the person who is actually allowed to decide.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -113,13 +107,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "The receiving role should acknowledge the handoff, and the system should expose an overdue item before the customer has to make another contact.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -131,13 +124,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "It also gives a Philippines-based or other offshore team a boundary that remains usable when the client-side owner is not sitting beside them.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -149,13 +141,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Start with one queue, observe failures, and expand only after the records show that ordinary and difficult cases reach a responsible owner.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -167,13 +158,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Ask a prospective offshore call center to show the exact screen, script, access boundary, handoff receipt, and exception route.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -185,13 +175,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "“Escalated” or “urgent” does not reveal who accepted the work, what is still permitted, or when the customer should hear back.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -203,13 +192,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Each item must earn its place: if the next authorized owner cannot use it to act, it probably does not belong in the record.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -221,13 +209,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "An agent must know when to pause, what information not to collect or repeat, and which route can accept the unresolved work.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -239,13 +226,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Where law, contract, privacy, security, or emergency judgment is involved, the client’s qualified owner defines the rule.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -257,13 +243,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "A resilient workflow cancels obsolete work and retains a short explanation instead of letting old tasks continue quietly.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -275,13 +260,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "A low number can hide under-reporting; a high number can reflect a newly visible problem rather than worse work.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -293,13 +277,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Run an ordinary case, an ambiguous case, a late-shift case, and a case where the intended owner is unavailable.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -311,13 +294,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Pair counts with a small sample of complete interaction trails so managers can see why an exception occurred.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -329,13 +311,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "The provider can help translate that decision into fields, scripts, access, training, and review samples.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -347,13 +328,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "The service team applies the approved workflow and preserves the facts needed for that owner to decide.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -365,13 +345,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "If no decision follows, collecting another dashboard field will not improve the customer’s experience.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -383,13 +362,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "The provider should explain what its agents cannot decide as clearly as what they can complete.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -401,13 +379,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "The review should end with a named change, an owner, an effective date, and a later sample.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -419,13 +396,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Supervisors need the same boundary; they should not override it merely to clear a queue.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -437,13 +413,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Connect it to the live queue rather than leaving it in a separate policy library.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -455,13 +430,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Ask a second person to determine the next safe action from the record alone.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -473,13 +447,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "A workable control begins with evidence that can survive a shift change.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -491,13 +464,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "Add a time-zone change and an unavailable manager to the demonstration.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -509,13 +481,12 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       },
       {
         "text": "At the same time, do not reduce the note to a status label.",
         "documents": [
           "call-center-channel-handoff-email-to-phone",
-          "call-center-crm-outage-capture-recovery",
           "call-center-order-cancellation-cutoff",
           "call-center-payment-link-verbal-boundary",
           "call-center-supervisor-whisper-barge-policy",
@@ -527,7 +498,7 @@
           "offshore-call-center-threatening-caller-response",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 12
+        "count": 11
       }
     ],
     "sharedSequence": [
@@ -562,14 +533,13 @@
       "call-center-crm-outage-capture-recovery": {
         "thesis": "CRM outage continuity succeeds only when every minimal temporary record is reconciled once and then destroyed, not merely when the CRM returns.",
         "outline": [
-          "Start with the outage decision, not a new form",
-          "Follow one outage record from paper to deletion",
-          "Keep the temporary record deliberately small",
-          "Control who can create and read outage records",
-          "Reconcile in two directions after restoration",
-          "Destroy temporary copies and prove closure",
-          "Run a timed outage exercise",
-          "Put this call center crm outage recovery boundary into service",
+          "Decide what can continue without the CRM",
+          "Use one controlled outage register",
+          "Follow one address-change request",
+          "Reconcile in both directions",
+          "Close and remove the temporary records",
+          "Drill the messy middle of the outage",
+          "What a buyer should ask a provider to demonstrate",
           "Sources and operating evidence"
         ]
       },
