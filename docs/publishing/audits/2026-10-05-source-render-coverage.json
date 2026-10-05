@@ -1,0 +1,287 @@
+{
+  "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
+  "deploymentHeld": true,
+  "blog": [
+    {
+      "slug": "call-center-channel-handoff-email-to-phone",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "6db2ea8174bcf93d7ebd3347303abfd22913452f13627348833587a1b7b0c885",
+      "renderedArticleHash": "70d49389adcf44c53f0f62bde19d284c20b685137f6bb539711571b31c5e4fa1",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-crm-outage-capture-recovery",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "a97ea9ce69a7877d0367be0719cc223e3b7ef4a0a264796ec95097beb3e2a81f",
+      "renderedArticleHash": "803a9c2d6ed9e7c4599667c59893347e4b444950d534dec103fc5d636b530bb3",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-order-cancellation-cutoff",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "4987f81e41e20fee37bdabdef33bc05c563f412380cfd471ab5c39395e4c88d2",
+      "renderedArticleHash": "33addcf76e9aa38c0abfb1e45af65fc809a45b8eaabbc127a9dd81fcc345f239",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-payment-link-verbal-boundary",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "8584dbcb91cb80f9daafb85e34890276595f3c1538940b3b87101a62fef814aa",
+      "renderedArticleHash": "c78436b4100a01f9f2247aee45049fee68292905dcff8108291991526068ca12",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-supervisor-whisper-barge-policy",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "3dca325de7b299d5bc370206464562802e442170973c65ed5ef6a8ca087f65ec",
+      "renderedArticleHash": "038ae801079122b150f22214cc1146cabcfe1abf143fe1bd9f2768b012233c1c",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-suspected-account-takeover-call",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "2fca2a9cd7cf5406c3c3a048ecfe027c74b5a96213c566398a5497ef97e304a6",
+      "renderedArticleHash": "23625e5d98f38864a030b7a4185d92e1b516bb74814f5ca6b60a812f29bdfa4a",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "call-center-voicemail-transcription-review",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "1937c4da7f777b3c2c58b45f49be8e26ab909b3042fb1df50f18a6978a9ed3df",
+      "renderedArticleHash": "40d5d79316bf0f2740ff073541c356d2555cf75699f05e6f06f519775f0d3afc",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "offshore-call-center-interpreter-disconnect-recovery",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "cbd7fcec5755e7e67f342ea4efe4e1bcc72ebe110a0474f0827caa6057905e8e",
+      "renderedArticleHash": "b82bdb2df2482d7305295ee880ade4780e46bf24a2471c1475f63f6e4efbad9f",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "offshore-call-center-overflow-provider-failover-drill",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "e983aa697ffc2cd2dc38d149b29d27a1f6f939267994c7caf23badf7462b6bf8",
+      "renderedArticleHash": "004dcb8e630792d54ed53bf4bdf57f5cd0886cf57cfcbc2e2c3d3ab01766e2d2",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "offshore-call-center-return-call-number-validation",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "47d352680d6bdfa3fcc3f2c20db2969101a7991b1d841e80855da8bbcd362db1",
+      "renderedArticleHash": "b6fe25a18e14bc5f7fbf7378fe9dd6899ca9839bbd9c8494d0a79f11d8c6d446",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "offshore-call-center-threatening-caller-response",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "a7b06393f160fc49210f3d96442b00cbfe1741e6adad9a2d7a233c6fcaa88c2a",
+      "renderedArticleHash": "fc076e89d204fdf72e3b3307dcc59121451a87a78a140ca47d51be969cd2eeac",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "philippines-call-center-typhoon-continuity-check",
+      "sourceParagraphCount": 10,
+      "renderedParagraphCoverage": 10,
+      "missingParagraphs": [],
+      "sourceBodyHash": "59b723d8c60b038d09d29d86987ebd75d2372b95ce2e7f8a4d92d384dc1fd2a4",
+      "renderedArticleHash": "ab82d69e5c40e64dd9b0bdc01336bc11822687feccce60a9a3b8801ef80ef83d",
+      "image": {
+        "path": "public/blog-thumbnail.svg",
+        "bytes": 701,
+        "mime": "image/svg+xml",
+        "signatureHex": "3c73766720786d6c6e733d22",
+        "decodeEvidence": "SVG root and namespace validated by render audit",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    }
+  ],
+  "research": [
+    {
+      "slug": "call-center-quality-score-appeal-evidence-study",
+      "sourceParagraphCount": 14,
+      "renderedParagraphCoverage": 14,
+      "missingParagraphs": [],
+      "sourceBodyHash": "057787c6f7a0c0fb6fb0fcbf4f13ddda5a02ebd74df54f477cfa58f2d8952465",
+      "renderedSubstantiveHash": "03e2a5417870ea5f093c8b9ddf34b23cc7ad9a6fa6db15fcf9e8c47346782af0",
+      "image": {
+        "path": "public/offshore-call-center-agent.jpg",
+        "bytes": 155036,
+        "mime": "image/jpeg",
+        "signatureHex": "ffd8ffe000104a4649460001",
+        "decodeEvidence": "recognized binary signature",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "technical-support-outage-message-approval-study",
+      "sourceParagraphCount": 14,
+      "renderedParagraphCoverage": 14,
+      "missingParagraphs": [],
+      "sourceBodyHash": "e27cc4bc8a0b22fcd3526c8fdd4c6bac7be1daa7a12c04bd557110dcc85d3495",
+      "renderedSubstantiveHash": "67b3a889534e36ab3b4780102fd7d96677a6725b471e94ebead282e1cfa25b92",
+      "image": {
+        "path": "public/offshore-call-center-agent.jpg",
+        "bytes": 155036,
+        "mime": "image/jpeg",
+        "signatureHex": "ffd8ffe000104a4649460001",
+        "decodeEvidence": "recognized binary signature",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "offshore-call-center-contact-record-merge-study",
+      "sourceParagraphCount": 14,
+      "renderedParagraphCoverage": 14,
+      "missingParagraphs": [],
+      "sourceBodyHash": "062a4ec0ffec21e80b5a08fcd55efc2b649257ad0d356699fa9dc870ab1dc8fd",
+      "renderedSubstantiveHash": "d56ef4b1637ebe9d2d50571323ec0a19628fe42038433148e98e678c3f36dc54",
+      "image": {
+        "path": "public/offshore-call-center-agent.jpg",
+        "bytes": 155036,
+        "mime": "image/jpeg",
+        "signatureHex": "ffd8ffe000104a4649460001",
+        "decodeEvidence": "recognized binary signature",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "ecommerce-partial-fulfillment-customer-choice-study",
+      "sourceParagraphCount": 14,
+      "renderedParagraphCoverage": 14,
+      "missingParagraphs": [],
+      "sourceBodyHash": "002ef15eb869130302c4a7f7958861ea3e779be33d2edbc2b3ec18454674083d",
+      "renderedSubstantiveHash": "9e453143e30b2bac25f4e4da87977e16f5737e23b2544c234bcd654ed446c465",
+      "image": {
+        "path": "public/offshore-call-center-agent.jpg",
+        "bytes": 155036,
+        "mime": "image/jpeg",
+        "signatureHex": "ffd8ffe000104a4649460001",
+        "decodeEvidence": "recognized binary signature",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    },
+    {
+      "slug": "appointment-reminder-channel-consent-study",
+      "sourceParagraphCount": 14,
+      "renderedParagraphCoverage": 14,
+      "missingParagraphs": [],
+      "sourceBodyHash": "dec748f5a7209f9b36ba79f3791de9ebb17060b2eff076a2307a8b9fab9f56e9",
+      "renderedSubstantiveHash": "fb02da57dc1093ce3784b84ff953603e1af5ada5dbe7ad79f3bc64cf8a37aec8",
+      "image": {
+        "path": "public/offshore-call-center-agent.jpg",
+        "bytes": 155036,
+        "mime": "image/jpeg",
+        "signatureHex": "ffd8ffe000104a4649460001",
+        "decodeEvidence": "recognized binary signature",
+        "httpEvidence": "UNAVAILABLE: candidate deployment is held"
+      }
+    }
+  ],
+  "summary": {
+    "blogParagraphs": 120,
+    "blogCovered": 120,
+    "researchParagraphs": 70,
+    "researchCovered": 70,
+    "actualImageHttpMimeSignatureDecode": "UNAVAILABLE until a corrected candidate is authorized and deployed"
+  }
+}

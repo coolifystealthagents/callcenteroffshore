@@ -1,0 +1,1463 @@
+{
+  "generatedAt": "2026-10-05T14:40:23.608Z",
+  "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
+  "disposition": "INVALID_FOR_DEPLOYMENT",
+  "reason": "Both families retain shared reasoning generators and repeated argument sequences. Added worked examples reduced the shingle score but did not replace the common scaffolding.",
+  "blog": {
+    "count": 12,
+    "exactRepeatedSubstantiveParagraphs": [],
+    "exactRepeatedSubstantiveSentences": [
+      {
+        "text": "The client retains authority for policy and high-risk exceptions; the operating partner is responsible for following the rule, surfacing defects, and returning evidence that supports a measured improvement.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "It is written for a client manager defining a bounded offshore call center workflow and for the supervisor who must make that workflow usable across tools, time zones, and handoffs.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Write the trigger in terms an agent or supervisor can observe, name the person allowed to decide, and state what the customer can truthfully be told while that decision is pending.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Call Center Offshore’s related service can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Then introduce a correction: the customer changes direction, a source turns out to be wrong, or the request has already been completed elsewhere.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "It is to make the next safe action clear, preserve the customer’s request, and keep authority with the person who is actually allowed to decide.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "The receiving role should acknowledge the handoff, and the system should expose an overdue item before the customer has to make another contact.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "It also gives a Philippines-based or other offshore team a boundary that remains usable when the client-side owner is not sitting beside them.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Start with one queue, observe failures, and expand only after the records show that ordinary and difficult cases reach a responsible owner.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Ask a prospective offshore call center to show the exact screen, script, access boundary, handoff receipt, and exception route.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "“Escalated” or “urgent” does not reveal who accepted the work, what is still permitted, or when the customer should hear back.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Each item must earn its place: if the next authorized owner cannot use it to act, it probably does not belong in the record.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "An agent must know when to pause, what information not to collect or repeat, and which route can accept the unresolved work.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Where law, contract, privacy, security, or emergency judgment is involved, the client’s qualified owner defines the rule.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "A resilient workflow cancels obsolete work and retains a short explanation instead of letting old tasks continue quietly.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "A low number can hide under-reporting; a high number can reflect a newly visible problem rather than worse work.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Run an ordinary case, an ambiguous case, a late-shift case, and a case where the intended owner is unavailable.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Pair counts with a small sample of complete interaction trails so managers can see why an exception occurred.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "The provider can help translate that decision into fields, scripts, access, training, and review samples.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "The service team applies the approved workflow and preserves the facts needed for that owner to decide.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "If no decision follows, collecting another dashboard field will not improve the customer’s experience.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "The provider should explain what its agents cannot decide as clearly as what they can complete.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "The review should end with a named change, an owner, an effective date, and a later sample.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Supervisors need the same boundary; they should not override it merely to clear a queue.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Connect it to the live queue rather than leaving it in a separate policy library.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Ask a second person to determine the next safe action from the record alone.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "A workable control begins with evidence that can survive a shift change.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "Add a time-zone change and an unavailable manager to the demonstration.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      },
+      {
+        "text": "At the same time, do not reduce the note to a status label.",
+        "documents": [
+          "call-center-channel-handoff-email-to-phone",
+          "call-center-crm-outage-capture-recovery",
+          "call-center-order-cancellation-cutoff",
+          "call-center-payment-link-verbal-boundary",
+          "call-center-supervisor-whisper-barge-policy",
+          "call-center-suspected-account-takeover-call",
+          "call-center-voicemail-transcription-review",
+          "offshore-call-center-interpreter-disconnect-recovery",
+          "offshore-call-center-overflow-provider-failover-drill",
+          "offshore-call-center-return-call-number-validation",
+          "offshore-call-center-threatening-caller-response",
+          "philippines-call-center-typhoon-continuity-check"
+        ],
+        "count": 12
+      }
+    ],
+    "sharedSequence": [
+      "define an observable decision and authority owner",
+      "capture evidence that survives a shift change",
+      "state a stop condition and retain client authority",
+      "test ordinary, ambiguous, late-shift, unavailable-owner, and correction cases",
+      "review diagnostic measures and assign a dated change",
+      "ask the buyer to demand a tool/script/access/handoff demonstration"
+    ],
+    "workedExampleStructure": "Every article received one topic-specific worked example inserted into the same six-stage article generated by paragraph(t,h,i). The example did not replace the six shared reasoning paragraphs.",
+    "generatorEvidence": {
+      "hasSharedParagraphFunction": true,
+      "hasSharedSectionMapping": true,
+      "hasInsertedWorkedExample": true
+    },
+    "articlePlans": {
+      "call-center-channel-handoff-email-to-phone": {
+        "thesis": "An email-to-phone handoff should move only the current question and its ownership, while the secured email remains the source for attachments and historical context.",
+        "outline": [
+          "Choose the reason a call is necessary",
+          "Summarize only what the caller needs",
+          "Verify the destination before dialing",
+          "Keep one owner across both channels",
+          "Trace one email without copying its baggage",
+          "Close the source thread with a durable result",
+          "Test attachments, copied recipients, and changed requests",
+          "Put this email-to-phone call center handoffs boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-crm-outage-capture-recovery": {
+        "thesis": "CRM outage continuity succeeds only when every minimal temporary record is reconciled once and then destroyed, not merely when the CRM returns.",
+        "outline": [
+          "Start with the outage decision, not a new form",
+          "Follow one outage record from paper to deletion",
+          "Keep the temporary record deliberately small",
+          "Control who can create and read outage records",
+          "Reconcile in two directions after restoration",
+          "Destroy temporary copies and prove closure",
+          "Run a timed outage exercise",
+          "Put this call center crm outage recovery boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-order-cancellation-cutoff": {
+        "thesis": "A call center may promise to submit and track a cancellation request only when fulfillment evidence does not yet support a completed-cancellation claim.",
+        "outline": [
+          "Map the fulfillment checkpoints",
+          "Use the shipment scan as a decision point",
+          "Replace instant assurances with an owned request",
+          "Show timestamps in one business clock",
+          "Design the after-cutoff explanation",
+          "Audit the words customers actually heard",
+          "Test warehouse and third-party exceptions",
+          "Put this call center order cancellation cutoffs boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-payment-link-verbal-boundary": {
+        "thesis": "Payment-link support must help a customer navigate without bringing credentials, screen contents, or unconfirmed settlement claims into the call record.",
+        "outline": [
+          "Keep payment credentials out of the conversation",
+          "Help without entering the payment page",
+          "Use only approved links and delivery channels",
+          "Explain navigation without viewing secrets",
+          "Handle recording controls as a designed feature",
+          "Separate submission from confirmed settlement",
+          "Test failure, expiry, and suspected phishing",
+          "Put this call center payment-link boundaries boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-supervisor-whisper-barge-policy": {
+        "thesis": "A supervisor should enter a live call only to address a defined authority or safety failure, not simply because they prefer different phrasing.",
+        "outline": [
+          "Separate monitor, whisper, and barge permissions",
+          "Tell agents how to request live help",
+          "Protect the customer’s understanding of who is present",
+          "Work through a disputed live intervention",
+          "Use reason codes that describe the intervention",
+          "Review judgment rather than intervention volume",
+          "Practice the borderline cases",
+          "Put this call center whisper and barge controls boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-suspected-account-takeover-call": {
+        "thesis": "Suspected takeover handling should preserve a safe recovery path while freezing risky changes and revealing no reusable verification clues.",
+        "outline": [
+          "Recognize signals without diagnosing the caller",
+          "Freeze risky changes while preserving service",
+          "Avoid teaching the security questions",
+          "Keep a suspicious caller on a safe service path",
+          "Create a trusted return route",
+          "Record symptoms rather than accusations",
+          "Drill a patient attacker scenario",
+          "Put this call center suspected account takeover calls boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "call-center-voicemail-transcription-review": {
+        "thesis": "A voicemail transcript is a routing clue whose risky terms must be checked against controlled audio before they become operational facts.",
+        "outline": [
+          "Treat transcription confidence as operationally limited",
+          "Listen only through the authorized tool",
+          "Separate urgency language from verified urgency",
+          "Protect numbers and names copied into tasks",
+          "Keep the audio as the controlled source",
+          "Check the audio before acting on one dangerous word",
+          "Test accents, noise, negation, and code-switching",
+          "Put this call center voicemail transcription review boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "offshore-call-center-interpreter-disconnect-recovery": {
+        "thesis": "When an interpreter disconnects, the decision must restart from the last mutually understood point rather than treating partial comprehension as consent.",
+        "outline": [
+          "Pause at the last mutually understood point",
+          "Do not turn a bilingual bystander into the interpreter",
+          "Decide what verification must be repeated",
+          "Keep the customer informed during reconnection",
+          "Restart from the last shared sentence",
+          "Preserve consent for the resumed step",
+          "Sample recovered sessions for meaning, not speed",
+          "Put this offshore call center interpreter disconnects boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "offshore-call-center-overflow-provider-failover-drill": {
+        "thesis": "An overflow provider is a real backup only after live routing, capacity, rejection, escalation, and return-of-control behavior survive a bounded drill.",
+        "outline": [
+          "Define a failover trigger a supervisor can observe",
+          "Give the backup an honest capacity ceiling",
+          "Run a failover drill that can fail safely",
+          "Test access and knowledge before routing calls",
+          "Exercise rejected work and escalation receipt",
+          "Return traffic in controlled steps",
+          "Turn drill failures into owned corrections",
+          "Put this offshore call center overflow failover drills boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "offshore-call-center-return-call-number-validation": {
+        "thesis": "A callback destination proves reachability, not identity or disclosure authority, and temporary numbers require purpose and expiry controls.",
+        "outline": [
+          "Classify what the number is allowed to do",
+          "Normalize format without guessing",
+          "Catch the one-digit error before the callback",
+          "Read back safely and confirm purpose",
+          "Verify again when the return call begins",
+          "Expire temporary destinations automatically",
+          "Test shared phones, extensions, and international formats",
+          "Put this offshore call center return-number validation boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "offshore-call-center-threatening-caller-response": {
+        "thesis": "Threatening-caller policy must let agents stop abuse immediately while preserving only the specific facts an approved safety owner can act on.",
+        "outline": [
+          "Give the agent unconditional stop authority",
+          "Distinguish abuse from an actionable threat",
+          "Preserve exact facts without building a dossier",
+          "Use locally approved emergency routes",
+          "Support the agent after the interaction",
+          "Rehearse the call agents hope never arrives",
+          "Rehearse specific and ambiguous scenarios",
+          "Put this offshore call center threatening callers boundary into service",
+          "Sources and operating evidence"
+        ]
+      },
+      "philippines-call-center-typhoon-continuity-check": {
+        "thesis": "Typhoon continuity should reduce demand to safely available capacity instead of turning a business-continuity plan into an attendance target.",
+        "outline": [
+          "Put staff safety ahead of seat coverage",
+          "Use official advisories without pretending they predict each home",
+          "Make the reduced-service choice before the storm peak",
+          "Reduce the queue before capacity disappears",
+          "Make handoffs explicit across locations",
+          "Communicate limits to customers honestly",
+          "Review the plan after conditions normalize",
+          "Put this philippines call center typhoon continuity checks boundary into service",
+          "Sources and operating evidence"
+        ]
+      }
+    }
+  },
+  "research": {
+    "count": 5,
+    "exactRepeatedSubstantiveParagraphs": [
+      {
+        "text": "Source quality needs its own boundary. The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design. Record each title, publisher, URL, and checked date. Preserve the interpretation used if a source changes, then review the affected control. Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion. [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ]",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official NIST digital-identity guidance, published July 2025; checked October 5, 2026. Used for risk-based identity, authentication, and recovery design. It is guidance for U.S. federal systems, not proof that a private workflow complies with any law.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official Consumer Financial Protection Bureau description of company review and response steps; checked October 5, 2026. Used as a bounded comparison for complaint ownership, not as a universal complaint-handling standard.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official Federal Trade Commission rule and compliance resources; checked October 5, 2026. Used to frame promised shipment, delay, cancellation, and refund evidence for covered U.S. orders. This report is not legal advice.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official U.S. Department of Health and Human Services HIPAA guidance; checked October 5, 2026. Used to frame role-based limits for covered workflows, without assuming every scheduling operation is subject to HIPAA.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "We can help you turn them into a staffing brief with clear agent work, manager decisions, access limits, and a first-call review plan. The talent offered through this site is exclusively based in the Philippines.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The method depends on complete operational records and a stable tested workflow. It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Limitations are material. Logs may omit calls, manual work, failed integrations, or activity in third-party tools. Small samples expose control defects but do not estimate rare-event frequency reliably. Reviewers may interpret incomplete notes differently. Regulations and platform behavior can change. Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team. Put these limits next to each conclusion. [ 5 ] [ 6 ]",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 4
+      }
+    ],
+    "exactRepeatedSubstantiveSentences": [
+      {
+        "text": "The conclusion is conditional: public sources inform the control design, but only the buyer's own systems, jurisdictions, hours, volumes, and test cases can establish whether this particular operating arrangement is ready.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Buyers should also ask who changes the instruction, how workers learn the new version, what happens outside staffed hours, and how the team proves an acknowledgement rather than merely sending a notification.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Expansion should follow a reconciled sample showing that permitted actions finish correctly, prohibited actions stop, receiving owners acknowledge exceptions, and customer promises remain visible.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Measure the time and workload transferred downstream as well as frontline completion, because a design that merely hides exceptions in another queue has not improved the customer process.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The official publications below explain requirements, risks, or process concepts; they contain no measurement of this buyer’s queue and do not endorse this operating design.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "For a Philippines-based delivery model, this workflow is suitable for delegation only when the evidence record makes the authority boundary visible at the moment of action.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Monthly averages and provider presentations are not substitutes for this unit: they can conceal a weak verification, a late transfer, or an unsupported customer promise.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "These are not interchangeable checklist marks: an observed event, an agent action, an approval, and a completed outcome should have separate timestamps and owners.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Set hard stops before launch, including missing identity evidence, unavailable approval, contradictory source records, or a system state the role cannot interpret.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Eligibility, comparison groups, required fields, exclusions, reviewer disagreement, success conditions, and stop conditions are defined before outcome review.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "A usable scope describes the action, the information available at that moment, the conditions that stop work, and the person who owns the next decision.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Buyers should agree on those boundaries before pricing seats or training agents, because a staffing plan cannot repair an undefined authority model.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Do not turn this bounded operational sample into a claim about the wider industry, the Philippines workforce, or a vendor's future performance.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Marketing claims, unsourced benchmarks, and search snippets should never be promoted into facts because they agree with a preferred conclusion.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Customer outcomes may also depend on product, fulfillment, clinical, financial, security, or policy decisions outside the support team.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "We can help you turn them into a staffing brief with clear agent work, manager decisions, access limits, and a first-call review plan.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "That case belongs in training, acceptance testing, and periodic sampling because routine examples alone will not expose the boundary.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The tested team should be able to explain what it can observe, what it can record, and the exact condition that transfers authority.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Averages can hide the precise population where a control fails, so report both the total and the result for each predeclared group.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "It cannot establish legal compliance, causation, provider-wide performance, employee intent, or results outside the stated sample.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The record should stay in the approved operational system and expose only the fields needed by the next authorized participant.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "A later note should not be treated as proof that a required check, notice, approval, or acknowledgement happened earlier.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official Consumer Financial Protection Bureau description of company review and response steps; checked October 5, 2026.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "A supervisor should be able to reproduce the decision from the evidence without relying on memory or a private message.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Used to frame role-based limits for covered workflows, without assuming every scheduling operation is subject to HIPAA.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Ask to see one completed example, one rejected example, one corrected example, and one item still awaiting an owner.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Run the smallest queue that still contains normal work, incomplete inputs, disputed cases, and a receiving owner.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "For each, trace the source, operator action, approval boundary, customer statement, and final system state.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Where a value is unavailable, mark it unavailable rather than filling the gap from a later conversation.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Used as a bounded comparison for complaint ownership, not as a universal complaint-handling standard.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Select cases before reading their outcomes, record exclusions, and retain contrary examples.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official Federal Trade Commission rule and compliance resources; checked October 5, 2026.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Logs may omit calls, manual work, failed integrations, or activity in third-party tools.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Used to frame promised shipment, delay, cancellation, and refund evidence for covered U.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Small samples expose control defects but do not estimate rare-event frequency reliably.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Preserve the interpretation used if a source changes, then review the affected control.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "If a group is too small for a stable percentage, show counts and describe uncertainty.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Official NIST digital-identity guidance, published July 2025; checked October 5, 2026.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Write that boundary beside the relevant system permission and customer-facing script.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Review access and retention with the client before using live customer information.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "A stop is a successful control outcome when work would otherwise exceed authority.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "That is narrower than asking whether an offshore team can “handle” the category.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The method depends on complete operational records and a stable tested workflow.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "Department of Health and Human Services HIPAA guidance; checked October 5, 2026.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "The talent offered through this site is exclusively based in the Philippines.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      },
+      {
+        "text": "federal systems, not proof that a private workflow complies with any law.",
+        "documents": [
+          "call-center-quality-score-appeal-evidence-study",
+          "technical-support-outage-message-approval-study",
+          "offshore-call-center-contact-record-merge-study",
+          "ecommerce-partial-fulfillment-customer-choice-study",
+          "appointment-reminder-channel-consent-study"
+        ],
+        "count": 5
+      }
+    ],
+    "sharedSequence": [
+      "two shared base research sections",
+      "two topic-specific ending sections",
+      "decision boundary",
+      "record design",
+      "comparison groups",
+      "pilot controls and stop conditions",
+      "buyer review questions",
+      "niche-specific conclusion",
+      "shared base methodology/limitations and sources"
+    ],
+    "workedExampleStructure": "The five reports are produced by one topics.map callback. Six identically ordered specific sections interpolate topic fields into common prose, and shared base sections surround them.",
+    "generatorEvidence": {
+      "usesSingleMap": true,
+      "usesSharedSpecificArray": true,
+      "usesSharedBaseSlices": true
+    },
+    "articlePlans": {
+      "call-center-quality-score-appeal-evidence-study": {
+        "thesis": "A QA appeal process is credible only when an independent reviewer can reproduce the original score and propagate any correction to every downstream use.",
+        "outline": [
+          "Key takeaways",
+          "Decision and scope",
+          "Unit and evidence fields",
+          "Keep the original evaluation reproducible",
+          "Check correction propagation, not just the appeal status",
+          "Decision boundary for call center quality score appeals: an evidence and independence study",
+          "Record design for this workflow",
+          "Comparison groups that can reveal hidden failure",
+          "Pilot controls and stop conditions",
+          "Buyer review questions",
+          "Niche-specific conclusion",
+          "Limitations",
+          "Source evaluation",
+          "Apply the evidence to quality assurance support",
+          "Methodology and limitations",
+          "Bring your call types, hours, and systems",
+          "Frequently asked questions",
+          "Sources",
+          "Related planning guides"
+        ]
+      },
+      "technical-support-outage-message-approval-study": {
+        "thesis": "Frontline outage messages should assemble approved facts and explicit unknowns without converting symptoms or engineering targets into public conclusions.",
+        "outline": [
+          "Key takeaways",
+          "Decision and scope",
+          "Unit and evidence fields",
+          "Build updates from approved fields",
+          "Audit stale messages and customer recovery",
+          "Decision boundary for technical support outage messages: an approval and update-lag study",
+          "Record design for this workflow",
+          "Comparison groups that can reveal hidden failure",
+          "Pilot controls and stop conditions",
+          "Buyer review questions",
+          "Niche-specific conclusion",
+          "Limitations",
+          "Source evaluation",
+          "Apply the evidence to technical help desk support",
+          "Methodology and limitations",
+          "Bring your call types, hours, and systems",
+          "Frequently asked questions",
+          "Sources",
+          "Related planning guides"
+        ]
+      },
+      "offshore-call-center-contact-record-merge-study": {
+        "thesis": "Duplicate-record work should remain reversible until identity, consent, open-case, and downstream effects support an authorized merge.",
+        "outline": [
+          "Key takeaways",
+          "Decision and scope",
+          "Unit and evidence fields",
+          "Compare identity, relationship, and preference separately",
+          "Make reversibility a tested control",
+          "Decision boundary for duplicate customer records: a merge-authority and reversibility study",
+          "Record design for this workflow",
+          "Comparison groups that can reveal hidden failure",
+          "Pilot controls and stop conditions",
+          "Buyer review questions",
+          "Niche-specific conclusion",
+          "Limitations",
+          "Source evaluation",
+          "Apply the evidence to CRM support",
+          "Methodology and limitations",
+          "Bring your call types, hours, and systems",
+          "Frequently asked questions",
+          "Sources",
+          "Related planning guides"
+        ]
+      },
+      "ecommerce-partial-fulfillment-customer-choice-study": {
+        "thesis": "Partial fulfillment must be explained and reconciled by order line so each customer choice, charge, shipment, and refund retains an owner.",
+        "outline": [
+          "Key takeaways",
+          "Decision and scope",
+          "Unit and evidence fields",
+          "Represent the order as obligations by line",
+          "Test choices under real timing pressure",
+          "Decision boundary for partial ecommerce fulfillment: a customer-choice and reconciliation study",
+          "Record design for this workflow",
+          "Comparison groups that can reveal hidden failure",
+          "Pilot controls and stop conditions",
+          "Buyer review questions",
+          "Niche-specific conclusion",
+          "Limitations",
+          "Source evaluation",
+          "Apply the evidence to ecommerce contact center support",
+          "Methodology and limitations",
+          "Bring your call types, hours, and systems",
+          "Frequently asked questions",
+          "Sources",
+          "Related planning guides"
+        ]
+      },
+      "appointment-reminder-channel-consent-study": {
+        "thesis": "Appointment reminders require purpose-limited channel consent and must keep delivery, receipt, confirmation, and attendance as separate events.",
+        "outline": [
+          "Key takeaways",
+          "Decision and scope",
+          "Unit and evidence fields",
+          "Minimize what appears outside the scheduling system",
+          "Treat silence and failure as different states",
+          "Decision boundary for appointment reminders: a channel-consent and disclosure study",
+          "Record design for this workflow",
+          "Comparison groups that can reveal hidden failure",
+          "Pilot controls and stop conditions",
+          "Buyer review questions",
+          "Niche-specific conclusion",
+          "Limitations",
+          "Source evaluation",
+          "Apply the evidence to appointment scheduling support",
+          "Methodology and limitations",
+          "Bring your call types, hours, and systems",
+          "Frequently asked questions",
+          "Sources",
+          "Related planning guides"
+        ]
+      }
+    }
+  },
+  "publicationEvidence": {
+    "deploymentHeld": true,
+    "actualCandidateImageHttpEvidence": "UNAVAILABLE: candidate has not been deployed; local file/signature checks are not HTTP evidence",
+    "liveVerification": "NOT_STARTED"
+  },
+  "requiredRecovery": "Rewrite every Blog and Research article so each has its own thesis, section logic, examples, evidence path, and reader outcome. Remove the shared generators from the candidate before rerunning source-to-render and live evidence gates."
+}
