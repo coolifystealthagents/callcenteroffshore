@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/workforce-management"
+service: "/services/after-hours-answering"
 ---
 
 # Philippines call center typhoon continuity checks: plan around people, not attendance
@@ -44,7 +44,7 @@ For a buyer, review the plan after conditions normalize should be demonstrable. 
 
 ## Put this philippines call center typhoon continuity checks boundary into service
 
-Turn the guidance for a tropical cyclone threatens commuting, power, connectivity, or household safety for a Philippines-based team into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/workforce-management) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove what work to reduce or move without pressuring staff to travel or connect unsafely.
+Turn the guidance for a tropical cyclone threatens commuting, power, connectivity, or household safety for a Philippines-based team into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/after-hours-answering) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove what work to reduce or move without pressuring staff to travel or connect unsafely.
 
 ## Sources and operating evidence
 

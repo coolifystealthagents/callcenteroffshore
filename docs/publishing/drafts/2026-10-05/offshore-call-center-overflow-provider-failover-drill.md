@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/workforce-management"
+service: "/services/after-hours-answering"
 ---
 
 # Offshore call center overflow failover drills: prove the backup can take real work
@@ -44,7 +44,7 @@ For a buyer, turn drill failures into owned corrections should be demonstrable. 
 
 ## Put this offshore call center overflow failover drills boundary into service
 
-Turn the guidance for the primary team loses capacity while customer demand is still arriving into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/workforce-management) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove when overflow begins, what the backup may handle, and who returns traffic to the primary queue.
+Turn the guidance for the primary team loses capacity while customer demand is still arriving into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/after-hours-answering) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove when overflow begins, what the backup may handle, and who returns traffic to the primary queue.
 
 ## Sources and operating evidence
 

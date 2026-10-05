@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/admin-support"
+service: "/services/inbound-customer-care"
 ---
 
 # Call center voicemail transcription review: use the text as a clue, not the record
@@ -44,7 +44,7 @@ For a buyer, test accents, noise, negation, and code-switching should be demonst
 
 ## Put this call center voicemail transcription review boundary into service
 
-Turn the guidance for an automated transcript appears to contain an urgent, sensitive, or unclear customer request into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/admin-support) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove when an agent must listen to the authorized audio, seek clarification, or route the message without assuming the transcript is accurate.
+Turn the guidance for an automated transcript appears to contain an urgent, sensitive, or unclear customer request into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/inbound-customer-care) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove when an agent must listen to the authorized audio, seek clarification, or route the message without assuming the transcript is accurate.
 
 ## Sources and operating evidence
 

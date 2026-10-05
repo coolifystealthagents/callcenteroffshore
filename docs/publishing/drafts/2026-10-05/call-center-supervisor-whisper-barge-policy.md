@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/reporting-and-qa"
+service: "/services/call-quality-monitoring"
 ---
 
 # Call center whisper and barge controls: define when a supervisor may enter
@@ -44,7 +44,7 @@ For a buyer, practice the borderline cases should be demonstrable. Ask a prospec
 
 ## Put this call center whisper and barge controls boundary into service
 
-Turn the guidance for a supervisor sees a live interaction moving toward an unsafe or unauthorized outcome into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/reporting-and-qa) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether to monitor, coach privately, join the call, or let the agent complete the interaction.
+Turn the guidance for a supervisor sees a live interaction moving toward an unsafe or unauthorized outcome into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/call-quality-monitoring) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether to monitor, coach privately, join the call, or let the agent complete the interaction.
 
 ## Sources and operating evidence
 

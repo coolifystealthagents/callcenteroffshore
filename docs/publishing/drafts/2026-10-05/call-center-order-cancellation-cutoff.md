@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/customer-support"
+service: "/services/ecommerce-contact-center"
 ---
 
 # Call center order cancellation cutoffs: promise a review, not an outcome
@@ -44,7 +44,7 @@ For a buyer, test warehouse and third-party exceptions should be demonstrable. A
 
 ## Put this call center order cancellation cutoffs boundary into service
 
-Turn the guidance for a customer asks to cancel while payment, picking, shipment, or third-party fulfillment may already be underway into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/customer-support) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether the agent can cancel, submit a time-sensitive request, or explain the next available remedy.
+Turn the guidance for a customer asks to cancel while payment, picking, shipment, or third-party fulfillment may already be underway into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/ecommerce-contact-center) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether the agent can cancel, submit a time-sensitive request, or explain the next available remedy.
 
 ## Sources and operating evidence
 

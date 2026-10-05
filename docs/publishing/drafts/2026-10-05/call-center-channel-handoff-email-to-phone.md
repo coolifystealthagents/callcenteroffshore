@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/customer-support"
+service: "/services/inbound-customer-care"
 ---
 
 # Email-to-phone call center handoffs: carry the question without exposing the thread
@@ -44,7 +44,7 @@ For a buyer, test attachments, copied recipients, and changed requests should be
 
 ## Put this email-to-phone call center handoffs boundary into service
 
-Turn the guidance for an email request becomes too sensitive, ambiguous, or time-dependent to resolve asynchronously into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/customer-support) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove what context can move into the call task and what must remain in the original secured channel.
+Turn the guidance for an email request becomes too sensitive, ambiguous, or time-dependent to resolve asynchronously into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/inbound-customer-care) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove what context can move into the call task and what must remain in the original secured channel.
 
 ## Sources and operating evidence
 

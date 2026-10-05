@@ -5,7 +5,7 @@ family: "blog"
 cycleLabel: "2026-10-05"
 publicationDate: "2026-10-05"
 status: "release-candidate"
-service: "/services/operations-support"
+service: "/services/inbound-customer-care"
 ---
 
 # Offshore call center return-number validation: prevent a typo from becoming disclosure
@@ -44,7 +44,7 @@ For a buyer, test shared phones, extensions, and international formats should be
 
 ## Put this offshore call center return-number validation boundary into service
 
-Turn the guidance for a customer supplies a new or temporary number for a later call about an existing request into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/operations-support) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether that number can be used for scheduling only or also for discussing protected account information.
+Turn the guidance for a customer supplies a new or temporary number for a later call about an existing request into a one-page operating record: scope, trigger, allowed actions, prohibited actions, required evidence, receiving owner, customer wording, expiry, and review cadence. Connect it to the live queue rather than leaving it in a separate policy library. Call Center Offshore’s [related service](/services/inbound-customer-care) can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow. Begin with the smallest queue that can prove whether that number can be used for scheduling only or also for discussing protected account information.
 
 ## Sources and operating evidence
 

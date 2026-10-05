@@ -28,7 +28,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/workforce-management"
+      "href": "/services/after-hours-answering"
     }
   },
   {
@@ -44,7 +44,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/reporting-and-qa"
+      "href": "/services/call-quality-monitoring"
     }
   },
   {
@@ -60,7 +60,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/customer-support"
+      "href": "/services/inbound-customer-care"
     }
   },
   {
@@ -92,7 +92,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/customer-support"
+      "href": "/services/ecommerce-contact-center"
     }
   },
   {
@@ -108,7 +108,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/workforce-management"
+      "href": "/services/after-hours-answering"
     }
   },
   {
@@ -140,7 +140,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/customer-support"
+      "href": "/services/inbound-customer-care"
     }
   },
   {
@@ -156,7 +156,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/admin-support"
+      "href": "/services/inbound-customer-care"
     }
   },
   {
@@ -188,7 +188,7 @@ export const october5BlogPosts=[
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
-      "href": "/services/operations-support"
+      "href": "/services/inbound-customer-care"
     }
   }
 ] as const;
