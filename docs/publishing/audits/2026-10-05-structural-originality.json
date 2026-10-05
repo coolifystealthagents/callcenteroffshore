@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:23:52.685Z",
+  "generatedAt": "2026-10-05T19:49:53.129Z",
   "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
   "disposition": "INVALID_FOR_DEPLOYMENT",
   "reason": "Both families retain shared reasoning generators and repeated argument sequences. Added worked examples reduced the shingle score but did not replace the common scaffolding.",
@@ -10,321 +10,263 @@
       {
         "text": "The client retains authority for policy and high-risk exceptions; the operating partner is responsible for following the rule, surfacing defects, and returning evidence that supports a measured improvement.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "It is written for a client manager defining a bounded offshore call center workflow and for the supervisor who must make that workflow usable across tools, time zones, and handoffs.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Write the trigger in terms an agent or supervisor can observe, name the person allowed to decide, and state what the customer can truthfully be told while that decision is pending.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Call Center Offshore’s related service can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Then introduce a correction: the customer changes direction, a source turns out to be wrong, or the request has already been completed elsewhere.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "It is to make the next safe action clear, preserve the customer’s request, and keep authority with the person who is actually allowed to decide.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "The receiving role should acknowledge the handoff, and the system should expose an overdue item before the customer has to make another contact.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "It also gives a Philippines-based or other offshore team a boundary that remains usable when the client-side owner is not sitting beside them.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Start with one queue, observe failures, and expand only after the records show that ordinary and difficult cases reach a responsible owner.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Ask a prospective offshore call center to show the exact screen, script, access boundary, handoff receipt, and exception route.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "“Escalated” or “urgent” does not reveal who accepted the work, what is still permitted, or when the customer should hear back.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Each item must earn its place: if the next authorized owner cannot use it to act, it probably does not belong in the record.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "An agent must know when to pause, what information not to collect or repeat, and which route can accept the unresolved work.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Where law, contract, privacy, security, or emergency judgment is involved, the client’s qualified owner defines the rule.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "A resilient workflow cancels obsolete work and retains a short explanation instead of letting old tasks continue quietly.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "A low number can hide under-reporting; a high number can reflect a newly visible problem rather than worse work.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Run an ordinary case, an ambiguous case, a late-shift case, and a case where the intended owner is unavailable.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Pair counts with a small sample of complete interaction trails so managers can see why an exception occurred.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "The provider can help translate that decision into fields, scripts, access, training, and review samples.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "The service team applies the approved workflow and preserves the facts needed for that owner to decide.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "If no decision follows, collecting another dashboard field will not improve the customer’s experience.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "The provider should explain what its agents cannot decide as clearly as what they can complete.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "The review should end with a named change, an owner, an effective date, and a later sample.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Supervisors need the same boundary; they should not override it merely to clear a queue.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Connect it to the live queue rather than leaving it in a separate policy library.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Ask a second person to determine the next safe action from the record alone.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "A workable control begins with evidence that can survive a shift change.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "Add a time-zone change and an unavailable manager to the demonstration.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       },
       {
         "text": "At the same time, do not reduce the note to a status label.",
         "documents": [
-          "call-center-voicemail-transcription-review",
-          "offshore-call-center-interpreter-disconnect-recovery",
           "offshore-call-center-overflow-provider-failover-drill",
           "offshore-call-center-return-call-number-validation",
           "philippines-call-center-typhoon-continuity-check"
         ],
-        "count": 5
+        "count": 3
       }
     ],
     "sharedSequence": [
@@ -417,35 +359,33 @@
           "Create a trusted route back",
           "Work through a contact-change report",
           "Keep the case factual and narrow",
-          "Test a patient attacker, not only an obvious one",
+          "Test a patient attacker as well as an obvious one",
           "Sources and operating evidence"
         ]
       },
       "call-center-voicemail-transcription-review": {
         "thesis": "A voicemail transcript is a routing clue whose risky terms must be checked against controlled audio before they become operational facts.",
         "outline": [
-          "Treat transcription confidence as operationally limited",
-          "Listen only through the authorized tool",
-          "Separate urgency language from verified urgency",
-          "Protect numbers and names copied into tasks",
-          "Keep the audio as the controlled source",
-          "Check the audio before acting on one dangerous word",
-          "Test accents, noise, negation, and code-switching",
-          "Put this call center voicemail transcription review boundary into service",
+          "Separate the three records",
+          "Route by confidence and consequence",
+          "Listen through the controlled tool",
+          "Examine an urgent-looking transcript",
+          "Protect callback details",
+          "Manage duplicates and late messages",
+          "Test the words most likely to break the process",
           "Sources and operating evidence"
         ]
       },
       "offshore-call-center-interpreter-disconnect-recovery": {
         "thesis": "When an interpreter disconnects, the decision must restart from the last mutually understood point rather than treating partial comprehension as consent.",
         "outline": [
-          "Pause at the last mutually understood point",
-          "Do not turn a bilingual bystander into the interpreter",
-          "Decide what verification must be repeated",
-          "Keep the customer informed during reconnection",
-          "Restart from the last shared sentence",
-          "Preserve consent for the resumed step",
-          "Sample recovered sessions for meaning, not speed",
-          "Put this offshore call center interpreter disconnects boundary into service",
+          "Mark the last completed step",
+          "Pause with an approved limited-language message",
+          "Decide what must be verified again",
+          "Resume a billing choice after a disconnect",
+          "Give scheduling the same language protection",
+          "Keep each participant's role clear",
+          "Review recovered sessions for meaning",
           "Sources and operating evidence"
         ]
       },
