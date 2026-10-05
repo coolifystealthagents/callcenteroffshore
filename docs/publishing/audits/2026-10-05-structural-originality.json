@@ -1,274 +1,12 @@
 {
-  "generatedAt": "2026-10-05T19:49:53.129Z",
+  "generatedAt": "2026-10-05T19:53:40.881Z",
   "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
   "disposition": "INVALID_FOR_DEPLOYMENT",
   "reason": "Both families retain shared reasoning generators and repeated argument sequences. Added worked examples reduced the shingle score but did not replace the common scaffolding.",
   "blog": {
     "count": 12,
     "exactRepeatedSubstantiveParagraphs": [],
-    "exactRepeatedSubstantiveSentences": [
-      {
-        "text": "The client retains authority for policy and high-risk exceptions; the operating partner is responsible for following the rule, surfacing defects, and returning evidence that supports a measured improvement.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "It is written for a client manager defining a bounded offshore call center workflow and for the supervisor who must make that workflow usable across tools, time zones, and handoffs.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Write the trigger in terms an agent or supervisor can observe, name the person allowed to decide, and state what the customer can truthfully be told while that decision is pending.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Call Center Offshore’s related service can be scoped around approved instructions, narrow access, accepted handoffs, and review of the exceptions specific to this workflow.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Then introduce a correction: the customer changes direction, a source turns out to be wrong, or the request has already been completed elsewhere.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "It is to make the next safe action clear, preserve the customer’s request, and keep authority with the person who is actually allowed to decide.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "The receiving role should acknowledge the handoff, and the system should expose an overdue item before the customer has to make another contact.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "It also gives a Philippines-based or other offshore team a boundary that remains usable when the client-side owner is not sitting beside them.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Start with one queue, observe failures, and expand only after the records show that ordinary and difficult cases reach a responsible owner.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Ask a prospective offshore call center to show the exact screen, script, access boundary, handoff receipt, and exception route.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "“Escalated” or “urgent” does not reveal who accepted the work, what is still permitted, or when the customer should hear back.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Each item must earn its place: if the next authorized owner cannot use it to act, it probably does not belong in the record.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "An agent must know when to pause, what information not to collect or repeat, and which route can accept the unresolved work.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Where law, contract, privacy, security, or emergency judgment is involved, the client’s qualified owner defines the rule.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "A resilient workflow cancels obsolete work and retains a short explanation instead of letting old tasks continue quietly.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "A low number can hide under-reporting; a high number can reflect a newly visible problem rather than worse work.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Run an ordinary case, an ambiguous case, a late-shift case, and a case where the intended owner is unavailable.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Pair counts with a small sample of complete interaction trails so managers can see why an exception occurred.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "The provider can help translate that decision into fields, scripts, access, training, and review samples.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "The service team applies the approved workflow and preserves the facts needed for that owner to decide.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "If no decision follows, collecting another dashboard field will not improve the customer’s experience.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "The provider should explain what its agents cannot decide as clearly as what they can complete.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "The review should end with a named change, an owner, an effective date, and a later sample.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Supervisors need the same boundary; they should not override it merely to clear a queue.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Connect it to the live queue rather than leaving it in a separate policy library.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Ask a second person to determine the next safe action from the record alone.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "A workable control begins with evidence that can survive a shift change.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Add a time-zone change and an unavailable manager to the demonstration.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      },
-      {
-        "text": "At the same time, do not reduce the note to a status label.",
-        "documents": [
-          "offshore-call-center-overflow-provider-failover-drill",
-          "offshore-call-center-return-call-number-validation",
-          "philippines-call-center-typhoon-continuity-check"
-        ],
-        "count": 3
-      }
-    ],
+    "exactRepeatedSubstantiveSentences": [],
     "sharedSequence": [
       "define an observable decision and authority owner",
       "capture evidence that survives a shift change",
@@ -392,28 +130,26 @@
       "offshore-call-center-overflow-provider-failover-drill": {
         "thesis": "An overflow provider is a real backup only after live routing, capacity, rejection, escalation, and return-of-control behavior survive a bounded drill.",
         "outline": [
-          "Define a failover trigger a supervisor can observe",
-          "Give the backup an honest capacity ceiling",
-          "Run a failover drill that can fail safely",
-          "Test access and knowledge before routing calls",
-          "Exercise rejected work and escalation receipt",
+          "Choose a trigger the router can observe",
+          "Publish an honest capacity ceiling",
+          "Check access before sending customer work",
+          "Run four calls that reveal different failures",
+          "Reject work cleanly",
           "Return traffic in controlled steps",
-          "Turn drill failures into owned corrections",
-          "Put this offshore call center overflow failover drills boundary into service",
+          "Score the drill by evidence",
           "Sources and operating evidence"
         ]
       },
       "offshore-call-center-return-call-number-validation": {
         "thesis": "A callback destination proves reachability, not identity or disclosure authority, and temporary numbers require purpose and expiry controls.",
         "outline": [
-          "Classify what the number is allowed to do",
+          "Classify the source of the number",
           "Normalize format without guessing",
-          "Catch the one-digit error before the callback",
-          "Read back safely and confirm purpose",
-          "Verify again when the return call begins",
-          "Expire temporary destinations automatically",
-          "Test shared phones, extensions, and international formats",
-          "Put this offshore call center return-number validation boundary into service",
+          "Read back safely and confirm the purpose",
+          "Follow a temporary hotel callback",
+          "Handle wrong-person answers without disclosure",
+          "Keep temporary numbers out of permanent profiles",
+          "Test the routes people actually use",
           "Sources and operating evidence"
         ]
       },
@@ -433,14 +169,14 @@
       "philippines-call-center-typhoon-continuity-check": {
         "thesis": "Typhoon continuity should reduce demand to safely available capacity instead of turning a business-continuity plan into an attendance target.",
         "outline": [
-          "Put staff safety ahead of seat coverage",
-          "Use official advisories without pretending they predict each home",
-          "Make the reduced-service choice before the storm peak",
-          "Reduce the queue before capacity disappears",
-          "Make handoffs explicit across locations",
-          "Communicate limits to customers honestly",
-          "Review the plan after conditions normalize",
-          "Put this philippines call center typhoon continuity checks boundary into service",
+          "Define decisions before the forecast worsens",
+          "Calculate safe capacity from named roles",
+          "Reduce demand before moving it",
+          "Move work through accepted handoffs",
+          "Work through a deteriorating advisory",
+          "Communicate service limits plainly",
+          "Restore in stages",
+          "Test before typhoon season",
           "Sources and operating evidence"
         ]
       }
