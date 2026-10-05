@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:53:40.881Z",
+  "generatedAt": "2026-10-05T20:49:27.069Z",
   "candidateSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
   "disposition": "INVALID_FOR_DEPLOYMENT",
   "reason": "Both families retain shared reasoning generators and repeated argument sequences. Added worked examples reduced the shingle score but did not replace the common scaffolding.",
@@ -794,9 +794,10 @@
     ],
     "workedExampleStructure": "The five reports are produced by one topics.map callback. Six identically ordered specific sections interpolate topic fields into common prose, and shared base sections surround them.",
     "generatorEvidence": {
-      "usesSingleMap": true,
-      "usesSharedSpecificArray": true,
-      "usesSharedBaseSlices": true
+      "usesLiteralRecords": true,
+      "usesSingleMap": false,
+      "usesSharedSpecificArray": false,
+      "usesSharedBaseSlices": false
     },
     "articlePlans": {
       "call-center-quality-score-appeal-evidence-study": {

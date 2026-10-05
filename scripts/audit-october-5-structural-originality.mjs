@@ -79,7 +79,7 @@ const report={
   exactRepeatedSubstantiveSentences:researchRepeatedSentences,
   sharedSequence:['two shared base research sections','two topic-specific ending sections','decision boundary','record design','comparison groups','pilot controls and stop conditions','buyer review questions','niche-specific conclusion','shared base methodology/limitations and sources'],
   workedExampleStructure:'The five reports are produced by one topics.map callback. Six identically ordered specific sections interpolate topic fields into common prose, and shared base sections surround them.',
-  generatorEvidence:{usesSingleMap:/topics\.map\(topic=>/.test(researchSource),usesSharedSpecificArray:/const specific=\[/.test(researchSource),usesSharedBaseSlices:/base\.sections\.slice/.test(researchSource)},
+  generatorEvidence:{usesLiteralRecords:/research-oct5\.json/.test(researchSource),usesSingleMap:/topics\.map\(topic=>/.test(researchSource),usesSharedSpecificArray:/const specific=\[/.test(researchSource),usesSharedBaseSlices:/base\.sections\.slice/.test(researchSource)},
   articlePlans:Object.fromEntries(research.map(item=>[item.slug,{thesis:theses[item.slug],outline:item.headings}])),
  },
  publicationEvidence:{deploymentHeld:true,actualCandidateImageHttpEvidence:'UNAVAILABLE: candidate has not been deployed; local file/signature checks are not HTTP evidence',liveVerification:'NOT_STARTED'},
