@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 
 const root=process.cwd();
 const stripHtml=value=>value.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
@@ -61,7 +62,7 @@ const blogGenerator=fs.existsSync(blogGeneratorPath)?fs.readFileSync(blogGenerat
 const researchSource=fs.readFileSync(path.join(root,'app/research-oct5.ts'),'utf8');
 const report={
  generatedAt:new Date().toISOString(),
- candidateSha:'17f78b3e55623dafd0d71d6fe474beed428e77a0',
+ candidateSha:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),
  disposition:blogRepeatedParagraphs.length||blogRepeatedSentences.length||researchRepeatedParagraphs.length||researchRepeatedSentences.length?'INVALID_FOR_DEPLOYMENT':'LOCAL_ORIGINALITY_GATE_PASSED',
  reason:'The audit measures exact substantive prose within the authored Blog bodies and Research main arguments. Shared navigation, CTA, source annotations, and related-content furniture are excluded.',
  blog:{

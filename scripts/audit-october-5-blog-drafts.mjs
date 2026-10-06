@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const dir=path.join(process.cwd(),'docs/publishing/drafts/2026-10-06');
+const dir=path.join(process.cwd(),'docs/publishing/drafts/2026-10-05');
 const files=fs.readdirSync(dir).filter(x=>x.endsWith('.md')).sort();
 assert.equal(files.length,12,'October 5 Blog requires exactly 12 drafts');
 const shingles=text=>{const words=text.toLowerCase().match(/[a-z0-9']+/g)||[];const set=new Set();for(let i=0;i<=words.length-5;i++)set.add(words.slice(i,i+5).join(' '));return set;};
@@ -11,7 +11,7 @@ const items=[];
 for(const file of files){
  const raw=fs.readFileSync(path.join(dir,file),'utf8');
  assert.match(raw,/^family: "blog"$/m);
- assert.match(raw,/^cycleLabel: "2026-10-06"$/m);
+ assert.match(raw,/^cycleLabel: "2026-10-05"$/m);
  assert.match(raw,/^publicationDate: "2026-10-06"$/m);
  assert.match(raw,/^status: "release-candidate"$/m);
  assert.ok(raw.includes('/services/'),`${file}: contextual service link`);

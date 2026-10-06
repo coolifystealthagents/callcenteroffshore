@@ -2,8 +2,10 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 
-const root=process.cwd(),draftDir=path.join(root,'docs/publishing/drafts/2026-10-06');
+const root=process.cwd(),draftDir=path.join(root,'docs/publishing/drafts/2026-10-05');
+const candidateSha=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 const files=fs.readdirSync(draftDir).filter(x=>x.endsWith('.md')).sort();
 assert.equal(files.length,12,'exactly 12 Blog drafts required');
 const decode=s=>s.replace(/&#x([0-9a-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16))).replace(/&#([0-9]+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&apos;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/&amp;/g,'&');
@@ -33,8 +35,8 @@ for(const file of files){
  for(const heading of [...raw.matchAll(/^## (.+)$/gm)].map(x=>x[1]))assert.ok(text.includes(heading),`${slug}: source section omitted: ${heading}`);
  assert.ok(index.includes(`/blog/${slug}`),`${slug}: Blog index missing route`);
  assert.ok(sitemap.includes(`<loc>${canonical}</loc><lastmod>2026-10-06</lastmod>`),`${slug}: sitemap/date missing`);
- entries.push({family:'blog',topic:title,slug,sources:[...raw.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(x=>x[1]),contentHash:crypto.createHash('sha256').update(article).digest('hex'),wordCount:words.length,publicationDate:'2026-10-06',commitSha:'cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64',deploymentEvidence:null,liveUrl:canonical,verificationTime:null});
+ entries.push({family:'blog',topic:title,slug,sources:[...raw.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(x=>x[1]),contentHash:crypto.createHash('sha256').update(article).digest('hex'),wordCount:words.length,publicationDate:'2026-10-06',commitSha:candidateSha,deploymentEvidence:null,liveUrl:canonical,verificationTime:null});
 }
 const report={required:12,rendered:entries.length,siteTimezone:'UTC',image:{path:'public/blog-thumbnail.svg',mime:'image/svg+xml',signature:'<svg',bytes:image.length},entries};
-fs.writeFileSync(path.join(root,'docs/publishing/2026-10-06-blog-ledger.json'),JSON.stringify(report,null,2)+'\n');
+fs.writeFileSync(path.join(root,'docs/publishing/2026-10-05-blog-ledger.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));

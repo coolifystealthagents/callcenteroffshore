@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 
 const root=process.cwd(),snapshotPath=process.argv[2];
 assert.ok(snapshotPath&&fs.existsSync(snapshotPath),'usage: node scripts/audit-october-5-source-render-coverage.mjs <research-source-snapshot.json>');
@@ -32,7 +33,7 @@ const research=researchSource.map(item=>{
  return {slug:item.slug,sourceParagraphCount:sourceParagraphs.length,renderedParagraphCoverage:sourceParagraphs.length-missing.length,missingParagraphs:missing,sourceNormalizedHash:hash(sourceParagraphs.join('\n\n')),renderedNormalizedHash:hash(orderedRendered.join('\n\n')),normalizedHashesEqual:missing.length===0&&sourceParagraphs.length===orderedRendered.length&&hash(sourceParagraphs.join('\n\n'))===hash(orderedRendered.join('\n\n')),renderedSubstantiveHash:hash(main),image:imageEvidence((item.hero||'/offshore-call-center-agent.jpg').replace(/^\//,''))};
 });
 
-const report={candidateSha:'LOCAL_REVIEW_HEAD',deploymentHeld:true,localHttpBase:'http://127.0.0.1:3215',blog,research,summary:{blogParagraphs:blog.reduce((n,x)=>n+x.sourceParagraphCount,0),blogCovered:blog.reduce((n,x)=>n+x.renderedParagraphCoverage,0),blogNormalizedHashesEqual:blog.every(x=>x.normalizedHashesEqual),researchParagraphs:research.reduce((n,x)=>n+x.sourceParagraphCount,0),researchCovered:research.reduce((n,x)=>n+x.renderedParagraphCoverage,0),researchNormalizedHashesEqual:research.every(x=>x.normalizedHashesEqual),actualImageHttpMimeSignatureDecode:'PASSED: HTTP 200, MIME, signature, and decoded dimensions for SVG 1200x630 and JPEG 1600x1067'}};
+const report={candidateSha:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),deploymentHeld:true,localHttpBase:'http://127.0.0.1:3215',blog,research,summary:{blogParagraphs:blog.reduce((n,x)=>n+x.sourceParagraphCount,0),blogCovered:blog.reduce((n,x)=>n+x.renderedParagraphCoverage,0),blogNormalizedHashesEqual:blog.every(x=>x.normalizedHashesEqual),researchParagraphs:research.reduce((n,x)=>n+x.sourceParagraphCount,0),researchCovered:research.reduce((n,x)=>n+x.renderedParagraphCoverage,0),researchNormalizedHashesEqual:research.every(x=>x.normalizedHashesEqual),actualImageHttpMimeSignatureDecode:'PASSED: HTTP 200, MIME, signature, and decoded dimensions for SVG 1200x630 and JPEG 1600x1067'}};
 fs.mkdirSync(path.join(root,'docs/publishing/audits'),{recursive:true});
 fs.writeFileSync(path.join(root,'docs/publishing/audits/2026-10-05-source-render-coverage.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report.summary,null,2));
