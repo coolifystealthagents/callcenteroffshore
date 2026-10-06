@@ -3,7 +3,7 @@ title: "Call center whisper and barge controls: define when a supervisor may ent
 description: "Set customer disclosure, supervisor authority, agent signals, recording treatment, and audit rules for live whisper, monitor, and barge features."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/call-quality-monitoring"
 ---

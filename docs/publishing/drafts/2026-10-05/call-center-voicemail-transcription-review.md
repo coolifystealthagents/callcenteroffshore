@@ -3,7 +3,7 @@ title: "Call center voicemail transcription review: use the text as a clue, not 
 description: "Triage machine-generated voicemail text with audio checks, uncertainty labels, privacy limits, and ownership for urgent-sounding requests."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

@@ -3,7 +3,7 @@ title: "Offshore call center overflow failover drills: prove the backup can take
 description: "Test an overflow provider with realistic routing, access, scripts, capacity limits, and return-of-control steps before the primary queue fails."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/after-hours-answering"
 ---

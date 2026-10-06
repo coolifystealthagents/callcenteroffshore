@@ -3,7 +3,7 @@ title: "Email-to-phone call center handoffs: carry the question without exposing
 description: "Move a customer from email to a call with a verified purpose, bounded context, appointment ownership, and a written closure trail."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

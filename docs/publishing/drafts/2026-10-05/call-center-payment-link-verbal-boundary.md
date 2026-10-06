@@ -3,7 +3,7 @@ title: "Call center payment-link boundaries: guide the customer without handling
 description: "Define how an agent may send and explain an approved payment link while avoiding card data, screen observation, and unsupported payment claims."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

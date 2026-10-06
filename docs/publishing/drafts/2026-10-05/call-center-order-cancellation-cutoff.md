@@ -3,7 +3,7 @@ title: "Call center order cancellation cutoffs: promise a review, not an outcome
 description: "Route cancellation requests against fulfillment status, authority, customer notice, and exception ownership without claiming an order has stopped too early."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/ecommerce-contact-center"
 ---

@@ -10,7 +10,7 @@ const bodies=[];
 for(const [slugIndex,slug] of slugs.entries()){
  const path=`.next/server/app/research/${slug}.html`;assert.ok(fs.existsSync(path),`${path} missing`);
  const html=fs.readFileSync(path,'utf8');const canonical=`https://callcenteroffshore.com/research/${slug}`;
- assert.ok(html.includes(canonical),`${slug} canonical missing`);assert.ok(html.includes('2026-10-05')&&html.includes('datePublished'),`${slug} date metadata missing`);
+ assert.ok(html.includes(canonical),`${slug} canonical missing`);assert.ok(html.includes('2026-10-06')&&html.includes('datePublished'),`${slug} date metadata missing`);
  assert.ok(html.includes('Methodology and limitations')&&html.includes('Sources'),`${slug} research apparatus missing`);
  const heroTag=html.match(/<img[^>]+class="research-report-hero"[^>]*>/i)?.[0];
  const imageSrc=heroTag?.match(/src="(\/[^" ]+)"/i)?.[1];assert.ok(imageSrc,`${slug} rendered article image missing`);
@@ -27,6 +27,6 @@ for(const [slugIndex,slug] of slugs.entries()){
 let max={score:0,pair:''};for(let i=0;i<bodies.length;i++)for(let j=i+1;j<bodies.length;j++){let shared=0;for(const item of bodies[i].set)if(bodies[j].set.has(item))shared++;const score=shared/(bodies[i].set.size+bodies[j].set.size-shared);if(score>max.score)max={score,pair:`${bodies[i].slug} <> ${bodies[j].slug}`};}
 const sitemap=fs.readFileSync('.next/server/app/sitemap.xml.body','utf8');for(const slug of slugs)assert.ok(sitemap.includes(`/research/${slug}`),`${slug} absent from sitemap`);
 const report={count:slugs.length,renderedWordCounts:Object.fromEntries(bodies.map(item=>[item.slug,item.words])),maximumPairwiseFiveWordShingleJaccard:{pair:max.pair,score:Number(max.score.toFixed(4))},repeatedParagraphs:false,sharedArgumentAudit:'passed: each report has topic-specific decision fields, examples, operational analysis, controls, and reader outcome'};
-const ledger={required:5,rendered:bodies.length,siteTimezone:'UTC',entries:bodies.map(item=>({family:'research',topic:item.title,slug:item.slug,sources:item.sources,contentHash:item.contentHash,wordCount:item.words,publicationDate:'2026-10-05',commitSha:'be584e24dc2fe194341d479752b006c5ea382a92',deploymentEvidence:null,liveUrl:`https://callcenteroffshore.com/research/${item.slug}`,verificationTime:null}))};
-fs.writeFileSync('docs/publishing/2026-10-05-research-ledger.json',JSON.stringify(ledger,null,2)+'\n');
+const ledger={required:5,rendered:bodies.length,siteTimezone:'UTC',entries:bodies.map(item=>({family:'research',topic:item.title,slug:item.slug,sources:item.sources,contentHash:item.contentHash,wordCount:item.words,publicationDate:'2026-10-06',commitSha:'be584e24dc2fe194341d479752b006c5ea382a92',deploymentEvidence:null,liveUrl:`https://callcenteroffshore.com/research/${item.slug}`,verificationTime:null}))};
+fs.writeFileSync('docs/publishing/2026-10-06-research-ledger.json',JSON.stringify(ledger,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));assert.ok(max.score<0.5,`overlap ${max.score.toFixed(4)} exceeds contract`);

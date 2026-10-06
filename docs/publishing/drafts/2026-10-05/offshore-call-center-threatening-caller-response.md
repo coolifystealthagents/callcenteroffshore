@@ -3,7 +3,7 @@ title: "Offshore call center threatening callers: protect staff and preserve act
 description: "Give agents a calm response to threats and abuse with stop authority, supervisor support, minimal evidence, and locally approved emergency escalation."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

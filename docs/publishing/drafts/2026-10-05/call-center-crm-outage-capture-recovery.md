@@ -3,7 +3,7 @@ title: "Call center CRM outage recovery: capture work without creating a shadow 
 description: "Keep customer work safe during a CRM outage with a minimal temporary record, controlled access, reconciliation ownership, and a clear destruction step."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/technical-help-desk"
 ---

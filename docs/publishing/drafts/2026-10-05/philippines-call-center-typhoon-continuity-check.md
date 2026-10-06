@@ -3,7 +3,7 @@ title: "Philippines call center typhoon continuity checks: plan around people, n
 description: "Build a typhoon readiness check around staff safety, site and carrier conditions, realistic capacity, customer priorities, and accepted handoffs."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/after-hours-answering"
 ---

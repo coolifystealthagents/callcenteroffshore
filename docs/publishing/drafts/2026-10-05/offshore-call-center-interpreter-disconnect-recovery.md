@@ -3,7 +3,7 @@ title: "Offshore call center interpreter disconnects: restore language access wi
 description: "Recover a dropped interpreter session by preserving roles, customer choice, verification state, and a narrow restart point."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

@@ -3,7 +3,7 @@ title: "Offshore call center return-number validation: prevent a typo from becom
 description: "Confirm callback numbers by source, purpose, read-back rules, and expiry before an offshore team returns a sensitive service call."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/inbound-customer-care"
 ---

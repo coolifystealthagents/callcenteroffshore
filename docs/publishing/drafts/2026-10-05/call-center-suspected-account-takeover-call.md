@@ -3,7 +3,7 @@ title: "Call center suspected account takeover calls: separate help from account
 description: "Recognize takeover signals, limit disclosure, preserve the customer’s access concern, and route control decisions to an authorized security owner."
 family: "blog"
 cycleLabel: "2026-10-05"
-publicationDate: "2026-10-05"
+publicationDate: "2026-10-06"
 status: "release-candidate"
 service: "/services/technical-help-desk"
 ---
