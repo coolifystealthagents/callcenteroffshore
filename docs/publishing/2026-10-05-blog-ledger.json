@@ -17,10 +17,10 @@
         "https://www.nist.gov/privacy-framework",
         "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
       ],
-      "contentHash": "b1e2842f86a95d1f0872e276000a7ab618cc03742885fb3c5892eca8ff12ee57",
+      "contentHash": "78b75a7460095ca32e79e472421d7ebad4d58dce38cdbc8a8e00bd04359b73bc",
       "wordCount": 1392,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-channel-handoff-email-to-phone",
       "verificationTime": null
@@ -33,10 +33,10 @@
         "https://www.nist.gov/cyberframework",
         "https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf"
       ],
-      "contentHash": "0931f2c4e4467f1042d1269d9b07ca3b96729b865e17ff5d3c0704aa2c19216d",
+      "contentHash": "13b6cc3f7bd62376e265305775e4b0cb450683b85bfa8671ef87957b4cf083ff",
       "wordCount": 1541,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-crm-outage-capture-recovery",
       "verificationTime": null
@@ -49,10 +49,10 @@
         "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
         "https://www.nist.gov/privacy-framework"
       ],
-      "contentHash": "565dd4759084342ecdb1be919d6a95c9b0ecd434cc277a547877b51429c1e367",
+      "contentHash": "97371b8d03fc56c72271ca4b265b56b3b9d1e38302e765819b3d35c591106986",
       "wordCount": 1275,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-order-cancellation-cutoff",
       "verificationTime": null
@@ -65,10 +65,10 @@
         "https://www.pcisecuritystandards.org/resources/",
         "https://www.ftc.gov/business-guidance/privacy-security/data-security"
       ],
-      "contentHash": "9fce328f23f06c703371b3f8dc08bd07ff98ea7fe0cd408b7840629cbdebabfa",
+      "contentHash": "be4ddcde77a1ce4712f818367039d8a0fb8ff05292f99b6f4d0ce570a7cbb5f9",
       "wordCount": 1314,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-payment-link-verbal-boundary",
       "verificationTime": null
@@ -81,10 +81,10 @@
         "https://www.nist.gov/privacy-framework",
         "https://www.ftc.gov/business-guidance"
       ],
-      "contentHash": "8133c6d41952aa47291840bfdfa779c797bfc42da430d1b3415de09c04912aff",
+      "contentHash": "6159ab9e4a49a06ecd03682238c6e1a2e85d305e8cf1f7b73785d3ca70720697",
       "wordCount": 1198,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-supervisor-whisper-barge-policy",
       "verificationTime": null
@@ -97,10 +97,10 @@
         "https://pages.nist.gov/800-63-4/",
         "https://www.cisa.gov/secure-our-world/use-strong-passwords"
       ],
-      "contentHash": "284789ca93ffb29ea39d92ddc498007d643863f2826d9ef4973ac129a0d4e63a",
+      "contentHash": "d3603180905fa70c212b6f27d951fc638805e590c02140ab05ed7889e93763ae",
       "wordCount": 1192,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-suspected-account-takeover-call",
       "verificationTime": null
@@ -113,10 +113,10 @@
         "https://www.nist.gov/itl/ai-risk-management-framework",
         "https://www.nist.gov/privacy-framework"
       ],
-      "contentHash": "9cb67918514fc7a9cdaa0b1740d498588a434ae8ac9c396fa50184caec8832d7",
+      "contentHash": "297aac1a2c3e9d00353a45e5d29038c885c491cf35d4eb404c7f96e68a63693f",
       "wordCount": 1130,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/call-center-voicemail-transcription-review",
       "verificationTime": null
@@ -129,10 +129,10 @@
         "https://www.justice.gov/index.php/archives/atj/language-access-program",
         "https://www.hhs.gov/civil-rights/for-individuals/special-topics/limited-english-proficiency/index.html"
       ],
-      "contentHash": "5e4c1b1419e9a33b1804247fa62752d35c272eecaf04f43c470a72c727fb76d2",
+      "contentHash": "ca2e7c9440f602f68ec552f7898f3c917b2cd9e28b8e474db4771b59c2bd4de3",
       "wordCount": 1139,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-interpreter-disconnect-recovery",
       "verificationTime": null
@@ -145,10 +145,10 @@
         "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final",
         "https://www.cisa.gov/topics/risk-management"
       ],
-      "contentHash": "b6dbf113d0a5f417f6cde23984df19a8b7e7f8532a7916063ce855017b67fd42",
+      "contentHash": "016a2c78b4470c95fe8948a39511e0f38967f23ac112179a251a965dbc0326d8",
       "wordCount": 1056,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-overflow-provider-failover-drill",
       "verificationTime": null
@@ -161,10 +161,10 @@
         "https://pages.nist.gov/800-63-4/",
         "https://www.nist.gov/privacy-framework"
       ],
-      "contentHash": "8ba5a973082bdeaf99fad15215b20636795d5834837fad47159b2395896650d1",
+      "contentHash": "a6ab8d8065c320520796ca653a897be5a9b45fae70e58f856112e45bcfd784c2",
       "wordCount": 1077,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-return-call-number-validation",
       "verificationTime": null
@@ -177,10 +177,10 @@
         "https://www.osha.gov/workplace-violence",
         "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/emergency-services-sector"
       ],
-      "contentHash": "46e9e35d3e9d42176914f31fa105a9c82bc5b149e7348534fa3a7fad7cd389a7",
+      "contentHash": "c5a1525818ee008c4ff2fdf98d76cc584045c8227d0566943ad49f9820149592",
       "wordCount": 1232,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-threatening-caller-response",
       "verificationTime": null
@@ -190,12 +190,13 @@
       "topic": "Philippines call center typhoon continuity checks: plan around people, not attendance",
       "slug": "philippines-call-center-typhoon-continuity-check",
       "sources": [
-        "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin"
+        "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+        "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html"
       ],
-      "contentHash": "80a2ba30612179287356ffa38cce5b0cfd8bd69a5257de3cb29c505efd246335",
-      "wordCount": 1076,
-      "publicationDate": "2026-10-05",
-      "commitSha": "cfa8c0ad7ee09ec27cb235d424a1f5a67d281a64",
+      "contentHash": "126d8ca23f498d8bd93648fe2b2f627b3e255909f160b11a9a1a8aaa035a1620",
+      "wordCount": 1105,
+      "publicationDate": "2026-10-06",
+      "commitSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
       "deploymentEvidence": null,
       "liveUrl": "https://callcenteroffshore.com/blog/philippines-call-center-typhoon-continuity-check",
       "verificationTime": null

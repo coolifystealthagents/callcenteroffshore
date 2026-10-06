@@ -1,5 +1,5 @@
 {
-  "candidateSha": "LOCAL_REVIEW_HEAD",
+  "candidateSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
   "deploymentHeld": true,
   "localHttpBase": "http://127.0.0.1:3215",
   "blog": [
@@ -11,7 +11,7 @@
       "sourceNormalizedHash": "0fbccd5cc43279ca7282fd4b8ce4e8e93284861996135e6e35e29e5a4c3974ad",
       "renderedNormalizedHash": "0fbccd5cc43279ca7282fd4b8ce4e8e93284861996135e6e35e29e5a4c3974ad",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "b1e2842f86a95d1f0872e276000a7ab618cc03742885fb3c5892eca8ff12ee57",
+      "renderedArticleHash": "78b75a7460095ca32e79e472421d7ebad4d58dce38cdbc8a8e00bd04359b73bc",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -33,7 +33,7 @@
       "sourceNormalizedHash": "965c03cbd1b750168e55b1b4304ec49e5244ff36ea560a9eb2707755cadada7b",
       "renderedNormalizedHash": "965c03cbd1b750168e55b1b4304ec49e5244ff36ea560a9eb2707755cadada7b",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "0931f2c4e4467f1042d1269d9b07ca3b96729b865e17ff5d3c0704aa2c19216d",
+      "renderedArticleHash": "13b6cc3f7bd62376e265305775e4b0cb450683b85bfa8671ef87957b4cf083ff",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -55,7 +55,7 @@
       "sourceNormalizedHash": "5d88ad8b8dea4a6cda5bb5eaa878fad9750df23ee9bd6e31c18e53691539be41",
       "renderedNormalizedHash": "5d88ad8b8dea4a6cda5bb5eaa878fad9750df23ee9bd6e31c18e53691539be41",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "565dd4759084342ecdb1be919d6a95c9b0ecd434cc277a547877b51429c1e367",
+      "renderedArticleHash": "97371b8d03fc56c72271ca4b265b56b3b9d1e38302e765819b3d35c591106986",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -77,7 +77,7 @@
       "sourceNormalizedHash": "317b5f332a848723f3796085b085f42b300d5ab8a72d265ed1cb2843dba5a0eb",
       "renderedNormalizedHash": "317b5f332a848723f3796085b085f42b300d5ab8a72d265ed1cb2843dba5a0eb",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "9fce328f23f06c703371b3f8dc08bd07ff98ea7fe0cd408b7840629cbdebabfa",
+      "renderedArticleHash": "be4ddcde77a1ce4712f818367039d8a0fb8ff05292f99b6f4d0ce570a7cbb5f9",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -99,7 +99,7 @@
       "sourceNormalizedHash": "a1b7211a34dc00f18869adfae8ccd2343f71336890365f5628d4e3937384209e",
       "renderedNormalizedHash": "a1b7211a34dc00f18869adfae8ccd2343f71336890365f5628d4e3937384209e",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "8133c6d41952aa47291840bfdfa779c797bfc42da430d1b3415de09c04912aff",
+      "renderedArticleHash": "6159ab9e4a49a06ecd03682238c6e1a2e85d305e8cf1f7b73785d3ca70720697",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -121,7 +121,7 @@
       "sourceNormalizedHash": "130685eb686ac9eba3e78a7e9cb463ac05ccbb9a30ac261b6f71b9147742977c",
       "renderedNormalizedHash": "130685eb686ac9eba3e78a7e9cb463ac05ccbb9a30ac261b6f71b9147742977c",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "284789ca93ffb29ea39d92ddc498007d643863f2826d9ef4973ac129a0d4e63a",
+      "renderedArticleHash": "d3603180905fa70c212b6f27d951fc638805e590c02140ab05ed7889e93763ae",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -143,7 +143,7 @@
       "sourceNormalizedHash": "6019979545c20b4b08460f095f93e92f8ce4cf84a3d664181f5f425ea0369c0e",
       "renderedNormalizedHash": "6019979545c20b4b08460f095f93e92f8ce4cf84a3d664181f5f425ea0369c0e",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "9cb67918514fc7a9cdaa0b1740d498588a434ae8ac9c396fa50184caec8832d7",
+      "renderedArticleHash": "297aac1a2c3e9d00353a45e5d29038c885c491cf35d4eb404c7f96e68a63693f",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -165,7 +165,7 @@
       "sourceNormalizedHash": "b662128f89aa016dc6c77e16ce87496a2b7c88b92420a8e981ef33da2c5e25d4",
       "renderedNormalizedHash": "b662128f89aa016dc6c77e16ce87496a2b7c88b92420a8e981ef33da2c5e25d4",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "5e4c1b1419e9a33b1804247fa62752d35c272eecaf04f43c470a72c727fb76d2",
+      "renderedArticleHash": "ca2e7c9440f602f68ec552f7898f3c917b2cd9e28b8e474db4771b59c2bd4de3",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -187,7 +187,7 @@
       "sourceNormalizedHash": "2a84a215b3503ac2963bddb2f1a0a29044f413f507f461e58d2bbbbcc91f46ba",
       "renderedNormalizedHash": "2a84a215b3503ac2963bddb2f1a0a29044f413f507f461e58d2bbbbcc91f46ba",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "b6dbf113d0a5f417f6cde23984df19a8b7e7f8532a7916063ce855017b67fd42",
+      "renderedArticleHash": "016a2c78b4470c95fe8948a39511e0f38967f23ac112179a251a965dbc0326d8",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -209,7 +209,7 @@
       "sourceNormalizedHash": "3ea7909d06a04d981a2cc7e0f018681c89d949d789339bd6edcaf20e92109710",
       "renderedNormalizedHash": "3ea7909d06a04d981a2cc7e0f018681c89d949d789339bd6edcaf20e92109710",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "8ba5a973082bdeaf99fad15215b20636795d5834837fad47159b2395896650d1",
+      "renderedArticleHash": "a6ab8d8065c320520796ca653a897be5a9b45fae70e58f856112e45bcfd784c2",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -231,7 +231,7 @@
       "sourceNormalizedHash": "3b07777ca7a45cb8ecb32c88091dfbe03d43141f94614af04dde59004e28bfa7",
       "renderedNormalizedHash": "3b07777ca7a45cb8ecb32c88091dfbe03d43141f94614af04dde59004e28bfa7",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "46e9e35d3e9d42176914f31fa105a9c82bc5b149e7348534fa3a7fad7cd389a7",
+      "renderedArticleHash": "c5a1525818ee008c4ff2fdf98d76cc584045c8227d0566943ad49f9820149592",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,
@@ -253,7 +253,7 @@
       "sourceNormalizedHash": "7a8813db2e50445d4e7ecb774f2e270ef6002dd31e55ce5a926254de99ff3427",
       "renderedNormalizedHash": "7a8813db2e50445d4e7ecb774f2e270ef6002dd31e55ce5a926254de99ff3427",
       "normalizedHashesEqual": true,
-      "renderedArticleHash": "80a2ba30612179287356ffa38cce5b0cfd8bd69a5257de3cb29c505efd246335",
+      "renderedArticleHash": "126d8ca23f498d8bd93648fe2b2f627b3e255909f160b11a9a1a8aaa035a1620",
       "image": {
         "path": "public/blog-thumbnail.svg",
         "bytes": 701,

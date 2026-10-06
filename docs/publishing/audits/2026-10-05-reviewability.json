@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T21:28:14.817Z",
-  "candidateSha": "LOCAL_REVIEW_HEAD",
+  "generatedAt": "2026-10-06T08:21:36.111Z",
+  "candidateSha": "9eae93ace5025e11034cc516bfe51b697fd8e88c",
   "frozenProductionSha": "17f78b3e55623dafd0d71d6fe474beed428e77a0",
-  "cumulativeDiffAgainstFrozenProduction": "app/research-oct5.json                             | 1407 ++++++++++++++++++++\n app/research-oct5.ts                               |   51 +-\n docs/publishing/2026-10-05-blog-ledger.json        |   55 +-\n docs/publishing/2026-10-05-research-ledger.json    |   20 +-\n .../audits/2026-10-05-reviewability.json           |  706 ++++++++++\n .../audits/2026-10-05-source-render-coverage.json  |  392 ++++++\n .../audits/2026-10-05-structural-originality.json  |  295 ++++\n .../call-center-channel-handoff-email-to-phone.md  |   69 +-\n .../call-center-crm-outage-capture-recovery.md     |   65 +-\n .../call-center-order-cancellation-cutoff.md       |   69 +-\n .../call-center-payment-link-verbal-boundary.md    |   67 +-\n .../call-center-supervisor-whisper-barge-policy.md |   69 +-\n .../call-center-suspected-account-takeover-call.md |   69 +-\n .../call-center-voicemail-transcription-review.md  |   67 +-\n ...-call-center-interpreter-disconnect-recovery.md |   69 +-\n ...call-center-overflow-provider-failover-drill.md |   65 +-\n ...re-call-center-return-call-number-validation.md |   65 +-\n ...hore-call-center-threatening-caller-response.md |   65 +-\n ...ippines-call-center-typhoon-continuity-check.md |   74 +-\n package.json                                       |    1 -\n scripts/audit-october-5-reviewability.mjs          |   63 +\n scripts/audit-october-5-source-render-coverage.mjs |   38 +\n scripts/audit-october-5-structural-originality.mjs |   91 ++\n scripts/generate-october-5-blog.mjs                |   75 --\n scripts/replace-research-record.mjs                |   12 +\n scripts/verify-october-5-blog.mjs                  |    3 +-\n 26 files changed, 3611 insertions(+), 411 deletions(-)",
+  "cumulativeDiffAgainstFrozenProduction": "app/blog-oct5.ts                                   |   48 +-\n app/research-oct5.json                             | 1407 ++++++++++++++++++++\n app/research-oct5.ts                               |   51 +-\n docs/publishing/2026-10-05-blog-ledger.json        |  102 +-\n docs/publishing/2026-10-05-research-ledger.json    |   40 +-\n .../audits/2026-10-05-reviewability.json           |  715 ++++++++++\n .../audits/2026-10-05-source-render-coverage.json  |  392 ++++++\n .../audits/2026-10-05-structural-originality.json  |  295 ++++\n .../call-center-channel-handoff-email-to-phone.md  |   71 +-\n .../call-center-crm-outage-capture-recovery.md     |   67 +-\n .../call-center-order-cancellation-cutoff.md       |   71 +-\n .../call-center-payment-link-verbal-boundary.md    |   69 +-\n .../call-center-supervisor-whisper-barge-policy.md |   71 +-\n .../call-center-suspected-account-takeover-call.md |   71 +-\n .../call-center-voicemail-transcription-review.md  |   69 +-\n ...-call-center-interpreter-disconnect-recovery.md |   71 +-\n ...call-center-overflow-provider-failover-drill.md |   67 +-\n ...re-call-center-return-call-number-validation.md |   67 +-\n ...hore-call-center-threatening-caller-response.md |   67 +-\n ...ippines-call-center-typhoon-continuity-check.md |   77 +-\n package-lock.json                                  |    6 +-\n package.json                                       |    1 -\n scripts/audit-october-5-blog-drafts.mjs            |    2 +-\n scripts/audit-october-5-reviewability.mjs          |   63 +\n scripts/audit-october-5-source-render-coverage.mjs |   39 +\n scripts/audit-october-5-structural-originality.mjs |   92 ++\n scripts/generate-october-5-blog.mjs                |   75 --\n scripts/replace-research-record.mjs                |   12 +\n scripts/verify-october-5-blog.mjs                  |   13 +-\n scripts/verify-october-5-research.mjs              |    6 +-\n 30 files changed, 3707 insertions(+), 490 deletions(-)",
   "testEvidence": {
     "testCommand": null,
     "result": "NOT_APPLICABLE",
@@ -212,7 +212,7 @@
       "slug": "philippines-call-center-typhoon-continuity-check",
       "nearestPrior": {
         "slug": "philippines-call-center-storm-shift-check-in",
-        "score": 0.002883922134102379,
+        "score": 0.0028268551236749115,
         "family": "blog"
       },
       "nearestCurrentCrossFamily": {
@@ -526,6 +526,15 @@
       "claimEvidence": "Cited by Blog source prose"
     },
     {
+      "url": "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html",
+      "declaredTitle": "Philippine Disaster Risk Reduction and Management Act of 2010",
+      "observedOfficialTitle": "R.A. No. 10121",
+      "claimEvidence": "Cited by Blog source prose"
+    },
+    {
       "url": "https://pages.nist.gov/800-63-4/sp800-63.html",
       "status": 200,
       "ok": true,
@@ -698,7 +707,7 @@
     "articles": 17,
     "priorComparisons": 17,
     "crossFamilyComparisons": 17,
-    "httpDestinations": 37,
+    "httpDestinations": 38,
     "httpFailures": 0,
     "http403": 3,
     "imagesDecoded": 2
