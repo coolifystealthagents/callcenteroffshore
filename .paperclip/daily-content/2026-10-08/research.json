@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "family": "research",
+  "cycleLabel": "October 8, 2026",
+  "domain": "callcenteroffshore.com",
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 5,
+  "deploymentResource": "m13z1803mceu91zk02hgzn95",
+  "entries": [
+    {
+      "family": "research",
+      "topic": "Call center callback promise accuracy: an evidence study",
+      "slug": "call-center-callback-promise-accuracy-study",
+      "publicationDate": "2026-10-08",
+      "wordCount": 1325,
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://privacy.gov.ph/",
+        "https://www.iso.org/standard/64739.html",
+        "https://www.copc.com/copc-standards/"
+      ],
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-callback-promise-accuracy-study"
+    },
+    {
+      "family": "research",
+      "topic": "Authentication escalations in offshore call centers: a boundary analysis",
+      "slug": "offshore-call-center-authentication-escalation-analysis",
+      "publicationDate": "2026-10-08",
+      "wordCount": 1373,
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://privacy.gov.ph/",
+        "https://www.iso.org/standard/64739.html",
+        "https://www.copc.com/copc-standards/"
+      ],
+      "liveUrl": "https://callcenteroffshore.com/research/offshore-call-center-authentication-escalation-analysis"
+    },
+    {
+      "family": "research",
+      "topic": "Recurring call center knowledge gaps: separating content defects from search and policy problems",
+      "slug": "call-center-knowledge-gap-recurrence-research",
+      "publicationDate": "2026-10-08",
+      "wordCount": 1351,
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://privacy.gov.ph/",
+        "https://www.iso.org/standard/64739.html",
+        "https://www.copc.com/copc-standards/"
+      ],
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-knowledge-gap-recurrence-research"
+    },
+    {
+      "family": "research",
+      "topic": "Offshore call center reviewer agreement: testing whether a QA score can be reproduced",
+      "slug": "offshore-call-center-quality-reviewer-agreement-oct8",
+      "publicationDate": "2026-10-08",
+      "wordCount": 1375,
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://privacy.gov.ph/",
+        "https://www.iso.org/standard/64739.html",
+        "https://www.copc.com/copc-standards/"
+      ],
+      "liveUrl": "https://callcenteroffshore.com/research/offshore-call-center-quality-reviewer-agreement-oct8"
+    },
+    {
+      "family": "research",
+      "topic": "Deferred call center work recovery: measuring obligations after a demand spike",
+      "slug": "call-center-deferred-work-recovery-study",
+      "publicationDate": "2026-10-08",
+      "wordCount": 1368,
+      "sources": [
+        "https://pages.nist.gov/800-63-4/",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://privacy.gov.ph/",
+        "https://www.iso.org/standard/64739.html",
+        "https://www.copc.com/copc-standards/"
+      ],
+      "liveUrl": "https://callcenteroffshore.com/research/call-center-deferred-work-recovery-study"
+    }
+  ]
+}

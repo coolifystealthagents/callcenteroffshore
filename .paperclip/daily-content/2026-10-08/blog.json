@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "cycleLabel": "October 8, 2026",
+  "domain": "callcenteroffshore.com",
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "publicationDate": "2026-10-08",
+  "requiredCount": 12,
+  "deploymentResource": "m13z1803mceu91zk02hgzn95",
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "callback window",
+      "slug": "call-center-callback-timezone-confirmation",
+      "publicationDate": "2026-10-08",
+      "wordCount": 950,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-callback-timezone-confirmation"
+    },
+    {
+      "family": "blog",
+      "topic": "shared-device sign-out",
+      "slug": "offshore-call-center-shared-device-signout",
+      "publicationDate": "2026-10-08",
+      "wordCount": 947,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-shared-device-signout"
+    },
+    {
+      "family": "blog",
+      "topic": "address-change read-back",
+      "slug": "call-center-address-change-readback",
+      "publicationDate": "2026-10-08",
+      "wordCount": 948,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-address-change-readback"
+    },
+    {
+      "family": "blog",
+      "topic": "translation uncertainty",
+      "slug": "offshore-call-center-translation-quality-escalation",
+      "publicationDate": "2026-10-08",
+      "wordCount": 948,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-translation-quality-escalation"
+    },
+    {
+      "family": "blog",
+      "topic": "refund-status communication",
+      "slug": "call-center-refund-status-without-promising",
+      "publicationDate": "2026-10-08",
+      "wordCount": 947,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-refund-status-without-promising"
+    },
+    {
+      "family": "blog",
+      "topic": "knowledge search miss",
+      "slug": "offshore-call-center-knowledge-search-miss-routing",
+      "publicationDate": "2026-10-08",
+      "wordCount": 948,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-knowledge-search-miss-routing"
+    },
+    {
+      "family": "blog",
+      "topic": "recording pause and resume",
+      "slug": "call-center-call-recording-pause-resume-proof",
+      "publicationDate": "2026-10-08",
+      "wordCount": 951,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-call-recording-pause-resume-proof"
+    },
+    {
+      "family": "blog",
+      "topic": "abandoned-cart outreach",
+      "slug": "call-center-abandoned-cart-outreach-permission",
+      "publicationDate": "2026-10-08",
+      "wordCount": 945,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-abandoned-cart-outreach-permission"
+    },
+    {
+      "family": "blog",
+      "topic": "disposition correction",
+      "slug": "offshore-call-center-disposition-code-correction",
+      "publicationDate": "2026-10-08",
+      "wordCount": 944,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-disposition-code-correction"
+    },
+    {
+      "family": "blog",
+      "topic": "authentication-lockout handoff",
+      "slug": "call-center-authentication-lockout-handoff",
+      "publicationDate": "2026-10-08",
+      "wordCount": 947,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-authentication-lockout-handoff"
+    },
+    {
+      "family": "blog",
+      "topic": "emergency-message versioning",
+      "slug": "offshore-call-center-emergency-message-versioning",
+      "publicationDate": "2026-10-08",
+      "wordCount": 944,
+      "liveUrl": "https://callcenteroffshore.com/blog/offshore-call-center-emergency-message-versioning"
+    },
+    {
+      "family": "blog",
+      "topic": "after-call work backlog",
+      "slug": "call-center-after-call-work-backlog",
+      "publicationDate": "2026-10-08",
+      "wordCount": 951,
+      "liveUrl": "https://callcenteroffshore.com/blog/call-center-after-call-work-backlog"
+    }
+  ]
+}
