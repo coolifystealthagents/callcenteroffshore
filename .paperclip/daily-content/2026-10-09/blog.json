@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "callcenteroffshore-priority-intake-triage",
+      "title": "Offshore Call Center Priority Intake Triage",
+      "excerpt": "A practical guide to sequence new requests by evidence, impact, and accepted ownership.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-priority-intake-triage"
+    },
+    {
+      "slug": "callcenteroffshore-exception-owner-map",
+      "title": "Offshore Call Center Exception Owner Map",
+      "excerpt": "A practical guide to route ambiguous work to an authorized decision owner.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-exception-owner-map"
+    },
+    {
+      "slug": "callcenteroffshore-source-record-verification",
+      "title": "Offshore Call Center Source Record Verification",
+      "excerpt": "A practical guide to confirm the governing record before work begins.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-source-record-verification"
+    },
+    {
+      "slug": "callcenteroffshore-handoff-acceptance-receipt",
+      "title": "Offshore Call Center Handoff Acceptance Receipt",
+      "excerpt": "A practical guide to prove the receiving team accepted the next action.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-handoff-acceptance-receipt"
+    },
+    {
+      "slug": "callcenteroffshore-backlog-aging-review",
+      "title": "Offshore Call Center Backlog Aging Review",
+      "excerpt": "A practical guide to separate active handling from documented waiting states.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-backlog-aging-review"
+    },
+    {
+      "slug": "callcenteroffshore-quality-sample-calibration",
+      "title": "Offshore Call Center Quality Sample Calibration",
+      "excerpt": "A practical guide to align reviewers on observable acceptance evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-quality-sample-calibration"
+    },
+    {
+      "slug": "callcenteroffshore-access-scope-recertification",
+      "title": "Offshore Call Center Access Scope Recertification",
+      "excerpt": "A practical guide to keep permissions aligned with current duties.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-access-scope-recertification"
+    },
+    {
+      "slug": "callcenteroffshore-change-control-release-note",
+      "title": "Offshore Call Center Change Control Release Note",
+      "excerpt": "A practical guide to publish a dated rule change with rollback context.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-change-control-release-note"
+    },
+    {
+      "slug": "callcenteroffshore-capacity-overflow-trigger",
+      "title": "Offshore Call Center Capacity Overflow Trigger",
+      "excerpt": "A practical guide to surface demand that exceeds the safe service window.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-capacity-overflow-trigger"
+    },
+    {
+      "slug": "callcenteroffshore-client-decision-packet",
+      "title": "Offshore Call Center Client Decision Packet",
+      "excerpt": "A practical guide to prepare facts without transferring client authority.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-client-decision-packet"
+    },
+    {
+      "slug": "callcenteroffshore-correction-propagation-check",
+      "title": "Offshore Call Center Correction Propagation Check",
+      "excerpt": "A practical guide to reconcile corrected facts across dependent systems.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-correction-propagation-check"
+    },
+    {
+      "slug": "callcenteroffshore-monthly-control-closeout",
+      "title": "Offshore Call Center Monthly Control Closeout",
+      "excerpt": "A practical guide to close open exceptions and preserve review evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/callcenteroffshore-monthly-control-closeout"
+    }
+  ]
+}
