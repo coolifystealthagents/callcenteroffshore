@@ -1,3 +1,73 @@
-import {Header,Footer} from '../components'; import {researchPosts} from '../fleet-data'; import {site} from '../data';
-export const metadata={title:`Research | ${site.brand}`,description:'Original research and source-backed analysis for planning Philippines-based support.'};
-export default function Research(){return <><Header/><main className="research-index-page"><section className="research-hero"><div className="container research-hero-grid"><div><p className="eyebrow">Research Library</p><h1>Source-backed research for better staffing decisions</h1><p className="lead">Use these reports to examine customer-support controls, evidence boundaries, and operating decisions for a Philippines-based support team.</p><div className="research-meta"><span>{researchPosts.length} reports</span><span>Named sources</span><span>Methodology notes</span></div></div></div></section><section className="section research-library-section"><div className="container"><div className="research-card-grid">{researchPosts.map(p=><a className="research-library-card" href={`/research/${p.slug}`} key={p.slug}><span className="research-card-badge">Research report</span><h2>{p.title}</h2><p className="research-card-highlight">Research question: {p.title.replace(/^[^:]+:\s*/,'')}</p><p className="research-card-excerpt">{p.excerpt}</p><div className="research-card-meta"><span>{site.brand} Research</span><span>{p.readingMinutes} min read</span><span>{p.sources.length} named sources</span></div></a>)}</div></div></section><section className="section research-methodology"><div className="container"><h2>Methodology and use</h2><p>Each report states its question, evidence scope, limitations, and conclusion so a buyer can distinguish observed facts from interpretation.</p></div></section></main><Footer/></>}
+import { Header, Footer } from "../components";
+import { researchPosts } from "../fleet-data";
+import { site } from "../data";
+const formatDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
+export const metadata = {
+  title: `Research | ${site.brand}`,
+  description:
+    "Original research and source-backed analysis for planning Philippines-based support.",
+};
+export default function Research() {
+  return (
+    <>
+      <Header />
+      <main className="research-index-page">
+        <section className="research-hero">
+          <div className="container research-hero-grid">
+            <div>
+              <p className="eyebrow">Research Library</p>
+              <h1>Source-backed research for better staffing decisions</h1>
+              <p className="lead">
+                Use these reports to examine customer-support controls, evidence
+                boundaries, and operating decisions for a Philippines-based
+                support team.
+              </p>
+              <div className="research-meta">
+                <span>{researchPosts.length} reports</span>
+                <span>Named sources</span>
+                <span>Methodology notes</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section research-library-section">
+          <div className="container">
+            <div className="research-card-grid">
+              {researchPosts.map((p) => (
+                <a
+                  className="research-library-card"
+                  href={`/research/${p.slug}`}
+                  key={p.slug}
+                >
+                  <span className="research-card-badge">Research report</span>
+                  <h2>{p.title}</h2>
+                  <time dateTime={p.published}>Published {formatDate(p.published)}</time>
+                  <p className="research-card-highlight">
+                    Research question: {p.title.replace(/^[^:]+:\s*/, "")}
+                  </p>
+                  <p className="research-card-excerpt">{p.excerpt}</p>
+                  <div className="research-card-meta">
+                    <span>{site.brand} Research</span>
+                    <span>{p.readingMinutes} min read</span>
+                    <span>{p.sources.length} named sources</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+        <section className="section research-methodology">
+          <div className="container">
+            <h2>Methodology and use</h2>
+            <p>
+              Each report states its question, evidence scope, limitations, and
+              conclusion so a buyer can distinguish observed facts from
+              interpretation.
+            </p>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
