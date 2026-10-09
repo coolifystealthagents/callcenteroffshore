@@ -69,7 +69,7 @@ export default function Blog() {
                   </p>
                   <h2>{featured.title}</h2>
                   <p>{featured.excerpt}</p>
-                  {"published" in featured && featured.published && <time dateTime={featured.published}>Published {formatDate(featured.published)}</time>}
+                  {"published" in featured && typeof featured.published === "string" ? <time dateTime={featured.published}>Published {formatDate(featured.published)}</time> : null}
                   <b>Read the guide ↗</b>
                 </div>
               </a>
@@ -84,7 +84,7 @@ export default function Blog() {
                   <span>GUIDE / {String(index + 1).padStart(2, "0")}</span>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>
-                  {"published" in post && post.published && <time dateTime={post.published}>Published {formatDate(post.published)}</time>}
+                  {"published" in post && typeof post.published === "string" ? <time dateTime={post.published}>Published {formatDate(post.published)}</time> : null}
                   <b>Read article ↗</b>
                 </a>
               ))}
