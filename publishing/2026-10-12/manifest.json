@@ -1,0 +1,171 @@
+{
+  "site": "CallCenterOffshore.com",
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "branch": "main",
+  "baseSha": "636d99de8c8cbc40cff60e7e917766406c3930df",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/blog-oct12.ts",
+    "app/research-oct12.ts",
+    "app/data.ts",
+    "app/fleet-data.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "navigationPath": "app/components.tsx",
+  "sitemapPath": "app/sitemap.xml/route.ts",
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Call Center Dead-Air Recovery Without Guesswork",
+      "slug": "call-center-dead-air-recovery",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-dead-air-recovery.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-dead-air-recovery.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Synchronizing SMS Opt-Outs Across Offshore Call Center Tools",
+      "slug": "offshore-call-center-sms-opt-out-sync",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-sms-opt-out-sync.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-sms-opt-out-sync.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Caller ID Spoofing Report Intake for Support Teams",
+      "slug": "call-center-caller-id-spoof-report-intake",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-caller-id-spoof-report-intake.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-caller-id-spoof-report-intake.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Relay Service Handoffs for Offshore Call Center Agents",
+      "slug": "offshore-call-center-relay-service-handoff",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-relay-service-handoff.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-relay-service-handoff.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Routing Call Recording Deletion Requests to the Right Owner",
+      "slug": "call-center-recording-deletion-request-routing",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-recording-deletion-request-routing.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-recording-deletion-request-routing.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Preventing Duplicate Callbacks Across Offshore Queues",
+      "slug": "offshore-call-center-callback-deduplication",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-callback-deduplication.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-callback-deduplication.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Keeping Call Queue Announcements Accurate During Disruptions",
+      "slug": "call-center-queue-announcement-accuracy",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-queue-announcement-accuracy.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-queue-announcement-accuracy.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Explaining Number-Porting Status Without Inventing Certainty",
+      "slug": "offshore-call-center-number-porting-status",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-number-porting-status.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-number-porting-status.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Capturing a Customer’s Preferred Name Without Rewriting Identity Records",
+      "slug": "call-center-preferred-name-capture",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-preferred-name-capture.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-preferred-name-capture.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Escalating Robocall False Positives Without Disabling Protection",
+      "slug": "offshore-call-center-robocall-false-positive",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-robocall-false-positive.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-robocall-false-positive.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Handling Emergency-Service Misroutes in a Customer Support Queue",
+      "slug": "call-center-emergency-service-misroute",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/call-center-emergency-service-misroute.md",
+      "thumbnailPath": "public/oct12-heroes/call-center-emergency-service-misroute.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Consent Checks Before Adding People to a Support Call",
+      "slug": "offshore-call-center-conference-call-consent",
+      "sourcePath": "docs/publishing/drafts/2026-10-12/offshore-call-center-conference-call-consent.md",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-conference-call-consent.webp",
+      "registryPath": "app/blog-oct12.ts"
+    },
+    {
+      "section": "Research",
+      "title": "STIR/SHAKEN Evidence Research for Call Center Intake",
+      "slug": "call-center-stir-shaken-evidence-research",
+      "sourcePath": "app/research-oct12.json",
+      "recordSlug": "call-center-stir-shaken-evidence-research",
+      "thumbnailPath": "public/oct12-heroes/call-center-stir-shaken-evidence-research.webp",
+      "registryPath": "app/research-oct12.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Account Recovery Research for Offshore Voice Support",
+      "slug": "offshore-call-center-account-recovery-research",
+      "sourcePath": "app/research-oct12.json",
+      "recordSlug": "offshore-call-center-account-recovery-research",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-account-recovery-research.webp",
+      "registryPath": "app/research-oct12.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Telecommunications Relay Access Research for Call Centers",
+      "slug": "call-center-relay-access-research",
+      "sourcePath": "app/research-oct12.json",
+      "recordSlug": "call-center-relay-access-research",
+      "thumbnailPath": "public/oct12-heroes/call-center-relay-access-research.webp",
+      "registryPath": "app/research-oct12.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Phone Payment Data-Minimization Research for Offshore Teams",
+      "slug": "offshore-call-center-phone-payment-research",
+      "sourcePath": "app/research-oct12.json",
+      "recordSlug": "offshore-call-center-phone-payment-research",
+      "thumbnailPath": "public/oct12-heroes/offshore-call-center-phone-payment-research.webp",
+      "registryPath": "app/research-oct12.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Caller ID Trust Research for Customer Support Decisions",
+      "slug": "call-center-caller-id-trust-research",
+      "sourcePath": "app/research-oct12.json",
+      "recordSlug": "call-center-caller-id-trust-research",
+      "thumbnailPath": "public/oct12-heroes/call-center-caller-id-trust-research.webp",
+      "registryPath": "app/research-oct12.ts"
+    }
+  ]
+}
