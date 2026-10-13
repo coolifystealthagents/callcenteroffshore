@@ -1,0 +1,189 @@
+{
+  "site": "CallCenterOffshore.com",
+  "canonicalDomain": "https://callcenteroffshore.com",
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "branch": "main",
+  "baseSha": "067f112f88dab031ef8bc288afb4d7cdd251507e",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/blog-oct13.ts",
+    "app/research-oct13.ts",
+    "app/data.ts",
+    "app/fleet-data.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "navigationPath": "app/components.tsx",
+  "sitemapPath": "app/sitemap.xml/route.ts",
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Confirm Callback Windows Across Time Zones",
+      "slug": "callback-window-time-zone-confirmation",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/callback-window-time-zone-confirmation.md",
+      "thumbnailPath": "public/oct13-heroes/callback-window-time-zone-confirmation.webp",
+      "wordCount": 1535,
+      "sha256": "c2f0e6d840d756992fd31c1dd6321cc64595464dcb242dee2d5c9774c18f2a83"
+    },
+    {
+      "section": "Blog",
+      "title": "Control Call-Whisper Disclosures Before Connection",
+      "slug": "call-whisper-disclosure-control",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/call-whisper-disclosure-control.md",
+      "thumbnailPath": "public/oct13-heroes/call-whisper-disclosure-control.webp",
+      "wordCount": 1501,
+      "sha256": "a6d51fd2e63c53f0bbe7d2260dc14e6bea100036c7fe4b952cd161b129e3260e"
+    },
+    {
+      "section": "Blog",
+      "title": "Route Language-Skill Fallbacks Without False Fluency",
+      "slug": "queue-language-skill-fallback",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/queue-language-skill-fallback.md",
+      "thumbnailPath": "public/oct13-heroes/queue-language-skill-fallback.webp",
+      "wordCount": 1519,
+      "sha256": "bdb8f1b4e5fed19fb1059684c224f15ebe4adfc46c2ff3157e123a691cfb6f1f"
+    },
+    {
+      "section": "Blog",
+      "title": "Review Low-Confidence Voicemail Transcriptions",
+      "slug": "voicemail-transcription-confidence-review",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/voicemail-transcription-confidence-review.md",
+      "thumbnailPath": "public/oct13-heroes/voicemail-transcription-confidence-review.webp",
+      "wordCount": 1499,
+      "sha256": "a35f673c90e71132f8fcee1b5e150d59893f185089bd2ab5ea22bdca74379be3"
+    },
+    {
+      "section": "Blog",
+      "title": "Recover After-Call Work Before Timeout Loss",
+      "slug": "after-call-work-timeout-recovery",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/after-call-work-timeout-recovery.md",
+      "thumbnailPath": "public/oct13-heroes/after-call-work-timeout-recovery.webp",
+      "wordCount": 1503,
+      "sha256": "7fdd9a62ad9e22eadcedb13ae6de546af9fdc5fc77a73af94de384d1b7b504c8"
+    },
+    {
+      "section": "Blog",
+      "title": "Govern Customer Pronoun Notes in Contact Records",
+      "slug": "customer-pronoun-note-governance",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/customer-pronoun-note-governance.md",
+      "thumbnailPath": "public/oct13-heroes/customer-pronoun-note-governance.webp",
+      "wordCount": 1514,
+      "sha256": "3c1d809a9666b51325e4daf542513341583d43cec8b6d096f99009016fa25135"
+    },
+    {
+      "section": "Blog",
+      "title": "Handoff Customer Context During Supervisor Takeover",
+      "slug": "supervisor-takeover-customer-context",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/supervisor-takeover-customer-context.md",
+      "thumbnailPath": "public/oct13-heroes/supervisor-takeover-customer-context.webp",
+      "wordCount": 1495,
+      "sha256": "7bcb574bbfb3894c50e61d7ae14b399c6be113194cab25d37ef3e70b28ba8bc4"
+    },
+    {
+      "section": "Blog",
+      "title": "Route Outbound Number Reputation Exceptions",
+      "slug": "outbound-number-reputation-exception",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/outbound-number-reputation-exception.md",
+      "thumbnailPath": "public/oct13-heroes/outbound-number-reputation-exception.webp",
+      "wordCount": 1517,
+      "sha256": "bcdd945a81014622cd1f58b655355f68ad5114ccdda0bc3e9de64e915d5bf989"
+    },
+    {
+      "section": "Blog",
+      "title": "Expire Temporary Knowledge Snippets Safely",
+      "slug": "knowledge-snippet-expiration-control",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/knowledge-snippet-expiration-control.md",
+      "thumbnailPath": "public/oct13-heroes/knowledge-snippet-expiration-control.webp",
+      "wordCount": 1517,
+      "sha256": "093f796ddbed66d9d19153bbf3938a84d0d70ef2672e0c3f52cf78da3eea27d3"
+    },
+    {
+      "section": "Blog",
+      "title": "Verify Recording Pause and Resume Events",
+      "slug": "call-recording-pause-resume-verification",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/call-recording-pause-resume-verification.md",
+      "thumbnailPath": "public/oct13-heroes/call-recording-pause-resume-verification.webp",
+      "wordCount": 1519,
+      "sha256": "5cfb7fee425c00237566c65ed2bee867e9646f635c87f0c548c7f08e9ba404a2"
+    },
+    {
+      "section": "Blog",
+      "title": "Audit Corrections to CRM Call Dispositions",
+      "slug": "crm-disposition-correction-audit",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/crm-disposition-correction-audit.md",
+      "thumbnailPath": "public/oct13-heroes/crm-disposition-correction-audit.webp",
+      "wordCount": 1519,
+      "sha256": "73ffb74599c89529fb3b5dc14bb7f6ae74d11e890647acda5615495d7f285b0e"
+    },
+    {
+      "section": "Blog",
+      "title": "Release Holiday Overflow Greetings with Evidence",
+      "slug": "holiday-overflow-greeting-release",
+      "sourcePath": "docs/publishing/drafts/2026-10-13/holiday-overflow-greeting-release.md",
+      "thumbnailPath": "public/oct13-heroes/holiday-overflow-greeting-release.webp",
+      "wordCount": 1520,
+      "sha256": "38a9ee5febb3baf1598c7ceb53a61a3375d63d0b5e515e2b9ff14868623723a1"
+    },
+    {
+      "section": "Research",
+      "title": "Study Context Loss Across Call Transfers",
+      "slug": "call-transfer-context-loss-study",
+      "sourcePath": "app/research-oct13.json",
+      "recordSlug": "call-transfer-context-loss-study",
+      "thumbnailPath": "public/oct13-heroes/call-transfer-context-loss-study.webp",
+      "wordCount": 1489,
+      "sha256": "9e1597ec0b3e9d3b9aac8452e458b1e6d0f5d7199a50e2c771afc82eff9aca1c"
+    },
+    {
+      "section": "Research",
+      "title": "Research Queue Abandonment Denominator Choices",
+      "slug": "offshore-queue-abandonment-denominator-research",
+      "sourcePath": "app/research-oct13.json",
+      "recordSlug": "offshore-queue-abandonment-denominator-research",
+      "thumbnailPath": "public/oct13-heroes/offshore-queue-abandonment-denominator-research.webp",
+      "wordCount": 1473,
+      "sha256": "9e1597ec0b3e9d3b9aac8452e458b1e6d0f5d7199a50e2c771afc82eff9aca1c"
+    },
+    {
+      "section": "Research",
+      "title": "Review Voice-Biometric Exception Governance",
+      "slug": "voice-biometric-exception-governance-review",
+      "sourcePath": "app/research-oct13.json",
+      "recordSlug": "voice-biometric-exception-governance-review",
+      "thumbnailPath": "public/oct13-heroes/voice-biometric-exception-governance-review.webp",
+      "wordCount": 1457,
+      "sha256": "9e1597ec0b3e9d3b9aac8452e458b1e6d0f5d7199a50e2c771afc82eff9aca1c"
+    },
+    {
+      "section": "Research",
+      "title": "Measure Reviewer Drift in Call-Center QA",
+      "slug": "call-center-qa-reviewer-drift-study",
+      "sourcePath": "app/research-oct13.json",
+      "recordSlug": "call-center-qa-reviewer-drift-study",
+      "thumbnailPath": "public/oct13-heroes/call-center-qa-reviewer-drift-study.webp",
+      "wordCount": 1473,
+      "sha256": "9e1597ec0b3e9d3b9aac8452e458b1e6d0f5d7199a50e2c771afc82eff9aca1c"
+    },
+    {
+      "section": "Research",
+      "title": "Analyze Evidence from Offshore Call Continuity Drills",
+      "slug": "offshore-call-continuity-drill-analysis",
+      "sourcePath": "app/research-oct13.json",
+      "recordSlug": "offshore-call-continuity-drill-analysis",
+      "thumbnailPath": "public/oct13-heroes/offshore-call-continuity-drill-analysis.webp",
+      "wordCount": 1473,
+      "sha256": "9e1597ec0b3e9d3b9aac8452e458b1e6d0f5d7199a50e2c771afc82eff9aca1c"
+    }
+  ]
+}
