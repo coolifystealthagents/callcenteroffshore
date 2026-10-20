@@ -20,13 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ page: str
   return {
     title: `Virtual assistant and outsourcing guides, page ${page}`,
     description: `Practical Call Center Offshore staffing and operations guides, page ${page}.`,
-    alternates: { canonical: `https://callcenteroffshore.com/blog/page/${page}` },
+    alternates: { canonical: page === '1' ? 'https://callcenteroffshore.com/blog' : `https://callcenteroffshore.com/blog/page/${page}` },
   };
 }
 export function generateStaticParams() {
   const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
-  return Array.from({ length: pages }, (_, index) => ({
-    page: String(index + 1),
+  return Array.from({ length: Math.max(0, pages - 1) }, (_, index) => ({
+    page: String(index + 2),
   }));
 }
 export default async function BlogPage({

@@ -122,6 +122,30 @@ test('all declared draft article paths exist and duplicate October route batch i
   assert.match(data, /october9BlogPosts/);
 });
 
+test('contact form has one submission owner and preserves canonical lead fields', () => {
+  const globalClient = read('app/acr-client.tsx');
+  const form = read('app/contact-us/StandardContactForm.tsx');
+  const api = read('app/api/contact/route.ts');
+  assert.match(globalClient, /dataset\.acrOwner==='component'/);
+  assert.match(form, /data-acr-owner="component"/);
+  assert.match(form, /name="countryCode"/);
+  assert.doesNotMatch(form, /window\.location\.assign\("\/thank-you"\);\s*return;/);
+  assert.match(api, /text\(form,'phone'[^\n]*text\(form,'countryCode'/);
+  assert.match(api, /text\(form,'company'[^\n]*text\(form,'companyName'/);
+  assert.match(api, /text\(form,'referral'[^\n]*text\(form,'howTheyHeard'[^\n]*text\(form,'source'/);
+});
+
+test('responsive attribution and canonical route aliases remain release-safe', () => {
+  const css = read('app/redesign.css');
+  const config = read('next.config.mjs');
+  const thanks = read('app/thank-you/page.tsx');
+  const pagination = read('app/blog/page/[page]/page.tsx');
+  assert.match(css, /@media\(max-width:600px\)\{[\s\S]*?\.header-parent-brand\{display:flex/);
+  assert.match(config, /source: '\/blog\/page\/1', destination: '\/blog'/);
+  assert.match(thanks, /alternates: \{ canonical: 'https:\/\/callcenteroffshore\.com\/thank-you' \}/);
+  assert.doesNotMatch(pagination, /page: String\(index \+ 1\)/);
+});
+
 test('visible prose punctuation is sanitized and source content has no unicode dash characters', () => {
   const sanitizer = read('app/visible-prose-sanitizer.tsx');
   assert.match(sanitizer, /\[—–\]/);

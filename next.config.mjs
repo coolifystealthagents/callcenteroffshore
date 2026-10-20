@@ -16,6 +16,7 @@ const nextConfig = {
   async redirects() {
     return [
       { source: '/contact', destination: '/contact-us', permanent: true },
+      { source: '/blog/page/1', destination: '/blog', permanent: true },
       { source: '/cancellation', destination: '/cancellation-policy', permanent: true },
       { source: '/services/admin-support', destination: '/services/order-and-billing-support', permanent: true },
       { source: '/services/back-office-support', destination: '/services/order-and-billing-support', permanent: true },
