@@ -158,6 +158,17 @@ test('responsive attribution and canonical route aliases remain release-safe', (
   assert.match(sitemap, /blogPageCount/);
 });
 
+test('proxy-aware canonical middleware preserves path and rejects host injection', () => {
+  const middleware = read('middleware.ts');
+  assert.match(middleware, /JSON\.parse\(visitor\)/);
+  assert.match(middleware, /parsed\.scheme === 'http' \|\| parsed\.scheme === 'https'/);
+  assert.match(middleware, /host !== APEX_HOST && host !== WWW_HOST/);
+  assert.match(middleware, /destination\.pathname = request\.nextUrl\.pathname/);
+  assert.match(middleware, /destination\.search = request\.nextUrl\.search/);
+  assert.match(middleware, /NextResponse\.redirect\(destination, 308\)/);
+  assert.doesNotMatch(middleware, /endsWith\(/);
+});
+
 test('visible prose punctuation is sanitized and source content has no unicode dash characters', () => {
   const sanitizer = read('app/visible-prose-sanitizer.tsx');
   assert.match(sanitizer, /\[—–\]/);
