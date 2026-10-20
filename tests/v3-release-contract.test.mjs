@@ -88,6 +88,8 @@ test('all editorial routes receive the shared complete TOC and sidebar system', 
 test('security, redirect, canonical, sitemap, 404, and logo contracts exist', () => {
   const config = read('next.config.mjs');
   for (const header of ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'Referrer-Policy', 'Permissions-Policy']) assert.match(config, new RegExp(header));
+  assert.match(config, /script-src[^;]*https:\/\/static\.cloudflareinsights\.com/);
+  assert.match(config, /connect-src[^;]*https:\/\/cloudflareinsights\.com/);
   assert.match(config, /www\.callcenteroffshore\.com/);
   assert.match(config, /https:\/\/callcenteroffshore\.com/);
   assert.match(read('app/sitemap.xml/route.ts'), /'\/about'/);
