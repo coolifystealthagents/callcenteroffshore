@@ -130,9 +130,15 @@ test('contact form has one submission owner and preserves canonical lead fields'
   assert.match(form, /data-acr-owner="component"/);
   assert.match(form, /name="countryCode"/);
   assert.doesNotMatch(form, /window\.location\.assign\("\/thank-you"\);\s*return;/);
-  assert.match(api, /text\(form,'phone'[^\n]*text\(form,'countryCode'/);
-  assert.match(api, /text\(form,'company'[^\n]*text\(form,'companyName'/);
-  assert.match(api, /text\(form,'referral'[^\n]*text\(form,'howTheyHeard'[^\n]*text\(form,'source'/);
+  assert.match(api, /text\(form, 'phone'[^\n]*text\(form, 'countryCode'/);
+  assert.match(api, /text\(form, 'company'[^\n]*text\(form, 'companyName'/);
+  assert.match(api, /const referral = text\(form, 'referral'/);
+  assert.match(form, /source: "contact-form"/);
+  assert.match(form, /referralSpecify:/);
+  assert.match(api, /boundedFormData\(request, contentType\)/);
+  assert.match(api, /total > MAX_BODY_BYTES/);
+  assert.match(api, /const referralSpecify = text\(form, 'referralSpecify'/);
+  assert.match(api, /`Other: \$\{referralSpecify\}`/);
 });
 
 test('responsive attribution and canonical route aliases remain release-safe', () => {
@@ -144,6 +150,12 @@ test('responsive attribution and canonical route aliases remain release-safe', (
   assert.match(config, /source: '\/blog\/page\/1', destination: '\/blog'/);
   assert.match(thanks, /alternates: \{ canonical: 'https:\/\/callcenteroffshore\.com\/thank-you' \}/);
   assert.doesNotMatch(pagination, /page: String\(index \+ 1\)/);
+  assert.match(pagination, /dynamicParams = false/);
+  assert.match(pagination, /parseBlogPage\(page\)/);
+  const catalog = read('app/blog-catalog.ts');
+  const sitemap = read('app/sitemap.xml/route.ts');
+  assert.match(catalog, /export const blogPageCount/);
+  assert.match(sitemap, /blogPageCount/);
 });
 
 test('visible prose punctuation is sanitized and source content has no unicode dash characters', () => {

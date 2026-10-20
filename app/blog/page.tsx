@@ -1,8 +1,5 @@
 import { Header, Footer } from "../components";
-import aug20Meta from "../aug20-meta.json";
-import aug21Meta from "../aug21-meta.json";
-import aug23Meta from "../aug23-meta.json";
-import { blogPosts } from "../data";
+import { allBlogPosts, blogPageCount } from "../blog-catalog";
 import { postsPerPage } from "../fleet-data";
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
 export const metadata = {
@@ -12,24 +9,8 @@ export const metadata = {
   alternates: { canonical: "https://callcenteroffshore.com/blog" },
 };
 export default function Blog() {
-  const newest = Object.entries(aug23Meta).map(([slug, p]) => ({
-    slug,
-    title: p.title,
-    excerpt: p.description,
-  }));
-  const prior = Object.entries(aug21Meta).map(([slug, p]) => ({
-    slug,
-    title: p.title,
-    excerpt: p.description,
-  }));
-  const recent = Object.entries(aug20Meta).map(([slug, p]) => ({
-    slug,
-    title: p.title,
-    excerpt: p.description,
-  }));
-  const allPosts = [...blogPosts, ...newest, ...prior, ...recent];
-  const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
-  const posts = allPosts.slice(0, postsPerPage);
+  const pages = blogPageCount;
+  const posts = allBlogPosts.slice(0, postsPerPage);
   const featured = posts[0];
   return (
     <>

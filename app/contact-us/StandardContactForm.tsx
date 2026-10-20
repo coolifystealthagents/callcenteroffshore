@@ -47,7 +47,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       positions: String(data.get("positions") || ""), positionsToFill: String(data.get("positions") || ""),
       referral: String(data.get("referral") || ""), howTheyHeard: String(data.get("referral") || ""),
       referralSpecify: String(data.get("referralSpecify") || ""), message: String(data.get("message") || ""),
-      source: String(data.get("referral") || ""), formSource: "contact-form", formId: "contactPageForm",
+      source: "contact-form", formSource: "contact-form", formId: "contactPageForm",
     };
     setSubmitting(true);
     setError("");

@@ -1,31 +1,24 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Header, Footer } from "../../../components";
-import { blogPosts, site } from "../../../data";
+import { site } from "../../../data";
 import { postsPerPage } from "../../../fleet-data";
+import { allBlogPosts, blogPageCount, parseBlogPage } from "../../../blog-catalog";
 import { FeaturedComparison } from "../../FeaturedComparison";
-import aug20Meta from "../../../aug20-meta.json";
-import aug21Meta from "../../../aug21-meta.json";
-import aug23Meta from "../../../aug23-meta.json";
-
-const allPosts = [
-  ...blogPosts,
-  ...Object.entries(aug23Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
-  ...Object.entries(aug21Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
-  ...Object.entries(aug20Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
-];
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
   const { page } = await params;
+  const current = parseBlogPage(page);
+  if (current === null) notFound();
   return {
-    title: `Virtual assistant and outsourcing guides, page ${page}`,
-    description: `Practical Call Center Offshore staffing and operations guides, page ${page}.`,
-    alternates: { canonical: page === '1' ? 'https://callcenteroffshore.com/blog' : `https://callcenteroffshore.com/blog/page/${page}` },
+    title: `Virtual assistant and outsourcing guides, page ${current}`,
+    description: `Practical Call Center Offshore staffing and operations guides, page ${current}.`,
+    alternates: { canonical: `https://callcenteroffshore.com/blog/page/${current}` },
   };
 }
 export function generateStaticParams() {
-  const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
-  return Array.from({ length: Math.max(0, pages - 1) }, (_, index) => ({
+  return Array.from({ length: Math.max(0, blogPageCount - 1) }, (_, index) => ({
     page: String(index + 2),
   }));
 }
@@ -35,10 +28,10 @@ export default async function BlogPage({
   params: Promise<{ page: string }>;
 }) {
   const { page } = await params;
-  const current = Number(page);
-  const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
-  if (!Number.isInteger(current) || current < 1 || current > pages) notFound();
-  const posts = allPosts.slice(
+  const current = parseBlogPage(page);
+  if (current === null) notFound();
+  const pages = blogPageCount;
+  const posts = allBlogPosts.slice(
     (current - 1) * postsPerPage,
     current * postsPerPage,
   );
