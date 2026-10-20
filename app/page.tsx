@@ -52,8 +52,6 @@ export default function Home() {
           </div>
           <div className="cco-hero-art">
             <img src="/illustrations/getillustrations/communication-illustrations-pack-svg/philippines-support-team.webp" alt="Illustration of a Philippines-based assistant managing customer conversations" />
-            <div className="cco-floating-card cco-float-one"><b>INBOX</b><span>Sorted and owned</span></div>
-            <div className="cco-floating-card cco-float-two"><b>NEXT STEP</b><span>Visible to the team</span></div>
           </div>
         </div>
         <div className="container cco-proofline"><span>ONE SUPPORT SYSTEM</span><b>Calendar</b><b>Inbox</b><b>Customers</b><b>Sales</b><b>Operations</b><b>Reporting</b></div>

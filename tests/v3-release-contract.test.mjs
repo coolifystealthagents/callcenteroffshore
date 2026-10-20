@@ -18,7 +18,10 @@ test('shared header and footer satisfy parent-brand and navigation contract', ()
   const header = read('app/header-client.tsx');
   const chrome = read('app/components.tsx');
   for (const label of ['Home', 'Services', 'Contact Us']) assert.match(header, new RegExp(`>${label}<`));
-  assert.equal((header.match(/Powered by StealthAgents/g) || []).length >= 2, true);
+  assert.match(header, /aria-label="Powered by StealthAgents"/);
+  assert.match(header, />Powered by <strong>StealthAgents<\/strong><\/a>/);
+  assert.match(header, /header-brand-copy[\s\S]*logo-name[\s\S]*header-parent-brand/);
+  assert.doesNotMatch(read('app/page.tsx'), /cco-floating-card|cco-float-one|cco-float-two/);
   assert.match(header, /aria-expanded=\{open\}/);
   assert.match(header, /aria-controls="primary-navigation"/);
   assert.match(header, /event\.key === 'Escape'/);
@@ -146,7 +149,8 @@ test('responsive attribution and canonical route aliases remain release-safe', (
   const config = read('next.config.mjs');
   const thanks = read('app/thank-you/page.tsx');
   const pagination = read('app/blog/page/[page]/page.tsx');
-  assert.match(css, /@media\(max-width:600px\)\{[\s\S]*?\.header-parent-brand\{display:flex/);
+  assert.match(css, /@media\(max-width:850px\)\{[^}]*[\s\S]*?\.cco-hero-rework \.cco-hero-grid\{grid-template-columns:1fr\}/);
+  assert.match(css, /@media\(max-width:600px\)\{[\s\S]*?\.header-parent-brand\{[^}]*white-space:nowrap/);
   assert.match(config, /source: '\/blog\/page\/1', destination: '\/blog'/);
   assert.match(thanks, /alternates: \{ canonical: 'https:\/\/callcenteroffshore\.com\/thank-you' \}/);
   assert.doesNotMatch(pagination, /page: String\(index \+ 1\)/);

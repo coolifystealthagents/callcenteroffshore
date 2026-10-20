@@ -40,12 +40,15 @@ export function HeaderClient({ brand }: { brand: string }) {
     <a className="skip-link" href="#main-content">Skip to main content</a>
     <header className="nav">
       <div className="nav-inner">
-        <a className="logo" href="/" aria-label={`${brand} home`}>
-          <span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg?v=20261019" alt="" width="43" height="43" /><span className="logo-name">{brand}</span></span>
-        </a>
-        <a className="header-parent-brand" href="https://stealthagents.com/" aria-label="Powered by StealthAgents">
-          <span>Powered by StealthAgents</span><img src="/images/stealth-agents-logo-black.png" alt="" width="149" height="50" />
-        </a>
+        <div className="header-brand-lockup">
+          <a className="header-brand-mark" href="/" aria-label={`${brand} home`}>
+            <img className="logo-img" src="/logo.svg?v=20261019" alt="" width="43" height="43" />
+          </a>
+          <div className="header-brand-copy">
+            <a className="logo-name" href="/">{brand}</a>
+            <a className="header-parent-brand" href="https://stealthagents.com/" aria-label="Powered by StealthAgents">Powered by <strong>StealthAgents</strong></a>
+          </div>
+        </div>
         <button ref={buttonRef} className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen(value => !value)}>
           <span aria-hidden="true">{open ? 'Close' : 'Menu'}</span><span className="sa-sr-only">Toggle navigation</span>
         </button>
