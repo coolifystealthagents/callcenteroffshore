@@ -8,7 +8,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-callback-timezone-confirmation.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-callback-timezone-confirmation.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -24,7 +24,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/offshore-call-center-shared-device-signout.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/offshore-call-center-shared-device-signout.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -40,7 +40,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-address-change-readback.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-address-change-readback.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -56,7 +56,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/offshore-call-center-translation-quality-escalation.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/offshore-call-center-translation-quality-escalation.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -72,7 +72,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-refund-status-without-promising.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-refund-status-without-promising.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -88,7 +88,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/offshore-call-center-knowledge-search-miss-routing.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/offshore-call-center-knowledge-search-miss-routing.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -104,7 +104,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-call-recording-pause-resume-proof.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-call-recording-pause-resume-proof.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -120,7 +120,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-abandoned-cart-outreach-permission.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-abandoned-cart-outreach-permission.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -136,7 +136,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/offshore-call-center-disposition-code-correction.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/offshore-call-center-disposition-code-correction.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -152,7 +152,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-authentication-lockout-handoff.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-authentication-lockout-handoff.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -168,7 +168,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/offshore-call-center-emergency-message-versioning.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/offshore-call-center-emergency-message-versioning.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",
@@ -184,7 +184,7 @@ export const october9BlogPosts=[
     "published": "2026-10-09",
     "modified": "2026-10-09",
     "minutes": 12,
-    "draftPath": "docs/publishing/drafts/2026-10-09/call-center-after-call-work-backlog.md",
+    "draftPath": "docs/publishing/drafts/2026-10-08/call-center-after-call-work-backlog.md",
     "contextualService": {
       "text": "Plan this workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related Call Center Offshore service",

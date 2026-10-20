@@ -192,7 +192,7 @@ export let researchPosts: readonly ResearchPost[] = [
       { value: '$8.83 billion', label: 'Philippine ICT service exports in 2025', note: 'World Bank balance-of-payments series, rounded from the reported current-dollar value.', source: 3 },
       { value: '$51.49 billion', label: 'Philippine service exports in 2025', note: 'World Bank balance-of-payments series, used as a broad comparison base.', source: 4 },
       { value: '17.1%', label: 'ICT exports as a share of service exports', note: 'Our calculation from the two 2025 World Bank series; this is not a call center market-share figure.', source: 3 },
-      { value: '60–70%', label: 'IBPAP member staff working on-site', note: 'IBPAP says this was the common member setup as of July 2023, with 30–40% working remotely.', source: 2 },
+      { value: '60-70%', label: 'IBPAP member staff working on-site', note: 'IBPAP says this was the common member setup as of July 2023, with 30-40% working remotely.', source: 2 },
     ],
     sections: [
       {
@@ -222,7 +222,7 @@ export let researchPosts: readonly ResearchPost[] = [
       {
         heading: 'Hybrid delivery changes the control questions',
         paragraphs: [
-          { text: 'IBPAP says that, as of July 2023, most member companies had 60–70% of employees on-site and 30–40% working remotely. That mix means a buyer should learn where the assigned team will work, who can approve a location change, and what happens when power or internet fails.', citations: [2] },
+          { text: 'IBPAP says that, as of July 2023, most member companies had 60-70% of employees on-site and 30-40% working remotely. That mix means a buyer should learn where the assigned team will work, who can approve a location change, and what happens when power or internet fails.', citations: [2] },
           { text: 'Philippine law allows telecommuting as an alternative private-sector work arrangement and places data-protection duties on the employer. The law also says the employer must inform telecommuting staff about relevant laws and company rules, while workers must protect confidential and proprietary information.', citations: [6] },
           { text: 'Ask for separate answers for office and home delivery. The plan should name the approved device, headset, network, backup connection, screen privacy rule, call-recording path, incident contact, and the time allowed to move work to a backup person or site.' },
         ],
@@ -261,7 +261,7 @@ export let researchPosts: readonly ResearchPost[] = [
         ['$40 billion IT-BPM revenue', 'An established export-service industry', 'Your provider\'s stability or quality', 'Review current operations, references, and continuity plan'],
         ['$8.83 billion ICT exports', 'A meaningful digital-service export base', 'Call center revenue or savings', 'Ask for the provider\'s channel and client mix'],
         ['English support across the industry', 'Broad English service availability', 'An individual agent\'s call skill', 'Run one scored, recorded role-play'],
-        ['60–70% on-site member staffing', 'Office delivery remains common', 'Where your assigned team will work', 'Write the approved location and backup rule into the plan'],
+        ['60-70% on-site member staffing', 'Office delivery remains common', 'Where your assigned team will work', 'Write the approved location and backup rule into the plan'],
         ['Philippine privacy and telework laws', 'A local legal base for data and remote work', 'Your own foreign-law compliance', 'Map each system, data field, action, and accountable owner'],
       ],
     },
@@ -703,4 +703,5 @@ researchPosts = [...researchPosts.filter(post => !rejectedAugust13Slugs.has(post
 // Keep the family index newest-first after all scheduled batches are assembled.
 researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21CallbackOwnership, ...august21LanguageComprehension, ...august21ChannelContinuity, ...august21KnowledgeVersion, ...august21ReviewerAgreement, ...september2ResearchBatch, ...september3ResearchBatch, ...september4ResearchBatch, ...september7ResearchBatch, ...september8ResearchBatch, ...september9ResearchBatch, ...september10ResearchBatch, ...september18ResearchBatch, ...september22ResearchBatch, ...september23ResearchBatch, ...september24ResearchBatch, ...september25ResearchBatch, ...september28ResearchBatch, ...october2ResearchBatch, ...october5ResearchBatch, ...october8ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
 researchPosts = [...researchPosts, ...august14ResearchBatch, ...august17ResearchBatch, ...august18ResearchBatch, ...august19FinalResearchBatch, ...august20ResearchBatch, ...august20ResearchKnowledge, ...august20ResearchEscalation, ...august20ResearchTransfer, ...august20ResearchContinuity, ...august21CallbackOwnership, ...august21LanguageComprehension, ...august21ChannelContinuity, ...august21KnowledgeVersion, ...august21ReviewerAgreement, ...september2ResearchBatch, ...september3ResearchBatch, ...september4ResearchBatch, ...september7ResearchBatch, ...september8ResearchBatch, ...september9ResearchBatch, ...september10ResearchBatch, ...september18ResearchBatch, ...september22ResearchBatch, ...september23ResearchBatch, ...september24ResearchBatch, ...september25ResearchBatch, ...september28ResearchBatch, ...october2ResearchBatch, ...october5ResearchBatch, ...october9ResearchBatch, ...october12ResearchBatch, ...october13ResearchBatch].slice().sort((a, b) => (b.published ?? '').localeCompare(a.published ?? '') || a.slug.localeCompare(b.slug));
+researchPosts = Array.from(new Map(researchPosts.filter(post => post.published !== '2026-10-08').map(post => [post.slug, post])).values());
 export const postsPerPage = 20;

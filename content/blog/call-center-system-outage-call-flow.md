@@ -16,7 +16,7 @@ System outages are an uncomfortable reality in the technology-driven landscape o
 
 The first moments of a system outage are often characterized by uncertainty. For an offshore team, where agents might be geographically dispersed and interacting with varied client systems, detecting and confirming an outage requires a disciplined approach. It’s critical to empower frontline staff to act decisively without overstepping their immediate scope.
 
-**Practical Decisions:** An outage is typically first identified by an agent unable to perform a core task – unable to log into the Customer Relationship Management (CRM) system, retrieve customer details, process a transaction, or access critical knowledge bases. The immediate practical decision for an agent is *not* to engage in self-troubleshooting beyond a basic check (e.g., confirming network connectivity) but to swiftly alert their designated supervisor or team lead.
+**Practical Decisions:** An outage is typically first identified by an agent unable to perform a core task  -  unable to log into the Customer Relationship Management (CRM) system, retrieve customer details, process a transaction, or access critical knowledge bases. The immediate practical decision for an agent is *not* to engage in self-troubleshooting beyond a basic check (e.g., confirming network connectivity) but to swiftly alert their designated supervisor or team lead.
 
 **Role Boundaries:** The frontline agent's primary responsibility is verification of symptoms, not diagnosis of root cause. They should confirm the inability to perform specific tasks and identify if the issue is isolated to their station or appears more widespread. Their role is to notify. The supervisor or team lead then assumes the responsibility of cross-referencing with other agents, checking internal status dashboards (if these systems are independent of the outage), and initiating formal communication with IT support or network operations. This prevents multiple individual reports from flooding technical teams and allows for a consolidated assessment of the outage's scope.
 
@@ -103,7 +103,7 @@ Developing and implementing an effective outage call flow is not a one-time proj
     *   Ensure all roles and responsibilities are explicitly defined for each stage of an outage.
 
 2.  **Phase 2: Training & Drills:**
-    *   Conduct mandatory, comprehensive training for all staff – from frontline agents to senior managers – on the outage protocol.
+    *   Conduct mandatory, comprehensive training for all staff  -  from frontline agents to senior managers  -  on the outage protocol.
     *   Regularly schedule simulated outage drills. These "fire drills" help identify gaps in the protocol, test communication channels, and build muscle memory under pressure. They are especially effective in multi-site offshore environments to test cross-location coordination.
 
 3.  **Phase 3: Tooling & Backup Infrastructure:**

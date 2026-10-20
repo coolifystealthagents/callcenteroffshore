@@ -10,7 +10,7 @@ const sources:ResearchPost['sources']=[
  {name:'CFPB: Your company’s role in the complaint process',url:'https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/',note:'Official Consumer Financial Protection Bureau description of company review and response steps; checked September 22, 2026. Used as a bounded comparison for complaint ownership, not as a universal complaint-handling standard.',kind:'Global comparison'},
  {name:'Republic Act No. 10173: Data Privacy Act of 2012',url:'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html',note:'Official Philippine statutory text; checked September 22, 2026. Used as Philippines privacy and accountability context, not legal advice.',kind:'Philippines'},
  {name:'National Privacy Commission: Data Privacy Act resources',url:'https://privacy.gov.ph/data-privacy-act/',note:'Official Philippine regulator resource; checked September 22, 2026. Used for accountability and personal-data handling context.',kind:'Philippines'},
- {name:'ISO 18295-1:2017 — Customer contact centres',url:'https://www.iso.org/standard/64739.html',note:'Official ISO standard overview; checked September 22, 2026. Used only as a contact-centre requirements comparison; the full standard was not reviewed for this report.',kind:'Global comparison'},
+ {name:'ISO 18295-1:2017  -  Customer contact centres',url:'https://www.iso.org/standard/64739.html',note:'Official ISO standard overview; checked September 22, 2026. Used only as a contact-centre requirements comparison; the full standard was not reviewed for this report.',kind:'Global comparison'},
 ];
 
 const topics:readonly DecisionResearchTopic[]=[

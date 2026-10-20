@@ -66,7 +66,7 @@ Even the most well-designed prioritization system can falter without robust cont
 
 ## Continuous Improvement and the Evolving Queue
 
-Backlog management is not a static process; it's a dynamic and continuous improvement cycle. The factors influencing priority—service offerings, customer demographics, regulatory changes, or seasonal demand shifts—are constantly evolving. Therefore, the prioritization criteria must also adapt.
+Backlog management is not a static process; it's a dynamic and continuous improvement cycle. The factors influencing priority - service offerings, customer demographics, regulatory changes, or seasonal demand shifts - are constantly evolving. Therefore, the prioritization criteria must also adapt.
 
 Regular review meetings (e.g., weekly or bi-weekly) involving supervisors, team leads, and QA are essential to:
 

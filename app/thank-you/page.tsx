@@ -15,14 +15,14 @@ export default function ThankYouPage() {
       <main className="sa-booking-page">
         <div className="container sa-booking-grid">
           <div className="sa-booking-left">
-            <p className="sa-booking-kicker">You’re one step away.</p>
-            <h1>Step 2 - Book A Meeting</h1>
-            <p className="sa-booking-lead">No commitment. No risk. Just expert guidance.</p>
+            <p className="sa-booking-kicker">Your support brief was received.</p>
+            <h1>Choose a time for the staffing conversation.</h1>
+            <p className="sa-booking-lead">Use the official StealthAgents scheduler. A time is not reserved until OnceHub shows a successful confirmation.</p>
             <img className="sa-booking-image" src="/thank-you-hero.png" alt="Stealth Agents team ready to help" width="619" height="402" />
             <TestimonialsRail />
           </div>
           <section className="sa-booking-calendar" aria-labelledby="booking-calendar-title">
-            <h2 id="booking-calendar-title">Pick a Time That Works for You</h2>
+            <h2 id="booking-calendar-title">Pick a time that works for you</h2>
             <iframe
               src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1"
               id="SOI_StealthAgentsTeam"
@@ -35,6 +35,7 @@ export default function ThankYouPage() {
               className="sa-oncehub-frame"
               referrerPolicy="strict-origin-when-cross-origin"
             />
+            <p className="sa-booking-next">After OnceHub confirms your meeting, continue to <a href="/thanks-whats-next">consultation preparation</a>.</p>
           </section>
         </div>
       </main>

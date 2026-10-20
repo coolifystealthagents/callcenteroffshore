@@ -2,7 +2,7 @@ import type {ResearchPost} from './fleet-data';
 const sources:ResearchPost['sources']=[
  {name:'NIST Cybersecurity Framework 2.0',url:'https://www.nist.gov/cyberframework',note:'Primary governance, protection, response, and recovery framework.',kind:'Global comparison'},
  {name:'NIST Privacy Framework',url:'https://www.nist.gov/privacy-framework',note:'Primary framework for privacy risk and data-processing outcomes.',kind:'Global comparison'},
- {name:'Republic Act No. 10173 — Data Privacy Act of 2012',url:'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html',note:'Official Philippine statutory text used for context, not legal advice.',kind:'Philippines'},
+ {name:'Republic Act No. 10173  -  Data Privacy Act of 2012',url:'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html',note:'Official Philippine statutory text used for context, not legal advice.',kind:'Philippines'},
  {name:'National Privacy Commission Philippines',url:'https://privacy.gov.ph/',note:'Official regulator resources on privacy accountability.',kind:'Philippines'},
  {name:'ISO 18295-1:2017 overview',url:'https://www.iso.org/standard/64739.html',note:'International contact-centre requirements used as a comparison point.',kind:'Global comparison'},
 ];

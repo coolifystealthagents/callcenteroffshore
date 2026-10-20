@@ -19,6 +19,8 @@ function displayDate(value: string) {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const dated21 = (aug21Meta as Record<string, {title:string;description:string;hero:string}>)[slug];
+  if (dated21) { const canonical=`https://callcenteroffshore.com/blog/${slug}`; return { title: dated21.title, description: dated21.description, alternates: { canonical }, openGraph: { title: dated21.title, description: dated21.description, url: canonical, type: 'article', images: [{ url: `https://callcenteroffshore.com${dated21.hero}`, width: 1536, height: 1024, alt: dated21.title }] } }; }
   const dated = (aug23Meta as Record<string, {title:string;description:string;hero:string}>)[slug];
   if (dated) { const canonical=`https://callcenteroffshore.com/blog/${slug}`; return { title: dated.title, description: dated.description, alternates: { canonical }, openGraph: { title: dated.title, description: dated.description, url: canonical, type: 'article', images: [{ url: `https://callcenteroffshore.com${dated.hero}`, width: 1536, height: 1024, alt: dated.title }] } }; }
   const p = blogPosts.find(x => x.slug === slug);

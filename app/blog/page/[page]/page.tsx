@@ -1,10 +1,30 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { Header, Footer } from "../../../components";
 import { blogPosts, site } from "../../../data";
 import { postsPerPage } from "../../../fleet-data";
 import { FeaturedComparison } from "../../FeaturedComparison";
+import aug20Meta from "../../../aug20-meta.json";
+import aug21Meta from "../../../aug21-meta.json";
+import aug23Meta from "../../../aug23-meta.json";
+
+const allPosts = [
+  ...blogPosts,
+  ...Object.entries(aug23Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
+  ...Object.entries(aug21Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
+  ...Object.entries(aug20Meta).map(([slug, p]) => ({ slug, title: p.title, excerpt: p.description })),
+];
+
+export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
+  const { page } = await params;
+  return {
+    title: `Virtual assistant and outsourcing guides, page ${page}`,
+    description: `Practical Call Center Offshore staffing and operations guides, page ${page}.`,
+    alternates: { canonical: `https://callcenteroffshore.com/blog/page/${page}` },
+  };
+}
 export function generateStaticParams() {
-  const pages = Math.max(1, Math.ceil(blogPosts.length / postsPerPage));
+  const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
   return Array.from({ length: pages }, (_, index) => ({
     page: String(index + 1),
   }));
@@ -16,9 +36,9 @@ export default async function BlogPage({
 }) {
   const { page } = await params;
   const current = Number(page);
-  const pages = Math.max(1, Math.ceil(blogPosts.length / postsPerPage));
+  const pages = Math.max(1, Math.ceil(allPosts.length / postsPerPage));
   if (!Number.isInteger(current) || current < 1 || current > pages) notFound();
-  const posts = blogPosts.slice(
+  const posts = allPosts.slice(
     (current - 1) * postsPerPage,
     current * postsPerPage,
   );
@@ -49,13 +69,13 @@ export default async function BlogPage({
         <section className="blog-index">
           <div className="container">
             <div className="blog-grid-new">
-              {posts.map((post, index) => (
+              {posts.map((post) => (
                 <a
                   className="blog-card-new"
                   href={`/blog/${post.slug}`}
                   key={post.slug}
                 >
-                  <span>GUIDE / {String(index + 1).padStart(2, "0")}</span>
+                  <span>Call center operations guide</span>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>
                   <b>Read article ↗</b>

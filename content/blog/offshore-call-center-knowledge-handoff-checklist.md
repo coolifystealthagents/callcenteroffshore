@@ -34,7 +34,7 @@ Representatives should be able to flag an urgent risk, but they should not inven
 
 Review a small sample of handoffs each week for four questions: could the next owner identify the request, was verification recorded without excess detail, was the next action explicit, and did the receiving owner acknowledge it? Track failures by field and queue rather than treating every miss as individual carelessness. A recurring blank field may indicate an awkward tool, an unclear script, or a policy that has not been translated into the workflow.
 
-The strongest checklist is one that becomes easier to use as the operation learns. Remove fields that nobody uses, add examples for ambiguous decisions, and revise the escalation boundary when a new request type appears. Keep the published version dated and make the effective version visible to every shift. That creates a stable operating routine: the customer’s context travels with the work, the next representative can act without reconstructing the call, and managers can see where the process—not the person—needs repair.
+The strongest checklist is one that becomes easier to use as the operation learns. Remove fields that nobody uses, add examples for ambiguous decisions, and revise the escalation boundary when a new request type appears. Keep the published version dated and make the effective version visible to every shift. That creates a stable operating routine: the customer’s context travels with the work, the next representative can act without reconstructing the call, and managers can see where the process - not the person - needs repair.
 
 ## Beyond First Contact Resolution: Why Reopening Matters in Offshore Queues
 
@@ -47,7 +47,7 @@ When a customer contacts the call center again regarding an issue they believe w
 *   **Lost Context:** Subsequent agents lack immediate access to the full history of the specific problem, leading to inefficient troubleshooting.
 *   **Hides Root Causes:** Systemic issues, product flaws, or process gaps go undetected when repeat problems are not linked.
 
-For offshore operations, where agents might be handling geographically dispersed customer bases with varying expectations and complex product lines, a clear reopen policy is not just beneficial—it's essential for maintaining service quality and operational transparency. It acknowledges the nuanced nature of customer support and prioritizes the customer's end-to-end journey over isolated interaction metrics.
+For offshore operations, where agents might be handling geographically dispersed customer bases with varying expectations and complex product lines, a clear reopen policy is not just beneficial - it's essential for maintaining service quality and operational transparency. It acknowledges the nuanced nature of customer support and prioritizes the customer's end-to-end journey over isolated interaction metrics.
 
 ## Defining the Reopen Threshold: Customer-Centric Triggers for a Second Look
 

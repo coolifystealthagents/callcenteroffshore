@@ -1,39 +1,40 @@
-import type { Metadata } from "next";
-import { Footer, Header } from "../components";
-import StandardContactForm from "./StandardContactForm";
-
+import type { Metadata } from 'next';
+import { Footer, Header, CTA } from '../components';
+import { TestimonialsRail } from '../booking-components';
+import StandardContactForm from './StandardContactForm';
 
 export const metadata: Metadata = {
-  title: "Contact Us | Offshore Call Center Support",
-  description: "Talk with a staffing specialist about offshore call center coverage, customer care, QA, and a practical launch plan.",
-  alternates: { canonical: "/contact-us" },
+  title: 'Contact Us for Offshore Call Center Support',
+  description: 'Share your queue, schedule, systems, and quality needs with the Philippines staffing team behind Call Center Offshore.',
+  alternates: { canonical: '/contact-us' },
   robots: { index: true, follow: true },
 };
 
-
-const booking = "https://go.oncehub.com/StealthAgentsTeam";
-
-
 export default function ContactUsPage() {
-  return <><Header/><main className="contact-page">
-    <section className="contact-hero"><div className="contact-orbit" aria-hidden="true"/><div className="contact-shell contact-hero-grid">
-      <div className="contact-copy"><p className="contact-kicker">A clearer path to reliable coverage</p><h1>Build offshore call center support around every customer moment.</h1><p className="contact-lead">Tell us where queues, callbacks, or quality checks are straining your team. We’ll help shape the work into clear coverage, practical workflows, and a confident launch plan.</p><div className="contact-trust"><span>35+ industries supported</span><span>Philippines-based talent</span><span>Structured matching</span></div><a className="contact-book" href={booking}>Book a discovery call <span>→</span></a></div>
-      <div className="contact-form"><StandardContactForm endpoint="/api/contact" encoding="form" /></div>
-    </div></section>
-    <section className="contact-section contact-intro"><div className="contact-shell"><p className="contact-kicker dark">Choose support with context</p><h2>What would make your next hire a better fit?</h2><div className="contact-cards">
-      <article><b>01</b><h3>Inbound customer care</h3><p>Plan dependable queue coverage, triage, escalation, and clear case ownership.</p></article><article><b>02</b><h3>Outbound calling</h3><p>Support callbacks, qualification, follow-up, and documented disposition workflows.</p></article><article><b>03</b><h3>Quality assurance</h3><p>Define scorecards, coaching loops, sampling, and evidence-based review cadences.</p></article><article><b>04</b><h3>Omnichannel support</h3><p>Coordinate voice, chat, email, and helpdesk handoffs without losing context.</p></article>
-    </div></div></section>
-    <section className="contact-section contact-proof"><div className="contact-shell"><div className="contact-heading"><div><p className="contact-kicker dark">Trusted by busy teams</p><h2>Support that feels like part of your operation.</h2></div><a href={booking}>Discuss your role →</a></div><div className="contact-quotes">
-      <blockquote><span>★★★★★</span><p>“Lindsay has been incredible. She handles the tactical work, which has freed me up to focus on bigger-picture initiatives.”</p><cite>— Chad Sublet</cite></blockquote><blockquote><span>★★★★★</span><p>“They have made a real difference in our day-to-day operations and truly feel like part of our internal team.”</p><cite>— Alex Behrens</cite></blockquote><blockquote><span>★★★★★</span><p>“Stealth Agents provided me with a fantastic virtual assistant who has been an absolute asset.”</p><cite>— Lee Maasen</cite></blockquote>
-    </div></div></section>
-    <section className="contact-section contact-capabilities"><div className="contact-shell contact-cap-grid"><div><p className="contact-kicker">Built for a useful first call</p><h2>Bring the messy list. Leave with a clearer plan.</h2><p>We’ll focus on the work, the systems it touches, and the result you need—not a generic job description.</p><a className="contact-book light" href={booking}>Book a free consultation →</a></div><ul><li>Role and workload discovery</li><li>Experience and skill alignment</li><li>Coverage and schedule planning</li><li>Communication expectations</li><li>Onboarding priorities</li><li>Clear next-step recommendations</li></ul></div></section>
-    <section className="contact-section contact-why"><div className="contact-shell contact-why-grid"><figure><img src="/illustrations/getillustrations/communication-illustrations-pack-svg/philippines-support-team.webp" alt="Philippines-based offshore call center support team" width="1200" height="800"/></figure><div><p className="contact-kicker dark">Why teams start here</p><h2>Reliable coverage starts with better questions.</h2><p>A strong call center program depends on queue patterns, escalation rules, systems, and quality expectations. Our conversation uncovers those details early, so the staffing plan is grounded in measurable service outcomes.</p><div className="contact-stat"><strong>35+</strong><span>industries supported with role-specific context</span></div></div></div></section>
-    <section className="contact-about"><div className="contact-shell contact-about-grid"><div><p className="contact-kicker">The team behind the conversation</p><h2>About Stealth Agents</h2></div><div><p>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><a href="https://stealthagents.com/">Powered by StealthAgents</a></div></div></section>
-    <section className="contact-close"><div className="contact-shell"><p>Ready when you are</p><h2>Let’s turn your support demand into reliable coverage.</h2><a href={booking}>Book a free consultation</a></div></section>
-  </main><Footer/><style>{`
-    .contact-page{--navy:#061b3c;--blue:#0d64d8;--gold:#f6c85f;--soft:#f4f7fb;color:#17243a;overflow:hidden}.contact-shell{width:min(1180px,calc(100% - 40px));margin:auto}.contact-hero{position:relative;padding:64px 0 74px;background:linear-gradient(135deg,#04132e,#073b78 70%,#0965a7);color:#fff}.contact-orbit{position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.15);border-radius:50%;left:-220px;top:-260px;box-shadow:0 0 0 70px rgba(255,255,255,.025),0 0 0 140px rgba(255,255,255,.018)}.contact-hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(520px,1.1fr);gap:62px;align-items:start}.contact-copy{padding-top:28px}.contact-kicker{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:800;color:#8fd8ff}.contact-kicker.dark{color:#0d64d8}.contact-copy h1{font-family:Georgia,serif;font-size:clamp(47px,5.3vw,72px);line-height:.98;letter-spacing:-.045em;margin:0 0 25px}.contact-lead{max-width:630px;font-size:18px;line-height:1.65;color:#d8e8fa}.contact-trust{display:flex;gap:9px;flex-wrap:wrap;margin:28px 0}.contact-trust span{padding:9px 12px;border:1px solid rgba(255,255,255,.25);border-radius:999px;font-size:12px;font-weight:750}.contact-book{display:inline-flex;align-items:center;gap:16px;padding:16px 20px;background:var(--gold);color:#102447;border-radius:8px;font-weight:850}.contact-book.light{background:#fff;margin-top:22px}.contact-form{min-width:0}.contact-form .sa-form-card{padding:27px 30px 32px!important}.contact-form .sa-form-card h2{font-size:24px!important;margin-bottom:19px!important}.contact-form .sa-form-card form{gap:14px!important}.contact-form .sa-form-card label{font-size:14px!important;gap:5px!important}.contact-form .sa-form-card input,.contact-form .sa-form-card select,.contact-form .sa-form-card textarea{min-height:45px!important;padding:10px 12px!important;font-size:14px!important}.contact-form .sa-form-card textarea{min-height:75px!important}.contact-form .sa-form-card button{padding:14px!important;font-size:16px!important}.contact-section{padding:94px 0}.conta
-    @media(max-width:900px){.contact-hero-grid{grid-template-columns:1fr}.contact-form{order:-1}.contact-copy{padding-top:0}.contact-cards{grid-template-columns:1fr 1fr}.contact-quotes{grid-template-columns:1fr}.contact-cap-grid,.contact-why-grid,.contact-about-grid{grid-template-columns:1fr}.contact-cap-grid{gap:38px}}
-    @media(max-width:600px){.contact-shell{width:min(100% - 28px,1180px)}.contact-hero{padding:16px 0 54px}.contact-hero-grid{gap:42px}.contact-form .sa-form-card{padding:20px 16px 24px!important}.contact-form .sa-form-card h2{font-size:20px!important}.contact-copy h1{font-size:43px}.contact-section{padding:66px 0}.contact-cards{grid-template-columns:1fr}.contact-cards article{min-height:0}.contact-cards h3{margin-top:24px}.contact-heading{display:block}.contact-heading>a{display:inline-block;margin-top:18px}.contact-cap-grid ul{grid-template-columns:1fr}.contact-why img{height:320px}.contact-about{padding:58px 0}.contact-close{padding:66px 0}}
-  `}</style></>;
-}
+  return <><Header /><main className="v3-contact-page">
+    <section className="v3-contact-fold">
+      <div className="container v3-contact-grid">
+        <div className="v3-contact-copy">
+          <p className="cco-kicker"><span /> Start with the queue</p>
+          <h1>Plan offshore call center support around the work customers actually need.</h1>
+          <p className="lead">Tell us the call types, channels, hours, systems, and decisions involved. We will use the brief to prepare a focused staffing conversation.</p>
+          <div className="v3-scope" aria-label="Planning scope"><span>Philippines-based talent</span><span>Clear escalation ownership</span><span>Controlled first launch</span></div>
+          <TestimonialsRail contact />
+        </div>
+        <div className="v3-contact-form"><StandardContactForm endpoint="/api/contact" encoding="form" /></div>
+      </div>
+    </section>
 
+    <section className="v3-parent-proof" aria-labelledby="parent-team-heading">
+      <div className="container v3-parent-grid">
+        <figure><img src="/images/stealth-agents-team.webp" alt="StealthAgents team in the Bacolod office" width="1600" height="1067" /></figure>
+        <div><p className="cco-kicker cco-dark"><span /> The operating team behind your request</p><h2 id="parent-team-heading">Call Center Offshore is powered by StealthAgents.</h2><p>StealthAgents supports the recruiting, matching, onboarding coordination, and managed operations behind inquiries from this site. Your brief helps the team understand the queue before discussing a role or staffing structure.</p><p>The subsidiary remains focused on offshore call center work. StealthAgents provides the people and operating support used to move a qualified request forward.</p><div className="v3-team-plate"><img src="/images/stealth-agents-logo-black.png" alt="StealthAgents" width="149" height="50" /><strong>Official team, Bacolod</strong></div></div>
+      </div>
+    </section>
+
+    <section className="v3-contact-guide"><div className="container"><div className="cco-heading-row"><div><h2>What happens after you submit?</h2></div><p>This is the first step in a three-part conversion journey. The form captures the operating brief before scheduling begins.</p></div><div className="v3-journey"><article><h3>We review the brief</h3><p>The team checks the role, schedule, systems, volume, and decisions that must remain with your managers.</p></article><article><h3>You choose a meeting time</h3><p>After a successful submission, the thank-you page provides the official StealthAgents OnceHub scheduler.</p></article><article><h3>You prepare one real workflow</h3><p>Once a booking is confirmed, bring an example, access boundaries, quality expectations, and escalation owners.</p></article></div></div></section>
+
+    <section className="v3-contact-guide v3-contact-dark"><div className="container v3-parent-grid"><div><h2>A useful brief is specific.</h2><p>Bring the customer request, the answer source, the actions an agent may take, and the point where a manager must decide. These details are more useful than a broad job title.</p></div><ul><li>Channels and coverage windows</li><li>Typical and high-risk request types</li><li>Systems, permissions, and identity checks</li><li>Escalation and callback ownership</li><li>Quality samples and reporting rhythm</li></ul></div></section>
+    <CTA title="Prefer to review the options first?" text="Explore the service system, then return with the queue or workflow you want to scope." />
+  </main><Footer /></>;
+}

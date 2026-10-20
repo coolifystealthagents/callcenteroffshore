@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import { Header, Footer, JsonLd, VisualFigure } from './components';
+
+export const metadata: Metadata = {
+  title: 'Call Center Offshore | Philippines Virtual Assistants',
+  description: 'Build a Philippines-based call center and virtual assistant team with clear role scopes, operating controls, and launch support.',
+  alternates: { canonical: 'https://callcenteroffshore.com/' },
+};
 
 const roles = [
   { title: 'Executive assistants', text: 'Protect the calendar, prepare meetings, organize the inbox, and keep commitments visible.', image: '/visuals/role-executive-assistant.svg', href: '/services/appointment-scheduling' },
@@ -8,11 +15,11 @@ const roles = [
 ];
 
 const launch = [
-  ['01', 'Show us the work', 'Share the tasks, tools, hours, examples, and decisions that should stay with you.'],
-  ['02', 'Meet matched talent', 'Review Philippines-based candidates against the actual role, not a generic job title.'],
-  ['03', 'Build the playbook', 'Turn good examples into access rules, checklists, handoffs, and quality checks.'],
-  ['04', 'Start with one lane', 'Launch a controlled set of work, review it closely, and fix gaps early.'],
-  ['05', 'Grow with proof', 'Add duties or team members only after the workflow is steady and visible.'],
+  ['Show us the work', 'Share the tasks, tools, hours, examples, and decisions that should stay with you.'],
+  ['Meet matched talent', 'Review Philippines-based candidates against the actual role, not a generic job title.'],
+  ['Build the playbook', 'Turn good examples into access rules, checklists, handoffs, and quality checks.'],
+  ['Start with one lane', 'Launch a controlled set of work, review it closely, and fix gaps early.'],
+  ['Grow with proof', 'Add duties or team members only after the workflow is steady and visible.'],
 ];
 
 const comparison = [
@@ -54,14 +61,14 @@ export default function Home() {
 
       <section className="cco-section cco-story">
         <div className="container cco-split">
-          <div><p className="cco-kicker cco-dark"><span /> More than extra hands</p><h2>Turn a busy list into owned work.</h2><p className="cco-section-lead">A good assistant does not just wait for tasks. They learn the rhythm, keep the queue clean, and make sure the right person sees each exception.</p><div className="cco-mini-metrics"><div><b>01</b><span>Clear owner</span></div><div><b>02</b><span>Clear next step</span></div><div><b>03</b><span>Clear review</span></div></div></div>
+          <div><p className="cco-kicker cco-dark"><span /> More than extra hands</p><h2>Turn a busy list into owned work.</h2><p className="cco-section-lead">A good assistant does not just wait for tasks. They learn the rhythm, keep the queue clean, and make sure the right person sees each exception.</p><div className="cco-mini-metrics"><div><b>Ownership</b><span>One clear owner</span></div><div><b>Handoff</b><span>One clear next step</span></div><div><b>Review</b><span>One clear quality check</span></div></div></div>
           <VisualFigure src="/illustrations/getillustrations/inkdex-team-illustrations-svg/managed-team-workflow.svg" alt="Managed team work loop" caption="A simple work loop: receive, organize, approve, complete." className="cco-supporting-art" />
         </div>
       </section>
 
       <section className="cco-section cco-role-section" id="roles">
         <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Choose your support lane</p><h2>Start with the role that removes the biggest bottleneck.</h2></div><p>Your first role should own repeatable work with clear inputs and a visible finish line. Add more only when the first lane runs well.</p></div>
-          <div className="cco-role-grid">{roles.map((role, index) => <a className="cco-role-card" href={role.href} key={role.title}><img src={role.image} alt={`Filipina professional working as a ${role.title.toLowerCase()}`} loading="lazy" /><div><span>0{index + 1}</span><h3>{role.title}</h3><p>{role.text}</p><b>Explore this role ↗</b></div></a>)}</div>
+          <div className="cco-role-grid">{roles.map((role) => <a className="cco-role-card" href={role.href} key={role.title}><img src={role.image} alt={`Filipina professional working as a ${role.title.toLowerCase()}`} loading="lazy" /><div><h3>{role.title}</h3><p>{role.text}</p><b>Explore this role ↗</b></div></a>)}</div>
         </div>
       </section>
 
@@ -74,18 +81,18 @@ export default function Home() {
 
       <section className="cco-section cco-comparison-section">
         <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Compare the setup</p><h2>Pick the support model you can manage well.</h2></div><p>No model is right for every job. The better choice is the one that matches your task volume, management time, need for backup, and quality risk.</p></div>
-          <div className="cco-comparison-layout"><VisualFigure src="/visuals/managed-team-comparison.svg" alt="Visual comparison of freelancer, direct hire, and managed Philippines team models" /><div className="cco-compare-list">{comparison.map(([name, support, fit], index) => <article className={index === 2 ? 'recommended' : ''} key={name}><span>0{index + 1}</span><div><h3>{name}</h3><p>{support}</p><small>{fit}</small></div></article>)}</div></div>
+          <div className="cco-comparison-layout"><VisualFigure src="/visuals/managed-team-comparison.svg" alt="Visual comparison of freelancer, direct hire, and managed Philippines team models" /><div className="cco-compare-list">{comparison.map(([name, support, fit], index) => <article className={index === 2 ? 'recommended' : ''} key={name}><div><h3>{name}</h3><p>{support}</p><small>{fit}</small></div></article>)}</div></div>
         </div>
       </section>
 
       <section className="cco-section cco-launch">
         <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> A safer launch</p><h2>From role brief to reliable support.</h2></div><p>A controlled first month makes weak instructions, access gaps, and hiring mismatch easier to spot before the role gets bigger.</p></div>
           <VisualFigure src="/visuals/launch-roadmap.svg" alt="Five-stage roadmap for launching a Philippines virtual assistant" className="cco-wide-visual" />
-          <div className="cco-launch-grid cco-launch-five">{launch.map(([num, title, body]) => <article key={num}><span>{num}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
+          <div className="cco-launch-grid cco-launch-five">{launch.map(([title, body]) => <article key={title}><h3>{title}</h3><p>{body}</p></article>)}</div>
         </div>
       </section>
 
-      <section className="cco-dark-feature"><div className="container cco-split reverse"><div><p className="cco-kicker"><span /> Visibility without micromanaging</p><h2>See the work without living in every task.</h2><p className="cco-section-lead">A useful dashboard does not need dozens of vanity numbers. Start with open work, overdue items, quality misses, escalations, and the next owner.</p><div className="cco-stat-bars"><div><span>Work owned</span><i style={{ width: '92%' }} /></div><div><span>Handoffs recorded</span><i style={{ width: '78%' }} /></div><div><span>Exceptions reviewed</span><i style={{ width: '86%' }} /></div><small>Illustrative operating view, not performance claims.</small></div></div><VisualFigure src="/visuals/operations-dashboard.svg" alt="Virtual assistant operations dashboard showing tasks, trends, and reviews" /></div></section>
+      <section className="cco-dark-feature"><div className="container cco-split reverse"><div><p className="cco-kicker"><span /> Visibility without micromanaging</p><h2>See the work without living in every task.</h2><p className="cco-section-lead">A useful dashboard does not need vanity numbers. Start with open work, overdue items, quality misses, escalations, and the next owner.</p><ul><li>Open work has an owner and due time.</li><li>Every handoff records who accepted it.</li><li>Exceptions stay visible until a manager decides.</li></ul></div><VisualFigure src="/visuals/operations-dashboard.svg" alt="Virtual assistant operations dashboard showing tasks, trends, and reviews" /></div></section>
 
       <section className="cco-research-feature"><div className="container cco-research-card"><div><p className="cco-kicker"><span /> Evidence before promises</p><h2>What Philippine outsourcing data can and cannot tell you.</h2><p>Use direct sources to understand the market, then test the provider, person, workflow, and controls that will touch your customers.</p></div><div className="cco-research-facts"><span><b>6</b> direct sources</span><span><b>8</b> buyer checks</span><span><b>12</b> minute read</span></div><a className="cco-btn cco-btn-primary" href="/research/call-center-outsourcing-philippines-evidence-guide">Read the evidence guide <span>↗</span></a></div></section>
 

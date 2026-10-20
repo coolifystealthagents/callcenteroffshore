@@ -9,6 +9,7 @@ export const metadata = {
   title: "Virtual assistant and outsourcing guides",
   description:
     "Practical guides for planning Philippines-based virtual assistants, executive assistants, customer support, and outsourced teams.",
+  alternates: { canonical: "https://callcenteroffshore.com/blog" },
 };
 export default function Blog() {
   const newest = Object.entries(aug23Meta).map(([slug, p]) => ({
@@ -75,13 +76,13 @@ export default function Blog() {
               </a>
             )}
             <div className="blog-grid-new">
-              {posts.slice(featured ? 1 : 0).map((post, index) => (
+              {posts.slice(featured ? 1 : 0).map((post) => (
                 <a
                   className="blog-card-new"
                   href={`/blog/${post.slug}`}
                   key={post.slug}
                 >
-                  <span>GUIDE / {String(index + 1).padStart(2, "0")}</span>
+                  <span>Call center operations guide</span>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>
                   {"published" in post && typeof post.published === "string" ? <time dateTime={post.published}>Published {formatDate(post.published)}</time> : null}

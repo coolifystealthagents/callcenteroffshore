@@ -6,6 +6,7 @@ export const metadata = {
   title: `Research | ${site.brand}`,
   description:
     "Original research and source-backed analysis for planning Philippines-based support.",
+  alternates: { canonical: "https://callcenteroffshore.com/research" },
 };
 export default function Research() {
   return (

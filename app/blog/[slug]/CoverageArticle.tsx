@@ -112,7 +112,7 @@ export default function CoverageArticle(){
         <p>Every correction needs a recheck date and another observed result. When several agents miss the same step, inspect the script, routing, tool, training example, workload, or manager rule before treating the issue as one person's mistake.</p>
       </section>
 
-      <section><h2>An expert view on keeping the Philippines competitive</h2><blockquote className="health-quote"><p>“To remain competitive, the country must stay predictable, investable, and future-forward in a rapidly evolving global services market.”</p><cite>— Jack Madrid, President and CEO, IBPAP, quoted on the association's industry overview accessed July 25, 2026.<Cite n={1}/></cite></blockquote>
+      <section><h2>An expert view on keeping the Philippines competitive</h2><blockquote className="health-quote"><p>“To remain competitive, the country must stay predictable, investable, and future-forward in a rapidly evolving global services market.”</p><cite> -  Jack Madrid, President and CEO, IBPAP, quoted on the association's industry overview accessed July 25, 2026.<Cite n={1}/></cite></blockquote>
         <p>Madrid's comment is about the national services market, not your queue. For a buyer, predictability has a simple test: the Philippines team can show who owns each shift, how the backup works, and what changed after the last miss.</p>
       </section>
 
