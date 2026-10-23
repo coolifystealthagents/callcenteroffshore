@@ -19,6 +19,7 @@ import { october5BlogPosts } from './blog-oct5';
 import { october9BlogPosts } from './blog-oct9';
 import { october12BlogPosts } from './blog-oct12';
 import { october13BlogPosts } from './blog-oct13';
+import { october22BlogPosts } from './blog-oct22';
 
 export const site = {
   domain: 'CallCenterOffshore.com',
@@ -73,6 +74,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...october22BlogPosts,
   ...october13BlogPosts,
   ...october12BlogPosts,
   ...october9BlogPosts,

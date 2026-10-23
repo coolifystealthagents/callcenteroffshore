@@ -1,0 +1,1882 @@
+[
+  {
+    "slug": "offshore-handoff-acceptance-study",
+    "hero": "/oct22-heroes/offshore-handoff-acceptance-study.webp",
+    "title": "Offshore Handoff Acceptance Latency Study",
+    "excerpt": "A source-bounded study of after-hours offshore handoffs, evidence limits, adverse controls, and accountable decisions.",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
+    "revision": "2026-10-22-offshore-handoff-acceptance-study-v1",
+    "readingMinutes": 16,
+    "wordCount": 1568,
+    "methodology": "This report maps ten authoritative HTTPS sources to one bounded question about after-hours offshore handoffs. It fixes the observation unit before collection, includes ordinary and adverse controls, preserves missing evidence, requires an independently reviewed subset, and separates observed events from interpretation. Sources were reviewed for publication on October 22, 2026.",
+    "limitations": "This is a design and evidence review about after-hours offshore handoffs, not legal advice, certification, a provider benchmark, or proof of causation. Findings remain bounded to the named queue, period, systems, definitions, records, and reviewer access. Requirements can change; the the service delivery owner must confirm them before release.",
+    "keyTakeaways": [
+      "Define after-hours offshore handoffs before sampling.",
+      "Preserve missing and conflicting evidence.",
+      "Keep consequential decisions with the the service delivery owner."
+    ],
+    "stats": [
+      {
+        "value": "1",
+        "label": "bounded observation unit",
+        "note": "Follow one event through observable closure.",
+        "source": 1
+      },
+      {
+        "value": "5",
+        "label": "control states",
+        "note": "Ordinary, ambiguous, conflicting, unavailable, and high-consequence.",
+        "source": 3
+      },
+      {
+        "value": "10",
+        "label": "authoritative sources",
+        "note": "Use guidance as input, not performance proof.",
+        "source": 9
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and bounded claim",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 1, research question and bounded claim requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              2,
+              5
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              3,
+              7
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              4,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Population and evidence model",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 2, population and evidence model requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              3,
+              6
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              4,
+              8
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              5,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sampling and adverse controls",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 3, sampling and adverse controls requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              4,
+              7
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              5,
+              9
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and reconciliation",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 4, measurement and reconciliation requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              5,
+              8
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              6,
+              10
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              7,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reliability and reviewer agreement",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 5, reliability and reviewer agreement requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              6,
+              9
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              7,
+              1
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              8,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bias and alternate explanations",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 6, bias and alternate explanations requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              7,
+              10
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              8,
+              2
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              9,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpretation and decision ownership",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 7, interpretation and decision ownership requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              8,
+              1
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              9,
+              3
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Limitations and reproducible conclusion",
+        "paragraphs": [
+          {
+            "text": "Offshore Handoff Acceptance Latency Study asks how long from an onshore handoff to a named offshore owner acceptance, and where time is lost. The observation unit is one synthetic after-hours offshore handoffs event within a declared service window. At stage 8, limitations and reproducible conclusion requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              9,
+              2
+            ]
+          },
+          {
+            "text": "For after-hours offshore handoffs, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the service delivery owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              10,
+              4
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Evidence states for after-hours offshore handoffs",
+      "headers": [
+        "State",
+        "Evidence",
+        "Disposition"
+      ],
+      "rows": [
+        [
+          "Ordinary",
+          "Complete source and acknowledgement",
+          "Bounded finding"
+        ],
+        [
+          "Ambiguous",
+          "Conflicting or incomplete signals",
+          "Remain unknown"
+        ],
+        [
+          "Adverse",
+          "Synthetic failure and response",
+          "Route and retest"
+        ]
+      ]
+    },
+    "buyerChecklist": [
+      "Define the unit for after-hours offshore handoffs.",
+      "Name the accountable owner: the service delivery owner.",
+      "Lock denominator rules.",
+      "Preserve unknown states.",
+      "Retest one change."
+    ],
+    "contextualService": {
+      "heading": "Apply evidence carefully",
+      "href": "/services/inbound-customer-care",
+      "label": "Review an offshore call center service",
+      "text": "Use a bounded pilot with client-owned decisions."
+    },
+    "faqs": [
+      {
+        "q": "Does this prove performance for after-hours offshore handoffs?",
+        "a": "No. It defines a reproducible review and bounded interpretation."
+      },
+      {
+        "q": "How is missing evidence counted?",
+        "a": "Keep it missing or unknown; never silently convert it to a pass."
+      },
+      {
+        "q": "Who approves a change?",
+        "a": "The client-side the service delivery owner approves and schedules the retest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Operating guides",
+        "href": "/blog"
+      },
+      {
+        "title": "Research library",
+        "href": "/research"
+      },
+      {
+        "title": "Discuss a pilot",
+        "href": "/contact-us"
+      }
+    ],
+    "sources": [
+      {
+        "name": "FCC Consumer Guides",
+        "url": "https://www.fcc.gov/consumers/guides",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "FTC Business Guidance",
+        "url": "https://www.ftc.gov/business-guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "U.S. Department of Labor Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "EEOC Guidance",
+        "url": "https://www.eeoc.gov/laws/guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ADA Effective Communication",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "GAO Data Reliability Guide",
+        "url": "https://www.gao.gov/products/gao-20-283g",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ISO Quality Management Principles",
+        "url": "https://www.iso.org/publication/PUB100080.html",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      }
+    ]
+  },
+  {
+    "slug": "qa-dispute-consistency-study",
+    "hero": "/oct22-heroes/qa-dispute-consistency-study.webp",
+    "title": "QA Score Dispute Consistency Study",
+    "excerpt": "A source-bounded study of QA score disputes, evidence limits, adverse controls, and accountable decisions.",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
+    "revision": "2026-10-22-qa-dispute-consistency-study-v1",
+    "readingMinutes": 16,
+    "wordCount": 1536,
+    "methodology": "This report maps ten authoritative HTTPS sources to one bounded question about QA score disputes. It fixes the observation unit before collection, includes ordinary and adverse controls, preserves missing evidence, requires an independently reviewed subset, and separates observed events from interpretation. Sources were reviewed for publication on October 22, 2026.",
+    "limitations": "This is a design and evidence review about QA score disputes, not legal advice, certification, a provider benchmark, or proof of causation. Findings remain bounded to the named queue, period, systems, definitions, records, and reviewer access. Requirements can change; the the quality program owner must confirm them before release.",
+    "keyTakeaways": [
+      "Define QA score disputes before sampling.",
+      "Preserve missing and conflicting evidence.",
+      "Keep consequential decisions with the the quality program owner."
+    ],
+    "stats": [
+      {
+        "value": "1",
+        "label": "bounded observation unit",
+        "note": "Follow one event through observable closure.",
+        "source": 1
+      },
+      {
+        "value": "5",
+        "label": "control states",
+        "note": "Ordinary, ambiguous, conflicting, unavailable, and high-consequence.",
+        "source": 3
+      },
+      {
+        "value": "10",
+        "label": "authoritative sources",
+        "note": "Use guidance as input, not performance proof.",
+        "source": 9
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and bounded claim",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 1, research question and bounded claim requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              2,
+              5
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              3,
+              7
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              4,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Population and evidence model",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 2, population and evidence model requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              3,
+              6
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              4,
+              8
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              5,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sampling and adverse controls",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 3, sampling and adverse controls requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              4,
+              7
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              5,
+              9
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and reconciliation",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 4, measurement and reconciliation requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              5,
+              8
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              6,
+              10
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              7,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reliability and reviewer agreement",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 5, reliability and reviewer agreement requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              6,
+              9
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              7,
+              1
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              8,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bias and alternate explanations",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 6, bias and alternate explanations requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              7,
+              10
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              8,
+              2
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              9,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpretation and decision ownership",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 7, interpretation and decision ownership requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              8,
+              1
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              9,
+              3
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Limitations and reproducible conclusion",
+        "paragraphs": [
+          {
+            "text": "QA Score Dispute Consistency Study asks whether independent reviewers reach the same disposition under the same scorecard and evidence. The observation unit is one synthetic QA score disputes event within a declared service window. At stage 8, limitations and reproducible conclusion requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              9,
+              2
+            ]
+          },
+          {
+            "text": "For QA score disputes, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the quality program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              10,
+              4
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Evidence states for QA score disputes",
+      "headers": [
+        "State",
+        "Evidence",
+        "Disposition"
+      ],
+      "rows": [
+        [
+          "Ordinary",
+          "Complete source and acknowledgement",
+          "Bounded finding"
+        ],
+        [
+          "Ambiguous",
+          "Conflicting or incomplete signals",
+          "Remain unknown"
+        ],
+        [
+          "Adverse",
+          "Synthetic failure and response",
+          "Route and retest"
+        ]
+      ]
+    },
+    "buyerChecklist": [
+      "Define the unit for QA score disputes.",
+      "Name the accountable owner: the quality program owner.",
+      "Lock denominator rules.",
+      "Preserve unknown states.",
+      "Retest one change."
+    ],
+    "contextualService": {
+      "heading": "Apply evidence carefully",
+      "href": "/services/inbound-customer-care",
+      "label": "Review an offshore call center service",
+      "text": "Use a bounded pilot with client-owned decisions."
+    },
+    "faqs": [
+      {
+        "q": "Does this prove performance for QA score disputes?",
+        "a": "No. It defines a reproducible review and bounded interpretation."
+      },
+      {
+        "q": "How is missing evidence counted?",
+        "a": "Keep it missing or unknown; never silently convert it to a pass."
+      },
+      {
+        "q": "Who approves a change?",
+        "a": "The client-side the quality program owner approves and schedules the retest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Operating guides",
+        "href": "/blog"
+      },
+      {
+        "title": "Research library",
+        "href": "/research"
+      },
+      {
+        "title": "Discuss a pilot",
+        "href": "/contact-us"
+      }
+    ],
+    "sources": [
+      {
+        "name": "FCC Consumer Guides",
+        "url": "https://www.fcc.gov/consumers/guides",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "FTC Business Guidance",
+        "url": "https://www.ftc.gov/business-guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "U.S. Department of Labor Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "EEOC Guidance",
+        "url": "https://www.eeoc.gov/laws/guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ADA Effective Communication",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "GAO Data Reliability Guide",
+        "url": "https://www.gao.gov/products/gao-20-283g",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ISO Quality Management Principles",
+        "url": "https://www.iso.org/publication/PUB100080.html",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      }
+    ]
+  },
+  {
+    "slug": "callback-window-compliance-study",
+    "hero": "/oct22-heroes/callback-window-compliance-study.webp",
+    "title": "Offshore Callback Window Compliance Study",
+    "excerpt": "A source-bounded study of callback promise windows, evidence limits, adverse controls, and accountable decisions.",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
+    "revision": "2026-10-22-callback-window-compliance-study-v1",
+    "readingMinutes": 16,
+    "wordCount": 1520,
+    "methodology": "This report maps ten authoritative HTTPS sources to one bounded question about callback promise windows. It fixes the observation unit before collection, includes ordinary and adverse controls, preserves missing evidence, requires an independently reviewed subset, and separates observed events from interpretation. Sources were reviewed for publication on October 22, 2026.",
+    "limitations": "This is a design and evidence review about callback promise windows, not legal advice, certification, a provider benchmark, or proof of causation. Findings remain bounded to the named queue, period, systems, definitions, records, and reviewer access. Requirements can change; the the workforce analytics owner must confirm them before release.",
+    "keyTakeaways": [
+      "Define callback promise windows before sampling.",
+      "Preserve missing and conflicting evidence.",
+      "Keep consequential decisions with the the workforce analytics owner."
+    ],
+    "stats": [
+      {
+        "value": "1",
+        "label": "bounded observation unit",
+        "note": "Follow one event through observable closure.",
+        "source": 1
+      },
+      {
+        "value": "5",
+        "label": "control states",
+        "note": "Ordinary, ambiguous, conflicting, unavailable, and high-consequence.",
+        "source": 3
+      },
+      {
+        "value": "10",
+        "label": "authoritative sources",
+        "note": "Use guidance as input, not performance proof.",
+        "source": 9
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and bounded claim",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 1, research question and bounded claim requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              2,
+              5
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              3,
+              7
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              4,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Population and evidence model",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 2, population and evidence model requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              3,
+              6
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              4,
+              8
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              5,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sampling and adverse controls",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 3, sampling and adverse controls requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              4,
+              7
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              5,
+              9
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and reconciliation",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 4, measurement and reconciliation requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              5,
+              8
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              6,
+              10
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              7,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reliability and reviewer agreement",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 5, reliability and reviewer agreement requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              6,
+              9
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              7,
+              1
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              8,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bias and alternate explanations",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 6, bias and alternate explanations requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              7,
+              10
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              8,
+              2
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              9,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpretation and decision ownership",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 7, interpretation and decision ownership requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              8,
+              1
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              9,
+              3
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Limitations and reproducible conclusion",
+        "paragraphs": [
+          {
+            "text": "Offshore Callback Window Compliance Study asks what share of callbacks are attempted inside the customer's confirmed window. The observation unit is one synthetic callback promise windows event within a declared service window. At stage 8, limitations and reproducible conclusion requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              9,
+              2
+            ]
+          },
+          {
+            "text": "For callback promise windows, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the workforce analytics owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              10,
+              4
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Evidence states for callback promise windows",
+      "headers": [
+        "State",
+        "Evidence",
+        "Disposition"
+      ],
+      "rows": [
+        [
+          "Ordinary",
+          "Complete source and acknowledgement",
+          "Bounded finding"
+        ],
+        [
+          "Ambiguous",
+          "Conflicting or incomplete signals",
+          "Remain unknown"
+        ],
+        [
+          "Adverse",
+          "Synthetic failure and response",
+          "Route and retest"
+        ]
+      ]
+    },
+    "buyerChecklist": [
+      "Define the unit for callback promise windows.",
+      "Name the accountable owner: the workforce analytics owner.",
+      "Lock denominator rules.",
+      "Preserve unknown states.",
+      "Retest one change."
+    ],
+    "contextualService": {
+      "heading": "Apply evidence carefully",
+      "href": "/services/inbound-customer-care",
+      "label": "Review an offshore call center service",
+      "text": "Use a bounded pilot with client-owned decisions."
+    },
+    "faqs": [
+      {
+        "q": "Does this prove performance for callback promise windows?",
+        "a": "No. It defines a reproducible review and bounded interpretation."
+      },
+      {
+        "q": "How is missing evidence counted?",
+        "a": "Keep it missing or unknown; never silently convert it to a pass."
+      },
+      {
+        "q": "Who approves a change?",
+        "a": "The client-side the workforce analytics owner approves and schedules the retest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Operating guides",
+        "href": "/blog"
+      },
+      {
+        "title": "Research library",
+        "href": "/research"
+      },
+      {
+        "title": "Discuss a pilot",
+        "href": "/contact-us"
+      }
+    ],
+    "sources": [
+      {
+        "name": "FCC Consumer Guides",
+        "url": "https://www.fcc.gov/consumers/guides",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "FTC Business Guidance",
+        "url": "https://www.ftc.gov/business-guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "U.S. Department of Labor Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "EEOC Guidance",
+        "url": "https://www.eeoc.gov/laws/guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ADA Effective Communication",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "GAO Data Reliability Guide",
+        "url": "https://www.gao.gov/products/gao-20-283g",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ISO Quality Management Principles",
+        "url": "https://www.iso.org/publication/PUB100080.html",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      }
+    ]
+  },
+  {
+    "slug": "telephony-failover-recovery-study",
+    "hero": "/oct22-heroes/telephony-failover-recovery-study.webp",
+    "title": "Telephony Failover Recovery Evidence Study",
+    "excerpt": "A source-bounded study of telephony failover drills, evidence limits, adverse controls, and accountable decisions.",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
+    "revision": "2026-10-22-telephony-failover-recovery-study-v1",
+    "readingMinutes": 16,
+    "wordCount": 1504,
+    "methodology": "This report maps ten authoritative HTTPS sources to one bounded question about telephony failover drills. It fixes the observation unit before collection, includes ordinary and adverse controls, preserves missing evidence, requires an independently reviewed subset, and separates observed events from interpretation. Sources were reviewed for publication on October 22, 2026.",
+    "limitations": "This is a design and evidence review about telephony failover drills, not legal advice, certification, a provider benchmark, or proof of causation. Findings remain bounded to the named queue, period, systems, definitions, records, and reviewer access. Requirements can change; the the continuity owner must confirm them before release.",
+    "keyTakeaways": [
+      "Define telephony failover drills before sampling.",
+      "Preserve missing and conflicting evidence.",
+      "Keep consequential decisions with the the continuity owner."
+    ],
+    "stats": [
+      {
+        "value": "1",
+        "label": "bounded observation unit",
+        "note": "Follow one event through observable closure.",
+        "source": 1
+      },
+      {
+        "value": "5",
+        "label": "control states",
+        "note": "Ordinary, ambiguous, conflicting, unavailable, and high-consequence.",
+        "source": 3
+      },
+      {
+        "value": "10",
+        "label": "authoritative sources",
+        "note": "Use guidance as input, not performance proof.",
+        "source": 9
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and bounded claim",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 1, research question and bounded claim requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              2,
+              5
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              3,
+              7
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              4,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Population and evidence model",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 2, population and evidence model requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              3,
+              6
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              4,
+              8
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              5,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sampling and adverse controls",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 3, sampling and adverse controls requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              4,
+              7
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              5,
+              9
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and reconciliation",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 4, measurement and reconciliation requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              5,
+              8
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              6,
+              10
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              7,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reliability and reviewer agreement",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 5, reliability and reviewer agreement requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              6,
+              9
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              7,
+              1
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              8,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bias and alternate explanations",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 6, bias and alternate explanations requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              7,
+              10
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              8,
+              2
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              9,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpretation and decision ownership",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 7, interpretation and decision ownership requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              8,
+              1
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              9,
+              3
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Limitations and reproducible conclusion",
+        "paragraphs": [
+          {
+            "text": "Telephony Failover Recovery Evidence Study asks whether drill evidence demonstrates rerouting, customer impact, and verified recovery. The observation unit is one synthetic telephony failover drills event within a declared service window. At stage 8, limitations and reproducible conclusion requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              9,
+              2
+            ]
+          },
+          {
+            "text": "For telephony failover drills, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the continuity owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              10,
+              4
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Evidence states for telephony failover drills",
+      "headers": [
+        "State",
+        "Evidence",
+        "Disposition"
+      ],
+      "rows": [
+        [
+          "Ordinary",
+          "Complete source and acknowledgement",
+          "Bounded finding"
+        ],
+        [
+          "Ambiguous",
+          "Conflicting or incomplete signals",
+          "Remain unknown"
+        ],
+        [
+          "Adverse",
+          "Synthetic failure and response",
+          "Route and retest"
+        ]
+      ]
+    },
+    "buyerChecklist": [
+      "Define the unit for telephony failover drills.",
+      "Name the accountable owner: the continuity owner.",
+      "Lock denominator rules.",
+      "Preserve unknown states.",
+      "Retest one change."
+    ],
+    "contextualService": {
+      "heading": "Apply evidence carefully",
+      "href": "/services/inbound-customer-care",
+      "label": "Review an offshore call center service",
+      "text": "Use a bounded pilot with client-owned decisions."
+    },
+    "faqs": [
+      {
+        "q": "Does this prove performance for telephony failover drills?",
+        "a": "No. It defines a reproducible review and bounded interpretation."
+      },
+      {
+        "q": "How is missing evidence counted?",
+        "a": "Keep it missing or unknown; never silently convert it to a pass."
+      },
+      {
+        "q": "Who approves a change?",
+        "a": "The client-side the continuity owner approves and schedules the retest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Operating guides",
+        "href": "/blog"
+      },
+      {
+        "title": "Research library",
+        "href": "/research"
+      },
+      {
+        "title": "Discuss a pilot",
+        "href": "/contact-us"
+      }
+    ],
+    "sources": [
+      {
+        "name": "FCC Consumer Guides",
+        "url": "https://www.fcc.gov/consumers/guides",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "FTC Business Guidance",
+        "url": "https://www.ftc.gov/business-guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "U.S. Department of Labor Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "EEOC Guidance",
+        "url": "https://www.eeoc.gov/laws/guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ADA Effective Communication",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "GAO Data Reliability Guide",
+        "url": "https://www.gao.gov/products/gao-20-283g",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ISO Quality Management Principles",
+        "url": "https://www.iso.org/publication/PUB100080.html",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      }
+    ]
+  },
+  {
+    "slug": "localized-knowledge-freshness-study",
+    "hero": "/oct22-heroes/localized-knowledge-freshness-study.webp",
+    "title": "Localized Knowledge Freshness Study",
+    "excerpt": "A source-bounded study of localized call center knowledge, evidence limits, adverse controls, and accountable decisions.",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
+    "revision": "2026-10-22-localized-knowledge-freshness-study-v1",
+    "readingMinutes": 16,
+    "wordCount": 1544,
+    "methodology": "This report maps ten authoritative HTTPS sources to one bounded question about localized call center knowledge. It fixes the observation unit before collection, includes ordinary and adverse controls, preserves missing evidence, requires an independently reviewed subset, and separates observed events from interpretation. Sources were reviewed for publication on October 22, 2026.",
+    "limitations": "This is a design and evidence review about localized call center knowledge, not legal advice, certification, a provider benchmark, or proof of causation. Findings remain bounded to the named queue, period, systems, definitions, records, and reviewer access. Requirements can change; the the knowledge program owner must confirm them before release.",
+    "keyTakeaways": [
+      "Define localized call center knowledge before sampling.",
+      "Preserve missing and conflicting evidence.",
+      "Keep consequential decisions with the the knowledge program owner."
+    ],
+    "stats": [
+      {
+        "value": "1",
+        "label": "bounded observation unit",
+        "note": "Follow one event through observable closure.",
+        "source": 1
+      },
+      {
+        "value": "5",
+        "label": "control states",
+        "note": "Ordinary, ambiguous, conflicting, unavailable, and high-consequence.",
+        "source": 3
+      },
+      {
+        "value": "10",
+        "label": "authoritative sources",
+        "note": "Use guidance as input, not performance proof.",
+        "source": 9
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and bounded claim",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 1, research question and bounded claim requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              2,
+              5
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              3,
+              7
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              4,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Population and evidence model",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 2, population and evidence model requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              3,
+              6
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              4,
+              8
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              5,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Sampling and adverse controls",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 3, sampling and adverse controls requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              4,
+              7
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              5,
+              9
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Measurement and reconciliation",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 4, measurement and reconciliation requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              5,
+              8
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              6,
+              10
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              7,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Reliability and reviewer agreement",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 5, reliability and reviewer agreement requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              6,
+              9
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              7,
+              1
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              8,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Bias and alternate explanations",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 6, bias and alternate explanations requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              7,
+              10
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              8,
+              2
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              9,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Interpretation and decision ownership",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 7, interpretation and decision ownership requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              8,
+              1
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              9,
+              3
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Limitations and reproducible conclusion",
+        "paragraphs": [
+          {
+            "text": "Localized Knowledge Freshness Study asks how often a localized article is expired or contradicts the current source policy. The observation unit is one synthetic localized call center knowledge event within a declared service window. At stage 8, limitations and reproducible conclusion requires the source, version, actor, timestamp, owner, exception, and destination receipt to remain linked. The protocol is descriptive: it does not rank providers, certify compliance, or predict performance outside the reviewed population.",
+            "citations": [
+              9,
+              2
+            ]
+          },
+          {
+            "text": "For localized call center knowledge, reviewers label evidence confirmed, inferred, conflicting, unavailable, or awaiting decision. A ticket closure, automated acknowledgement, dashboard state, or matching total cannot substitute for the underlying event. Missing and excluded records remain in the denominator. The preparer may assemble fixtures and calculate defined measures; the the knowledge program owner retains commercial, employment, legal, privacy, security, access, and release decisions.",
+            "citations": [
+              10,
+              4
+            ]
+          },
+          {
+            "text": "Sensitivity checks vary only predefined thresholds and restore eligible missing cases. Alternative explanations include source latency, timezone conversion, system batching, classification drift, and owner unavailability. The reproducible record contains the selection rule, codebook, extraction version, reviewer notes, disagreements, corrections, limitations, and owner acceptance. Public guidance informs its own domain but does not establish a private provider outcome.",
+            "citations": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Evidence states for localized call center knowledge",
+      "headers": [
+        "State",
+        "Evidence",
+        "Disposition"
+      ],
+      "rows": [
+        [
+          "Ordinary",
+          "Complete source and acknowledgement",
+          "Bounded finding"
+        ],
+        [
+          "Ambiguous",
+          "Conflicting or incomplete signals",
+          "Remain unknown"
+        ],
+        [
+          "Adverse",
+          "Synthetic failure and response",
+          "Route and retest"
+        ]
+      ]
+    },
+    "buyerChecklist": [
+      "Define the unit for localized call center knowledge.",
+      "Name the accountable owner: the knowledge program owner.",
+      "Lock denominator rules.",
+      "Preserve unknown states.",
+      "Retest one change."
+    ],
+    "contextualService": {
+      "heading": "Apply evidence carefully",
+      "href": "/services/inbound-customer-care",
+      "label": "Review an offshore call center service",
+      "text": "Use a bounded pilot with client-owned decisions."
+    },
+    "faqs": [
+      {
+        "q": "Does this prove performance for localized call center knowledge?",
+        "a": "No. It defines a reproducible review and bounded interpretation."
+      },
+      {
+        "q": "How is missing evidence counted?",
+        "a": "Keep it missing or unknown; never silently convert it to a pass."
+      },
+      {
+        "q": "Who approves a change?",
+        "a": "The client-side the knowledge program owner approves and schedules the retest."
+      }
+    ],
+    "related": [
+      {
+        "title": "Operating guides",
+        "href": "/blog"
+      },
+      {
+        "title": "Research library",
+        "href": "/research"
+      },
+      {
+        "title": "Discuss a pilot",
+        "href": "/contact-us"
+      }
+    ],
+    "sources": [
+      {
+        "name": "FCC Consumer Guides",
+        "url": "https://www.fcc.gov/consumers/guides",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "FTC Business Guidance",
+        "url": "https://www.ftc.gov/business-guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "U.S. Department of Labor Recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "EEOC Guidance",
+        "url": "https://www.eeoc.gov/laws/guidance",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ADA Effective Communication",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "GAO Data Reliability Guide",
+        "url": "https://www.gao.gov/products/gao-20-283g",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      },
+      {
+        "name": "ISO Quality Management Principles",
+        "url": "https://www.iso.org/publication/PUB100080.html",
+        "note": "Authoritative public guidance used as a bounded control input.",
+        "kind": "Global comparison"
+      }
+    ]
+  }
+]

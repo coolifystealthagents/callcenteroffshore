@@ -34,6 +34,7 @@ import {october8ResearchBatch} from './research-oct8';
 import {october9ResearchBatch} from './research-oct9';
 import {october12ResearchBatch} from './research-oct12';
 import {october13ResearchBatch} from './research-oct13';
+import {october22ResearchBatch} from './research-oct22';
 
 export type FleetService = {
   slug: string;

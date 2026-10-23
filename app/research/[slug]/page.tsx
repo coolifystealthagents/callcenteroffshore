@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import {StickyArticleToc} from '../../sticky-article-toc';
 import {notFound} from 'next/navigation';
 import {Header,Footer} from '../../components';
 import {researchPosts,ResearchPost} from '../../fleet-data';
@@ -104,7 +105,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
         </header>
 
         <div className="container research-layout">
-          <div className="research-main">
+          <div className="research-main"><StickyArticleToc scope=".research-main" />
             <section className="research-panel research-takeaways" aria-labelledby="takeaways-heading">
               <p className="research-label">The short answer</p>
               <h2 id="takeaways-heading">Key takeaways</h2>

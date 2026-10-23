@@ -1,0 +1,200 @@
+{
+  "site": "CallCenterOffshore.com",
+  "canonicalDomain": "https://callcenteroffshore.com",
+  "repository": "coolifystealthagents/callcenteroffshore",
+  "branch": "main",
+  "publicationDate": "2026-10-22",
+  "visibleDate": "October 22, 2026",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/blog-oct22.ts",
+    "app/research-oct22.ts",
+    "app/data.ts",
+    "app/fleet-data.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Hand Off After-Hours Calls to the Offshore Queue With Evidence",
+      "slug": "offshore-after-hours-handoff",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/offshore-after-hours-handoff.md",
+      "thumbnailPath": "public/oct22-heroes/offshore-after-hours-handoff.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1700,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Log Call Recording Retention Exceptions Without Deleting Evidence",
+      "slug": "call-recording-retention-exception",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/call-recording-retention-exception.md",
+      "thumbnailPath": "public/oct22-heroes/call-recording-retention-exception.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1663,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Accept a Shift Coverage Change Without Silent Overtime",
+      "slug": "shift-coverage-change-acceptance",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/shift-coverage-change-acceptance.md",
+      "thumbnailPath": "public/oct22-heroes/shift-coverage-change-acceptance.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1656,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Set CSAT Survey Suppression Boundaries That Can Be Audited",
+      "slug": "csat-survey-suppression-boundary",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/csat-survey-suppression-boundary.md",
+      "thumbnailPath": "public/oct22-heroes/csat-survey-suppression-boundary.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1657,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Control Callback Promises Across Onshore and Offshore Time Zones",
+      "slug": "callback-promise-timezone-control",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/callback-promise-timezone-control.md",
+      "thumbnailPath": "public/oct22-heroes/callback-promise-timezone-control.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1671,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Review Localized Knowledge Articles Before Agents Quote Them",
+      "slug": "knowledge-article-localization-review",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/knowledge-article-localization-review.md",
+      "thumbnailPath": "public/oct22-heroes/knowledge-article-localization-review.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1656,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Resolve QA Score Disputes With Reconstructable Evidence",
+      "slug": "qa-score-dispute-evidence",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/qa-score-dispute-evidence.md",
+      "thumbnailPath": "public/oct22-heroes/qa-score-dispute-evidence.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1648,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Keep Onshore Escalation Ownership Explicit",
+      "slug": "onshore-escalation-ownership",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/onshore-escalation-ownership.md",
+      "thumbnailPath": "public/oct22-heroes/onshore-escalation-ownership.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1646,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Review Real-Time Adherence Alerts Without Punitive Assumptions",
+      "slug": "realtime-adherence-alert-review",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/realtime-adherence-alert-review.md",
+      "thumbnailPath": "public/oct22-heroes/realtime-adherence-alert-review.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1641,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Test Telephony Failover With Evidence, Not a Checklist",
+      "slug": "telephony-failover-drill-evidence",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/telephony-failover-drill-evidence.md",
+      "thumbnailPath": "public/oct22-heroes/telephony-failover-drill-evidence.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1684,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Clean Duplicate Call Dispositions Without Losing History",
+      "slug": "duplicate-disposition-cleanup",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/duplicate-disposition-cleanup.md",
+      "thumbnailPath": "public/oct22-heroes/duplicate-disposition-cleanup.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1648,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Blog",
+      "title": "Keep an Offshore Agent Network Incident Log",
+      "slug": "agent-network-incident-log",
+      "sourcePath": "docs/publishing/drafts/2026-10-22/agent-network-incident-log.md",
+      "thumbnailPath": "public/oct22-heroes/agent-network-incident-log.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1641,
+      "sha256": "fe5f8e8189fcffb047c508bd31cc2833282440282e7f3adce08c4c8d1237458b"
+    },
+    {
+      "section": "Research",
+      "title": "Offshore Handoff Acceptance Latency Study",
+      "slug": "offshore-handoff-acceptance-study",
+      "sourcePath": "app/research-oct22.json",
+      "recordSlug": "offshore-handoff-acceptance-study",
+      "thumbnailPath": "public/oct22-heroes/offshore-handoff-acceptance-study.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1568,
+      "sha256": "eb349138eecf2943925ee1546425680bff0c51212dcebabf8c77afc138164a74"
+    },
+    {
+      "section": "Research",
+      "title": "QA Score Dispute Consistency Study",
+      "slug": "qa-dispute-consistency-study",
+      "sourcePath": "app/research-oct22.json",
+      "recordSlug": "qa-dispute-consistency-study",
+      "thumbnailPath": "public/oct22-heroes/qa-dispute-consistency-study.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1536,
+      "sha256": "eb349138eecf2943925ee1546425680bff0c51212dcebabf8c77afc138164a74"
+    },
+    {
+      "section": "Research",
+      "title": "Offshore Callback Window Compliance Study",
+      "slug": "callback-window-compliance-study",
+      "sourcePath": "app/research-oct22.json",
+      "recordSlug": "callback-window-compliance-study",
+      "thumbnailPath": "public/oct22-heroes/callback-window-compliance-study.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1520,
+      "sha256": "eb349138eecf2943925ee1546425680bff0c51212dcebabf8c77afc138164a74"
+    },
+    {
+      "section": "Research",
+      "title": "Telephony Failover Recovery Evidence Study",
+      "slug": "telephony-failover-recovery-study",
+      "sourcePath": "app/research-oct22.json",
+      "recordSlug": "telephony-failover-recovery-study",
+      "thumbnailPath": "public/oct22-heroes/telephony-failover-recovery-study.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1504,
+      "sha256": "eb349138eecf2943925ee1546425680bff0c51212dcebabf8c77afc138164a74"
+    },
+    {
+      "section": "Research",
+      "title": "Localized Knowledge Freshness Study",
+      "slug": "localized-knowledge-freshness-study",
+      "sourcePath": "app/research-oct22.json",
+      "recordSlug": "localized-knowledge-freshness-study",
+      "thumbnailPath": "public/oct22-heroes/localized-knowledge-freshness-study.webp",
+      "publicationDate": "2026-10-22",
+      "wordCount": 1544,
+      "sha256": "eb349138eecf2943925ee1546425680bff0c51212dcebabf8c77afc138164a74"
+    }
+  ]
+}
