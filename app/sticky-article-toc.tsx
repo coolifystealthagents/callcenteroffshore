@@ -12,8 +12,8 @@ function slugify(value: string) {
  * Sticky article ToC that works on both blog and research pages.
  * It assigns stable ids to H2/H3 headings inside the supplied scope.
  */
-export function StickyArticleToc({ scope, desktop = true }: { scope: string; desktop?: boolean }) {
-  const [items, setItems] = useState<Item[]>([]);
+export function StickyArticleToc({ scope, desktop = true, initialItems = [] }: { scope: string; desktop?: boolean; initialItems?: Item[] }) {
+  const [items, setItems] = useState<Item[]>(initialItems);
   const [active, setActive] = useState('');
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export function StickyArticleToc({ scope, desktop = true }: { scope: string; des
 
   if (!items.length) {
     return (
-      <div className="hat-toc">
+      <div className="hat-toc sticky">
         <details className="hat-toc-mobile">
           <summary>On this page</summary>
         </details>
@@ -70,7 +70,7 @@ export function StickyArticleToc({ scope, desktop = true }: { scope: string; des
   );
 
   return (
-    <div className="hat-toc">
+    <div className="hat-toc sticky">
       <details className="hat-toc-mobile">
         <summary>On this page</summary>
         {links}
