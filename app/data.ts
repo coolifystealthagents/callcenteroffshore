@@ -76,6 +76,7 @@ export const services = [
 ] as const;
 
 export const blogPosts = [
+  ...october26BlogPosts,
   ...october25BlogPosts,
   ...october22BlogPosts,
   ...october13BlogPosts,
