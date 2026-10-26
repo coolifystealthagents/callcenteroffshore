@@ -12,7 +12,8 @@ const decode=s=>s.replace(/&#x([0-9a-f]+);/gi,(_,n)=>String.fromCodePoint(parseI
 const strip=s=>decode(s.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ')).replace(/&[a-z#0-9]+;/gi,' ').replace(/\s+/g,' ').trim();
 const field=(raw,key)=>raw.match(new RegExp(`^${key}: "([^"]+)"$`,'m'))?.[1];
 const sitemap=fs.readFileSync(path.join(root,'.next/server/app/sitemap.xml.body'),'utf8');
-const index=fs.readFileSync(path.join(root,'.next/server/app/blog.html'),'utf8');
+const indexPaths=[path.join(root,'.next/server/app/blog.html'),...fs.readdirSync(path.join(root,'.next/server/app/blog/page'),{withFileTypes:true}).filter(entry=>entry.isFile()&&entry.name.endsWith('.html')).map(entry=>path.join(root,'.next/server/app/blog/page',entry.name))];
+const indexes=indexPaths.map(indexPath=>fs.readFileSync(indexPath,'utf8'));
 const image=fs.readFileSync(path.join(root,'public/blog-thumbnail.svg'));
 assert.match(image.subarray(0,256).toString(),/<svg\b[^>]*xmlns="http:\/\/www\.w3\.org\/2000\/svg"/,'shared Blog image is not a valid SVG document');
 const entries=[];
@@ -33,7 +34,7 @@ for(const file of files){
  const article=html.match(/<article[\s\S]*?<\/article>/)?.[0];assert.ok(article,`${slug}: complete article element missing`);
  const text=strip(article),words=text.match(/\b[\w'-]+\b/g)||[];assert.ok(words.length>=900,`${slug}: rendered body short (${words.length})`);
  for(const heading of [...raw.matchAll(/^## (.+)$/gm)].map(x=>x[1]))assert.ok(text.includes(heading),`${slug}: source section omitted: ${heading}`);
- assert.ok(index.includes(`/blog/${slug}`),`${slug}: Blog index missing route`);
+ assert.equal(indexes.filter(index=>index.includes(`/blog/${slug}`)).length,1,`${slug}: Blog index missing route`);
  assert.ok(sitemap.includes(`<loc>${canonical}</loc><lastmod>2026-10-06</lastmod>`),`${slug}: sitemap/date missing`);
  entries.push({family:'blog',topic:title,slug,sources:[...raw.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(x=>x[1]),contentHash:crypto.createHash('sha256').update(article).digest('hex'),wordCount:words.length,publicationDate:'2026-10-06',commitSha:candidateSha,deploymentEvidence:null,liveUrl:canonical,verificationTime:null});
 }
