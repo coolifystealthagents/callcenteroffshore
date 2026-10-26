@@ -42,7 +42,20 @@ export function StickyArticleToc({ scope, desktop = true }: { scope: string; des
     return () => observer.disconnect();
   }, [scope]);
 
-  if (!items.length) return null;
+  if (!items.length) {
+    return (
+      <div className="hat-toc">
+        <details className="hat-toc-mobile">
+          <summary>On this page</summary>
+        </details>
+        {desktop ? (
+          <nav className="hat-toc-desktop" aria-label="On this page">
+            <strong>On this page</strong>
+          </nav>
+        ) : null}
+      </div>
+    );
+  }
 
   const links = (
     <ol>
