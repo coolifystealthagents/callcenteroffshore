@@ -89,6 +89,18 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
     ],
   };
 
+  const sectionItems = post.sections.map((section, index) => ({ id: `research-section-${index + 1}`, label: section.heading, level: 2 as const }));
+  const tocItems = [
+    { id: 'takeaways-heading', label: 'Key takeaways', level: 2 as const },
+    ...sectionItems,
+    { id: 'next-step-heading', label: post.contextualService?.heading ?? 'Next step', level: 2 as const },
+    { id: 'method-heading', label: 'Methodology and limitations', level: 2 as const },
+    { id: 'research-cta-heading', label: 'Plan a Philippines-based queue', level: 2 as const },
+    { id: 'faq-heading', label: 'Frequently asked questions', level: 2 as const },
+    { id: 'sources-heading', label: 'Sources', level: 2 as const },
+    { id: 'related-heading', label: 'Related planning guides', level: 2 as const },
+  ];
+
   return <>
     <Header/>
     <main className="research-report" data-article-revision={post.revision}>
@@ -105,21 +117,16 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
         </header>
 
         <div className="container research-layout">
-          <div className="research-main"><StickyArticleToc scope=".research-main" />
+          <div className="research-main"><StickyArticleToc scope=".research-main" initialItems={tocItems} />
             <section className="research-panel research-takeaways" aria-labelledby="takeaways-heading">
               <p className="research-label">The short answer</p>
               <h2 id="takeaways-heading">Key takeaways</h2>
               <ul>{post.keyTakeaways.map(item=><li key={item}>{item}</li>)}</ul>
             </section>
 
-            {post.sections.slice(0,2).map(section=><section className="research-section" key={section.heading}>
-              <h2>{section.heading}</h2>
-              {section.paragraphs.map((paragraph,index)=><p key={index}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
-            </section>)}
-
-            {post.sections.slice(2).map(section=><section className="research-section" key={section.heading}>
-              <h2>{section.heading}</h2>
-              {section.paragraphs.map((paragraph,index)=><p key={index}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
+            {post.sections.map((section,index)=><section className="research-section" key={section.heading}>
+              <h2 id={`research-section-${index + 1}`}>{section.heading}</h2>
+              {section.paragraphs.map((paragraph,paragraphIndex)=><p key={paragraphIndex}>{paragraph.text} <SourceRefs numbers={paragraph.citations} post={post}/></p>)}
             </section>)}
 
             {post.contextualService ? <section className="research-section research-next-step" aria-labelledby="next-step-heading">
