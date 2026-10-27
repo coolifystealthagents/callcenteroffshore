@@ -3,7 +3,7 @@ title: "Onboard a VA into the call script workflow in the first week"
 published: "2026-10-27"
 ---
 
-<h2 id="why-the-call-script-needs-its-own-control">Why the call script needs its own control</h2>
+## Why the call script needs its own control
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. A team working in offshore call center operations can complete a task and still leave the next person unable to verify it. The control for the call script exists to make the work reconstructable from a source, a decision, and a close. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -13,7 +13,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Keep the call script queue separate from the general inbox. A shared queue without a named owner hides the oldest item and makes the weekly report look cleaner than the work. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="start-with-the-source-record">Start with the source record</h2>
+## Start with the source record
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Begin with the call queue and disposition record that governs the call script. Record who created it, the version or date observed, the field it supports, and the person who can confirm it. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -23,7 +23,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. When a source is unavailable, record that fact instead of leaving the field blank. Missing, unavailable, and confirmed negative are three different states and should not be collapsed. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="separate-preparation-from-approval">Separate preparation from approval</h2>
+## Separate preparation from approval
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Name the operations manager before the call center supervisor prepares any action. the call center supervisor may collect, compare, label, calculate, and route; the call center manager decides whether the evidence is enough. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -31,7 +31,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. A complete packet is not an approval. A drafted message, a proposed schedule, or a reconciled total still needs the named owner decision when policy or risk is involved. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="build-the-daily-routine">Build the daily routine</h2>
+## Build the daily routine
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Build a short daily routine for the call script: open the onboard a va into the call script workflow in the first week queue, check the call queue and disposition record evidence, record the exception, and leave a next action with a time. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -41,7 +41,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager. Do not let a temporary workaround become the permanent process by default. Write the workaround, its owner, and its expiry date, then review it.
 
-<h2 id="handle-exceptions-before-they-age">Handle exceptions before they age</h2>
+## Handle exceptions before they age
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager. Define reason codes for the call script: missing evidence, identity mismatch, conflicting record, stale version, unavailable owner, access failure, and scope change.
 
@@ -51,7 +51,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager. When the call script source is maintained by another team, name the contact and the expected response time. Escalation without a contact becomes a repeated chase.
 
-<h2 id="verify-close-and-review">Verify, close, and review</h2>
+## Verify, close, and review
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Close the call script only when the destination record shows the approved change. A sent message or a closed ticket is not proof that the schedule, ledger, access, or assignment changed. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -61,7 +61,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Use a weekly exception count by reason and age. The pattern is more useful than a single total because it shows whether the problem is volume, training, or a missing rule. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="what-the-va-may-prepare-and-what-the-call-center-manager-decides">What the VA may prepare and what the call center manager decides</h2>
+## What the VA may prepare and what the call center manager decides
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. For call center and support managers, the useful split is preparation versus authority. the call center supervisor can assemble the call script packet, check the fields, and write a precise question; the call center manager owns the decision that changes money, policy, access, or a customer promise. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -71,7 +71,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Make the call script handoff visible in the call queue and disposition record. A chat message can start the handoff, but the call queue and disposition record evidence, the open question, and the next owner belong with the onboard a va into the call script workflow in the first week case. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="a-weekly-evidence-review-for-the-call-script">A weekly evidence review for the call script</h2>
+## A weekly evidence review for the call script
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Set one recurring point each week to review the call script queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
@@ -81,7 +81,7 @@ At Call Center Offshore, the call center supervisor applies this onboard a va in
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Record the exact source for the call script and the time it was observed. the next call center supervisor can tell whether the value was current when the first action was taken, even if the call queue and disposition record has changed since. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 
-<h2 id="what-to-fix-first">What to fix first</h2>
+## What to fix first
 
 At Call Center Offshore, the call center supervisor applies this onboard a va into the call script workflow in the first week control to the call queue and disposition record before the operations manager reviews the next action. Fix the call queue and disposition record evidence before you fix the onboard a va into the call script workflow in the first week report. If the call script record cannot show the version, the operations manager, and the close condition, a new dashboard will only make the gap easier to see. The call center supervisor treats onboard a va into the call script workflow in the first week as a call queue and disposition record control: collect the evidence, label the gap, and route the exception to the operations manager.
 

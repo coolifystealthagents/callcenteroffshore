@@ -3,7 +3,7 @@ title: "Write a handoff protocol for the disposition code"
 published: "2026-10-27"
 ---
 
-<h2 id="why-the-disposition-code-needs-its-own-control">Why the disposition code needs its own control</h2>
+## Why the disposition code needs its own control
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. A team working in offshore call center operations can complete a task and still leave the next person unable to verify it. The control for the disposition code exists to make the work reconstructable from a source, a decision, and a close. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -13,7 +13,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Do not copy a value from a prior record for the disposition code because it looks familiar. Reopen the call queue and disposition record evidence, confirm the version, and record what changed. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="start-with-the-source-record">Start with the source record</h2>
+## Start with the source record
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Begin with the call queue and disposition record that governs the disposition code. Record who created it, the version or date observed, the field it supports, and the person who can confirm it. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -21,7 +21,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. When two sources disagree, preserve both values and label the discrepancy. Do not overwrite the earlier value to make the write a handoff protocol for the disposition code report look clean. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="separate-preparation-from-approval">Separate preparation from approval</h2>
+## Separate preparation from approval
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Name the operations manager before the call center supervisor prepares any action. the call center supervisor may collect, compare, label, calculate, and route; the call center manager decides whether the evidence is enough. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -31,7 +31,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Write the next action as a sentence with an owner and a time. A vague request to review the disposition code exception is not a next action; a named person, a specific check, and a deadline is. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="build-the-daily-routine">Build the daily routine</h2>
+## Build the daily routine
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Build a short daily routine for the disposition code: open the write a handoff protocol for the disposition code queue, check the call queue and disposition record evidence, record the exception, and leave a next action with a time. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -41,7 +41,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Keep the disposition code queue separate from the general inbox. A shared queue without a named owner hides the oldest item and makes the weekly report look cleaner than the work. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="handle-exceptions-before-they-age">Handle exceptions before they age</h2>
+## Handle exceptions before they age
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision. Define reason codes for the disposition code: missing evidence, identity mismatch, conflicting record, stale version, unavailable owner, access failure, and scope change.
 
@@ -51,7 +51,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. When a source is unavailable, record that fact instead of leaving the field blank. Missing, unavailable, and confirmed negative are three different states and should not be collapsed. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="verify-close-and-review">Verify, close, and review</h2>
+## Verify, close, and review
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Close the disposition code only when the destination record shows the approved change. A sent message or a closed ticket is not proof that the schedule, ledger, access, or assignment changed. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -61,7 +61,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision. Use a short reason code for every exception on the disposition code. The code should describe the evidence problem, not the person who found it.
 
-<h2 id="what-the-va-may-prepare-and-what-the-call-center-manager-decides">What the VA may prepare and what the call center manager decides</h2>
+## What the VA may prepare and what the call center manager decides
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. For call center and support managers, the useful split is preparation versus authority. the call center supervisor can assemble the disposition code packet, check the fields, and write a precise question; the call center manager owns the decision that changes money, policy, access, or a customer promise. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -71,7 +71,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Review one case involving the disposition code end to end in the weekly meeting. Check the call queue and disposition record evidence, the decision, the destination record, and the confirmation rather than only the completion count. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
-<h2 id="a-weekly-evidence-review-for-the-disposition-code">A weekly evidence review for the disposition code</h2>
+## A weekly evidence review for the disposition code
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Set one recurring point each week to review the disposition code queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
@@ -81,7 +81,7 @@ In Call Center Offshore's offshore call center operations queue, the call center
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision. If the disposition code rule changes, keep the earlier classification and apply the new rule to later cases. A definition that changes quietly makes the trend unreadable.
 
-<h2 id="what-to-fix-first">What to fix first</h2>
+## What to fix first
 
 In Call Center Offshore's offshore call center operations queue, the call center supervisor uses the call queue and disposition record to test write a handoff protocol for the disposition code and leaves the exception with the operations manager. Fix the call queue and disposition record evidence before you fix the write a handoff protocol for the disposition code report. If the disposition code record cannot show the version, the operations manager, and the close condition, a new dashboard will only make the gap easier to see. At the write a handoff protocol for the disposition code stage, the call center supervisor compares the write a handoff protocol for the disposition code entry with the call queue and disposition record and dates the next operations manager decision.
 
