@@ -33,7 +33,7 @@ A complete packet is not an approval. A drafted message, a proposed schedule, or
 
 <h2 id="build-the-daily-routine">Build the daily routine</h2>
 
-Build a short daily routine for the after-hours handoff: open the queue, check the source, record the exception, and leave a next action with a time. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
+Build a short daily routine for the after-hours handoff: open the queue, check the source, record the exception, and leave a next action with a time. [Plan after-hours answering support](/services/after-hours-answering) when you need a defined coverage window, named escalation owner, and next-shift handoff. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 
 Use the same fields every day. Consistency makes the work comparable and lets a reviewer spot a missing source without reading the whole thread. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 

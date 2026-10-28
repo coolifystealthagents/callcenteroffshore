@@ -127,6 +127,13 @@ test('all declared draft article paths exist and duplicate October route batch i
   assert.match(data, /october9BlogPosts/);
 });
 
+test('the after-hours handoff guide points to its matched Philippines service', () => {
+  const draft = read('docs/publishing/drafts/2026-10-28/callcenteroffshore-run-a-monthly-evidence-review-of-the-after-hours-handoff.md');
+  assert.match(draft, /\[Plan after-hours answering support\]\(\/services\/after-hours-answering\)/);
+  assert.match(draft, /defined coverage window, named escalation owner, and next-shift handoff/);
+  assert.doesNotMatch(draft, /\[Plan after-hours answering support\]\(\/services\/inbound-customer-care\)/);
+});
+
 test('contact form has one submission owner and preserves canonical lead fields', () => {
   const globalClient = read('app/acr-client.tsx');
   const form = read('app/contact-us/StandardContactForm.tsx');
