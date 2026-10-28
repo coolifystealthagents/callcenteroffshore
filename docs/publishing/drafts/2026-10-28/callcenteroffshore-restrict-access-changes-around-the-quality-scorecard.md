@@ -3,7 +3,7 @@ title: "Restrict access changes around the quality scorecard"
 published: "2026-10-28"
 ---
 
-<h2 id="why-the-quality-scorecard-needs-its-own-control">Why the quality scorecard needs its own control</h2>
+## Why the quality scorecard needs its own control
 
 A team working in offshore call center operations can complete a task and still leave the next person unable to verify it. The control for the quality scorecard exists to make the work reconstructable from a source, a decision, and a close. At the Call Center Offshore review, the call center manager compares this step with the inbound call queue and disposition record record before closing it.
 
@@ -13,7 +13,7 @@ Treat the control as a queue item with an owner, a due time, and a close conditi
 
 Do not copy a value from a prior record for the quality scorecard because it looks familiar. Reopen the source, confirm the version, and record what changed. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 
-<h2 id="start-with-the-source-record">Start with the source record</h2>
+## Start with the source record
 
 Begin with the record that governs the quality scorecard. Record who created it, the version or date observed, the field it supports, and the person who can confirm it. In offshore call center operations, the inbound call queue and disposition record evidence stays with the case so the call center manager can verify what changed.
 
@@ -23,7 +23,7 @@ When two sources disagree, preserve both values and label the discrepancy. Do no
 
 Close the loop with the person who raised the quality scorecard issue. A record that is internally complete but never confirmed by the requester is only half closed. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 
-<h2 id="separate-preparation-from-approval">Separate preparation from approval</h2>
+## Separate preparation from approval
 
 Name the owner before the VA prepares any action. The VA may collect, compare, label, calculate, and route; the call center manager decides whether the evidence is enough. This inbound call queue and disposition record step is logged for the Call Center Offshore team and reviewed by the call center manager at the next checkpoint.
 
@@ -33,7 +33,7 @@ A complete packet is not an approval. A drafted message, a proposed schedule, or
 
 Separate the request from the decision. The requester can describe the urgency; only the named owner can approve an exception that changes the outcome of the quality scorecard. In offshore call center operations, the inbound call queue and disposition record evidence stays with the case so the call center manager can verify what changed.
 
-<h2 id="build-the-daily-routine">Build the daily routine</h2>
+## Build the daily routine
 
 Build a short daily routine for the quality scorecard: open the queue, check the source, record the exception, and leave a next action with a time. This inbound call queue and disposition record step is logged for the Call Center Offshore team and reviewed by the call center manager at the next checkpoint.
 
@@ -43,7 +43,7 @@ Keep the queue small enough to finish. A long queue hides the oldest exception a
 
 Put the evidence standard in the task template, not in a separate policy document. The person doing the work should see the required source, owner, and close condition at the point of action. This inbound call queue and disposition record step is logged for the Call Center Offshore team and reviewed by the call center manager at the next checkpoint.
 
-<h2 id="handle-exceptions-before-they-age">Handle exceptions before they age</h2>
+## Handle exceptions before they age
 
 Define reason codes for the quality scorecard: missing evidence, identity mismatch, conflicting record, stale version, unavailable owner, access failure, and scope change. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 
@@ -53,7 +53,7 @@ If the exception affects pay, safety, access, legal, or a customer commitment, s
 
 Measure the age of the oldest open item for the quality scorecard, not only the average. An average can improve while one case sits unresolved for weeks. This inbound call queue and disposition record step is logged for the Call Center Offshore team and reviewed by the call center manager at the next checkpoint.
 
-<h2 id="verify-close-and-review">Verify, close, and review</h2>
+## Verify, close, and review
 
 Close the quality scorecard only when the destination record shows the approved change. A sent message or a closed ticket is not proof that the schedule, ledger, access, or assignment changed. For the Call Center Offshore desk, this inbound call queue and disposition record check is dated and routed to the call center manager before the next handoff.
 
@@ -63,7 +63,7 @@ Review a sample each month. Check the source, the approval, the execution, and t
 
 When a reviewer finds a defect, ask whether the template allowed it. If the same field is missed twice, the form or the instruction is part of the cause. At the Call Center Offshore review, the call center manager compares this step with the inbound call queue and disposition record record before closing it.
 
-<h2 id="what-the-va-may-prepare-and-what-the-call-center-manager-decides">What the VA may prepare and what the call center manager decides</h2>
+## What the VA may prepare and what the call center manager decides
 
 For call center and support managers, the useful split is preparation versus authority. The VA can assemble the quality scorecard packet, check the fields, and write a precise question; the call center manager owns the decision that changes money, policy, access, or a customer promise. This inbound call queue and disposition record step is logged for the Call Center Offshore team and reviewed by the call center manager at the next checkpoint.
 
@@ -71,7 +71,7 @@ Write the split in plain language and keep it next to the queue. A boundary that
 
 The VA should stop when the source is missing, the records conflict, the request exceeds the written scope, or the rule has not been approved. A stop is cheaper than a correction after release. For the Call Center Offshore desk, this inbound call queue and disposition record check is dated and routed to the call center manager before the next handoff.
 
-<h2 id="a-weekly-evidence-review-for-the-quality-scorecard">A weekly evidence review for the quality scorecard</h2>
+## A weekly evidence review for the quality scorecard
 
 Set one recurring point each week to review the quality scorecard queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused. In offshore call center operations, the inbound call queue and disposition record evidence stays with the case so the call center manager can verify what changed.
 
@@ -81,7 +81,7 @@ End the review with one process change, one owner, and one check date. If nothin
 
 If the quality scorecard rule changes, keep the earlier classification and apply the new rule to later cases. A definition that changes quietly makes the trend unreadable. At the Call Center Offshore review, the call center manager compares this step with the inbound call queue and disposition record record before closing it.
 
-<h2 id="what-to-fix-first">What to fix first</h2>
+## What to fix first
 
 Fix the source before you fix the report. If the quality scorecard record cannot show the version, the owner, and the close condition, a new dashboard will only make the gap easier to see. The Call Center Offshore reviewer records the inbound call queue and disposition record source and the next action in the same queue.
 
