@@ -1,6 +1,6 @@
 # Call Center Offshore topical-authority map
 
-Last reviewed: 2026-09-28
+Last reviewed: 2026-10-30
 
 ## Purpose and boundaries
 
@@ -49,6 +49,7 @@ Artifact review: 2026-09-29. The table below records only routes and service des
 | `/research/healthcare-scheduling-message-disclosure-study` | What appointment information may be disclosed by channel and recipient? | `/services/healthcare-scheduling-support` | After a minimum-disclosure matrix and identity stop rule are approved. | Delivered through the typed research `contextualService` panel in the September 23 batch. |
 | `/research/call-center-complaint-evidence-preservation-study` | Can later investigation preserve the customer’s original complaint record? | `/services/customer-retention-support` | After intake, amendments, findings, approvals, and response versions are separated. | Delivered through the typed research `contextualService` panel in the September 23 batch. |
 | `/research/call-center-payment-link-boundary-study` | Can support staff send an approved payment route without taking card data or deciding money matters? | `/services/ecommerce-contact-center` | After the approved link source, amount source, delivery evidence, and owner-only exception path are defined. | Delivered through the September 28 research record's existing service path; two route-local links are intentional. |
+| `/blog/callcenteroffshore-run-a-monthly-evidence-review-of-the-after-hours-handoff` | How should a manager check an after-hours handoff without losing the coverage window or exception owner? | `/services/after-hours-answering` | After the daily routine names the coverage window, escalation owner, and next-shift handoff. | Delivered locally in `71f013074ad27f5f30b35c2c67765601b9ab7cb1`: one route-local link, source H1 and canonical verified, source sitemap lastmod `2026-10-28`; destination H1/canonical and sitemap inclusion verified. Do not add another CTA. |
 | `/blog/after-hours-call-answering-workflow` | What needs to happen when calls arrive after normal hours? | `/services/after-hours-answering` | After urgent categories and the next-shift handoff are defined. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 | `/blog/call-center-qa-scorecard` | What should a useful QA scorecard measure? | `/services/call-quality-monitoring` | After the reader chooses the review fields and calibration owner. | Deferred: current legacy record has no source-owned body or decision paragraph. |
 | `/blog/customer-support-call-center-launch` | How should a team launch a customer support queue? | `/services/inbound-customer-care` | After the reader has narrowed the first queue and escalation path. | Deferred: current legacy record has no source-owned body or decision paragraph. |
