@@ -8,7 +8,7 @@ export const november04ResearchBatch: ResearchPost[] = [
     "excerpt": "A measurement protocol for wrap-up code consistency in offshore call center operations, with a frozen population, a defined sample, and explicit limits.",
     "published": "2026-11-04",
     "modified": "2026-11-04",
-    "revision": "2026-11-04-callcenteroffshore-how-consistent-are-call-wrap-up-codes-v1",
+    "revision": "2026-11-04-callcenteroffshore-how-consistent-are-call-wrap-up-codes-v2",
     "readingMinutes": 10,
     "wordCount": 1400,
     "methodology": "A repeatable measurement protocol for wrap-up code consistency in offshore call center operations, with definitions, sampling, limits, and reporting.",
@@ -110,9 +110,9 @@ export const november04ResearchBatch: ResearchPost[] = [
       "Recheck the destination record before closure."
     ],
     "contextualService": {
-      "text": "Plan this wrap-up code consistency workflow with bounded roles, evidence, and escalation ownership.",
-      "label": "See the related call center operations support",
-      "href": "/services/operations-support"
+      "text": "Plan this wrap-up code consistency workflow with a scorecard, review evidence, and clear escalation ownership.",
+      "label": "See the related call quality review",
+      "href": "/services/call-quality-monitoring"
     },
     "faqs": [
       {
