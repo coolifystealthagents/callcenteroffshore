@@ -75,3 +75,11 @@ body{overflow-x:clip}
   .hat-toc-mobile{display:block}
   .hat-toc ol{grid-template-columns:1fr;margin-top:10px}
 }
+.article-shell{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;align-items:start}
+.article-shell > .hat-toc{grid-column:2;grid-row:2;position:sticky;top:96px;max-height:calc(100dvh - 120px);overflow:auto;margin:0}
+.article-shell > .card{grid-column:1;grid-row:2;margin:0}
+.article-shell > :not(.hat-toc):not(.card){grid-column:1/-1}
+.research-main{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;align-items:start}
+.research-main > .hat-toc{grid-column:2;grid-row:1;position:sticky;top:96px;max-height:calc(100dvh - 120px);overflow:auto;margin:0}
+.research-main > .research-body{grid-column:1;min-width:0}
+@media(max-width:900px){.article-shell,.research-main{grid-template-columns:1fr}.article-shell > .hat-toc,.article-shell > .card,.research-main > .hat-toc,.research-main > .research-body{grid-column:1;grid-row:auto}}

@@ -118,6 +118,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
 
         <div className="container research-layout">
           <div className="research-main"><StickyArticleToc scope=".research-main" initialItems={tocItems} />
+          <div className="research-body">
             <section className="research-panel research-takeaways" aria-labelledby="takeaways-heading">
               <p className="research-label">The short answer</p>
               <h2 id="takeaways-heading">Key takeaways</h2>
@@ -166,6 +167,7 @@ export default async function ResearchArticle({params}:{params:Promise<{slug:str
               <div>{post.related.map(item=><a className="card" href={item.href} key={item.href}>{item.title}<span>Read next →</span></a>)}</div>
               <p>Need help turning this research into a real queue plan? <a href="/contact-us">Contact the Philippines staffing team</a>.</p>
             </section>
+          </div>
           </div>
         </div>
       </article>
