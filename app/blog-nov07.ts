@@ -1,6 +1,6 @@
 export const november07BlogPosts = [
   {
-    "slug": "callcenteroffshore-case-impact-statement",
+    "slug": "callcenteroffshore-document-a-supervisor-escalation-with-the-case-impact-statement",
     "title": "Document a supervisor escalation with the case impact statement",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on supervisor escalation notes and bounded by honest evidence.",
     "focus": "supervisor escalation notes",
@@ -8,8 +8,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-case-impact-statement.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-case-impact-statement.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-document-a-supervisor-escalation-with-the-case-impact-statement.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-document-a-supervisor-escalation-with-the-case-impact-statement.png",
     "contextualService": {
       "text": "Plan this supervisor escalation notes workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -17,7 +17,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-promised-callback-attempt",
+    "slug": "callcenteroffshore-verify-a-promised-callback-against-the-recorded-queue-attempt",
     "title": "Verify a promised callback against the recorded queue attempt",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on callback verification and bounded by honest evidence.",
     "focus": "callback verification",
@@ -25,8 +25,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-promised-callback-attempt.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-promised-callback-attempt.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-verify-a-promised-callback-against-the-recorded-queue-attempt.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-verify-a-promised-callback-against-the-recorded-queue-attempt.png",
     "contextualService": {
       "text": "Plan this callback verification workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -34,7 +34,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-complaint-remedy-owner",
+    "slug": "callcenteroffshore-assign-a-complaint-remedy-owner-before-the-response-closes",
     "title": "Assign a complaint remedy owner before the response closes",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on complaint remedy owners and bounded by honest evidence.",
     "focus": "complaint remedy owners",
@@ -42,8 +42,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-complaint-remedy-owner.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-complaint-remedy-owner.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-assign-a-complaint-remedy-owner-before-the-response-closes.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-assign-a-complaint-remedy-owner-before-the-response-closes.png",
     "contextualService": {
       "text": "Plan this complaint remedy owners workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -51,7 +51,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-handoff-acknowledgement",
+    "slug": "callcenteroffshore-close-a-shift-handoff-with-the-receiving-agent-acknowledgement",
     "title": "Close a shift handoff with the receiving agent acknowledgement",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on handoff acknowledgements and bounded by honest evidence.",
     "focus": "handoff acknowledgements",
@@ -59,8 +59,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-handoff-acknowledgement.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-handoff-acknowledgement.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-close-a-shift-handoff-with-the-receiving-agent-acknowledgement.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-close-a-shift-handoff-with-the-receiving-agent-acknowledgement.png",
     "contextualService": {
       "text": "Plan this handoff acknowledgements workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -68,7 +68,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-knowledge-version-check",
+    "slug": "callcenteroffshore-check-a-knowledge-base-answer-against-its-approved-version",
     "title": "Check a knowledge base answer against its approved version",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on knowledge version checks and bounded by honest evidence.",
     "focus": "knowledge version checks",
@@ -76,8 +76,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-knowledge-version-check.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-knowledge-version-check.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-check-a-knowledge-base-answer-against-its-approved-version.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-check-a-knowledge-base-answer-against-its-approved-version.png",
     "contextualService": {
       "text": "Plan this knowledge version checks workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -85,7 +85,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-schedule-coverage-record",
+    "slug": "callcenteroffshore-record-a-schedule-change-with-the-coverage-confirmation",
     "title": "Record a schedule change with the coverage confirmation",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on schedule change records and bounded by honest evidence.",
     "focus": "schedule change records",
@@ -93,8 +93,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-schedule-coverage-record.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-schedule-coverage-record.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-record-a-schedule-change-with-the-coverage-confirmation.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-record-a-schedule-change-with-the-coverage-confirmation.png",
     "contextualService": {
       "text": "Plan this schedule change records workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -102,7 +102,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-disposition-summary-match",
+    "slug": "callcenteroffshore-reconcile-a-call-disposition-with-the-contact-summary",
     "title": "Reconcile a call disposition with the contact summary",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on disposition reconciliation and bounded by honest evidence.",
     "focus": "disposition reconciliation",
@@ -110,8 +110,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-disposition-summary-match.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-disposition-summary-match.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-reconcile-a-call-disposition-with-the-contact-summary.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-reconcile-a-call-disposition-with-the-contact-summary.png",
     "contextualService": {
       "text": "Plan this disposition reconciliation workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
@@ -119,7 +119,7 @@ export const november07BlogPosts = [
     }
   },
   {
-    "slug": "callcenteroffshore-credit-memo-dispute-close",
+    "slug": "callcenteroffshore-attach-a-credit-memo-reference-to-a-closed-billing-dispute",
     "title": "Attach a credit memo reference to a closed billing dispute",
     "excerpt": "A source-bounded offshore call center operations guide for call center and support managers, focused on billing dispute closures and bounded by honest evidence.",
     "focus": "billing dispute closures",
@@ -127,8 +127,8 @@ export const november07BlogPosts = [
     "published": "2026-11-07",
     "modified": "2026-11-07",
     "minutes": 9,
-    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-credit-memo-dispute-close.md",
-    "hero": "/daily07/callcenteroffshore/callcenteroffshore-credit-memo-dispute-close.png",
+    "draftPath": "docs/publishing/drafts/2026-11-07/callcenteroffshore-attach-a-credit-memo-reference-to-a-closed-billing-dispute.md",
+    "hero": "/daily07/callcenteroffshore/callcenteroffshore-attach-a-credit-memo-reference-to-a-closed-billing-dispute.png",
     "contextualService": {
       "text": "Plan this billing dispute closures workflow with bounded roles, evidence, and escalation ownership.",
       "label": "See the related call center operations",
