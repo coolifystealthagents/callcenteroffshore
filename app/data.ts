@@ -24,6 +24,7 @@ import { october26BlogPosts } from './blog-oct26';
 import { november01BlogPosts } from './blog-nov01';
 import { november02BlogPosts } from './blog-nov02';
 import { november06BlogPosts } from './blog-nov06';
+import { november07BlogPosts } from './blog-nov07';
 import { november05BlogPosts } from './blog-nov05';
 import { november04BlogPosts } from './blog-nov04';
 import { november03BlogPosts } from './blog-nov03';
@@ -86,6 +87,7 @@ export const services = [
 export const blogPosts = [
   ...november03BlogPosts,
   ...november04BlogPosts,
+  ...november07BlogPosts,
   ...november06BlogPosts,
   ...november05BlogPosts,
   ...november02BlogPosts,
