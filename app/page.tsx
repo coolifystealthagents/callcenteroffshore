@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Header, Footer, JsonLd, VisualFigure } from './components';
 
 export const metadata: Metadata = {
-  title: 'Call Center Offshore | Philippines Virtual Assistants',
-  description: 'Build a Philippines-based call center and virtual assistant team with clear role scopes, operating controls, and launch support.',
+  title: 'Offshore Call Center Teams | Philippines Customer Support',
+  description: 'Build a Philippines-based customer support team for calls, email, chat, and back-office queues with clear ownership, controls, and launch support.',
   alternates: { canonical: 'https://callcenteroffshore.com/' },
 };
 
@@ -44,14 +45,21 @@ export default function Home() {
         <div className="cco-grid-bg" aria-hidden="true" />
         <div className="container cco-hero-grid">
           <div className="cco-hero-copy">
-            <p className="cco-kicker"><span /> Philippines-based virtual assistants</p>
-            <h1>Build the support team your goals have been waiting for.</h1>
-            <p className="cco-lead">Hire virtual assistants, executive assistants, and outsourced teams from the Philippines. Give them clear work, safe access, and a system that keeps you in control.</p>
+            <p className="cco-kicker"><span /> Philippines customer support teams</p>
+            <h1>Give every customer queue a clear owner.</h1>
+            <p className="cco-lead">Build a Philippines-based team for calls, email, chat, and back-office follow-up. Define the work, escalation rules, and quality checks before the first handoff.</p>
             <div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact-us">Plan my team <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="#roles">See the roles</a></div>
             <div className="cco-hero-points"><span><i><img src="/icons/getillustrations/soft-color-icons-svg/global-travel-navigation-map-icon.svg" alt="Philippines talent location icon" width="24" height="24" /></i> Philippines-only talent</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/target-employee-hiring-user-icon.svg" alt="Role-first matching icon" width="24" height="24" /></i> Role-first matching</span><span><i><img src="/icons/getillustrations/soft-color-icons-svg/team-work-employee-transfer-icon.svg" alt="Manager handoff icon" width="24" height="24" /></i> Clear manager handoffs</span></div>
           </div>
           <div className="cco-hero-art">
-            <img src="/illustrations/getillustrations/communication-illustrations-pack-svg/philippines-support-team.webp" alt="Illustration of a Philippines-based assistant managing customer conversations" />
+            <Image
+              src="/images/hero-philippines-support-handoff-v2.png"
+              alt="Three support professionals coordinating a customer queue at their workstations"
+              width={1672}
+              height={941}
+              sizes="(max-width: 850px) 100vw, 50vw"
+              priority
+            />
           </div>
         </div>
         <div className="container cco-proofline"><span>ONE SUPPORT SYSTEM</span><b>Calendar</b><b>Inbox</b><b>Customers</b><b>Sales</b><b>Operations</b><b>Reporting</b></div>
