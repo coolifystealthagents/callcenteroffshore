@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 };
 
 const roles = [
-  { title: 'Executive assistants', text: 'Protect the calendar, prepare meetings, organize the inbox, and keep commitments visible.', image: '/visuals/role-executive-assistant.svg', href: '/services/appointment-scheduling' },
-  { title: 'Customer support assistants', text: 'Handle routine phone, email, and chat requests with approved answers and clean notes.', image: '/visuals/role-customer-support.svg', href: '/services/inbound-customer-care' },
-  { title: 'Operations coordinators', text: 'Keep recurring tasks, orders, reports, and cross-team follow-ups moving each day.', image: '/visuals/role-operations-coordinator.svg', href: '/services/order-and-billing-support' },
-  { title: 'Sales support assistants', text: 'Research leads, clean CRM records, run first-touch outreach, and coordinate booked calls.', image: '/visuals/role-sales-support.svg', href: '/services/outbound-lead-qualification' },
+  { title: 'Executive assistants', text: 'Protect the calendar, prepare meetings, organize the inbox, and keep commitments visible.', image: '/images/service-photography/appointment-scheduling-7709147.jpg', alt: 'Scheduling assistant coordinating a calendar from an office workstation', href: '/services/appointment-scheduling' },
+  { title: 'Customer support assistants', text: 'Handle routine phone, email, and chat requests with approved answers and clean notes.', image: '/images/service-photography/inbound-customer-care-7682340.jpg', alt: 'Customer care specialists handling calls and account notes at their workstations', href: '/services/inbound-customer-care' },
+  { title: 'Operations coordinators', text: 'Keep recurring tasks, orders, reports, and cross-team follow-ups moving each day.', image: '/images/service-photography/order-billing-support-8867427.jpg', alt: 'Operations specialist checking a customer record while wearing a headset', href: '/services/order-and-billing-support' },
+  { title: 'Sales support assistants', text: 'Research leads, clean CRM records, run first-touch outreach, and coordinate booked calls.', image: '/images/service-photography/outbound-lead-qualification-7682103.jpg', alt: 'Sales support specialist making an outreach call while teammates review lead notes', href: '/services/outbound-lead-qualification' },
 ];
 
 const launch = [
@@ -74,7 +74,7 @@ export default function Home() {
 
       <section className="cco-section cco-role-section" id="roles">
         <div className="container"><div className="cco-heading-row"><div><p className="cco-kicker cco-dark"><span /> Choose your support lane</p><h2>Start with the role that removes the biggest bottleneck.</h2></div><p>Your first role should own repeatable work with clear inputs and a visible finish line. Add more only when the first lane runs well.</p></div>
-          <div className="cco-role-grid">{roles.map((role) => <a className="cco-role-card" href={role.href} key={role.title}><img src={role.image} alt={`Filipina professional working as a ${role.title.toLowerCase()}`} loading="lazy" /><div><h3>{role.title}</h3><p>{role.text}</p><b>Explore this role ↗</b></div></a>)}</div>
+          <div className="cco-role-grid">{roles.map((role) => <a className="cco-role-card" href={role.href} key={role.title}><Image src={role.image} alt={role.alt} width={1600} height={900} sizes="(max-width: 700px) 100vw, 50vw" loading="lazy" /><div><h3>{role.title}</h3><p>{role.text}</p><b>Explore this role ↗</b></div></a>)}</div>
         </div>
       </section>
 

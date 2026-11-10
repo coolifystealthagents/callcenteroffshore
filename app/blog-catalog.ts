@@ -9,6 +9,7 @@ const metadataPosts = [aug23Meta, aug21Meta, aug20Meta].flatMap((records) =>
     slug,
     title: post.title,
     excerpt: post.description,
+    hero: post.hero,
   })),
 );
 

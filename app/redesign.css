@@ -43,3 +43,55 @@ html{scroll-padding-top:96px}.nav{z-index:100;box-shadow:0 8px 24px rgba(7,28,44
 .sa-testimonial-track{animation:none!important}
 @media(prefers-reduced-motion:reduce){.sa-testimonial-viewport{overflow:visible!important;height:auto!important}.sa-testimonial-track{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));width:100%!important;transform:none!important;will-change:auto!important}.sa-testimonial-track>.sa-testimonial-card:nth-child(n){display:flex!important;width:auto!important;height:auto!important;min-height:144px}}
 @media(prefers-reduced-motion:reduce) and (max-width:700px){.sa-testimonial-track{grid-template-columns:1fr}}
+
+/* Landscape editorial photography and compact spacing pass. */
+.cco-command .cco-section{padding:82px 0}
+.cco-command .cco-proofline{margin-top:54px}
+.cco-role-card{display:flex;min-height:0;flex-direction:column}
+.cco-role-card>img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.cco-role-card>div{display:flex;min-height:230px;flex-direction:column;padding:25px 27px}
+.cco-role-card h3{margin:0 0 12px}
+.cco-role-card b{margin-top:auto}
+.cco-launch-five article{min-height:0}
+.cco-dark-feature{padding:82px 0}
+
+.page-hero-art img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.service-index{padding:76px 0}
+.service-grid-new{align-items:stretch}
+.service-card-new{display:flex;min-height:0;flex-direction:column}
+.service-card-new img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.service-card-new>div{display:flex;min-height:285px;flex:1;flex-direction:column;padding:24px 25px}
+.service-card-new h2{margin:18px 0 10px}
+.service-card-new b{margin-top:auto}
+.service-detail-layout{padding:72px 0}
+.service-outcome{margin-bottom:64px}
+.service-manual,.service-workflow-detail,.service-quality{padding:60px 0}
+.service-columns{margin-bottom:62px}
+.service-faq{padding:58px 0}
+.service-related{padding-bottom:72px}
+
+.blog-index{padding:72px 0}
+.blog-feature>img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.blog-card-new{min-height:0;overflow:hidden}
+.blog-card-new .editorial-card-image{width:calc(100% + 56px);max-width:none;height:auto;aspect-ratio:16/9;object-fit:cover;margin:-28px -28px 22px}
+.blog-card-new h2{margin:18px 0 12px}
+.blog-card-new b{margin-top:auto;padding-top:14px}
+
+.research-hero-grid{grid-template-columns:minmax(0,1fr) minmax(320px,.72fr);align-items:center}
+.research-hero-photo img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:16px;box-shadow:10px 10px 0 #b7f34a}
+.research-library-card{min-height:0;overflow:hidden}
+.research-card-image{width:calc(100% + 48px);max-width:none;height:auto;aspect-ratio:16/9;object-fit:cover;margin:-24px -24px 20px}
+
+@media(max-width:980px){.research-hero-grid{grid-template-columns:1fr}.research-hero-photo{max-width:760px}}
+@media(max-width:600px){
+  .cco-command .cco-section{padding:62px 0}
+  .cco-command .cco-proofline{margin-top:38px}
+  .cco-role-card>img,.service-card-new img{height:auto}
+  .cco-role-card>div,.service-card-new>div{min-height:0}
+  .cco-dark-feature{padding:62px 0}
+  .page-hero{padding:48px 0}
+  .service-index,.blog-index{padding:56px 0}
+  .service-detail-layout{padding:54px 0}
+  .service-outcome{margin-bottom:48px}
+  .service-columns{margin-bottom:44px}
+}

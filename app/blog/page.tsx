@@ -1,7 +1,13 @@
 import { Header, Footer } from "../components";
+import Image from "next/image";
 import { allBlogPosts, blogPageCount } from "../blog-catalog";
 import { postsPerPage } from "../fleet-data";
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
+const fallbackImage = "/images/service-photography/editorial-library-5453808.jpg";
+const postImage = (post: unknown) => {
+  const hero = (post as { hero?: unknown }).hero;
+  return typeof hero === "string" && hero.startsWith("/") ? hero : fallbackImage;
+};
 export const metadata = {
   title: "Virtual assistant and outsourcing guides",
   description:
@@ -30,10 +36,7 @@ export default function Blog() {
               </p>
             </div>
             <div className="page-hero-art">
-              <img
-                src="/visuals/operations-dashboard.svg"
-                alt="Virtual assistant operations dashboard with tasks and quality reviews"
-              />
+              <Image src="/images/service-photography/editorial-library-5453808.jpg" alt="Customer support team working across a shared call center floor" width={1600} height={900} sizes="(max-width: 850px) 100vw, 43vw" priority />
             </div>
           </div>
         </section>
@@ -41,10 +44,7 @@ export default function Blog() {
           <div className="container">
             {featured && (
               <a className="blog-feature" href={`/blog/${featured.slug}`}>
-                <img
-                  src="/visuals/va-workflow.svg"
-                  alt="Assistant task workflow"
-                />
+                <Image src={postImage(featured)} alt={`Editorial image for ${featured.title}`} width={1600} height={900} sizes="(max-width: 850px) 100vw, 50vw" />
                 <div>
                   <p className="cco-kicker">
                     <span /> Featured guide
@@ -63,6 +63,7 @@ export default function Blog() {
                   href={`/blog/${post.slug}`}
                   key={post.slug}
                 >
+                  <Image className="editorial-card-image" src={postImage(post)} alt={`Editorial image for ${post.title}`} width={1600} height={900} sizes="(max-width: 700px) 100vw, 50vw" loading="lazy" />
                   <span>Call center operations guide</span>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>

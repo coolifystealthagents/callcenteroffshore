@@ -1,11 +1,17 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Header, Footer } from "../../../components";
 import { site } from "../../../data";
 import { postsPerPage } from "../../../fleet-data";
 import { allBlogPosts, blogPageCount, parseBlogPage } from "../../../blog-catalog";
 import { FeaturedComparison } from "../../FeaturedComparison";
 export const dynamicParams = false;
+const fallbackImage = "/images/service-photography/editorial-library-5453808.jpg";
+const postImage = (post: unknown) => {
+  const hero = (post as { hero?: unknown }).hero;
+  return typeof hero === "string" && hero.startsWith("/") ? hero : fallbackImage;
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
   const { page } = await params;
@@ -52,10 +58,7 @@ export default async function BlogPage({
               </p>
             </div>
             <div className="page-hero-art">
-              <img
-                src="/visuals/operations-dashboard.svg"
-                alt="Assistant workflow dashboard"
-              />
+              <Image src="/images/service-photography/editorial-library-5453808.jpg" alt="Customer support team working across a shared call center floor" width={1600} height={900} sizes="(max-width: 850px) 100vw, 43vw" priority />
             </div>
           </div>
         </section>
@@ -68,6 +71,7 @@ export default async function BlogPage({
                   href={`/blog/${post.slug}`}
                   key={post.slug}
                 >
+                  <Image className="editorial-card-image" src={postImage(post)} alt={`Editorial image for ${post.title}`} width={1600} height={900} sizes="(max-width: 700px) 100vw, 50vw" loading="lazy" />
                   <span>Call center operations guide</span>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>

@@ -1,7 +1,9 @@
 import { Header, Footer } from "../components";
+import Image from "next/image";
 import { researchPosts } from "../fleet-data";
 import { site } from "../data";
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
+const fallbackImage = "/images/service-photography/call-quality-monitoring-8117473.jpg";
 export const metadata = {
   title: `Research | ${site.brand}`,
   description:
@@ -29,6 +31,7 @@ export default function Research() {
                 <span>Methodology notes</span>
               </div>
             </div>
+            <div className="research-hero-photo"><Image src="/images/service-photography/call-quality-monitoring-8117473.jpg" alt="Colleagues reviewing service records and quality evidence together" width={1600} height={900} sizes="(max-width: 850px) 100vw, 43vw" priority /></div>
           </div>
         </section>
         <section className="section research-library-section">
@@ -40,6 +43,7 @@ export default function Research() {
                   href={`/research/${p.slug}`}
                   key={p.slug}
                 >
+                  <Image className="research-card-image" src={p.hero || fallbackImage} alt={`Editorial image for ${p.title}`} width={1600} height={900} sizes="(max-width: 700px) 100vw, 33vw" loading="lazy" />
                   <span className="research-card-badge">Research report</span>
                   <h2>{p.title}</h2>
                   <time dateTime={p.published}>Published {formatDate(p.published)}</time>

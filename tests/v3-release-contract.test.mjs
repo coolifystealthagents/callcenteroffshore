@@ -61,8 +61,10 @@ test('contact page preserves the form-first three-stage journey', () => {
   assert.match(thanks, /https:\/\/go\.oncehub\.com\/StealthAgentsTeam/);
   assert.match(thanks, /\/thanks-whats-next/);
   assert.match(preparation, /robots: \{ index: false, follow: false \}/);
-  assert.match(contact, /Official team, Bacolod/);
-  assert.match(contact, /stealth-agents-team\.webp/);
+  assert.match(contact, /Managed by StealthAgents/);
+  assert.match(contact, /operations-workspace\.webp/);
+  assert.match(contact, /does not identify StealthAgents personnel/);
+  assert.doesNotMatch(contact, /Official team, Bacolod|stealth-agents-team\.webp/);
 });
 
 test('service templates satisfy the long-form content contract', () => {

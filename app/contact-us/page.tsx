@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Footer, Header, CTA } from '../components';
 import { TestimonialsRail } from '../booking-components';
 import StandardContactForm from './StandardContactForm';
@@ -27,8 +28,8 @@ export default function ContactUsPage() {
 
     <section className="v3-parent-proof" aria-labelledby="parent-team-heading">
       <div className="container v3-parent-grid">
-        <figure><img src="/images/stealth-agents-team.webp" alt="StealthAgents team in the Bacolod office" width="1600" height="1067" /></figure>
-        <div><p className="cco-kicker cco-dark"><span /> The operating team behind your request</p><h2 id="parent-team-heading">Call Center Offshore is powered by StealthAgents.</h2><p>StealthAgents supports the recruiting, matching, onboarding coordination, and managed operations behind inquiries from this site. Your brief helps the team understand the queue before discussing a role or staffing structure.</p><p>The subsidiary remains focused on offshore call center work. StealthAgents provides the people and operating support used to move a qualified request forward.</p><div className="v3-team-plate"><img src="/images/stealth-agents-logo-black.png" alt="StealthAgents" width="149" height="50" /><strong>Official team, Bacolod</strong></div></div>
+        <figure><Image src="/images/operations-workspace.webp" alt="Professionals coordinating work around laptops in a shared office" width={1600} height={1067} sizes="(max-width: 850px) 100vw, 50vw" loading="lazy" /></figure>
+        <div><p className="cco-kicker cco-dark"><span /> Managed operating support</p><h2 id="parent-team-heading">Call Center Offshore is powered by StealthAgents.</h2><p>StealthAgents supports the recruiting, matching, onboarding coordination, and managed operations behind inquiries from this site. Your brief helps the team understand the queue before discussing a role or staffing structure.</p><p>The image shows a general collaborative workspace; it does not identify StealthAgents personnel. The subsidiary remains focused on offshore call center work while StealthAgents provides the operating support used to move a qualified request forward.</p><div className="v3-team-plate"><img src="/images/stealth-agents-logo-black.png" alt="StealthAgents" width="149" height="50" /><strong>Managed by StealthAgents</strong></div></div>
       </div>
     </section>
 

@@ -58,6 +58,7 @@ export type FleetService = {
   desc: string;
   outcome: string;
   image: string;
+  imageAlt: string;
   tasks: readonly string[];
   controls: readonly string[];
   firstWeek: readonly string[];
@@ -91,7 +92,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'inbound-customer-care', title: 'Virtual Customer Care Assistants', category: 'Customer experience', eyebrow: 'Inbox, phone, chat, and CRM support',
     desc: 'Give customers a helpful first response from a Philippines-based assistant who follows your answers, account rules, and escalation path.',
-    outcome: 'A calmer support queue with clear notes, owned next steps, and fewer requests sitting unseen.', image: '/visuals/role-customer-support.svg',
+    outcome: 'A calmer support queue with clear notes, owned next steps, and fewer requests sitting unseen.', image: '/images/service-photography/inbound-customer-care-7682340.jpg',
+    imageAlt: 'Customer care specialists handling calls and account notes at their workstations',
     tasks: ['Answer routine phone, email, and chat requests', 'Update customer records and interaction notes', 'Route refunds, exceptions, and sensitive cases to the right owner'],
     controls: ['Approved answer library and identity checks', 'Named client-side escalation owner', 'Sample-based quality review and coaching'],
     firstWeek: ['Learn the top request types and systems', 'Shadow real examples and draft responses', 'Handle a narrow queue with daily review'],
@@ -100,7 +102,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'technical-help-desk', title: 'Technical Support Assistants', category: 'Customer experience', eyebrow: 'Tier-one help desk support',
     desc: 'Add a trained Philippines-based assistant for repeatable troubleshooting, ticket updates, account access checks, and clean technical escalations.',
-    outcome: 'Users get a clear first response while your technical team keeps ownership of complex fixes.', image: '/visuals/role-customer-support.svg',
+    outcome: 'Users get a clear first response while your technical team keeps ownership of complex fixes.', image: '/images/service-photography/technical-help-desk-8866740.jpg',
+    imageAlt: 'Technical support specialist reviewing a customer issue at a desktop workstation',
     tasks: ['Follow approved diagnostic steps', 'Document device, account, and error details', 'Escalate with a complete reproduction note'],
     controls: ['No unapproved system changes', 'Least-privilege tool access', 'Ticket review for accuracy and next-step clarity'],
     firstWeek: ['Map the top ten ticket types', 'Practice troubleshooting scripts', 'Launch one queue with engineer backup'],
@@ -109,7 +112,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'order-and-billing-support', title: 'Order and Billing Assistants', category: 'Operations', eyebrow: 'Order updates and billing coordination',
     desc: 'Keep order questions, invoice follow-ups, payment-status checks, and account notes organized without handing off financial decisions.',
-    outcome: 'Customers receive timely updates and your finance team gets clean exceptions instead of a mixed inbox.', image: '/visuals/role-operations-coordinator.svg',
+    outcome: 'Customers receive timely updates and your finance team gets clean exceptions instead of a mixed inbox.', image: '/images/service-photography/order-billing-support-8867427.jpg',
+    imageAlt: 'Support specialist checking an order document while assisting a customer',
     tasks: ['Check approved order and invoice status', 'Send routine reminders and updates', 'Prepare exceptions for finance or operations review'],
     controls: ['No money movement or bank-detail changes', 'Approved templates and account verification', 'Manager approval for credits and disputes'],
     firstWeek: ['Map order and billing request types', 'Review safe versus restricted actions', 'Run a supervised update queue'],
@@ -118,7 +122,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'appointment-scheduling', title: 'Executive and Calendar Assistants', category: 'Assistants', eyebrow: 'Calendar, inbox, and meeting support',
     desc: 'Pair a busy leader with a Philippines-based executive assistant who can protect focus time, coordinate meetings, prepare agendas, and keep follow-ups moving.',
-    outcome: 'A cleaner calendar, fewer scheduling loops, and a visible list of commitments after every meeting.', image: '/visuals/role-executive-assistant.svg',
+    outcome: 'A cleaner calendar, fewer scheduling loops, and a visible list of commitments after every meeting.', image: '/images/service-photography/appointment-scheduling-7709147.jpg',
+    imageAlt: 'Scheduling assistant coordinating an appointment from a quiet office workstation',
     tasks: ['Manage scheduling rules and meeting requests', 'Prepare agendas, reminders, and briefing notes', 'Track follow-ups and owner commitments'],
     controls: ['Protected personal and confidential calendar items', 'Written priority and rescheduling rules', 'Approval before external promises or travel spend'],
     firstWeek: ['Learn calendar preferences and stakeholders', 'Draft changes before acting', 'Take ownership of repeat meeting types'],
@@ -127,7 +132,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'after-hours-answering', title: 'After-Hours Virtual Assistants', category: 'Customer experience', eyebrow: 'Extended-hours response coverage',
     desc: 'Use a Philippines-based virtual assistant to watch approved queues, answer routine requests, flag urgent cases, and prepare a clean next-shift handoff.',
-    outcome: 'Customers are acknowledged after hours without forcing your local team to stay constantly online.', image: '/visuals/philippines-time-zone-handoff.svg',
+    outcome: 'Customers are acknowledged after hours without forcing your local team to stay constantly online.', image: '/images/service-photography/after-hours-answering-8204396.jpg',
+    imageAlt: 'After-hours support specialist answering a customer call from an office desk',
     tasks: ['Monitor phone, chat, or inbox queues', 'Use approved answers for routine needs', 'Prepare urgent and next-day handoff notes'],
     controls: ['Written definition of urgent', 'One on-call escalation route', 'No off-script promises or high-risk actions'],
     firstWeek: ['Define coverage window and queue', 'Practice urgent and non-urgent examples', 'Review every handoff before expanding'],
@@ -136,7 +142,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'outbound-lead-qualification', title: 'Sales Support Assistants', category: 'Assistants', eyebrow: 'Prospecting and appointment support',
     desc: 'Give your sales team a Philippines-based assistant for list research, first-touch outreach, qualification notes, CRM hygiene, and booked-call coordination.',
-    outcome: 'Salespeople spend more time on qualified conversations and less time cleaning lists or chasing calendars.', image: '/visuals/role-sales-support.svg',
+    outcome: 'Salespeople spend more time on qualified conversations and less time cleaning lists or chasing calendars.', image: '/images/service-photography/outbound-lead-qualification-7682103.jpg',
+    imageAlt: 'Sales support specialist making an outreach call while teammates review lead notes',
     tasks: ['Research and clean prospect records', 'Run approved first-touch outreach', 'Capture qualification notes and schedule next steps'],
     controls: ['Approved audience and message library', 'Consent and do-not-contact rules', 'No invented claims or commercial promises'],
     firstWeek: ['Define the ideal prospect and disqualifiers', 'Review sample messages and calls', 'Launch a small list with daily checks'],
@@ -145,7 +152,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'customer-retention-support', title: 'Customer Success Assistants', category: 'Customer experience', eyebrow: 'Onboarding, check-ins, and renewal support',
     desc: 'Add a Philippines-based customer success assistant for onboarding reminders, routine check-ins, account notes, and early risk flags.',
-    outcome: 'Customers get steady attention while account owners focus on decisions, renewals, and sensitive conversations.', image: '/visuals/role-customer-support.svg',
+    outcome: 'Customers get steady attention while account owners focus on decisions, renewals, and sensitive conversations.', image: '/images/service-photography/customer-retention-support-8204367.jpg',
+    imageAlt: 'Customer success specialists coordinating follow-up at adjacent workstations',
     tasks: ['Track onboarding milestones', 'Send approved check-ins and resource links', 'Flag usage, satisfaction, and renewal risks'],
     controls: ['Account owner keeps scope and contract decisions', 'Approved health signals and escalation rules', 'Recorded customer notes and next steps'],
     firstWeek: ['Map the customer journey', 'Review healthy and at-risk examples', 'Own one repeatable check-in stage'],
@@ -154,7 +162,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'ecommerce-contact-center', title: 'Ecommerce Virtual Assistants', category: 'Operations', eyebrow: 'Store, order, and customer operations',
     desc: 'Support your online store with Philippines-based assistants who can answer order questions, update products, coordinate returns, and keep issue notes current.',
-    outcome: 'Store operations keep moving while founders and managers focus on products, marketing, and supplier decisions.', image: '/visuals/role-operations-coordinator.svg',
+    outcome: 'Store operations keep moving while founders and managers focus on products, marketing, and supplier decisions.', image: '/images/service-photography/ecommerce-contact-center-6169635.jpg',
+    imageAlt: 'Ecommerce operations specialist reviewing orders beside packed shipments',
     tasks: ['Handle approved order and delivery questions', 'Update product information and routine store records', 'Prepare return, damage, and supplier exceptions'],
     controls: ['No unapproved refunds or payment changes', 'Store-role permissions by task', 'Daily exception and inventory review'],
     firstWeek: ['Learn products and order policies', 'Practice common customer cases', 'Launch one channel or store queue'],
@@ -163,7 +172,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'healthcare-scheduling-support', title: 'Healthcare Admin Assistants', category: 'Operations', eyebrow: 'Scheduling and non-clinical coordination',
     desc: 'Add a Philippines-based administrative assistant for appointment coordination, reminders, records requests, and non-clinical follow-up under your privacy rules.',
-    outcome: 'Administrative work moves faster while licensed staff keep every clinical decision.', image: '/visuals/role-executive-assistant.svg',
+    outcome: 'Administrative work moves faster while licensed staff keep every clinical decision.', image: '/images/service-photography/healthcare-scheduling-support-6809657.jpg',
+    imageAlt: 'Clinic receptionist reviewing an appointment calendar with a visitor',
     tasks: ['Coordinate appointment requests and reminders', 'Collect approved non-clinical intake details', 'Route clinical, urgent, and privacy-sensitive questions'],
     controls: ['No diagnosis, triage, or medical advice', 'Role-based access and identity checks', 'Written privacy and urgent-escalation rules'],
     firstWeek: ['Map appointment types and urgent language', 'Practice verification and routing', 'Start with a narrow scheduling queue'],
@@ -172,7 +182,8 @@ export const fleetServices: readonly FleetService[] = [
   {
     slug: 'call-quality-monitoring', title: 'Quality and Reporting Assistants', category: 'Operations', eyebrow: 'Review, reporting, and process support',
     desc: 'Use a Philippines-based quality assistant to sample work, apply your scorecard, prepare coaching notes, and surface repeat process issues.',
-    outcome: 'Managers see where work breaks without manually reviewing every call, ticket, or record.', image: '/visuals/quality-scorecard.svg',
+    outcome: 'Managers see where work breaks without manually reviewing every call, ticket, or record.', image: '/images/service-photography/call-quality-monitoring-8117473.jpg',
+    imageAlt: 'Quality reviewers examining service records together at an office table',
     tasks: ['Sample calls, tickets, or completed records', 'Apply documented review criteria', 'Summarize misses, patterns, and follow-up actions'],
     controls: ['Client-approved scorecard', 'Calibration with managers', 'Sensitive cases stay with authorized reviewers'],
     firstWeek: ['Choose the sample and scorecard', 'Double-score examples with a manager', 'Publish the first calibration report'],
