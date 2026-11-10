@@ -52,6 +52,7 @@ html{scroll-padding-top:96px}.nav{z-index:100;box-shadow:0 8px 24px rgba(7,28,44
 .cco-role-card>div{display:flex;min-height:230px;flex-direction:column;padding:25px 27px}
 .cco-role-card h3{margin:0 0 12px}
 .cco-role-card b{margin-top:auto}
+.cco-compare-list article{grid-template-columns:1fr}
 .cco-launch-five article{min-height:0}
 .cco-dark-feature{padding:82px 0}
 
