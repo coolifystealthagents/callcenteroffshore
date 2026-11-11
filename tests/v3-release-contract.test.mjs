@@ -78,6 +78,11 @@ test('service templates satisfy the long-form content contract', () => {
   const index = read('app/services/page.tsx');
   const detail = read('app/services/[slug]/page.tsx');
   for (const phrase of ['Inputs', 'Boundaries', 'Outputs', 'Review', 'How to choose the first lane']) assert.match(index, new RegExp(phrase));
+  for (const phrase of ['Find by need', 'Complete directory', 'Customer experience', 'Leadership and sales', 'Business operations']) assert.match(index, new RegExp(phrase));
+  assert.match(index, /services-directory-hero/);
+  assert.match(index, /services-need-grid/);
+  assert.match(index, /services-lane-list/);
+  assert.doesNotMatch(index, /service-card-new|service-grid-new|service\.image|<Image/);
   for (const phrase of ['Work in scope', 'Client decisions and boundaries', 'Controlled launch', 'A practical operating workflow', 'Quality should be visible', 'Questions to settle before launch', 'Related services']) assert.match(detail, new RegExp(phrase));
   assert.match(detail, /FAQPage/);
   assert.match(detail, /service\.image/);
