@@ -18,3 +18,5 @@ The service and listing photographs added in the November 2026 visual repair com
 | `editorial-library-5453808.jpg` | [Photo 5453808](https://www.pexels.com/photo/people-working-in-the-office-5453808/) | Tima Miroshnichenko |
 
 `operations-workspace.webp` is a renamed copy of the repository's pre-existing generic workspace photograph. It is intentionally described as a general collaborative workspace, not as a photograph of the StealthAgents team.
+
+`stealth-agents-team-bacolod-group-2026.jpg` is the approved first-party Stealth Agents team photograph from the Bacolod office, supplied for use in the contact-page parent-team section.
