@@ -1,3 +1,3 @@
-import Experience from "../_refresh/Experience";
-export const metadata = {"title": "Support across the customer journey.", "description": "Build a Philippines-based support team for the calls, messages and follow-ups your customers depend on. Human conversations. Clear answers. A better handoff.", "alternates": {"canonical": "/services"}};
-export default function Page(){return <Experience services/>}
+import ServiceOverview from "../_refresh/ServiceOverview";
+export const metadata = {"title": "Build coverage around the conversation.", "description": "Choose the customer conversations your team needs covered, from first response to follow-up. Each role has its own responsibilities, records and escalation rules, so you can add capacity without losing the context behind a request.", "alternates": {"canonical": "/services"}};
+export default function Page(){return <ServiceOverview/>}

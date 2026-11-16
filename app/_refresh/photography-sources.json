@@ -1,95 +1,5 @@
 [
   {
-    "asset": "/refresh/inbound-customer-care.webp",
-    "pexelsPhotoId": 8101449,
-    "source": "https://www.pexels.com/photo/8101449/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/technical-help-desk.webp",
-    "pexelsPhotoId": 7682093,
-    "source": "https://www.pexels.com/photo/7682093/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Professional using a laptop and headset at a desk",
-    "sha256": "4d9e5115e7056854aef87aa391908fb2d71a172e5e9aaf65352d775e36a8ebd6",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/order-and-billing-support.webp",
-    "pexelsPhotoId": 8296970,
-    "source": "https://www.pexels.com/photo/8296970/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Financial paperwork being checked with a calculator",
-    "sha256": "1a79be2778120c5dce6f678e4899fcb0ea29c900e695d98a10083ef49c830892",
-    "note": "Licensed stock photograph illustrating the service; not company staff."
-  },
-  {
-    "asset": "/refresh/appointment-scheduling.webp",
-    "pexelsPhotoId": 6964119,
-    "source": "https://www.pexels.com/photo/6964119/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues preparing documents around a meeting table",
-    "sha256": "ee35f617fb18d676ef9bca4ef0ec0334d27ecb3f5611b828eae7b86e88c7a20e",
-    "note": "Licensed stock photograph illustrating the service; not company staff."
-  },
-  {
-    "asset": "/refresh/after-hours-answering.webp",
-    "pexelsPhotoId": 8101449,
-    "source": "https://www.pexels.com/photo/8101449/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/outbound-lead-qualification.webp",
-    "pexelsPhotoId": 7682093,
-    "source": "https://www.pexels.com/photo/7682093/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Professional using a laptop and headset at a desk",
-    "sha256": "4d9e5115e7056854aef87aa391908fb2d71a172e5e9aaf65352d775e36a8ebd6",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/customer-retention-support.webp",
-    "pexelsPhotoId": 7644155,
-    "source": "https://www.pexels.com/photo/7644155/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "A candidate and interviewer discussing a role",
-    "sha256": "5fed77131eb35e660acec6342e597555a6dfaf22d9932f6ba594aa7975da28d0",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/ecommerce-contact-center.webp",
-    "pexelsPhotoId": 7693683,
-    "source": "https://www.pexels.com/photo/7693683/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues reviewing information on a laptop",
-    "sha256": "a35505301ea221feea57db21c14c8e2b1b57ae693415c20ccd537dde816d5d25",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/healthcare-scheduling-support.webp",
-    "pexelsPhotoId": 8101449,
-    "source": "https://www.pexels.com/photo/8101449/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/call-quality-monitoring.webp",
-    "pexelsPhotoId": 7964540,
-    "source": "https://www.pexels.com/photo/7964540/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Documents and laptops arranged for a team discussion",
-    "sha256": "fa3041a668ddb2d577a216a753ce322c45b1b910c3f045f42ea0920afe225b34",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
     "asset": "/refresh/hero.webp",
     "pexelsPhotoId": 8101449,
     "source": "https://www.pexels.com/photo/8101449/",
@@ -97,5 +7,126 @@
     "alt": "Office professional coordinating work with a headset and binder",
     "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
     "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/refresh/services-overview-20261117.jpg",
+    "pexelsPhotoId": 5453808,
+    "source": "https://www.pexels.com/photo/5453808/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Customer support colleagues working at computer desks",
+    "sha256": "b82d134a693323c28f3d34c24365eab26177f77135bfe2ebea4367ff9a55485c",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/inbound-customer-care-20261117.jpg",
+    "pexelsPhotoId": 7709199,
+    "source": "https://www.pexels.com/photo/7709199/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Customer support agent wearing a headset",
+    "sha256": "d939e359e75045c411911a24050d168ced1fca005b6bc01ce7c0e2cd284158e3",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/technical-help-desk-20261117.jpg",
+    "pexelsPhotoId": 6805152,
+    "source": "https://www.pexels.com/photo/6805152/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Technical professional investigating an issue at a computer",
+    "sha256": "833e920b74efd35c7b01846f1e739e05f0447c83fd74c987185f853b0134de4b",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/order-and-billing-support-20261117.jpg",
+    "pexelsPhotoId": 8296953,
+    "source": "https://www.pexels.com/photo/8296953/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Office laptop, payment terminal and billing paperwork",
+    "sha256": "b21fb22f44a4a1076ff1f5a5f8e9058d937cd7f73a0d87ac0e960cb3308a45dd",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/appointment-scheduling-20261117.jpg",
+    "pexelsPhotoId": 7433858,
+    "source": "https://www.pexels.com/photo/7433858/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Colleagues coordinating documents and appointments",
+    "sha256": "f3bb74b33d00eef1a998fb5d34521ee8f9aaf84e89e78cdfd83b057a91b2e74f",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/after-hours-answering-20261117.jpg",
+    "pexelsPhotoId": 8867233,
+    "source": "https://www.pexels.com/photo/8867233/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "A support team handling conversations at their desks",
+    "sha256": "72707ebb036fc6d81a2cb572252db3072c711b583638d017ef7b651786e5a46f",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/outbound-lead-qualification-20261117.jpg",
+    "pexelsPhotoId": 7709215,
+    "source": "https://www.pexels.com/photo/7709215/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Two support professionals using headsets and laptops",
+    "sha256": "4df0e3143f062e99a6fc58c51e2b25e24274e40d3679544353f3188dbfc6a129",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/customer-retention-support-20261117.jpg",
+    "pexelsPhotoId": 7682351,
+    "source": "https://www.pexels.com/photo/7682351/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Customer support colleagues standing together in an office",
+    "sha256": "5fd01e0c142be392458672a8627cfcb11bbb67c0c9bcf8a15f2f923bcce94ee1",
+    "width": 2000,
+    "height": 3000,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/ecommerce-contact-center-20261117.jpg",
+    "pexelsPhotoId": 7857532,
+    "source": "https://www.pexels.com/photo/7857532/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "An online store team checking and packing an order",
+    "sha256": "867c2900c6799132b5ed7024ba3d36e09cc736115ac7632ef069367e486a2c3c",
+    "width": 2000,
+    "height": 1335,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/healthcare-scheduling-support-20261117.jpg",
+    "pexelsPhotoId": 8376228,
+    "source": "https://www.pexels.com/photo/8376228/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "A medical professional reviewing information on a laptop",
+    "sha256": "4d76c9484ffdef1e677728f10c87a1d2662cdd7bdaf53708535cfa9fc3119072",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/call-quality-monitoring-20261117.jpg",
+    "pexelsPhotoId": 9304670,
+    "source": "https://www.pexels.com/photo/9304670/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Colleagues discussing a quality report and next actions",
+    "sha256": "c9824e50f6436bc86d5e47bcc6f90c1159ee5eb6c858441e2e90d217aebad993",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
   }
 ]

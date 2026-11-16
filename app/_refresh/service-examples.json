@@ -1,0 +1,62 @@
+{
+  "inbound-customer-care": [
+    "A customer asks for an update twice.",
+    "Read the earlier conversation before replying. Confirm the customer using the approved check, review the latest account or order status and explain what can be confirmed now. Record the question, the source checked and the next update you promised.",
+    "If the promised date has passed, send the responsible owner the original commitment, current status and customer impact. Do not make a replacement promise until the owner confirms it.",
+    "A complete interaction note, a customer update and an owned follow-up."
+  ],
+  "technical-help-desk": [
+    "The same error returns after a restart.",
+    "Capture the error wording, device or browser, time of occurrence and steps already attempted. Use the current troubleshooting guide and record the result of each authorized check so the next specialist does not repeat the work.",
+    "Escalate when the documented steps are exhausted, permissions are insufficient or the issue affects several users. Include reproducible steps and relevant screenshots with sensitive information removed.",
+    "A reproducible ticket with the troubleshooting history and a named technical owner."
+  ],
+  "order-and-billing-support": [
+    "A payment appears, but the order still looks unpaid.",
+    "Match the order reference to the approved payment record. Check the status and timing without collecting card details over an unapproved channel. Explain the verified status and gather the information the billing owner needs.",
+    "A duplicate charge, refund request or unexplained mismatch goes to the authorized billing team. The assistant prepares the record; that team approves financial adjustments.",
+    "A reconciled status note or a clearly documented billing exception."
+  ],
+  "appointment-scheduling": [
+    "A customer needs a different appointment time.",
+    "Confirm the booking reference, time zone, service and scheduling rules. Check the approved calendar, offer permitted times and update the invitation and source record after the customer confirms.",
+    "Escalate requests outside availability, changes with fees or exceptions to notice periods. Include the original appointment and the alternatives already discussed.",
+    "One current calendar record, a confirmation and the next reminder."
+  ],
+  "after-hours-answering": [
+    "A request arrives after the main team signs off.",
+    "Use the current coverage notes to establish whether the request can wait or matches an urgent category. Give only the approved response and capture enough context for the next shift to act without calling the customer again.",
+    "Follow the on-call procedure for urgent cases. Record contact attempts and responses; do not silently leave a time-sensitive case in a general inbox.",
+    "An acknowledged request and a shift handoff with priority, owner and due time."
+  ],
+  "outbound-lead-qualification": [
+    "A prospect asks whether your service fits.",
+    "Use approved qualification questions to understand the stated need, decision process and timing. Record the answers accurately, keep the contact preferences visible and offer a meeting only within the agreed booking rules.",
+    "Pricing exceptions, guarantees and contractual commitments stay with the sales owner. Forward the prospect\u2019s exact question and relevant context rather than filling gaps with assumptions.",
+    "A useful CRM record and a qualified next conversation or a documented reason to close."
+  ],
+  "customer-retention-support": [
+    "An account stops engaging after onboarding.",
+    "Review recent interactions and the agreed check-in schedule. Send a relevant, approved follow-up, capture the customer\u2019s explanation and note whether the issue is a question, a support problem or a request for account changes.",
+    "Escalate a cancellation request, unresolved complaint or commercial concern to the account owner. Include the history and the next response the customer expects.",
+    "An up-to-date account note and a clearly assigned retention or support follow-up."
+  ],
+  "ecommerce-contact-center": [
+    "A customer wants to return part of an order.",
+    "Check the order, item and applicable return policy. Explain the permitted steps, gather the required details and record the request in the approved store or helpdesk system. Keep the customer informed about what happens next.",
+    "Damaged goods, disputed deliveries and requests outside policy need an authorized decision. Collect the evidence without promising a refund or replacement before approval.",
+    "A complete return record linked to the original order and the responsible fulfilment owner."
+  ],
+  "healthcare-scheduling-support": [
+    "A patient needs to reschedule a visit.",
+    "Follow the practice\u2019s identity and privacy procedure. Confirm the appointment type and permitted scheduling options, update the approved calendar and send the appropriate administrative confirmation.",
+    "Clinical questions, symptoms and requests for medical advice go to qualified practice staff through the agreed route. Do not interpret urgency beyond the practice\u2019s written escalation instructions.",
+    "An updated appointment and a concise administrative note with any required staff follow-up."
+  ],
+  "call-quality-monitoring": [
+    "Two reviewers disagree about an interaction.",
+    "Compare the same interaction against the written scorecard and its current examples. Record the specific point of disagreement, the evidence and the proposed correction without turning one sample into a claim about the whole team.",
+    "A policy ambiguity goes to the quality owner for a consistent ruling. Record the agreed interpretation and update the coaching reference before the next review round.",
+    "A traceable review record, an agreed coaching action and a clearer scorecard example."
+  ]
+}

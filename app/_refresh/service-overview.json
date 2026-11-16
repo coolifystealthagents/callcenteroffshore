@@ -1,0 +1,19 @@
+{
+  "title": "Build coverage around the conversation.",
+  "intro": "Choose the customer conversations your team needs covered, from first response to follow-up. Each role has its own responsibilities, records and escalation rules, so you can add capacity without losing the context behind a request.",
+  "caption": "People, clear answers and a reliable next step.",
+  "groups": [
+    [
+      "A queue that needs attention",
+      "Start with the channel where unanswered requests collect. Define which enquiries an assistant can resolve, when to call back and who takes over a sensitive case."
+    ],
+    [
+      "A handoff that needs context",
+      "Connect the conversation to the order, appointment or account. A complete note should show what was checked, what was agreed and which person owns the next step."
+    ],
+    [
+      "A service standard you can review",
+      "Choose a sample of interactions and agree what good looks like: correct information, clear language, complete notes and an appropriate escalation."
+    ]
+  ]
+}

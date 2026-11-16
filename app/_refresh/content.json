@@ -7,7 +7,7 @@
   "serviceHeading": "Support across the customer journey.",
   "statement": "A customer should never have to start over.",
   "body": "A good conversation leaves a useful record. Give your team the capacity to answer, capture the context and connect the next person with what they need. From first contact to follow-up, keep the experience joined up.",
-  "contactTitle": "Let\u2019s talk about your customers.",
+  "contactTitle": "Let’s talk about your customers.",
   "hero": "calendar-control",
   "bands": [
     "Voice, email & chat",
@@ -23,8 +23,8 @@
       "eyebrow": "Inbox, phone, chat, and CRM support",
       "desc": "Give customers a helpful first response from a Philippines-based assistant who follows your answers, account rules, and escalation path.",
       "outcome": "A calmer support queue with clear notes, owned next steps, and fewer requests sitting unseen.",
-      "image": "/refresh/inbound-customer-care.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder",
+      "image": "/refresh/inbound-customer-care-20261117.jpg",
+      "imageAlt": "Customer support agent wearing a headset",
       "tasks": [
         "Answer routine phone, email, and chat requests",
         "Update customer records and interaction notes",
@@ -61,8 +61,8 @@
       "eyebrow": "Tier-one help desk support",
       "desc": "Add a trained Philippines-based assistant for repeatable troubleshooting, ticket updates, account access checks, and clean technical escalations.",
       "outcome": "Users get a clear first response while your technical team keeps ownership of complex fixes.",
-      "image": "/refresh/technical-help-desk.webp",
-      "imageAlt": "Professional using a laptop and headset at a desk",
+      "image": "/refresh/technical-help-desk-20261117.jpg",
+      "imageAlt": "Technical professional investigating an issue at a computer",
       "tasks": [
         "Follow approved diagnostic steps",
         "Document device, account, and error details",
@@ -99,8 +99,8 @@
       "eyebrow": "Order updates and billing coordination",
       "desc": "Keep order questions, invoice follow-ups, payment-status checks, and account notes organized without handing off financial decisions.",
       "outcome": "Customers receive timely updates and your finance team gets clean exceptions instead of a mixed inbox.",
-      "image": "/refresh/order-and-billing-support.webp",
-      "imageAlt": "Financial paperwork being checked with a calculator",
+      "image": "/refresh/order-and-billing-support-20261117.jpg",
+      "imageAlt": "Office laptop, payment terminal and billing paperwork",
       "tasks": [
         "Check approved order and invoice status",
         "Send routine reminders and updates",
@@ -137,8 +137,8 @@
       "eyebrow": "Calendar, inbox, and meeting support",
       "desc": "Pair a busy leader with a Philippines-based executive assistant who can protect focus time, coordinate meetings, prepare agendas, and keep follow-ups moving.",
       "outcome": "A cleaner calendar, fewer scheduling loops, and a visible list of commitments after every meeting.",
-      "image": "/refresh/appointment-scheduling.webp",
-      "imageAlt": "Colleagues preparing documents around a meeting table",
+      "image": "/refresh/appointment-scheduling-20261117.jpg",
+      "imageAlt": "Colleagues coordinating documents and appointments",
       "tasks": [
         "Manage scheduling rules and meeting requests",
         "Prepare agendas, reminders, and briefing notes",
@@ -175,8 +175,8 @@
       "eyebrow": "Extended-hours response coverage",
       "desc": "Use a Philippines-based virtual assistant to watch approved queues, answer routine requests, flag urgent cases, and prepare a clean next-shift handoff.",
       "outcome": "Customers are acknowledged after hours without forcing your local team to stay constantly online.",
-      "image": "/refresh/after-hours-answering.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder",
+      "image": "/refresh/after-hours-answering-20261117.jpg",
+      "imageAlt": "A support team handling conversations at their desks",
       "tasks": [
         "Monitor phone, chat, or inbox queues",
         "Use approved answers for routine needs",
@@ -213,8 +213,8 @@
       "eyebrow": "Prospecting and appointment support",
       "desc": "Give your sales team a Philippines-based assistant for list research, first-touch outreach, qualification notes, CRM hygiene, and booked-call coordination.",
       "outcome": "Salespeople spend more time on qualified conversations and less time cleaning lists or chasing calendars.",
-      "image": "/refresh/outbound-lead-qualification.webp",
-      "imageAlt": "Professional using a laptop and headset at a desk",
+      "image": "/refresh/outbound-lead-qualification-20261117.jpg",
+      "imageAlt": "Two support professionals using headsets and laptops",
       "tasks": [
         "Research and clean prospect records",
         "Run approved first-touch outreach",
@@ -251,8 +251,8 @@
       "eyebrow": "Onboarding, check-ins, and renewal support",
       "desc": "Add a Philippines-based customer success assistant for onboarding reminders, routine check-ins, account notes, and early risk flags.",
       "outcome": "Customers get steady attention while account owners focus on decisions, renewals, and sensitive conversations.",
-      "image": "/refresh/customer-retention-support.webp",
-      "imageAlt": "A candidate and interviewer discussing a role",
+      "image": "/refresh/customer-retention-support-20261117.jpg",
+      "imageAlt": "Customer support colleagues standing together in an office",
       "tasks": [
         "Track onboarding milestones",
         "Send approved check-ins and resource links",
@@ -289,8 +289,8 @@
       "eyebrow": "Store, order, and customer operations",
       "desc": "Support your online store with Philippines-based assistants who can answer order questions, update products, coordinate returns, and keep issue notes current.",
       "outcome": "Store operations keep moving while founders and managers focus on products, marketing, and supplier decisions.",
-      "image": "/refresh/ecommerce-contact-center.webp",
-      "imageAlt": "Colleagues reviewing information on a laptop",
+      "image": "/refresh/ecommerce-contact-center-20261117.jpg",
+      "imageAlt": "An online store team checking and packing an order",
       "tasks": [
         "Handle approved order and delivery questions",
         "Update product information and routine store records",
@@ -327,8 +327,8 @@
       "eyebrow": "Scheduling and non-clinical coordination",
       "desc": "Add a Philippines-based administrative assistant for appointment coordination, reminders, records requests, and non-clinical follow-up under your privacy rules.",
       "outcome": "Administrative work moves faster while licensed staff keep every clinical decision.",
-      "image": "/refresh/healthcare-scheduling-support.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder",
+      "image": "/refresh/healthcare-scheduling-support-20261117.jpg",
+      "imageAlt": "A medical professional reviewing information on a laptop",
       "tasks": [
         "Coordinate appointment requests and reminders",
         "Collect approved non-clinical intake details",
@@ -365,8 +365,8 @@
       "eyebrow": "Review, reporting, and process support",
       "desc": "Use a Philippines-based quality assistant to sample work, apply your scorecard, prepare coaching notes, and surface repeat process issues.",
       "outcome": "Managers see where work breaks without manually reviewing every call, ticket, or record.",
-      "image": "/refresh/call-quality-monitoring.webp",
-      "imageAlt": "Documents and laptops arranged for a team discussion",
+      "image": "/refresh/call-quality-monitoring-20261117.jpg",
+      "imageAlt": "Colleagues discussing a quality report and next actions",
       "tasks": [
         "Sample calls, tickets, or completed records",
         "Apply documented review criteria",
@@ -398,5 +398,7 @@
     }
   ],
   "heroImage": "/refresh/hero.webp",
-  "heroAlt": "Office professional coordinating work with a headset and binder"
+  "heroAlt": "Office professional coordinating work with a headset and binder",
+  "servicesHeroImage": "/refresh/services-overview-20261117.jpg",
+  "servicesHeroAlt": "Customer support colleagues working at computer desks"
 }
