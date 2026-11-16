@@ -2,10 +2,12 @@ import { AcrClient } from './acr-client';
 import Script from 'next/script';
 import './globals.css';
 import './redesign.css';
+import './_refresh/refresh.css';
 import type { Metadata } from 'next';
 import { VisibleProseSanitizer } from './visible-prose-sanitizer';
 
 export const metadata: Metadata = {
+  icons: { icon: '/logo.svg', shortcut: '/logo.svg', apple: '/logo.svg' },
   metadataBase: new URL('https://callcenteroffshore.com'),
   title: { default: 'Call Center Offshore | Philippines Virtual Assistants', template: '%s | Call Center Offshore' },
   description: 'Build a Philippines-based team of virtual assistants, executive assistants, customer support specialists, and operations coordinators around clear work and safe handoffs.',

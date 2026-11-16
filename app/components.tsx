@@ -1,3 +1,4 @@
+import {ShellHeader,ShellFooter} from './_refresh/Shell';
 import * as data from './data';
 import { fleetServices } from './fleet-data';
 import { HeaderClient } from './header-client';
@@ -13,7 +14,7 @@ export function LogoMark() {
   return <span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg?v=20260730-niche-logo" alt={`${site.brand} logo`} /><span className="logo-name">{site.brand}</span></span>;
 }
 
-export function Header(_props:any={}) {
+function LegacyHeader(_props:any={}) {
   return <HeaderClient brand={site.brand} />;
 }
 
@@ -21,7 +22,7 @@ export function VisualFigure({ src, alt, caption, className = '' }: { src: strin
   return <figure className={`cco-visual ${className}`}><img src={src} alt={alt} />{caption && <figcaption>{caption}</figcaption>}</figure>;
 }
 
-export function Footer(_props:any={}) {
+function LegacyFooter(_props:any={}) {
   return <footer className="footer legit-footer">
     <div className="footer-topline"><span>PHILIPPINES-ONLY TALENT</span><b>Assistants who fit the work. Systems that keep you in control.</b></div>
     <div className="footer-grid">
@@ -37,3 +38,6 @@ export function Footer(_props:any={}) {
 export function CTA({ title = 'What could the right assistant take off your plate?', text = 'Share the role, tools, hours, and outcomes you need. We will use that brief to shape a Philippines-based staffing plan.' }: { title?: string; text?: string }) {
   return <section className="cco-final"><div className="container cco-final-inner"><div><p className="cco-kicker"><span /> Start with the work</p><h2>{title}</h2><p>{text}</p></div><a className="cco-btn cco-btn-primary" href="/contact-us">Plan my team <span>↗</span></a></div></section>;
 }
+
+export function Header(_props:any={}){return <ShellHeader/>}
+export function Footer(_props:any={}){return <ShellFooter/>}

@@ -1,3 +1,4 @@
+import refreshContent from '../../_refresh/content.json';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -33,7 +34,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
   ] };
 
   return <><Header /><main><JsonLd data={schema} />
-    <section className="page-hero service-detail-hero"><div className="container page-hero-grid"><div><p className="cco-kicker"><span /> {service.eyebrow}</p><h1>{service.title}</h1><p className="lead">{service.desc}</p><div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact-us">Discuss this role <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="/services">All services</a></div></div><div className="page-hero-art"><Image src={service.image} alt={service.imageAlt} width={1600} height={900} sizes="(max-width: 850px) 100vw, 43vw" priority /></div></div></section>
+    <section className="page-hero service-detail-hero"><div className="container page-hero-grid"><div><p className="cco-kicker"><span /> {service.eyebrow}</p><h1>{service.title}</h1><p className="lead">{service.desc}</p><div className="cco-actions"><a className="cco-btn cco-btn-primary" href="/contact-us">Discuss this role <span>↗</span></a><a className="cco-btn cco-btn-ghost" href="/services">All services</a></div></div><div className="page-hero-art"><Image src={refreshContent.services.find(x=>x.slug===slug)!.image} alt={refreshContent.services.find(x=>x.slug===slug)!.imageAlt} width={1600} height={900} sizes="(max-width: 850px) 100vw, 43vw" priority /></div></div></section>
 
     <section className="service-detail-layout"><div className="container">
       <div className="service-outcome"><div><h2>Give this work one clear owner.</h2><p className="cco-section-lead">This service fits teams with a repeatable queue, a visible finish line, and managers who can own exceptions. It is less suitable for undefined duties or work where authority cannot be separated safely.</p></div><div className="outcome-card"><span>Operating outcome</span><p>{service.outcome}</p></div></div>

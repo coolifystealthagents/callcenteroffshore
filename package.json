@@ -24,7 +24,9 @@
     "validate:october-5-research": "node scripts/verify-october-5-research.mjs"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@next/third-parties": "^15.1.6",
+    "gsap": "^3.15.1",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
