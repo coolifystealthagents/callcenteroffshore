@@ -55,3 +55,11 @@
 
 .rf-footer-grid{grid-template-columns:1.2fr .65fr .8fr 1.1fr;gap:32px}.rf-parent-company img{width:170px;height:auto;object-fit:contain;background:#fff;padding:10px;border-radius:4px;display:block;margin-bottom:16px}.rf-parent-company p{color:#e7ecf0}.rf-parent-link{font-size:13px;font-weight:700;border-bottom:1px solid #aab8c8;padding-bottom:6px;display:inline-block}.rf-parent-company h2{margin-bottom:18px}@media(max-width:1000px){.rf-footer-grid{grid-template-columns:1fr 1fr;gap:30px}.rf-footer-grid>div:first-child{grid-column:auto}}@media(max-width:600px){.rf-footer-grid{grid-template-columns:1fr 1fr}.rf-footer-grid>div:first-child,.rf-parent-company{grid-column:1/-1}}
 .sv-card-photo img,.cco-detail .page-hero-art img{object-position:50% 35%}
+
+/* Service cards carry the same real photo as their corresponding detail page. */
+.cco-detail .service-related a{padding:0;overflow:hidden;background:#fff}
+.cco-detail .service-related a>img{display:block;width:100%;height:175px;object-fit:cover}
+.cco-detail .service-related a>h3{margin:18px 20px 0}
+.cco-detail .service-related a>p{margin:10px 20px}
+.cco-detail .service-related a>span{display:block;margin:0 20px 20px;color:#275a9a;font-weight:700}
+.cco-detail .service-quality>div:last-child p{font-size:18px;color:#243957}
