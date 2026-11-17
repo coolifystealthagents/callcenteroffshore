@@ -1,0 +1,42 @@
+{
+  "inbound-customer-care": {
+    "steps": ["Match the request to the customer and earlier conversation before using an approved answer.", "Resolve routine questions within the written account rules; route refunds and sensitive cases with context.", "Record the response, source checked, next owner and promised update in the customer record."],
+    "review": "Sample answers for accuracy, identity checks, tone and follow-up ownership. Reopen any case where the customer was promised an update without a named owner."
+  },
+  "technical-help-desk": {
+    "steps": ["Capture the error, environment and steps already tried before choosing a diagnostic path.", "Run only approved checks, noting the result of each one and stopping at the documented boundary.", "Send reproducible steps, evidence and customer impact to the technical owner when escalation is needed."],
+    "review": "Check that tickets show the troubleshooting history, safe access, reproducible evidence and a clear next technical owner."
+  },
+  "order-and-billing-support": {
+    "steps": ["Match the customer's question to the approved order, invoice or payment-status record.", "Give the verified status or prepare a routine reminder using approved language.", "Route mismatches, credits and disputes to finance with references and the customer's requested next step."],
+    "review": "Audit record matching, verification, status wording and whether every financial exception reached the authorized owner."
+  },
+  "appointment-scheduling": {
+    "steps": ["Confirm the meeting type, time zone, participants and scheduling rules.", "Offer permitted times and prepare the invitation with the correct links, buffers and notes.", "Update the calendar and source record after confirmation, then track any open follow-up."],
+    "review": "Check time zones, guests, links, buffers and approval for priority changes before treating a meeting as complete."
+  },
+  "after-hours-answering": {
+    "steps": ["Classify each after-hours request against the current urgent and routine categories.", "Use the approved response, and contact the on-call owner when a trigger is met.", "Leave the next shift a concise record of priority, attempts, owner and due time."],
+    "review": "Review urgent routes separately from routine requests, including contact attempts and whether the next shift accepted the handoff."
+  },
+  "outbound-lead-qualification": {
+    "steps": ["Check the approved prospect record and contact preferences before outreach.", "Ask the agreed qualification questions and record answers without adding assumptions.", "Book a permitted next conversation or pass a complete question to the sales owner."],
+    "review": "Sample records for consent, accurate answers, useful qualification notes and appointments that follow the agreed booking rules."
+  },
+  "customer-retention-support": {
+    "steps": ["Review onboarding progress and the customer's recent interactions before a check-in.", "Send a relevant approved message and capture the customer's stated issue or goal.", "Route complaints, cancellations and commercial requests with the history and expected response."],
+    "review": "Check that follow-ups use real account context, risks are surfaced early and sensitive account decisions have a named owner."
+  },
+  "ecommerce-contact-center": {
+    "steps": ["Locate the order and relevant store policy before answering a delivery or return question.", "Provide the verified status and gather the evidence needed for a supported next action.", "Route policy exceptions, damage and disputed deliveries to the fulfilment owner without promising a refund."],
+    "review": "Compare responses with order records and policy, then inspect whether returns and delivery exceptions carry complete evidence."
+  },
+  "healthcare-scheduling-support": {
+    "steps": ["Follow the practice's identity and privacy procedure before discussing an appointment.", "Offer only permitted scheduling options and collect approved administrative details.", "Confirm the updated visit and route symptoms or clinical questions to qualified staff."],
+    "review": "Review appointment accuracy, minimum necessary data, privacy handling and the route used for clinical or urgent questions."
+  },
+  "call-quality-monitoring": {
+    "steps": ["Select interactions using the agreed sample and current scorecard version.", "Mark specific evidence for each criterion and flag unclear scoring rules.", "Send coaching notes and calibration questions to the quality owner, then update the reference examples."],
+    "review": "Compare reviewers on the same samples, record reasons for disagreement and verify that coaching follows the written criteria."
+  }
+}
