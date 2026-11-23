@@ -29,6 +29,8 @@ When do-not-call suppression changes a record in the suppression list, the compl
 
 A clean-looking status is not evidence that the underlying work is correct. Name the backup owner and the coverage window in advance. Preparation, comparison, and follow-up may sit with the assistant. A delegation needs a scope, a limit, an end date, and a named backup. A sample do-not-call suppression review checks the do-not-call request, the suppression list update, and the surviving value in the suppression list.
 
+If you would rather hand this off, the [virtual assistant directory](https://virtualassistantdirectories.com) lists vetted agencies and specialists you can compare.
+
 Name the backup owner and the coverage window in advance. Approval, payment, records disposition, and policy exceptions stay with the named owner. Use the same definition across the queue and the review so the counts agree. Name the owner for every open item, including items waiting on someone else. Apply the same do-not-call suppression test to the outbound list extract and to the value that survives in the suppression list.
 
 ## Run the daily handoff
