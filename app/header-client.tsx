@@ -38,7 +38,7 @@ export function HeaderClient({ brand }: { brand: string }) {
 
   return <>
     <a className="skip-link" href="#main-content">Skip to main content</a>
-    <header className="nav">
+    <header data-site-header="sticky" className="nav">
       <div className="nav-inner">
         <div className="header-brand-lockup">
           <a className="header-brand-mark" href="/" aria-label={`${brand} home`}>

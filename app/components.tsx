@@ -23,13 +23,13 @@ export function VisualFigure({ src, alt, caption, className = '' }: { src: strin
 }
 
 function LegacyFooter(_props:any={}) {
-  return <footer className="footer legit-footer">
+  return <footer data-site-footer="true" className="footer legit-footer">
     <div className="footer-topline"><span>PHILIPPINES-ONLY TALENT</span><b>Assistants who fit the work. Systems that keep you in control.</b></div>
     <div className="footer-grid">
       <div className="footer-brand"><a className="footer-logo" href="/"><LogoMark /></a><a className="footer-parent-brand" href="https://stealthagents.com/"><span>Powered by StealthAgents</span><img src="/images/stealth-agents-logo-black.png" alt="StealthAgents" width="149" height="50" /></a><p>Build a Philippines-based virtual assistant or outsourced team around clear tasks, tools, approvals, and manager handoffs.</p><p className="footer-note">StealthAgents supports recruiting, matching, managed operations, and follow-up for requests submitted through this subsidiary site.</p></div>
       <div><h3>Popular roles</h3><div className="footer-links">{fleetServices.slice(0, 6).map((service) => <a href={`/services/${service.slug}`} key={service.slug}>{service.title}</a>)}</div></div>
-      <div><h3>Explore</h3><div className="footer-links"><a href="/services">All services</a><a href="/about">About</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact-us">Contact us</a></div></div>
-      <div><h3>Legal</h3><div className="footer-links"><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/cancellation-policy">Cancellation policy</a></div></div>
+      <div><h3>Explore</h3><div data-footer-menu="true" className="footer-links"><a href="/services">All services</a><a href="/about">About</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact-us">Contact us</a></div></div>
+      <div><h3>Legal</h3><div data-footer-menu="true" className="footer-links"><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/cancellation-policy">Cancellation policy</a></div></div>
     </div>
     <div className="footer-bottom"><span>© {year} {site.brand}. All rights reserved.</span><span>{site.domain}</span></div>
   </footer>;

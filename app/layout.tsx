@@ -6,6 +6,8 @@ import './_refresh/refresh.css';
 import type { Metadata } from 'next';
 import { VisibleProseSanitizer } from './visible-prose-sanitizer';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   icons: { icon: '/logo.svg', shortcut: '/logo.svg', apple: '/logo.svg' },
   metadataBase: new URL('https://callcenteroffshore.com'),
